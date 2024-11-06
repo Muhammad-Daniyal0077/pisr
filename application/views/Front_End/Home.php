@@ -160,6 +160,7 @@
 <!-- ./ End Welcome Area section -->
 
 
+
 <!-- Start Video Area Section -->
 <section class="video-main-area video">
     <div class="container">
@@ -192,10 +193,21 @@
                 <!-- Image Slider (slider-nav) -->
                 <div class="col-sm-3 col-sm-offset-4">
                     <div class="carousel-images slider-nav">
-                        <div><img src="<?php echo base_url(); ?>asset/images/1.jpeg" alt="1" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/2.jpeg" alt="2" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/3.jpeg" alt="3" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/teachars/teachar-06.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/001.jpg" alt="1" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/002.jpg" alt="2" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/003.jpg" alt="3" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/004.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/005.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/006.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/007.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/008.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/009.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/010.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/011.png" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/012.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/013.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/014.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/015.jpg" alt="4" class="img-responsive img-circle"></div>
                     </div>
                 </div>
 
@@ -203,24 +215,96 @@
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="carousel-text slider-for">
                         <div class="single-box">
-                            <p>“ PISR does an excellent job of recognizing each student as an individual learner.”</p>
-                            <h3>Kamran Qureshi</h3>
-                            <span>Site Engineer</span>
+                            <p>“ School is fantastic! The teachers not only possess exceptional qualifications but also exhibit genuine concern and care for their students.”</p>
+                            <h3>Muhammad Afzal Sadiq</h3>
+                            <span>GIS Analyst in Sports Boulevard Foundation</span>
                         </div>
                         <div class="single-box">
-                            <p>“ PISR provides a well-rounded education that includes not only core subjects but also development of the whole child.”</p>
-                            <h3>Kamran Qureshi</h3>
-                            <span>Site Engineer</span>
+                            <p>“ As a parent, I am incredibly pleased with the quality of education and the nurturing environment at Pakistan International School Riyadh. The dedicated teachers and diverse curriculum have significantly contributed to my child's academic growth and personal development. I appreciate the school's commitment to providing a strong sense of community and cultural values. I will recommend this institution to other parents looking for a comprehensive education for their children with a mix of cultural values.”</p>
+                            <h3>Tuseef Khan</h3>
+                           
                         </div>
                         <div class="single-box">
-                            <p>“ The school is shifting from cramming to conceptual base learning.”</p>
-                            <h3>Husnain Raza</h3>
-                            <span>Revenue Manager</span>
+                            <p>“ As an educator and parent, we are truly delighted with how our children are nurtured and supported by the teachers, We have seen continuous improvement in our kids, Teachers not only focus on the academics but also on personality, communication and public speaking.”</p>
+                            <h3>Abdul Basit Nawab</h3>
+                            <span>E-commerce Technical Lead</span>
                         </div>
                         <div class="single-box">
-                            <p>“ The school is shifting from cramming to conceptual base learning.”</p>
-                            <h3>Husnain Raza</h3>
-                            <span>Revenue Manager</span>
+                            <p>“ PISR School in Riyadh is a remarkable institution, especially cherished by the Pakistani community. It follows the federal board curriculum, ensuring a high standard of education.
+
+The school provides an excellent environment where students can pursue modern, up-to-date studies, helping them build strong careers and character.
+
+The school boasts a beautiful campus, laboratories, and sports grounds. Additionally, PISR actively engages students in extracurricular activities such as sports, art, and spell-bee.
+”</p>
+                            <h3>Engr. Bilal Yousf</h3>
+                            <span>Projects Manager</span>
+                        </div>
+                        <div class="single-box">
+                            <p>“ I'm Naveed Yousaf, my kids have been studying in PISR.
+Pakistan International School, Riyadh (PISR) has been delivering quality education over decades and Generations. It is a blessing for Pakistani parents who intend to equip their children with our own Islamic & unique culture. Brothers & Sisters benefitted from PISR are now Doctors, Engineers, Bankers, Scientists.
+
+We wish PISR a continuous success in its unmet endeavors for spreading Knowledge thus fulfilling Prophet’s mission. Moreover, we do hope that PISR will overcome its deficiencies, if any, to perform better in the days to come.
+”</p>
+                            
+                           
+                        </div>
+                        <div class="single-box">
+                            <p>“ I am incredibly pleased with the experience at my children’s school PISR. The dedicated and nurturing staff create a safe and inspiring environment where students are encouraged to reach their full potential. The curriculum is thoughtfully designed to balance academic growth with personal development, and I love seeing how engaged and excited our kids are about learning every day. Thank you for making such a positive impact on their educational journey!”</p>
+                            <h3>Rehan Ghafoor</h3>
+                            <span>Consultant - Business Development</span>
+                           
+                        </div>
+                        <div class="single-box">
+                            <p>“ PISR management is working hard and with full dedication to provide the quality education for Paksitani community's child in abroad.We wish for PISR bright future and to serve the Nation with same dedication. 
+Thanks,
+”</p>
+                            <h3>Engineer Hafiz Shehzad Ahmad</h3>
+                           <span>Plant Manager at SACHLO-Midchem  </span>
+                        </div>
+                        <div class="single-box">
+                            <p>“We are grateful for the nurturing environment at this school, which fosters our children's growth both academically and personally. The strong sense of community inspires collaboration, support, and the building of lasting friendships among the students. We truly appreciate the dedication of the teachers who consistently go above and beyond to create engaging learning experiences. This school emphasizes not only academic excellence but also the importance of character building and emotional intelligence. Additionally, we value the open lines of communication between parents, educators, and Admin, which help us stay connected and informed about our children's progress.
+                            Procurement and Contracts Lead.”</p>
+                        </div>
+                        <div class="single-box">
+                            <p>“Incredible work by the PISR Junior Wing team! Thank you to the hardworking teachers and visionary school administration for creating such a positive, inspiring environment for our little achievers!”</p>
+                        </div>
+                        <div class="single-box">
+                            <p>“PISR is one of the best international school. The highly qualified and diligent PISR teachers are well valued.
+ Employee of the embassy of United States of America in Riyadh KSA.
+”</p>
+                          
+                        </div>
+                        <div class="single-box">
+                            <p>“The school's commitment to excellence in education is evident in its well-rounded curriculum and extracurricular activities, which help students develop both academically and personally. I highly recommend this school to any family looking for a quality education in Riyadh!”</p>
+                            <h3>Engr. Muhammad Waqas Khan</h3>
+                            <span>Project Engineer, Al Rajhi Telecom Company</span>
+                        </div>
+                        <div class="single-box">
+                            <p>“As a parent of three current students and an alum, I appreciate the strong sense of community at this school. The teachers are genuinely committed to their students, providing support and guidance that make a difference in their education. My kids have found great friendships here and enjoy many engaging activities.
+While there are challenges, it’s clear that the school has a lot of potential. I’m hopeful that with open communication, we can work together to make it an even better place for our children.
+”</p>
+                            <h3>Syed Zaheer Ali</h3>
+                            <span>Qualification: BCS</span>
+                        </div>
+                        <div class="single-box">
+                            <p>“ISR Does an excellent job by doing great improvement in academically and the creativity in classroom Activities. We are thrilled with the progress our child has made.”</p>
+                            <h3>Dr. Reema Haroon</h3>
+                            <span>Anesthesia Specialist, Dallah Hospital Riyadh</span>
+                        </div>
+                        <div class="single-box">
+                            <p>“ The innovative programs offered here are outstanding and provide students with valuable skills for the future! The commitment to professional growth among our staff is commendable and reflects a strong desire to improve our school.
+The positive atmosphere in our school promotes learning and collaboration. It’s a wonderful place to be!
+”</p>
+                            <h3>Muhammad imran memon</h3>
+                            
+                        </div>
+                        
+                        <div class="single-box">
+                            <p>“ I would like to take this privilege to congratulate the school's management for its endless efforts. We are proud of all the teachers, management, and the school. PISR is doing excellent in all fields, especially giving children a lot of exposure. The academic program is very nicely planned and organized. The school staff is always open to any discussion. Good efforts by all teachers. The new school building is a remarkable achievement of PISR.”</p>
+                            <h3>Agha Atif Hassan
+
+</h3>
+                            <span>MBA</span>
                         </div>
                     </div>
                 </div>
