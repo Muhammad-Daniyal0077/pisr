@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="<?php echo base_url();?>asset/images/logoheader.png" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo base_url();?>asset/css/assets/bootstrap.min.css">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="<?php echo base_url();?>asset/css/assets/font-awesome.min.css">
     <!-- Popup -->
@@ -34,6 +35,9 @@
     <link rel="stylesheet" href="<?php echo base_url();?>asset/css/responsive.css">
     <link rel="stylesheet" href="<?php echo base_url();?>asset/css/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Font Awesome 5 CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 
 
