@@ -96,7 +96,7 @@
 
 
 
-
+<!-- Success -->
 <section class="slider-content-bottom">
     <div class="container">
         <div class="row sider-btm-row-inner">
@@ -126,6 +126,40 @@
 </section>
 
 
+<!-- Start Welcome Area section -->
+<section class="Welcome-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 Welcome-area-text">
+                <div class="row">
+                    <div class="col-sm-12 section-header-box">
+                        <div class="section-header section-header-l">
+                            <h2>Principle <span style="color: #ffb606;">Message</span></h2>
+
+                        </div><!-- ends: .section-header -->
+                    </div>
+                </div>
+                <p>PISR is a proficient and contemporary school
+                    with years of experience and knowledge in grooming of children. We provide experienced teachers
+                    and supportive environment for everyone.</p>
+                <br>
+                <p>PISR was initially established in 1966, with the strength of only six students in a rented villa
+                    on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were
+                    keenly interested in the future of their generations. It got shut down after few months due to
+                    certain legal formalities but it didn’t stop them to keep struggle going. </p>
+
+
+            </div><!-- Ends: . -->
+
+            <div class="col-sm-6">
+                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
+            </div><!-- Ends: . -->
+        </div>
+    </div>
+</section><!-- Ends: . -->
+
+
+<!-- ./ End Welcome Area section -->
 <!-- Start Welcome Area section -->
 <section class="Welcome-area">
     <div class="container">
@@ -171,7 +205,7 @@
             </div>
 
             <div class="video-content">
-                <h2>Take a Tour EduRead Campus</h2>
+                <h2>Take a Tour of PISR</h2>
             </div><!-- ends: .section-header -->
         </div>
     </div>
