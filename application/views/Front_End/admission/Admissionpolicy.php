@@ -415,10 +415,10 @@
      
     </section>
 
-    <script>
+	<script>
 function togglePanel(panelId) {
     // Get the selected panel body and its parent panel
-    const panelBody = document.querySelector(#${panelId} .vc_tta-panel-body);
+    const panelBody = document.querySelector(`#${panelId} .vc_tta-panel-body`);
     const parentPanel = panelBody.parentNode;
     
     // Check if the panel is currently open
