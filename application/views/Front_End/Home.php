@@ -1,5 +1,7 @@
 <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 <style>
     .slider-wrapper {
         width: 100%;
@@ -125,74 +127,60 @@
     </div>
 </section>
 
+<!-- ./ End Students Say Area section -->
+<section class="students-say-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 section-header-box">
+                <div class="section-header">
+                    <h2>News & Events</h2>
+                </div>
+            </div>
+        </div>
+       
 
-<!-- Start Welcome Area section -->
+
+    </div> <!--/.container-->
+
+
+</section>
+<!-- ./ End Students Say Area section -->
+
+
+
+<!-- Principle Area section -->
 <section class="Welcome-area">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 Welcome-area-text">
-                <div class="row">
-                    <div class="col-sm-12 section-header-box">
-                        <div class="section-header section-header-l">
-                            <h2>Principle <span style="color: #ffb606;">Message</span></h2>
+            <div class="col-sm-12 section-header-box">
+                <div class="section-header section-header-l">
+                    <h2>Principle <span style="color: #ffb606;">Message</span></h2>
 
-                        </div><!-- ends: .section-header -->
-                    </div>
-                </div>
-                <p>PISR is a proficient and contemporary school
-                    with years of experience and knowledge in grooming of children. We provide experienced teachers
-                    and supportive environment for everyone.</p>
-                <br>
-                <p>PISR was initially established in 1966, with the strength of only six students in a rented villa
-                    on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were
-                    keenly interested in the future of their generations. It got shut down after few months due to
-                    certain legal formalities but it didn’t stop them to keep struggle going. </p>
-
-
-            </div><!-- Ends: . -->
-
+                </div><!-- ends: .section-header -->
+            </div>
             <div class="col-sm-6">
-                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
+                <img src="<?php echo base_url(); ?>asset/images/principle.jpg" alt="not" class="img-responsive-principle" class="imgs">
             </div><!-- Ends: . -->
+            <div class="col-sm-6 event-info img-fluid">
+                <h4>Dear Parents & Students,
+                </h4>
+                <p class="div-sm-7 event-info ">
+                    As the Principal of our esteemed institution, it is my honor to extend a warm welcome to you on our school website. We are grateful for your visit and hope to provide you with insightful information about our school and the diverse experiences we offer our students.
+                    <br> <br>
+                    At PISR, we are committed to nurturing well-rounded individuals who strive to achieve their full potential in a supportive and dynamic environment. We ensure a conducive atmosphere for your children, promoting a friendly, constructive, and healthy setting. Our dedicated and experienced staff are passionate about the character development of our students. We highly value the feedback from both parents and students and are dedicated to delivering the best possible education to our future leaders—our students.
+                </p>
+                <div class="div-sm-7 event-info">
+                    I eagerly anticipate a fantastic school year ahead.
+                    Warmest Regards,
+                </div>
+                <div class="div-sm-7 event-info">
+                    <h3>Mr. Raja Muhammad Irfan </h3>
+                </div>
+
+            </div>
         </div>
     </div>
 </section><!-- Ends: . -->
-
-
-<!-- ./ End Welcome Area section -->
-<!-- Start Welcome Area section -->
-<section class="Welcome-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 Welcome-area-text">
-                <div class="row">
-                    <div class="col-sm-12 section-header-box">
-                        <div class="section-header section-header-l">
-                            <h2>Welcome To <span style="color: #ffb606;">PISR</span></h2>
-
-                        </div><!-- ends: .section-header -->
-                    </div>
-                </div>
-                <p>PISR is a proficient and contemporary school
-                    with years of experience and knowledge in grooming of children. We provide experienced teachers
-                    and supportive environment for everyone.</p>
-                <br>
-                <p>PISR was initially established in 1966, with the strength of only six students in a rented villa
-                    on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were
-                    keenly interested in the future of their generations. It got shut down after few months due to
-                    certain legal formalities but it didn’t stop them to keep struggle going. </p>
-
-
-            </div><!-- Ends: . -->
-
-            <div class="col-sm-6">
-                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
-            </div><!-- Ends: . -->
-        </div>
-    </div>
-</section><!-- Ends: . -->
-<!-- ./ End Welcome Area section -->
-
 
 
 <!-- Start Video Area Section -->
@@ -211,6 +199,43 @@
     </div>
 </section>
 <!-- ./ End Video Area section -->
+
+
+<!-- Start Welcome Area section -->
+<section class="Welcome-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 Welcome-area-text">
+                <div class="row">
+                    <div class="col-sm-12 section-header-box">
+                        <div class="section-header section-header-l">
+                            <h2>Welcome To <span style="color: #ffb606;">PISR</span></h2>
+
+                        </div><!-- ends: .section-header -->
+                    </div>
+                </div>
+                <p>PISR is a proficient and contemporary school
+                    with years of experience and knowledge in grooming of children. We provide experienced teachers
+                    and supportive environment for everyone.
+                    <br> <br>
+                    PISR was initially established in 1966, with the strength of only six students in a rented villa
+                    on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were
+                    keenly interested in the future of their generations. It got shut down after few months due to
+                    certain legal formalities but it didn’t stop them to keep struggle going.
+                </p>
+
+
+            </div><!-- Ends: . -->
+
+            <div class="col-sm-6">
+                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
+            </div><!-- Ends: . -->
+        </div>
+    </div>
+</section><!-- Ends: . -->
+<!-- ./ End Welcome Area section -->
+
+
 
 <!-- ./ End Students Say Area section -->
 <section class="students-say-area">
@@ -279,7 +304,7 @@
 
                                 We wish PISR a continuous success in its unmet endeavors for spreading Knowledge thus fulfilling Prophet’s mission. Moreover, we do hope that PISR will overcome its deficiencies, if any, to perform better in the days to come.
                                 ”</p>
-                                <h3>Naveed Yousaf</h3>
+                            <h3>Naveed Yousaf</h3>
 
                         </div>
                         <div class="single-box">
