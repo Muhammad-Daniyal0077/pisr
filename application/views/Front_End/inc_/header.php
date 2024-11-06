@@ -78,6 +78,15 @@
                                 <li><a href="<?php echo base_url(); ?>achievments/successstories">SUCCESS STORIES</a></li>
                             </ul>
                         </li>
+                        <li><a data-scroll href="#">FACILITIES</a>  
+                            <ul class="list-unstyled dropdown">
+                                <li><a href="<?php echo base_url(); ?>achievments/fbise">General</a></li>
+                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Libraries </a></li>
+                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Laboratories</a></li>
+                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Extra Curricular Activities</a></li>
+                            </ul>
+                        </li>
+
                         <li><a data-scroll href="<?php echo base_url(); ?>facilities">FACILITIES</a></li>
                         <li><a data-scroll href="<?php echo base_url(); ?>gallery">Gallery</a></li>
                         <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact</a></li>
