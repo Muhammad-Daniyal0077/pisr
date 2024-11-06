@@ -13,7 +13,7 @@
                     <ul class="list-unstyled">
                         <li><span><i class="fa fa-phone footer-icon"></i></span>+966114414428</li>
                         <li><span><i class="fa fa-envelope footer-icon"></i></span>support_team@pisr.org</li>
-                        <li><span><i class="fa fa-map-marker footer-icon"></i></span>01 Central Park, NYC</li>
+                        <li><span><i class="fa fa-map-marker footer-icon"></i></span>PO Box 3797 - Riyadh 11481 - Kingdom of Saudi Arabia</li>
                     </ul>
                 </div>
 
