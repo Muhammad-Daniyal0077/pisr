@@ -80,8 +80,8 @@
                         </li>
                         <li><a data-scroll href="#">FACILITIES</a>  
                             <ul class="list-unstyled dropdown">
-                                <li><a href="<?php echo base_url(); ?>achievments/fbise">General</a></li>
-                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Libraries </a></li>
+                                <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
+                                <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
                                 <li><a href="<?php echo base_url(); ?>achievments/successstories">Laboratories</a></li>
                                 <li><a href="<?php echo base_url(); ?>achievments/successstories">Extra Curricular Activities</a></li>
                             </ul>

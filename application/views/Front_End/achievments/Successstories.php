@@ -154,7 +154,7 @@
 
 <body>
 
-  <h2 class="container section-heading">Success Storeis of PISR</h2>
+  <h2 class="container section-heading col-md-9">Success Storeis of PISR</h2>
   <section class="hover-section">
 
     <!-- Box 1: Pakistani Cricketer -->
