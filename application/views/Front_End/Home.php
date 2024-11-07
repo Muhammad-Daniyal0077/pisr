@@ -223,21 +223,27 @@
         <div class="row sider-btm-row-inner">
             <div class="col-sm-4 content_body slide_cont_box_01">
                 <div class="slider-btm-box btm-item_01">
-                    <a href="<?php echo base_url(); ?>achievments/fbise"><img src="<?php echo base_url(); ?>asset/images/index/slide-bottom-01.png" alt="" class="btm-item-icon"></a>
+                    <a href="<?php echo base_url(); ?>achievments/fbise"><img
+                            src="<?php echo base_url(); ?>asset/images/index/slide-bottom-01.png" alt=""
+                            class="btm-item-icon"></a>
                     <h3>ACHIEVEMENT</h3>
                 </div>
             </div>
 
             <div class="col-sm-4 content_body slide_cont_box_02">
                 <div class="slider-btm-box btm-item_02">
-                    <a href="<?php echo base_url(); ?>achievments/successstories"><img src="<?php echo base_url(); ?>asset/images/index/slide-bottom-02.png" alt="" class="btm-item-icon"></a>
+                    <a href="<?php echo base_url(); ?>achievments/successstories"><img
+                            src="<?php echo base_url(); ?>asset/images/index/slide-bottom-02.png" alt=""
+                            class="btm-item-icon"></a>
                     <h3>SUCCESS STORY</h3>
                 </div>
             </div>
 
             <div class="col-sm-4 content_body slide_cont_box_03">
                 <div class="slider-btm-box btm-item_03">
-                    <a href="<?php echo base_url(); ?>events"><img src="<?php echo base_url(); ?>asset/images/index/slide-bottom-03.png" alt="" class="btm-item-icon"></a>
+                    <a href="<?php echo base_url(); ?>events"><img
+                            src="<?php echo base_url(); ?>asset/images/index/slide-bottom-03.png" alt=""
+                            class="btm-item-icon"></a>
                     <h3>EVENTS / ANNOUNCEMENTS</h3>
                 </div>
             </div>
@@ -259,15 +265,23 @@
                 </div><!-- ends: .section-header -->
             </div>
             <div class="col-sm-6">
-                <img src="<?php echo base_url(); ?>asset/images/principle.jpg" alt="not" class="img-responsive-principle" class="imgs">
+                <img src="<?php echo base_url(); ?>asset/images/principle.jpg" alt="not"
+                    class="img-responsive-principle" class="imgs">
             </div><!-- Ends: . -->
             <div class="col-sm-6 event-info img-fluid">
                 <h4>Dear Parents & Students,
                 </h4>
                 <p class="div-sm-7 event-info ">
-                    As the Principal of our esteemed institution, it is my honor to extend a warm welcome to you on our school website. We are grateful for your visit and hope to provide you with insightful information about our school and the diverse experiences we offer our students.
+                    As the Principal of our esteemed institution, it is my honor to extend a warm welcome to you on our
+                    school website. We are grateful for your visit and hope to provide you with insightful information
+                    about our school and the diverse experiences we offer our students.
                     <br> <br>
-                    At PISR, we are committed to nurturing well-rounded individuals who strive to achieve their full potential in a supportive and dynamic environment. We ensure a conducive atmosphere for your children, promoting a friendly, constructive, and healthy setting. Our dedicated and experienced staff are passionate about the character development of our students. We highly value the feedback from both parents and students and are dedicated to delivering the best possible education to our future leaders—our students.
+                    At PISR, we are committed to nurturing well-rounded individuals who strive to achieve their full
+                    potential in a supportive and dynamic environment. We ensure a conducive atmosphere for your
+                    children, promoting a friendly, constructive, and healthy setting. Our dedicated and experienced
+                    staff are passionate about the character development of our students. We highly value the feedback
+                    from both parents and students and are dedicated to delivering the best possible education to our
+                    future leaders—our students.
                 </p>
                 <div class="div-sm-7 event-info">
                     I eagerly anticipate a fantastic school year ahead.
@@ -334,12 +348,14 @@
                     <div class="new-events-content">
                         <div class="new-event-item">
                             <h4 class="new-event-headline">Charity Run</h4>
-                            <p class="new-event-description">Join us for a charity run to raise funds for local causes</p>
+                            <p class="new-event-description">Join us for a charity run to raise funds for local causes
+                            </p>
                             <span class="new-event-date">September 15, 2023</span>
                         </div>
                         <div class="new-event-item">
                             <h4 class="new-event-headline">Student Conference</h4>
-                            <p class="new-event-description">An educational conference for students on emerging topics</p>
+                            <p class="new-event-description">An educational conference for students on emerging topics
+                            </p>
                             <span class="new-event-date">October 1, 2023</span>
                         </div>
                     </div>
@@ -405,143 +421,151 @@
 
 
 <style>
-   /* General styling */
-   .high-achievers-section {
-            text-align: center;
-            padding: 40px 20px;
-            background-color: #f7f7f7;
-        }
-        .high-achievers-title {
-            font-size: 2em;
-            margin-bottom: 20px;
-            color: #333;
-        }
+    /* General styling */
+    .high-achievers-section {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: #f7f7f7;
+    }
 
-        /* Swiper container styling */
-        .custom-swiper-container {
-            max-width: 100%;
-            margin: 0 auto;
-            position: relative;
-            padding-bottom: 40px; /* Space for pagination */
-            overflow: hidden; /* Prevent slides from extending beyond container */
-            box-sizing: border-box;
-        }
+    .high-achievers-title {
+        font-size: 2em;
+        margin-bottom: 20px;
+        color: #333;
+    }
 
-        .swiper-slide {
-            display: flex;
-            justify-content: center;
-        }
+    /* Swiper container styling */
+    .custom-swiper-container {
+        max-width: 100%;
+        margin: 0 auto;
+        position: relative;
+        padding-bottom: 40px;
+        /* Space for pagination */
+        overflow: hidden;
+        /* Prevent slides from extending beyond container */
+        box-sizing: border-box;
+    }
 
-        .high-achiever-card {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-            width: 90%;
-            max-width: 300px;
-            text-align: center;
-        }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
 
-        .high-achiever-card-image img {
-            width: 100%;
-            height: auto;
-        }
+    .high-achiever-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 90%;
+        max-width: 300px;
+        text-align: center;
+    }
 
-        .high-achiever-name {
-            font-size: 1.2em;
-            color: #333;
-            margin-top: 15px;
-        }
+    .high-achiever-card-image img {
+        width: 100%;
+        height: auto;
+    }
 
-        .high-achiever-description {
-            font-size: 0.9em;
-            padding: 0 10px 20px;
-            color: #666;
-        }
+    .high-achiever-name {
+        font-size: 1.2em;
+        color: #333;
+        margin-top: 15px;
+    }
 
-        .high-achiever-button {
-            margin: 10px;
-            padding: 10px 20px;
-            background-color: #ffb606;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
+    .high-achiever-description {
+        font-size: 0.9em;
+        padding: 0 10px 20px;
+        color: #666;
+    }
 
-        .high-achiever-button:hover {
-            background-color: #e5a500;
-        }
+    .high-achiever-button {
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #ffb606;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
 
-        /* Swiper navigation buttons */
-        .custom-swiper-button-next, .custom-swiper-button-prev {
-            font-size: 12px;
-            background-color: #fff;
-            padding: 10px;
-            border-radius: 50%;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 10;
-            cursor: pointer;
-        }
+    .high-achiever-button:hover {
+        background-color: #e5a500;
+    }
 
-        .custom-swiper-button-next {
-            right: 0px;
-        }
+    /* Swiper navigation buttons */
+    .custom-swiper-button-next,
+    .custom-swiper-button-prev {
+        font-size: 12px;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        cursor: pointer;
+    }
 
-        .custom-swiper-button-prev {
-            left: 0px;
-        }
+    .custom-swiper-button-next {
+        right: 0px;
+    }
 
-        /* Swiper pagination styling */
-        .custom-swiper-pagination {
-            position: absolute;
-            bottom: 10px;
-            left: 0;
-            right: 0;
-            display: flex;
-            justify-content: center;
-            gap: 8px;
-        }
+    .custom-swiper-button-prev {
+        left: 0px;
+    }
 
-        .swiper-pagination-bullet {
-            width: 12px;
-            height: 12px;
-            background-color: #bbb;
-            opacity: 1;
-            transition: background-color 0.3s;
-        }
+    /* Swiper pagination styling */
+    .custom-swiper-pagination {
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
 
-        .swiper-pagination-bullet-active {
-            background-color: #ffb606;
-        }
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: #bbb;
+        opacity: 1;
+        transition: background-color 0.3s;
+    }
 
+    .swiper-pagination-bullet-active {
+        background-color: #ffb606;
+    }
 </style>
 
 
 <section class="high-achievers-section">
     <div class="container">
-    <div class="row">
-                    <div class="col-sm-12 section-header-box">
-                        <div class="section-header section-header-l">
-                            <h2>Out Top <span style="color: #ffb606;">Students</span></h2>
+        <div class="row">
+            <div class="col-sm-12 section-header-box">
+                <div class="section-header section-header-l">
+                    <h2>Out Top <span style="color: #ffb606;">Students</span></h2>
 
-                        </div><!-- ends: .section-header -->
-                    </div>
-                </div>        <div class="custom-swiper-container swiper-container">
+                </div><!-- ends: .section-header -->
+            </div>
+        </div>
+        <div class="custom-swiper-container swiper-container">
             <div class="swiper-wrapper">
                 <!-- Slide 1 -->
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset\images\Students\01.png" alt="Avatar">
                         </div>
                         <div class="high-achiever-card-content">
-                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
-                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <h1 class="high-achiever-name">EMAN BINT E RAHEEL</h1>
+                            <h4>MARKS: 1062
+                                
+                            </h4>
+                            <h4>GRADE: A-1</h4>
+                            <p class="high-achiever-description">SSC ANNUAL EXAMINATION - 2024</p>
                             <button class="high-achiever-button">View More</button>
                         </div>
                     </div>
@@ -549,11 +573,15 @@
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset\images\Students\02.png" alt="Avatar">
                         </div>
                         <div class="high-achiever-card-content">
-                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
-                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <h1 class="high-achiever-name">FAIZA USMAN</h1>
+                            <h4>MARKS: 1043
+                                
+                            </h4>
+                            <h4>GRADE:A-1</h4>
+                            <p class="high-achiever-description">SSC ANNUAL EXAMINATION - 2024</p>
                             <button class="high-achiever-button">View More</button>
                         </div>
                     </div>
@@ -561,11 +589,15 @@
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset\images\Students\03.png" alt="Avatar">
                         </div>
                         <div class="high-achiever-card-content">
-                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
-                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <h1 class="high-achiever-name">AIMAN HARIS </h1>
+                            <h4>MARKS: 1036
+                                
+                            </h4>
+                            <h4>GRADE:A-1</h4>
+                            <p class="high-achiever-description">SSC ANNUAL EXAMINATION - 2024</p>
                             <button class="high-achiever-button">View More</button>
                         </div>
                     </div>
@@ -573,11 +605,47 @@
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset\images\Students\04.png" alt="Avatar">
                         </div>
                         <div class="high-achiever-card-content">
-                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
-                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <h1 class="high-achiever-name">HIBA SIDDIQUEI</h1>
+                            <h4>MARKS: 1032
+                                
+                            </h4>
+                            <h4>GRADE: A-1</h4>
+                            <p class="high-achiever-description">HSSC ANNUAL EXAMINATION – 2024</p>
+                            <button class="high-achiever-button">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="high-achiever-card">
+                        <div class="high-achiever-card-image">
+                            <img src="<?php echo base_url(); ?>asset\images\Students\05.png" alt="Avatar">
+                        </div>
+                        <div class="high-achiever-card-content">
+                            <h1 class="high-achiever-name">KHIRMAN AKHLAQ</h1>
+                            <h4>MARKS: 977
+                            </h3>
+                            <h4>
+                            GRADE A-1</h4>
+                            <p class="high-achiever-description">HSSC ANNUAL EXAMINATION – 2024</p>
+                            <button class="high-achiever-button">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="high-achiever-card">
+                        <div class="high-achiever-card-image">
+                            <img src="<?php echo base_url(); ?>asset\images\Students\06.png" alt="Avatar">
+                        </div>
+                        <div class="high-achiever-card-content">
+                            <h1 class="high-achiever-name">HIBA SALMAN</h1>
+                            <h4>MARKS: 957
+                                
+                            </h4>
+                            <H4>GRADE: A-1</H4>
+                            <p class="high-achiever-description">HSSC ANNUAL EXAMINATION – 2024</p>
                             <button class="high-achiever-button">View More</button>
                         </div>
                     </div>
@@ -645,21 +713,36 @@
                 <!-- Image Slider (slider-nav) -->
                 <div class="col-sm-3 col-sm-offset-4">
                     <div class="carousel-images slider-nav">
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/001.jpg" alt="1" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/002.jpg" alt="2" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/003.jpg" alt="3" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/004.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/005.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/006.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/007.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/008.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/009.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/010.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/011.png" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/012.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/013.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/014.jpg" alt="4" class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/015.jpg" alt="4" class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/001.jpg" alt="1"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/002.jpg" alt="2"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/003.jpg" alt="3"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/004.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/005.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/006.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/007.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/008.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/009.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/010.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/011.png" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/012.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/013.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/014.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
+                        <div><img src="<?php echo base_url(); ?>asset/images/parents/015.jpg" alt="4"
+                                class="img-responsive img-circle"></div>
                     </div>
                 </div>
 
@@ -667,92 +750,147 @@
                 <div class="col-sm-8 col-sm-offset-2">
                     <div class="carousel-text slider-for">
                         <div class="single-box">
-                            <p>“ School is fantastic! The teachers not only possess exceptional qualifications but also exhibit genuine concern and care for their students.”</p>
+                            <p>“ School is fantastic! The teachers not only possess exceptional qualifications but also
+                                exhibit genuine concern and care for their students.”</p>
                             <h3>Muhammad Afzal Sadiq</h3>
                             <span>GIS Analyst in Sports Boulevard Foundation</span>
                         </div>
                         <div class="single-box">
-                            <p>“ As a parent, I am incredibly pleased with the quality of education and the nurturing environment at Pakistan International School Riyadh. The dedicated teachers and diverse curriculum have significantly contributed to my child's academic growth and personal development. I appreciate the school's commitment to providing a strong sense of community and cultural values. I will recommend this institution to other parents looking for a comprehensive education for their children with a mix of cultural values.”</p>
+                            <p>“ As a parent, I am incredibly pleased with the quality of education and the nurturing
+                                environment at Pakistan International School Riyadh. The dedicated teachers and diverse
+                                curriculum have significantly contributed to my child's academic growth and personal
+                                development. I appreciate the school's commitment to providing a strong sense of
+                                community and cultural values. I will recommend this institution to other parents
+                                looking for a comprehensive education for their children with a mix of cultural values.”
+                            </p>
                             <h3>Tuseef Khan</h3>
 
                         </div>
                         <div class="single-box">
-                            <p>“ As an educator and parent, we are truly delighted with how our children are nurtured and supported by the teachers, We have seen continuous improvement in our kids, Teachers not only focus on the academics but also on personality, communication and public speaking.”</p>
+                            <p>“ As an educator and parent, we are truly delighted with how our children are nurtured
+                                and supported by the teachers, We have seen continuous improvement in our kids, Teachers
+                                not only focus on the academics but also on personality, communication and public
+                                speaking.”</p>
                             <h3>Abdul Basit Nawab</h3>
                             <span>E-commerce Technical Lead</span>
                         </div>
                         <div class="single-box">
-                            <p>“ PISR School in Riyadh is a remarkable institution, especially cherished by the Pakistani community. It follows the federal board curriculum, ensuring a high standard of education.
+                            <p>“ PISR School in Riyadh is a remarkable institution, especially cherished by the
+                                Pakistani community. It follows the federal board curriculum, ensuring a high standard
+                                of education.
 
-                                The school provides an excellent environment where students can pursue modern, up-to-date studies, helping them build strong careers and character.
+                                The school provides an excellent environment where students can pursue modern,
+                                up-to-date studies, helping them build strong careers and character.
 
-                                The school boasts a beautiful campus, laboratories, and sports grounds. Additionally, PISR actively engages students in extracurricular activities such as sports, art, and spell-bee.
+                                The school boasts a beautiful campus, laboratories, and sports grounds. Additionally,
+                                PISR actively engages students in extracurricular activities such as sports, art, and
+                                spell-bee.
                                 ”</p>
                             <h3>Engr. Bilal Yousf</h3>
                             <span>Projects Manager</span>
                         </div>
                         <div class="single-box">
                             <p>“ I'm Naveed Yousaf, my kids have been studying in PISR.
-                                Pakistan International School, Riyadh (PISR) has been delivering quality education over decades and Generations. It is a blessing for Pakistani parents who intend to equip their children with our own Islamic & unique culture. Brothers & Sisters benefitted from PISR are now Doctors, Engineers, Bankers, Scientists.
+                                Pakistan International School, Riyadh (PISR) has been delivering quality education over
+                                decades and Generations. It is a blessing for Pakistani parents who intend to equip
+                                their children with our own Islamic & unique culture. Brothers & Sisters benefitted from
+                                PISR are now Doctors, Engineers, Bankers, Scientists.
 
-                                We wish PISR a continuous success in its unmet endeavors for spreading Knowledge thus fulfilling Prophet’s mission. Moreover, we do hope that PISR will overcome its deficiencies, if any, to perform better in the days to come.
+                                We wish PISR a continuous success in its unmet endeavors for spreading Knowledge thus
+                                fulfilling Prophet’s mission. Moreover, we do hope that PISR will overcome its
+                                deficiencies, if any, to perform better in the days to come.
                                 ”</p>
                             <h3>Naveed Yousaf</h3>
 
                         </div>
                         <div class="single-box">
-                            <p>“ I am incredibly pleased with the experience at my children’s school PISR. The dedicated and nurturing staff create a safe and inspiring environment where students are encouraged to reach their full potential. The curriculum is thoughtfully designed to balance academic growth with personal development, and I love seeing how engaged and excited our kids are about learning every day. Thank you for making such a positive impact on their educational journey!”</p>
+                            <p>“ I am incredibly pleased with the experience at my children’s school PISR. The dedicated
+                                and nurturing staff create a safe and inspiring environment where students are
+                                encouraged to reach their full potential. The curriculum is thoughtfully designed to
+                                balance academic growth with personal development, and I love seeing how engaged and
+                                excited our kids are about learning every day. Thank you for making such a positive
+                                impact on their educational journey!”</p>
                             <h3>Rehan Ghafoor</h3>
                             <span>Consultant - Business Development</span>
 
                         </div>
                         <div class="single-box">
-                            <p>“ PISR management is working hard and with full dedication to provide the quality education for Paksitani community's child in abroad.We wish for PISR bright future and to serve the Nation with same dedication.
+                            <p>“ PISR management is working hard and with full dedication to provide the quality
+                                education for Paksitani community's child in abroad.We wish for PISR bright future and
+                                to serve the Nation with same dedication.
                                 Thanks,
                                 ”</p>
                             <h3>Engineer Hafiz Shehzad Ahmad</h3>
                             <span>Plant Manager at SACHLO-Midchem </span>
                         </div>
                         <div class="single-box">
-                            <p>“We are grateful for the nurturing environment at this school, which fosters our children's growth both academically and personally. The strong sense of community inspires collaboration, support, and the building of lasting friendships among the students. We truly appreciate the dedication of the teachers who consistently go above and beyond to create engaging learning experiences. This school emphasizes not only academic excellence but also the importance of character building and emotional intelligence. Additionally, we value the open lines of communication between parents, educators, and Admin, which help us stay connected and informed about our children's progress.
+                            <p>“We are grateful for the nurturing environment at this school, which fosters our
+                                children's growth both academically and personally. The strong sense of community
+                                inspires collaboration, support, and the building of lasting friendships among the
+                                students. We truly appreciate the dedication of the teachers who consistently go above
+                                and beyond to create engaging learning experiences. This school emphasizes not only
+                                academic excellence but also the importance of character building and emotional
+                                intelligence. Additionally, we value the open lines of communication between parents,
+                                educators, and Admin, which help us stay connected and informed about our children's
+                                progress.
                                 Procurement and Contracts Lead.”</p>
                         </div>
                         <div class="single-box">
-                            <p>“Incredible work by the PISR Junior Wing team! Thank you to the hardworking teachers and visionary school administration for creating such a positive, inspiring environment for our little achievers!”</p>
+                            <p>“Incredible work by the PISR Junior Wing team! Thank you to the hardworking teachers and
+                                visionary school administration for creating such a positive, inspiring environment for
+                                our little achievers!”</p>
                         </div>
                         <div class="single-box">
-                            <p>“PISR is one of the best international school. The highly qualified and diligent PISR teachers are well valued.
+                            <p>“PISR is one of the best international school. The highly qualified and diligent PISR
+                                teachers are well valued.
                                 Employee of the embassy of United States of America in Riyadh KSA.
                                 ”</p>
 
                         </div>
                         <div class="single-box">
-                            <p>“The school's commitment to excellence in education is evident in its well-rounded curriculum and extracurricular activities, which help students develop both academically and personally. I highly recommend this school to any family looking for a quality education in Riyadh!”</p>
+                            <p>“The school's commitment to excellence in education is evident in its well-rounded
+                                curriculum and extracurricular activities, which help students develop both academically
+                                and personally. I highly recommend this school to any family looking for a quality
+                                education in Riyadh!”</p>
                             <h3>Engr. Muhammad Waqas Khan</h3>
                             <span>Project Engineer, Al Rajhi Telecom Company</span>
                         </div>
                         <div class="single-box">
-                            <p>“As a parent of three current students and an alum, I appreciate the strong sense of community at this school. The teachers are genuinely committed to their students, providing support and guidance that make a difference in their education. My kids have found great friendships here and enjoy many engaging activities.
-                                While there are challenges, it’s clear that the school has a lot of potential. I’m hopeful that with open communication, we can work together to make it an even better place for our children.
+                            <p>“As a parent of three current students and an alum, I appreciate the strong sense of
+                                community at this school. The teachers are genuinely committed to their students,
+                                providing support and guidance that make a difference in their education. My kids have
+                                found great friendships here and enjoy many engaging activities.
+                                While there are challenges, it’s clear that the school has a lot of potential. I’m
+                                hopeful that with open communication, we can work together to make it an even better
+                                place for our children.
                                 ”</p>
                             <h3>Syed Zaheer Ali</h3>
                             <span>Qualification: BCS</span>
                         </div>
                         <div class="single-box">
-                            <p>“ISR Does an excellent job by doing great improvement in academically and the creativity in classroom Activities. We are thrilled with the progress our child has made.”</p>
+                            <p>“ISR Does an excellent job by doing great improvement in academically and the creativity
+                                in classroom Activities. We are thrilled with the progress our child has made.”</p>
                             <h3>Dr. Reema Haroon</h3>
                             <span>Anesthesia Specialist, Dallah Hospital Riyadh</span>
                         </div>
                         <div class="single-box">
-                            <p>“ The innovative programs offered here are outstanding and provide students with valuable skills for the future! The commitment to professional growth among our staff is commendable and reflects a strong desire to improve our school.
-                                The positive atmosphere in our school promotes learning and collaboration. It’s a wonderful place to be!
+                            <p>“ The innovative programs offered here are outstanding and provide students with valuable
+                                skills for the future! The commitment to professional growth among our staff is
+                                commendable and reflects a strong desire to improve our school.
+                                The positive atmosphere in our school promotes learning and collaboration. It’s a
+                                wonderful place to be!
                                 ”</p>
                             <h3>Muhammad imran memon</h3>
 
                         </div>
 
                         <div class="single-box">
-                            <p>“ I would like to take this privilege to congratulate the school's management for its endless efforts. We are proud of all the teachers, management, and the school. PISR is doing excellent in all fields, especially giving children a lot of exposure. The academic program is very nicely planned and organized. The school staff is always open to any discussion. Good efforts by all teachers. The new school building is a remarkable achievement of PISR.”</p>
+                            <p>“ I would like to take this privilege to congratulate the school's management for its
+                                endless efforts. We are proud of all the teachers, management, and the school. PISR is
+                                doing excellent in all fields, especially giving children a lot of exposure. The
+                                academic program is very nicely planned and organized. The school staff is always open
+                                to any discussion. Good efforts by all teachers. The new school building is a remarkable
+                                achievement of PISR.”</p>
                             <h3>Agha Atif Hassan
 
                             </h3>
@@ -779,28 +917,36 @@
         <h1 class="text-center mb-4">Photo Gallery</h1>
         <div class="row no-gutters">
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-150x150.jpg" alt="Conference Image 1" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-150x150.jpg" alt="Conference Image 1"
+                    width="230px">
             </a>
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-683x1024.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-150x150.jpg" alt="Conference Image 2" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-150x150.jpg"
+                    alt="Conference Image 2" width="230px">
             </a>
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-150x150.jpg" alt="Conference Image 3" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-150x150.jpg"
+                    alt="Conference Image 3" width="230px">
             </a>
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-150x150.jpg" alt="Conference Image 4" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-150x150.jpg"
+                    alt="Conference Image 4" width="230px">
             </a>
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-150x150.jpg" alt="Conference Image 5" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-150x150.jpg"
+                    alt="Conference Image 5" width="230px">
             </a>
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-150x150.jpg" alt="Conference Image 6" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-150x150.jpg"
+                    alt="Conference Image 6" width="230px">
             </a>
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-150x150.jpg" alt="Conference Image 7" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-150x150.jpg"
+                    alt="Conference Image 7" width="230px">
             </a>
             <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-1024x692.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-150x150.jpg" alt="Conference Image 8" width="230px">
+                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-150x150.jpg"
+                    alt="Conference Image 8" width="230px">
             </a>
         </div>
     </div>
@@ -825,8 +971,8 @@
             <div class="col-sm-6 col-md-3 single-book">
                 <div class="publication-single-item">
                     <a href="https://east.education/pre-primary-syllabus-pakistan/">
-                        <img src="<?php echo base_url(); ?>asset/images/test.png" alt=""
-                            class="img-responsive" style="padding: 45px;"></a>
+                        <img src="<?php echo base_url(); ?>asset/images/test.png" alt="" class="img-responsive"
+                            style="padding: 45px;"></a>
                     <div class="publication-text">
                         <h3><a href="">Curriculum</a></h3>
                     </div>
@@ -905,7 +1051,7 @@
     }, 5000);
 
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         // Initialize text slider (slider-for)
         $('.slider-for').slick({
             slidesToShow: 1,
@@ -928,18 +1074,18 @@
     });
 
     // newletter slider
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
         // Get slider content containers for news and events
         const sliders = [{
-                content: document.querySelector('.new-news-content'),
-                interval: null,
-                direction: 1
-            },
-            {
-                content: document.querySelector('.new-events-content'),
-                interval: null,
-                direction: 1
-            }
+            content: document.querySelector('.new-news-content'),
+            interval: null,
+            direction: 1
+        },
+        {
+            content: document.querySelector('.new-events-content'),
+            interval: null,
+            direction: 1
+        }
         ];
 
         // Set auto-scroll interval (3 seconds)

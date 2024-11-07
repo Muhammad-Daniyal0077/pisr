@@ -264,7 +264,11 @@
                                             <div class="card-body">
                                                 <h1>HEALTH SERVICE & FIRST AID</h1>
                                                 <span class="card-text text-muted">
-                                                    Properly maintained dispensaries / medical aid rooms have been set up under the supervision of experienced medical staff. Qualified male and female nurses have been employed on a permanent basis to provide medical assistance to students in the school premises during school hours.
+                                                    Properly maintained dispensaries / medical aid rooms have been set
+                                                    up under the supervision of experienced medical staff. Qualified
+                                                    male and female nurses have been employed on a permanent basis to
+                                                    provide medical assistance to students in the school premises during
+                                                    school hours.
                                                 </span>
                                             </div>
                                         </div>
@@ -275,7 +279,9 @@
                                             <div class="card-body">
                                                 <h1>SCHOOL CANTEEN</h1>
                                                 <span class="card-text text-muted">
-                                                    Each wing of the school has a canteen. Students can buy refreshments and other edibles there. Cleanliness, quality of food, and pricing are kept under strict watch by the administration.
+                                                    Each wing of the school has a canteen. Students can buy refreshments
+                                                    and other edibles there. Cleanliness, quality of food, and pricing
+                                                    are kept under strict watch by the administration.
                                                 </span>
                                             </div>
                                         </div>
@@ -286,7 +292,8 @@
                                             <div class="card-body">
                                                 <h1>STATIONERY SHOPS</h1>
                                                 <span class="card-text text-muted">
-                                                    This facility has been introduced in the school to help and facilitate easy access to stationery items at reasonable prices.
+                                                    This facility has been introduced in the school to help and
+                                                    facilitate easy access to stationery items at reasonable prices.
                                                 </span>
                                             </div>
                                         </div>
@@ -297,7 +304,9 @@
                                             <div class="card-body">
                                                 <h1>SECURITY GUARDS</h1>
                                                 <span class="card-text text-muted">
-                                                    The school employs Saudi security guards on a contractual basis to ensure the safety of the students as well as school premises during school and pack-up times.
+                                                    The school employs Saudi security guards on a contractual basis to
+                                                    ensure the safety of the students as well as school premises during
+                                                    school and pack-up times.
                                                 </span>
                                             </div>
                                         </div>
@@ -308,7 +317,8 @@
                                             <div class="card-body">
                                                 <h1>SCHOOL TRANSPORT</h1>
                                                 <span class="card-text text-muted">
-                                                    A large fleet of air-conditioned buses provides pick and drop services to students from all around Riyadh and Al-Kharj city.
+                                                    A large fleet of air-conditioned buses provides pick and drop
+                                                    services to students from all around Riyadh and Al-Kharj city.
                                                 </span>
                                             </div>
                                         </div>
@@ -319,7 +329,9 @@
                                             <div class="card-body">
                                                 <h1>AFFILIATION</h1>
                                                 <span class="card-text text-muted">
-                                                    The school is affiliated with the Federal Board of Intermediate and Secondary Education, Islamabad at Secondary and Higher Secondary Levels.
+                                                    The school is affiliated with the Federal Board of Intermediate and
+                                                    Secondary Education, Islamabad at Secondary and Higher Secondary
+                                                    Levels.
                                                 </span>
                                             </div>
                                         </div>
@@ -330,7 +342,9 @@
                                             <div class="card-body">
                                                 <h1>PHYSICAL EDUCATION</h1>
                                                 <span class="card-text text-muted">
-                                                    Properly qualified staff has been engaged to impart physical training in both boys' and girls' wings. Games and sports are an essential part of the school timetable.
+                                                    Properly qualified staff has been engaged to impart physical
+                                                    training in both boys' and girls' wings. Games and sports are an
+                                                    essential part of the school timetable.
                                                 </span>
                                             </div>
                                         </div>
@@ -341,7 +355,8 @@
                                             <div class="card-body">
                                                 <h1>JUNIOR BOYS WING</h1>
                                                 <span class="card-text text-muted">
-                                                    The Junior Boys Wing includes students from Nursery, KG, and Classes I to IV.
+                                                    The Junior Boys Wing includes students from Nursery, KG, and Classes
+                                                    I to IV.
                                                 </span>
                                             </div>
                                         </div>
@@ -352,7 +367,9 @@
                                             <div class="card-body">
                                                 <h1>ACTIVITY ROOM</h1>
                                                 <span class="card-text text-muted">
-                                                    The Activity Room, introduced for classes Play Group to IV, engages students in different learning activities using various gadgets and multimedia systems.
+                                                    The Activity Room, introduced for classes Play Group to IV, engages
+                                                    students in different learning activities using various gadgets and
+                                                    multimedia systems.
                                                 </span>
                                             </div>
                                         </div>
@@ -363,7 +380,8 @@
                                             <div class="card-body">
                                                 <h1>TEXT BOOKS</h1>
                                                 <span class="card-text text-muted">
-                                                    Textbooks and practical notebooks are provided on payment to the students.
+                                                    Textbooks and practical notebooks are provided on payment to the
+                                                    students.
                                                 </span>
                                             </div>
                                         </div>
@@ -392,10 +410,18 @@
                             <div class="inner-container">
                                 <div class="row justify-content-center dropdown-content-custom">
                                     <div class="col-md-7 mb-5 card-text text-muted">
-                                        <p> Libraries and reading rooms have been provided in the Boys as well as the Girls Wings separately. The libraries contain reasonable number of books on various Subjects. Local & Pakistani Newspapers as well as magazines in English and Urdu are also provided to keep the students well-informed about local, national & international affairs. Reference sections are also available in these Libraries. Maps, charts, over-head projectors and other educational aids are provided to make classroom instruction(s) more effective. </p>
+                                        <p> Libraries and reading rooms have been provided in the Boys as well as the
+                                            Girls Wings separately. The libraries contain reasonable number of books on
+                                            various Subjects. Local & Pakistani Newspapers as well as magazines in
+                                            English and Urdu are also provided to keep the students well-informed about
+                                            local, national & international affairs. Reference sections are also
+                                            available in these Libraries. Maps, charts, over-head projectors and other
+                                            educational aids are provided to make classroom instruction(s) more
+                                            effective. </p>
                                     </div>
                                     <div class="col-md-5 mb-5 card-text text-muted">
-                                        <img src="https://pisr.org/v2/wp-content/uploads/2021/06/1-300x225.jpg" alt="Library Image" class="img-fluid" />
+                                        <img src="https://pisr.org/v2/wp-content/uploads/2021/06/1-300x225.jpg"
+                                            alt="Library Image" class="img-fluid" />
                                     </div>
                                 </div>
                             </div>
@@ -423,26 +449,39 @@
                                             <div class="col-md-6 mb-5 card-text text-muted">
 
                                                 <h3 style="text-align: center;">
-                                                    <span style="color: #000080;"><strong>COMPUTER LABORATORIES</strong></span>
+                                                    <span style="color: #000080;"><strong>COMPUTER
+                                                            LABORATORIES</strong></span>
                                                 </h3>
-                                                <p>The School is equipped with five fully functional Computer Laboratories; each equipped with latest technology including smart board, high tech computers, projectors and an internet connection on every computer.</>
+                                                <p>The School is equipped with five fully functional Computer
+                                                    Laboratories; each equipped with latest technology including smart
+                                                    board, high tech computers, projectors and an internet connection on
+                                                    every computer.
                                                 </p>
 
                                             </div>
-                                            <d class="col-md-6 mb-5 card-text text-muted">
-                                                <img decoding="async" width="300" height="161" src="https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-300x161.jpg" class="vc_single_image-img attachment-medium animated-image" alt="" srcset="https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-300x161.jpg 300w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-1024x549.jpg 1024w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-768x412.jpg 768w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-600x322.jpg 600w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351.jpg 1098w" sizes="(max-width: 150px) 100vw, 300px">
+                                            <div class="col-md-6 mb-5 card-text text-muted">
+                                                <img decoding="async" width="300" height="161"
+                                                    src="https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-300x161.jpg"
+                                                    class="vc_single_image-img attachment-medium animated-image" alt=""
+                                                    srcset="https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-300x161.jpg 300w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-1024x549.jpg 1024w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-768x412.jpg 768w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351-600x322.jpg 600w, https://pisr.org/v2/wp-content/uploads/2021/06/5-e1623149762351.jpg 1098w"
+                                                    sizes="(max-width: 150px) 100vw, 300px">
                                         </div>
 
                                     </div>
                                 </div>
                                 <div class="col-md-12 " style="    margin-left: -74px;">
-                                        <h3 style="text-align: center;">
-                                            <span style="color: #000080;"><strong>Chemistry, Physics & Biology Laboratories</strong></span>
-                                        </h3>
-                                        <p>Well equipped and maintained Chemistry, Physics and Biology Laboratories have been established in SBW-I and SGW-I for academic activities. These laboratories are updated with apparatus, chemicals and tools necessary for conducting science practicals.
+                                    <h3 style="text-align: center;">
+                                        <span style="color: #000080;"><strong>Chemistry, Physics & Biology
+                                                Laboratories</strong></span>
+                                    </h3>
+                                    <p>Well equipped and maintained Chemistry, Physics and Biology Laboratories have
+                                        been established in SBW-I and SGW-I for academic activities. These laboratories
+                                        are updated with apparatus, chemicals and tools necessary for conducting science
+                                        practicals.
 
-                                                Multimedia systems, smart boards and internet connection have also been provided to assist in delivering lectures using modern techniques..</p>
-                                 
+                                        Multimedia systems, smart boards and internet connection have also been provided
+                                        to assist in delivering lectures using modern techniques..</p>
+
                                 </div>
                             </div>
                         </div>
@@ -471,10 +510,15 @@
                                     <div class="col-md-12 mb-5 card-text text-muted">
                                         <div class="wpb_wrapper">
                                             <h3 style="text-align: center;">
-                                                <span style="color: #000080;"><strong>Extra Curricular Activities   </strong></span>
+                                                <span style="color: #000080;"><strong>Extra Curricular Activities
+                                                    </strong></span>
                                             </h3>
 
-                                            <p>Co-curricular activities play a vital role in the development of a child’s personality. A great deal of emphasis is laid on such activities in the school. All students have been distributed into different Houses to ensure healthy competitions in various activities. The students are encouraged to participate in the following activities.</p>
+                                            <p>Co-curricular activities play a vital role in the development of a
+                                                child’s personality. A great deal of emphasis is laid on such activities
+                                                in the school. All students have been distributed into different Houses
+                                                to ensure healthy competitions in various activities. The students are
+                                                encouraged to participate in the following activities.</p>
                                         </div>
                                         <ol class="animate__animated animate__fadeInUp about-pISR-scm-list">
                                             <li>Debates (English & Urdu)</li>
