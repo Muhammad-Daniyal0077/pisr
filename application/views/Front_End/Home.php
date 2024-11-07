@@ -1,7 +1,6 @@
 <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+
 <style>
     .slider-wrapper {
         width: 100%;
@@ -29,11 +28,6 @@
         object-fit: cover;
         /* Ensures the image covers the entire slide */
     }
-
-
-
-
-
 
     .prev-btn,
     .next-btn {
@@ -69,7 +63,132 @@
     }
 
     .gallery {
-        background: #d6d6d6;
+        background: linear-gradient(300deg, #61c0ff, #2ecc71);
+    }
+
+    .updates-news-section {
+        margin-top: 16px;
+        padding: 50px 0;
+        background: linear-gradient(300deg, #61c0ff, #2ecc71);
+    }
+
+    .section-header h2 {
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .updates-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .new-news-section,
+    .new-events-section {
+        width: 48%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+
+    .section-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid;
+    }
+
+    .new-news-title {
+        color: green;
+        border-bottom-color: green;
+    }
+
+    .new-events-title {
+        color: orange;
+        border-bottom-color: orange;
+    }
+
+    .new-slider-controls {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+
+    .new-prev-btn,
+    .new-next-btn {
+        background-color: #e0f7fa;
+        border: none;
+        padding: 12px 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .new-prev-btn:hover,
+    .new-next-btn:hover {
+        background-color: #b2ebf2;
+    }
+
+    .new-news-content,
+    .new-events-content {
+        display: flex;
+        overflow: hidden;
+        gap: 20px;
+        transition: transform 0.3s ease;
+    }
+
+    .new-news-item,
+    .new-event-item {
+        min-width: 480px;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+    .new-news-item:hover,
+    .new-event-item:hover {
+        background-color: #f9f9f9;
+    }
+
+    .new-news-headline,
+    .new-event-headline {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .new-news-headline {
+        color: green;
+    }
+
+    .new-event-headline {
+        color: orange;
+    }
+
+    .new-news-description,
+    .new-event-description {
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+    .new-news-date,
+    .new-event-date {
+        color: #888;
+        font-size: 14px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .updates-container {
+            flex-direction: column;
+        }
+
+        .new-news-section,
+        .new-events-section {
+            width: 100%;
+        }
     }
 </style>
 <div class="slider-wrapper">
@@ -127,25 +246,6 @@
     </div>
 </section>
 
-<!-- ./ End Students Say Area section -->
-<section class="students-say-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 section-header-box">
-                <div class="section-header">
-                    <h2>News & Events</h2>
-                </div>
-            </div>
-        </div>
-       
-
-
-    </div> <!--/.container-->
-
-
-</section>
-<!-- ./ End Students Say Area section -->
-
 
 
 <!-- Principle Area section -->
@@ -183,23 +283,71 @@
 </section><!-- Ends: . -->
 
 
-<!-- Start Video Area Section -->
-<section class="video-main-area video">
+<!-- news and events -->
+<section class="updates-news-section">
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12 video-play-btn">
-                <a href="https://www.youtube.com/watch?v=uXFUl0KcIkA" class="video-iframe"><i
-                        class="fa fa-play"></i></a>
+
+
+        <div class="updates-container">
+            <div class="new-news-section">
+                <h3 class="section-title new-news-title">Latest News</h3>
+                <div class="new-news-slider">
+                    <div class="new-slider-controls">
+                        <button class="new-prev-btn news-prev">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button class="new-next-btn news-next">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="new-news-content">
+                        <div class="new-news-item">
+                            <h4 class="new-news-headline">New Campus Facilities Opened</h4>
+                            <p class="new-news-description">The campus has expanded with more amenities for students</p>
+                            <span class="new-news-date">August 10, 2023</span>
+                        </div>
+                        <div class="new-news-item">
+                            <h4 class="new-news-headline">School Celebrates Earth Day</h4>
+                            <p class="new-news-description">Students participate in eco-friendly initiatives</p>
+                            <span class="new-news-date">April 20, 2023</span>
+                        </div>
+                        <div class="new-news-item">
+                            <h4 class="new-news-headline">College Celebrates Earth Day</h4>
+                            <p class="new-news-description">Students participate in eco-friendly initiatives</p>
+                            <span class="new-news-date">April 20, 2023</span>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="video-content">
-                <h2>Take a Tour of PISR</h2>
-            </div><!-- ends: .section-header -->
+            <div class="new-events-section">
+                <h3 class="section-title new-events-title">Upcoming Events</h3>
+                <div class="new-events-slider">
+                    <div class="new-slider-controls">
+                        <button class="new-prev-btn events-prev">
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                        <button class="new-next-btn events-next">
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="new-events-content">
+                        <div class="new-event-item">
+                            <h4 class="new-event-headline">Charity Run</h4>
+                            <p class="new-event-description">Join us for a charity run to raise funds for local causes</p>
+                            <span class="new-event-date">September 15, 2023</span>
+                        </div>
+                        <div class="new-event-item">
+                            <h4 class="new-event-headline">Student Conference</h4>
+                            <p class="new-event-description">An educational conference for students on emerging topics</p>
+                            <span class="new-event-date">October 1, 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<!-- ./ End Video Area section -->
-
 
 <!-- Start Welcome Area section -->
 <section class="Welcome-area">
@@ -234,6 +382,251 @@
     </div>
 </section><!-- Ends: . -->
 <!-- ./ End Welcome Area section -->
+
+<!-- Start Video Area Section -->
+<section class="video-main-area video">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 video-play-btn">
+                <a href="https://www.youtube.com/watch?v=uXFUl0KcIkA" class="video-iframe"><i
+                        class="fa fa-play"></i></a>
+            </div>
+
+            <div class="video-content">
+                <h2>Take a Tour of PISR</h2>
+            </div><!-- ends: .section-header -->
+        </div>
+    </div>
+</section>
+<!-- ./ End Video Area section -->
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+
+<style>
+   /* General styling */
+   .high-achievers-section {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f7f7f7;
+        }
+        .high-achievers-title {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Swiper container styling */
+        .custom-swiper-container {
+            max-width: 100%;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 40px; /* Space for pagination */
+            overflow: hidden; /* Prevent slides from extending beyond container */
+            box-sizing: border-box;
+        }
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+        }
+
+        .high-achiever-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 90%;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .high-achiever-card-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .high-achiever-name {
+            font-size: 1.2em;
+            color: #333;
+            margin-top: 15px;
+        }
+
+        .high-achiever-description {
+            font-size: 0.9em;
+            padding: 0 10px 20px;
+            color: #666;
+        }
+
+        .high-achiever-button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #ffb606;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .high-achiever-button:hover {
+            background-color: #e5a500;
+        }
+
+        /* Swiper navigation buttons */
+        .custom-swiper-button-next, .custom-swiper-button-prev {
+            font-size: 12px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 10;
+            cursor: pointer;
+        }
+
+        .custom-swiper-button-next {
+            right: 0px;
+        }
+
+        .custom-swiper-button-prev {
+            left: 0px;
+        }
+
+        /* Swiper pagination styling */
+        .custom-swiper-pagination {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background-color: #bbb;
+            opacity: 1;
+            transition: background-color 0.3s;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #ffb606;
+        }
+
+</style>
+
+
+<section class="high-achievers-section">
+    <div class="container">
+    <div class="row">
+                    <div class="col-sm-12 section-header-box">
+                        <div class="section-header section-header-l">
+                            <h2>Out Top <span style="color: #ffb606;">Students</span></h2>
+
+                        </div><!-- ends: .section-header -->
+                    </div>
+                </div>        <div class="custom-swiper-container swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="high-achiever-card">
+                        <div class="high-achiever-card-image">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                        </div>
+                        <div class="high-achiever-card-content">
+                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
+                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <button class="high-achiever-button">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="high-achiever-card">
+                        <div class="high-achiever-card-image">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                        </div>
+                        <div class="high-achiever-card-content">
+                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
+                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <button class="high-achiever-button">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="high-achiever-card">
+                        <div class="high-achiever-card-image">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                        </div>
+                        <div class="high-achiever-card-content">
+                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
+                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <button class="high-achiever-button">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="high-achiever-card">
+                        <div class="high-achiever-card-image">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxivAs4UknzmDfLBXGMxQkayiZDhR2ftB4jcIV7LEnIEStiUyMygioZnbLXCAND-I_xWQpVp0jv-dv9NVNbuKn4sNpXYtLIJk2-IOdWQNpC2Ldapnljifu0pnQqAWU848Ja4lT9ugQex-nwECEh3a96GXwiRXlnGEE6FFF_tKm66IGe3fzmLaVIoNL/s1600/img_avatar.png" alt="Avatar">
+                        </div>
+                        <div class="high-achiever-card-content">
+                            <h2 class="high-achiever-name">Mohamed Yousef</h2>
+                            <p class="high-achiever-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis mauris lorem, at pharetra magna vulputate ut.</p>
+                            <button class="high-achiever-button">View More</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add additional slides here -->
+            </div>
+            <!-- Pagination and Navigation buttons -->
+            <div class="custom-swiper-pagination swiper-pagination"></div>
+            <div class="custom-swiper-button-next swiper-button-next"></div>
+            <div class="custom-swiper-button-prev swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Swiper JS (Include before closing body tag) -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        loop: true,
+        spaceBetween: 20,
+        slidesPerView: 1,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.custom-swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.custom-swiper-button-next',
+            prevEl: '.custom-swiper-button-prev',
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+        }
+    });
+</script>
+
+
+
 
 
 
@@ -483,6 +876,7 @@
 
 
 <script>
+    // images slider
     let currentIndex = 0;
 
     const slides = document.querySelectorAll('.slide');
@@ -532,7 +926,60 @@
             nextArrow: '<button class="slick-next">Next</button>'
         });
     });
+
+    // newletter slider
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get slider content containers for news and events
+        const sliders = [{
+                content: document.querySelector('.new-news-content'),
+                interval: null,
+                direction: 1
+            },
+            {
+                content: document.querySelector('.new-events-content'),
+                interval: null,
+                direction: 1
+            }
+        ];
+
+        // Set auto-scroll interval (3 seconds)
+        const autoScrollInterval = 3000;
+
+        // News and Events Slider Controls (Next/Prev Buttons)
+        document.querySelectorAll('.new-prev-btn, .new-next-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const isNext = e.target.classList.contains('news-next') || e.target.classList.contains('events-next');
+                const section = e.target.closest('.new-news-section') ? sliders[0] : sliders[1];
+                clearInterval(section.interval); // Stop auto-scroll during manual interaction
+                section.direction = isNext ? 1 : -1; // Update direction based on button clicked
+                scrollSlider(section.content, section.direction);
+                startAutoScroll(section); // Restart auto-scroll after manual interaction
+            });
+        });
+
+        // Function to start auto-scrolling (forward and backward)
+        function startAutoScroll(section) {
+            section.interval = setInterval(() => {
+                scrollSlider(section.content, section.direction);
+                section.direction *= -1; // Reverse direction after each auto-scroll
+            }, autoScrollInterval);
+        }
+
+        // Function to handle slider movement (forward/backward)
+        function scrollSlider(sliderContent, direction) {
+            const itemWidth = sliderContent.querySelector('.new-news-item')?.offsetWidth || sliderContent.querySelector('.new-event-item')?.offsetWidth;
+            sliderContent.scrollBy({
+                left: itemWidth * direction,
+                behavior: 'smooth'
+            });
+        }
+
+        // Start auto-scroll on page load for both sliders
+        sliders.forEach(section => startAutoScroll(section));
+    });
 </script>
+
+
 
 <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
