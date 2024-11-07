@@ -82,6 +82,7 @@ $route['achievments/successstories'] = 'FrontEnd_Controller/Main/successstories'
 $route['facilities'] = 'FrontEnd_Controller/Main/facilities';
 $route['facilities/general'] = 'FrontEnd_Controller/Main/general';
 $route['facilities/libraries'] = 'FrontEnd_Controller/Main/libraries';
+$route['facilities/laboratories'] = 'FrontEnd_Controller/Main/laboratories';
 $route['gallery'] = 'FrontEnd_Controller/Main/gallery';
 $route['contact'] = 'FrontEnd_Controller/Main/contact';
 $route['events'] = 'FrontEnd_Controller/Main/events';

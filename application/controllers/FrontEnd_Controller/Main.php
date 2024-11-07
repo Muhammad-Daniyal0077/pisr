@@ -232,7 +232,13 @@ class Main extends CI_Controller
 		$data['filename']='Libraries';
 		$this->load->view('Main',$data);
 	}
-	
+	public function laboratories()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/facilities';
+		$data['filename']='Laboratories';
+		$this->load->view('Main',$data);
+	}
 	public function gallery()
 	{
 		// Load view and pass the data
