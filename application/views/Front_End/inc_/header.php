@@ -91,8 +91,8 @@
                         <li><a data-scroll href="<?php echo base_url(); ?>gallery">Gallery</a></li>
                         <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact</a></li>
                         <li>
-                            <a data-scroll href="<?php echo base_url(); ?>contact">
-                                <i class="fa fa-download"></i> Downloads
+                            <a data-scroll href="<?php echo base_url(); ?>downloads">Downloads
+                                <i class="fa fa-download"></i> 
                             </a>
                         </li>
 

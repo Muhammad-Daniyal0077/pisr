@@ -261,4 +261,12 @@ class Main extends CI_Controller
 		$data['filename']='events';
 		$this->load->view('Main',$data);
 	}
+	public function downloads()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End';
+		$data['filename']='downloads';
+		$this->load->view('Main',$data);
+	}
 }
+
