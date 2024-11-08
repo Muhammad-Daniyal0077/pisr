@@ -44,7 +44,7 @@
                             </ul>
                             <!-- dropdown end -->
                         </li>
-                        <li><a data-scroll="" href="<?php echo base_url(); ?>acadimics/schooltime">ACADEMICS</a>
+                        <li><a data-scroll="" href="#">ACADEMICS</a>
                             <!-- dropdwon start -->
                             <ul class="dropdown list-unstyled">
                                 <li><a href="<?php echo base_url(); ?>acadimics/schooltime">School Timing</a></li>
@@ -83,11 +83,11 @@
                                 <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
                                 <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
                                 <li><a href="<?php echo base_url(); ?>facilities/laboratories">Laboratories</a></li>
-                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Extra Curricular Activities</a></li>
+                                <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li>
                             </ul>
                         </li>
 
-                        <li><a data-scroll href="<?php echo base_url(); ?>facilities">FACILITIES</a></li>
+        
                         <li><a data-scroll href="<?php echo base_url(); ?>gallery">Gallery</a></li>
                         <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact</a></li>
                         <li><a data-scroll href="#"><i class="fa fa-search search_btn"></i></a>

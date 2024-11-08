@@ -211,13 +211,7 @@ class Main extends CI_Controller
 		$data['filename']='Successstories';
 		$this->load->view('Main',$data);
 	}
-	public function facilities()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/facilities';
-		$data['filename']='Facilities';
-		$this->load->view('Main',$data);
-	}
+	
 	public function general()
 	{
 		// Load view and pass the data
@@ -237,6 +231,13 @@ class Main extends CI_Controller
 		// Load view and pass the data
 		$data['path']='Front_End/facilities';
 		$data['filename']='Laboratories';
+		$this->load->view('Main',$data);
+	}
+	public function extracurricular()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/facilities';
+		$data['filename']='Extra_curricular';
 		$this->load->view('Main',$data);
 	}
 	public function gallery()
