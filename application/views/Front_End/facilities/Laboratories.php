@@ -239,7 +239,7 @@ margin-left: 190px;
 
     <h2 class="container section-heading col-md-9" >Laboratories</h2>
 
-    <div class="vc-hoverbox-wrapper" style="margin: 180px; margin-left: 250px; margin-bottom: -40px;">
+    <div class="vc-hoverbox-wrapper" style="margin: 180px; margin-left: 275px; margin-bottom: -40px;">
         <h3><span style="color: #000080;"><strong>COMPUTER
                     LABORATORIES</strong></span></h3>
         <div class="vc-hoverbox">
