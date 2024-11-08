@@ -79,10 +79,11 @@ $route['admission/agecriteria'] = 'FrontEnd_Controller/Main/agecriteria';
 $route['admission/admissiontests'] = 'FrontEnd_Controller/Main/admissiontests';
 $route['achievments/fbise'] = 'FrontEnd_Controller/Main/fbise';
 $route['achievments/successstories'] = 'FrontEnd_Controller/Main/successstories';
-$route['facilities'] = 'FrontEnd_Controller/Main/facilities';
+
 $route['facilities/general'] = 'FrontEnd_Controller/Main/general';
 $route['facilities/libraries'] = 'FrontEnd_Controller/Main/libraries';
 $route['facilities/laboratories'] = 'FrontEnd_Controller/Main/laboratories';
+$route['facilities/extracurricular'] = 'FrontEnd_Controller/Main/extracurricular';
 $route['gallery'] = 'FrontEnd_Controller/Main/gallery';
 $route['contact'] = 'FrontEnd_Controller/Main/contact';
 $route['events'] = 'FrontEnd_Controller/Main/events';
