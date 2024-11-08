@@ -1,196 +1,3 @@
-<!-- Include jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<style>
-    .slider-wrapper {
-        width: 100%;
-        height: 100vh;
-        /* Fullscreen height */
-        position: relative;
-        overflow: hidden;
-    }
-
-    .slider {
-        display: flex;
-        transition: transform 0.8s ease;
-        height: 100%;
-    }
-
-    .slide {
-        min-width: 100%;
-        height: 100%;
-        position: relative;
-    }
-
-    .slide img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        /* Ensures the image covers the entire slide */
-    }
-
-    .prev-btn,
-    .next-btn {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        background-color: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        border: none;
-        font-size: 2rem;
-        padding: 10px;
-        cursor: pointer;
-        border-radius: 50%;
-        transition: background-color 0.7s ease;
-    }
-
-    .prev-btn {
-        left: 20px;
-    }
-
-    .next-btn {
-        right: 20px;
-    }
-
-    .prev-btn:hover,
-    .next-btn:hover {
-        background-color: #007bff;
-    }
-
-    .no-gutters img {
-        margin: 20px;
-        border-radius: 12px;
-    }
-
-    .gallery {
-        background: linear-gradient(300deg, #61c0ff, #2ecc71);
-    }
-
-    .updates-news-section {
-        margin-top: 16px;
-        padding: 50px 0;
-        background: linear-gradient(300deg, #61c0ff, #2ecc71);
-    }
-
-    .section-header h2 {
-        margin-bottom: 10px;
-        color: #333;
-    }
-
-    .updates-container {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
-    }
-
-    .new-news-section,
-    .new-events-section {
-        width: 48%;
-        background-color: white;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        position: relative;
-    }
-
-    .section-title {
-        font-size: 22px;
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-        border-bottom: 2px solid;
-    }
-
-    .new-news-title {
-        color: green;
-        border-bottom-color: green;
-    }
-
-    .new-events-title {
-        color: orange;
-        border-bottom-color: orange;
-    }
-
-    .new-slider-controls {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 15px;
-    }
-
-    .new-prev-btn,
-    .new-next-btn {
-        background-color: #e0f7fa;
-        border: none;
-        padding: 12px 18px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
-
-    .new-prev-btn:hover,
-    .new-next-btn:hover {
-        background-color: #b2ebf2;
-    }
-
-    .new-news-content,
-    .new-events-content {
-        display: flex;
-        overflow: hidden;
-        gap: 20px;
-        transition: transform 0.3s ease;
-    }
-
-    .new-news-item,
-    .new-event-item {
-        min-width: 480px;
-        margin-bottom: 20px;
-        padding: 15px;
-        border-radius: 8px;
-        transition: background-color 0.3s ease;
-    }
-
-    .new-news-item:hover,
-    .new-event-item:hover {
-        background-color: #f9f9f9;
-    }
-
-    .new-news-headline,
-    .new-event-headline {
-        margin-bottom: 10px;
-        font-size: 18px;
-    }
-
-    .new-news-headline {
-        color: green;
-    }
-
-    .new-event-headline {
-        color: orange;
-    }
-
-    .new-news-description,
-    .new-event-description {
-        color: #666;
-        margin-bottom: 10px;
-    }
-
-    .new-news-date,
-    .new-event-date {
-        color: #888;
-        font-size: 14px;
-    }
-
-    /* Responsive Design */
-    @media (max-width: 768px) {
-        .updates-container {
-            flex-direction: column;
-        }
-
-        .new-news-section,
-        .new-events-section {
-            width: 100%;
-        }
-    }
-</style>
 <div class="slider-wrapper">
     <div class="slider">
         <div class="slide">
@@ -217,7 +24,7 @@
 
 
 
-<!-- Success -->
+<!-- Success stories -->
 <section class="slider-content-bottom">
     <div class="container">
         <div class="row sider-btm-row-inner">
@@ -415,11 +222,8 @@
     </div>
 </section>
 <!-- ./ End Video Area section -->
-<!-- Swiper CSS -->
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
-
-
+<!-- Top studetns -->
 <style>
     /* General styling */
     .high-achievers-section {
@@ -453,50 +257,59 @@
 
     .high-achiever-card {
         background-color: #fff;
-        border-radius: 8px;
+        border-radius: 12px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         overflow: hidden;
-        width: 90%;
+        width: 100%;
         max-width: 300px;
         text-align: center;
+        margin: 0 auto;
+        transition: transform 0.3s;
+    }
+
+    .high-achiever-card:hover {
+        transform: translateY(-4px);
     }
 
     .high-achiever-card-image img {
-        width: 100%;
+        width: 60%;
         height: auto;
+        object-fit: cover;
+        border-radius: 16px;
+        border-bottom: 2px solid #ffb606;
+        max-height: 247px;
+        padding: 6px;
+        background: cadetblue;
+        margin-top: 6px;
+    }
+
+    .high-achiever-card-content {
+        padding: 15px;
     }
 
     .high-achiever-name {
         font-size: 1.2em;
         color: #333;
-        margin-top: 15px;
+        margin-top: 10px;
+        font-weight: bold;
     }
 
-    .high-achiever-description {
+    .high-achiever-card-content h4 {
+        margin: 5px 0;
+        color: #555;
+        font-weight: 600;
+    }
+
+    .high-achiever-card-content p {
+        margin: 10px 0;
+        color: #777;
         font-size: 0.9em;
-        padding: 0 10px 20px;
-        color: #666;
-    }
-
-    .high-achiever-button {
-        margin: 10px;
-        padding: 10px 20px;
-        background-color: #ffb606;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
-
-    .high-achiever-button:hover {
-        background-color: #e5a500;
     }
 
     /* Swiper navigation buttons */
     .custom-swiper-button-next,
     .custom-swiper-button-prev {
-        font-size: 12px;
+        font-size: 6px;
         background-color: #fff;
         padding: 10px;
         border-radius: 50%;
@@ -507,6 +320,14 @@
         z-index: 10;
         cursor: pointer;
     }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 20px;
+        /* Adjust this value as needed */
+    }
+
+
 
     .custom-swiper-button-next {
         right: 0px;
@@ -539,8 +360,6 @@
         background-color: #ffb606;
     }
 </style>
-
-
 <section class="high-achievers-section">
     <div class="container">
         <div class="row">
@@ -557,144 +376,70 @@
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset\images\Students\01.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset/images/Students/01.png" alt="EMAN BINT E RAHEEL">
                         </div>
                         <div class="high-achiever-card-content">
                             <h1 class="high-achiever-name">EMAN BINT E RAHEEL</h1>
-                            <h4>MARKS: 1062
-                                
-                            </h4>
+                            <h4>MARKS: 1062</h4>
                             <h4>GRADE: A-1</h4>
-                            <p class="high-achiever-description">SSC ANNUAL EXAMINATION - 2024</p>
-                            <button class="high-achiever-button">View More</button>
+                            <p>SSC ANNUAL EXAMINATION - 2024</p>
+                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                 </div>
+                <!-- Slide 2 -->
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset\images\Students\02.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset/images/Students/02.png" alt="FAIZA USMAN">
                         </div>
                         <div class="high-achiever-card-content">
                             <h1 class="high-achiever-name">FAIZA USMAN</h1>
-                            <h4>MARKS: 1043
-                                
-                            </h4>
-                            <h4>GRADE:A-1</h4>
-                            <p class="high-achiever-description">SSC ANNUAL EXAMINATION - 2024</p>
-                            <button class="high-achiever-button">View More</button>
+                            <h4>MARKS: 1043</h4>
+                            <h4>GRADE: A-1</h4>
+                            <p>SSC ANNUAL EXAMINATION - 2024</p>
+                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                 </div>
+                <!-- Slide 3 -->
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset\images\Students\03.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset/images/Students/03.png" alt="AIMAN HARIS">
                         </div>
                         <div class="high-achiever-card-content">
-                            <h1 class="high-achiever-name">AIMAN HARIS </h1>
-                            <h4>MARKS: 1036
-                                
-                            </h4>
-                            <h4>GRADE:A-1</h4>
-                            <p class="high-achiever-description">SSC ANNUAL EXAMINATION - 2024</p>
-                            <button class="high-achiever-button">View More</button>
+                            <h1 class="high-achiever-name">AIMAN HARIS</h1>
+                            <h4>MARKS: 1036</h4>
+                            <h4>GRADE: A-1</h4>
+                            <p>SSC ANNUAL EXAMINATION - 2024</p>
+                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                 </div>
+                <!-- Slide 4 -->
                 <div class="swiper-slide">
                     <div class="high-achiever-card">
                         <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset\images\Students\04.png" alt="Avatar">
+                            <img src="<?php echo base_url(); ?>asset/images/Students/04.png" alt="HIBA SIDDIQUEI">
                         </div>
                         <div class="high-achiever-card-content">
                             <h1 class="high-achiever-name">HIBA SIDDIQUEI</h1>
-                            <h4>MARKS: 1032
-                                
-                            </h4>
+                            <h4>MARKS: 1032</h4>
                             <h4>GRADE: A-1</h4>
-                            <p class="high-achiever-description">HSSC ANNUAL EXAMINATION – 2024</p>
-                            <button class="high-achiever-button">View More</button>
-                        </div>
+                            <p>HSSC ANNUAL EXAMINATION - 2024</p>
+                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
+                            </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="high-achiever-card">
-                        <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset\images\Students\05.png" alt="Avatar">
-                        </div>
-                        <div class="high-achiever-card-content">
-                            <h1 class="high-achiever-name">KHIRMAN AKHLAQ</h1>
-                            <h4>MARKS: 977
-                            </h3>
-                            <h4>
-                            GRADE A-1</h4>
-                            <p class="high-achiever-description">HSSC ANNUAL EXAMINATION – 2024</p>
-                            <button class="high-achiever-button">View More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="high-achiever-card">
-                        <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset\images\Students\06.png" alt="Avatar">
-                        </div>
-                        <div class="high-achiever-card-content">
-                            <h1 class="high-achiever-name">HIBA SALMAN</h1>
-                            <h4>MARKS: 957
-                                
-                            </h4>
-                            <H4>GRADE: A-1</H4>
-                            <p class="high-achiever-description">HSSC ANNUAL EXAMINATION – 2024</p>
-                            <button class="high-achiever-button">View More</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- Add additional slides here -->
             </div>
-            <!-- Pagination and Navigation buttons -->
+            <!-- Pagination and Navigation -->
             <div class="custom-swiper-pagination swiper-pagination"></div>
             <div class="custom-swiper-button-next swiper-button-next"></div>
             <div class="custom-swiper-button-prev swiper-button-prev"></div>
         </div>
     </div>
 </section>
-
-<!-- Swiper JS (Include before closing body tag) -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-    const swiper = new Swiper('.swiper-container', {
-        loop: true,
-        spaceBetween: 20,
-        slidesPerView: 1,
-        centeredSlides: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.custom-swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.custom-swiper-button-next',
-            prevEl: '.custom-swiper-button-prev',
-        },
-        breakpoints: {
-            768: {
-                slidesPerView: 2,
-            },
-            1024: {
-                slidesPerView: 3,
-            },
-        }
-    });
-</script>
-
-
-
 
 
 
@@ -960,9 +705,6 @@
 
 
 
-
-
-
 <section class="publication-area">
     <div class="container">
 
@@ -1051,7 +793,7 @@
     }, 5000);
 
 
-    $(document).ready(function () {
+    $(document).ready(function() {
         // Initialize text slider (slider-for)
         $('.slider-for').slick({
             slidesToShow: 1,
@@ -1074,18 +816,18 @@
     });
 
     // newletter slider
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         // Get slider content containers for news and events
         const sliders = [{
-            content: document.querySelector('.new-news-content'),
-            interval: null,
-            direction: 1
-        },
-        {
-            content: document.querySelector('.new-events-content'),
-            interval: null,
-            direction: 1
-        }
+                content: document.querySelector('.new-news-content'),
+                interval: null,
+                direction: 1
+            },
+            {
+                content: document.querySelector('.new-events-content'),
+                interval: null,
+                direction: 1
+            }
         ];
 
         // Set auto-scroll interval (3 seconds)
@@ -1126,6 +868,36 @@
 </script>
 
 
+<!-- Swiper JS (Include before closing body tag) -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+        loop: true,
+        spaceBetween: 20,
+        slidesPerView: 1,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.custom-swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.custom-swiper-button-next',
+            prevEl: '.custom-swiper-button-prev',
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+        }
+    });
+</script>
 
 <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

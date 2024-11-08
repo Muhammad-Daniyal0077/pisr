@@ -16,7 +16,7 @@
 
 
 <!-- End Page Title -->
-<!-- Teachers Area section -->
+<!-- Principle Area section -->
 <section class="events-list-03">
 	<div class="container">
 		<div class="row event-body-content">
