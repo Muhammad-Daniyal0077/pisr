@@ -78,7 +78,7 @@
                                 <li><a href="<?php echo base_url(); ?>achievments/successstories">SUCCESS STORIES</a></li>
                             </ul>
                         </li>
-                        <li><a data-scroll href="#">FACILITIES</a>  
+                        <li><a data-scroll href="#">FACILITIES</a>
                             <ul class="list-unstyled dropdown">
                                 <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
                                 <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
@@ -87,18 +87,15 @@
                             </ul>
                         </li>
 
-        
+
                         <li><a data-scroll href="<?php echo base_url(); ?>gallery">Gallery</a></li>
                         <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact</a></li>
-                        <li><a data-scroll href="#"><i class="fa fa-search search_btn"></i></a>
-                            <div id="search">
-                                <button type="button" class="close">×</button>
-                                <form>
-                                    <input type="search" value="" placeholder="Search here...." required />
-                                    <button type="submit" class="btn btn_common blue">Search</button>
-                                </form>
-                            </div>
+                        <li>
+                            <a data-scroll href="<?php echo base_url(); ?>contact">
+                                <i class="fa fa-download"></i> Downloads
+                            </a>
                         </li>
+
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container -->
