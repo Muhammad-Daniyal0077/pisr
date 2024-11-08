@@ -102,7 +102,105 @@
         </div>
     </div>
 </section><!-- Ends: . -->
+<style>
+/* Section Styling */
+.updates-news-section {
+    margin-top: 16px;
+    padding: 50px 0;
+    background: linear-gradient(300deg, #61c0ff, #2ecc71);
+}
 
+/* Container Layout */
+.updates-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.new-news-section, .new-events-section {
+    width: 48%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Titles */
+.section-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+.new-news-title { color: green; border-bottom-color: green; }
+.new-events-title { color: orange; border-bottom-color: orange; }
+
+/* Slider Controls */
+.new-slider-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -50px;
+}
+
+.new-prev-btn, .new-next-btn {
+    background: #e0f7fa;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.new-prev-btn:hover, .new-next-btn:hover {
+    background: #b2ebf2;
+}
+
+/* News & Events Content */
+.new-news-content, .new-events-content {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.new-news-item, .new-event-item {
+    flex: 1 0 45%; /* Flexible width for items */
+    padding: 14px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.new-news-item:hover, .new-event-item:hover {
+    background: #f9f9f9;
+}
+
+.new-news-headline { color: green; }
+.new-event-headline { color: orange; }
+.new-news-description, .new-event-description { color: #666; }
+.new-news-date, .new-event-date {
+    color: #888;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .updates-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .new-news-section, .new-events-section {
+        width: 100%;
+    }
+}
+
+
+</style>
 
 <!-- news and events -->
 <section class="updates-news-section">
