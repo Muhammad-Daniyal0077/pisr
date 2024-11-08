@@ -40,7 +40,7 @@
 }
 
 .heading__primary {
-    font-size: 1.25rem;
+    font-size: 2.25rem;
     font-weight: bold;
     margin-bottom: 10px;
     display: flex;
@@ -82,7 +82,8 @@
                 <!-- WhatsApp Section -->
                 <div class="contact-info-box">
                     <div class="heading__primary">
-                        <i class="ion-social-whatsapp" style="color:#81d742; font-size: 24px;"></i> WhatsApp
+                    <i class="fab fa-whatsapp"></i> WhatsApp </a>
+                    
                     </div>
                     <div class="desc-content">+966-580793894</div>
                 </div>
