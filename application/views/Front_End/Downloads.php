@@ -85,16 +85,47 @@
 							<i class="fa fa-link"></i> More Details
 						</a>
 					</li>
+					<li>
+						<a class="btn btn-secondary" href="">
+							<i class="fa fa-link"></i> More Details
+						</a>
+					</li>
 				</ul>
 			</div>
 
 
 			<div class="col-md-4">
 				<h2>KG</h2>
+				<ul class="admission-links">
+					<li>
+						<a class="btn btn-primary" href="">
+							<i class="fa fa-download"></i> Download information
+						</a>
+					</li>
+					<li>
+						<a class="btn btn-secondary" href="">
+							<i class="fa fa-link"></i> More Details
+						</a>
+					</li>
+				
+				</ul>
 
 			</div>
 			<div class="col-md-4">
 				<h2>Acadimics</h2>
+				<ul class="admission-links">
+					<li>
+						<a class="btn btn-primary" href="">
+							<i class="fa fa-download"></i> Download information
+						</a>
+					</li>
+					<li>
+						<a class="btn btn-secondary" href="">
+							<i class="fa fa-link"></i> More Details
+						</a>
+					</li>
+				
+				</ul>
 
 			</div>
 		</div>
