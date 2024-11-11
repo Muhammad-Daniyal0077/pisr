@@ -314,7 +314,7 @@
   
     <h2 class="container section-heading col-md-9">libraries</h2>
     
-        <div class="vc-hoverbox-wrapper" style="margin: 180px; margin-left: 360px; margin-top: 130px;">
+        <div class="vc-hoverbox-wrapper">
             <div class="vc-hoverbox">
               <div class="vc-hoverbox-front" style="background-image: url('https://pisr.org/v2/wp-content/uploads/2021/06/1-300x225.jpg');"></div>
               <div class="vc-hoverbox-back">
