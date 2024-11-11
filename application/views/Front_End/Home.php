@@ -90,157 +90,146 @@
                     from both parents and students and are dedicated to delivering the best possible education to our
                     future leaders—our students.
                 </p>
-                <h3>Mr. Raja Muhammad Irfan </h3>
-                I eagerly anticipate a fantastic school year ahead.
-                Warmest Regards,
-
+                <div class="div-sm-7 event-info">
+                    I eagerly anticipate a fantastic school year ahead.
+                    Warmest Regards,
+                </div>
+                <div class="div-sm-7 event-info">
+                    <h3>Mr. Raja Muhammad Irfan </h3>
+                </div>
 
             </div>
         </div>
     </div>
 </section><!-- Ends: . -->
 <style>
-  /* Section Styling */
-.updates-news-section {
-    margin-top: 16px;
-    padding: 30px 0;
-    background: linear-gradient(300deg, #61c0ff, #2ecc71);
-}
+    /* Updates Section */
+    .updates-news-section {
+        padding: 30px 0;
+        background: linear-gradient(300deg, #61c0ff, #2ecc71);
+    }
 
-/* Container Layout */
-.updates-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-/* News and Events Section Styles */
-.new-news-section,
-.new-events-section {
-    width: 48%;
-    background: #fff;
-    border-radius: 8px;
-    padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
-    max-height: 250px; /* Set maximum height */
-    overflow: hidden;
-}
-
-/* Titles */
-.section-title {
-    font-size: 18px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid;
-    padding-bottom: 5px;
-}
-
-.new-news-title {
-    color: green;
-    border-bottom-color: green;
-}
-
-.new-events-title {
-    color: orange;
-    border-bottom-color: orange;
-}
-
-/* Slider Controls */
-.new-slider-controls {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 10px;
-}
-
-.new-prev-btn,
-.new-next-btn {
-    background: #e0f7fa;
-    border: none;
-    padding: 6px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-.new-prev-btn:hover,
-.new-next-btn:hover {
-    background: #b2ebf2;
-}
-
-/* News & Events Content */
-.new-news-content,
-.new-events-content {
-    display: flex;
-    gap: 10px;
-    overflow: hidden;
-}
-
-.new-news-item,
-.new-event-item {
-    flex: 1 0 100%;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.new-news-headline,
-.new-event-headline {
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.new-news-description,
-.new-event-description {
-    color: #666;
-    font-size: 12px;
-}
-
-.new-news-date,
-.new-event-date {
-    color: #888;
-    font-size: 12px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
     .updates-container {
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+    .updates-wrapper {
+        width: 80%;
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+    }
+
+    .section-title {
+        font-size: 24px;
+        color: #444;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .new-slider-controls {
+        display: flex;
+        justify-content: center;
         gap: 10px;
+        margin-bottom: 10px;
     }
 
-    .new-news-section,
-    .new-events-section {
-        width: 100%;
+    .new-prev-btn,
+    .new-next-btn {
+        background: #e0f7fa;
+        border: none;
+        padding: 8px;
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.3s;
     }
-}
 
+    .new-prev-btn:hover,
+    .new-next-btn:hover {
+        background: #b2ebf2;
+    }
+
+    .new-slider-content {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .new-news-content,
+    .new-events-content {
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        width: 50%;
+    }
+
+    .new-news-item,
+    .new-event-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #fff;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .new-news-item img,
+    .new-event-item img {
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+    }
+
+    .news-text,
+    .event-text {
+        max-width: 140px;
+    }
+
+    .new-news-headline,
+    .new-event-headline {
+        font-size: 14px;
+        color: #444;
+        margin: 0;
+    }
+
+    .new-news-date,
+    .new-event-date {
+        font-size: 12px;
+        color: #888;
+    }
 </style>
 
 <!-- news and events -->
 <section class="updates-news-section">
     <div class="container">
+        <h3 class="section-title">Latest News & Upcoming Events</h3>
         <div class="updates-container">
             <!-- News Section -->
             <div class="new-news-section">
-                <h3 class="section-title new-news-title">Latest News</h3>
+                <h4 class="section-title new-news-title">Latest News</h4>
                 <div class="new-news-slider">
                     <div class="new-news-content">
                         <div class="new-news-item">
-                            <h4 class="new-news-headline">New Campus Facilities Opened</h4>
-                            <p class="new-news-description">The campus has expanded with more amenities for students</p>
-                            <span class="new-news-date">August 10, 2023</span>
+                            <img src="https://via.placeholder.com/60" alt="News Image">
+                            <div class="news-text">
+                                <h5 class="new-news-headline">New Campus Facilities Opened</h5>
+                                <span class="new-news-date">Aug 10, 2023</span>
+                            </div>
                         </div>
                         <div class="new-news-item">
-                            <h4 class="new-news-headline">School Celebrates Earth Day</h4>
-                            <p class="new-news-description">Students participate in eco-friendly initiatives</p>
-                            <span class="new-news-date">April 20, 2023</span>
+                            <img src="https://via.placeholder.com/60" alt="News Image">
+                            <div class="news-text">
+                                <h5 class="new-news-headline">Earth Day Celebrations</h5>
+                                <span class="new-news-date">Apr 20, 2023</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -248,30 +237,34 @@
 
             <!-- Events Section -->
             <div class="new-events-section">
-                <h3 class="section-title new-events-title">Upcoming Events</h3>
+                <h4 class="section-title new-events-title">Upcoming Events</h4>
                 <div class="new-events-slider">
                     <div class="new-events-content">
                         <div class="new-event-item">
-                            <h4 class="new-event-headline">Charity Run</h4>
-                            <p class="new-event-description">Join us for a charity run to raise funds for local causes</p>
-                            <span class="new-event-date">September 15, 2023</span>
+                            <img src="https://via.placeholder.com/60" alt="Event Image">
+                            <div class="event-text">
+                                <h5 class="new-event-headline">Charity Run</h5>
+                                <span class="new-event-date">Sep 15, 2023</span>
+                            </div>
                         </div>
                         <div class="new-event-item">
-                            <h4 class="new-event-headline">Student Conference</h4>
-                            <p class="new-event-description">An educational conference for students on emerging topics</p>
-                            <span class="new-event-date">October 1, 2023</span>
+                            <img src="https://via.placeholder.com/60" alt="Event Image">
+                            <div class="event-text">
+                                <h5 class="new-event-headline">Student Conference</h5>
+                                <span class="new-event-date">Oct 1, 2023</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Slider Controls (Common for Both Sections) -->
+        <!-- Slider Controls -->
         <div class="new-slider-controls">
-            <button class="new-prev-btn news-prev">
+            <button class="new-prev-btn">
                 <i class="fas fa-arrow-left"></i>
             </button>
-            <button class="new-next-btn news-next">
+            <button class="new-next-btn">
                 <i class="fas fa-arrow-right"></i>
             </button>
         </div>
@@ -279,6 +272,40 @@
 </section>
 
 
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const newsContent = document.querySelector('.new-news-content');
+        const eventsContent = document.querySelector('.new-events-content');
+        const prevBtn = document.querySelector('.new-prev-btn');
+        const nextBtn = document.querySelector('.new-next-btn');
+
+        const scrollWidth = newsContent.scrollWidth / newsContent.childElementCount;
+        let autoScrollInterval;
+
+        const scrollItems = (direction) => {
+            newsContent.scrollBy({
+                left: direction * scrollWidth,
+                behavior: 'smooth',
+            });
+            eventsContent.scrollBy({
+                left: direction * scrollWidth,
+                behavior: 'smooth',
+            });
+        };
+
+        prevBtn.addEventListener('click', () => scrollItems(-1));
+        nextBtn.addEventListener('click', () => scrollItems(1));
+
+        const startAutoScroll = () => {
+            autoScrollInterval = setInterval(() => {
+                scrollItems(1);
+            }, 3000);
+        };
+
+        startAutoScroll();
+    });
+</script>
 <!-- Start Welcome Area section -->
 <section class="Welcome-area">
     <div class="container">
@@ -920,24 +947,6 @@
             prevArrow: '<button class="slick-prev">Previous</button>',
             nextArrow: '<button class="slick-next">Next</button>'
         });
-    });
-
-    // newletter slider
-    document.addEventListener('DOMContentLoaded', function() {
-        // Get slider content containers for news and events
-        const sliders = [{
-                content: document.querySelector('.new-news-content'),
-                interval: null,
-                direction: 1
-            },
-            {
-                content: document.querySelector('.new-events-content'),
-                interval: null,
-                direction: 1
-            }
-        ];
-
-        
     });
 </script>
 
