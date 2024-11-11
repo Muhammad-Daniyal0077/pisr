@@ -73,6 +73,7 @@
         line-height: 1.8;
         margin: 20px auto;
         text-align: center;
+        margin: 40px 120px;
     }
 
     /* Hover Box Styles */
@@ -231,7 +232,7 @@ margin-left: 190px;
 <body>
     <div class="wpb_wrapper">
         <h1 class="center-heading">Educational Facilities</h1>
-        <p class="center-paragraph" style="margin: 30px;">The School caters to boys and girls of the Pakistani community in Riyadh from Play
+        <p class="center-paragraph">The School caters to boys and girls of the Pakistani community in Riyadh from Play
             Group to Class XII. It maintains a high standard of education and provides a variety of curricular and
             co-curricular activities for the development of a wholesome and balanced personality of the students. The
             School is producing excellent results in School and Board Examinations.</p>
