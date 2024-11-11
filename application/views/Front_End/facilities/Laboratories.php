@@ -116,11 +116,26 @@
 
     .center-heading,
     .center-paragraph {
-        animation: fadeInUp 1s ease-out;
+        animation: ease-in-out;
     }
 
     .center-paragraph {
         animation-delay: 0.3s;
+    }
+
+    .img-responsive-principle {
+        width: 98%;
+        height: auto;
+        border-radius: 12px;
+        object-fit: cover;
+        margin-top: 35px;
+    }
+
+    .events-list-03 {
+
+        padding: 2px 0;
+        background-color: #f9f9f9;
+        font-family: 'Arial', sans-serif;
     }
 </style>
 
@@ -152,7 +167,7 @@
                             <div class="col-sm-6 event-info img-fluid">
                                 <h4>COMPUTER LABORATORIES
                                 </h4>
-                                <p class="div-sm-7 event-info ">
+                                <p class="div-sm-7 event-info " style="margin-top: 60px;">
                                     As the Principal of our esteemed institution, it is my honor to The School is
                                     equipped with five fully functional Computer Laboratories; each equipped with latest
                                     technology including smart board, high tech computers, projectors and an internet
@@ -173,22 +188,27 @@
                 <div class="col-sm-12 events-full-box ">
                     <div class="events-single-box">
                         <div class="row">
-                            <div class="col-md-6">
-                                <img src="<?php echo base_url(); ?>asset/images/Facilities/13.webp" alt="not"
-                                    class="img-responsive-principle">
-                            </div>
+                            
 
                             <div class="col-sm-6 event-info img-fluid">
                                 <h4>Chemistry, Physics & Biology Laboratories
 
                                 </h4>
-                                <p class="div-sm-7 event-info ">
-                                    Well equipped and maintained Chemistry, Physics and Biology Laboratories have been established in SBW-I and SGW-I for academic activities.  These laboratories are updated with apparatus, chemicals and tools necessary for conducting science practicals.
+                                <p class="div-sm-7 event-info " style="margin-top: 19px;">
+                                    Well equipped and maintained Chemistry, Physics and Biology Laboratories have been
+                                    established in SBW-I and SGW-I for academic activities. These laboratories are
+                                    updated with apparatus, chemicals and tools necessary for conducting science
+                                    practicals.
 
-                                    Multimedia systems, smart boards and internet connection have also been provided to assist in delivering lectures using modern techniques.</p>
+                                    Multimedia systems, smart boards and internet connection have also been provided to
+                                    assist in delivering lectures using modern techniques.</p>
 
 
 
+                            </div>
+                            <div class="col-md-6">
+                                <img src="<?php echo base_url(); ?>asset/images/Facilities/13.webp" alt="not"
+                                    class="img-responsive-principle">
                             </div>
 
                         </div>
