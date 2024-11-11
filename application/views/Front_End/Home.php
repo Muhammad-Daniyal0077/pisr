@@ -90,23 +90,20 @@
                     from both parents and students and are dedicated to delivering the best possible education to our
                     future leaders—our students.
                 </p>
-                <div class="div-sm-7 event-info">
-                    I eagerly anticipate a fantastic school year ahead.
-                    Warmest Regards,
-                </div>
-                <div class="div-sm-7 event-info">
-                    <h3>Mr. Raja Muhammad Irfan </h3>
-                </div>
+                <h3>Mr. Raja Muhammad Irfan </h3>
+                I eagerly anticipate a fantastic school year ahead.
+                Warmest Regards,
+
 
             </div>
         </div>
     </div>
 </section><!-- Ends: . -->
 <style>
-/* Section Styling */
+  /* Section Styling */
 .updates-news-section {
     margin-top: 16px;
-    padding: 50px 0;
+    padding: 30px 0;
     background: linear-gradient(300deg, #61c0ff, #2ecc71);
 }
 
@@ -114,111 +111,126 @@
 .updates-container {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 20px;
 }
 
-.new-news-section, .new-events-section {
+/* News and Events Section Styles */
+.new-news-section,
+.new-events-section {
     width: 48%;
     background: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: relative;
+    max-height: 250px; /* Set maximum height */
+    overflow: hidden;
 }
 
 /* Titles */
 .section-title {
-    font-size: 22px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid;
-    padding-bottom: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
 }
-.new-news-title { color: green; border-bottom-color: green; }
-.new-events-title { color: orange; border-bottom-color: orange; }
+
+.new-news-title {
+    color: green;
+    border-bottom-color: green;
+}
+
+.new-events-title {
+    color: orange;
+    border-bottom-color: orange;
+}
 
 /* Slider Controls */
 .new-slider-controls {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: -50px;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
 }
 
-.new-prev-btn, .new-next-btn {
+.new-prev-btn,
+.new-next-btn {
     background: #e0f7fa;
     border: none;
-    padding: 8px;
+    padding: 6px;
     border-radius: 5px;
     cursor: pointer;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: background 0.3s;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.new-prev-btn:hover, .new-next-btn:hover {
+.new-prev-btn:hover,
+.new-next-btn:hover {
     background: #b2ebf2;
 }
 
 /* News & Events Content */
-.new-news-content, .new-events-content {
+.new-news-content,
+.new-events-content {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     overflow: hidden;
 }
 
-.new-news-item, .new-event-item {
-    flex: 1 0 45%; /* Flexible width for items */
-    padding: 14px;
-    border-radius: 8px;
+.new-news-item,
+.new-event-item {
+    flex: 1 0 100%;
+    padding: 10px;
+    border-radius: 5px;
     transition: background 0.3s;
 }
 
-.new-news-item:hover, .new-event-item:hover {
-    background: #f9f9f9;
+.new-news-headline,
+.new-event-headline {
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.new-news-headline { color: green; }
-.new-event-headline { color: orange; }
-.new-news-description, .new-event-description { color: #666; }
-.new-news-date, .new-event-date {
+.new-news-description,
+.new-event-description {
+    color: #666;
+    font-size: 12px;
+}
+
+.new-news-date,
+.new-event-date {
     color: #888;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .updates-container {
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
     }
-    .new-news-section, .new-events-section {
+
+    .new-news-section,
+    .new-events-section {
         width: 100%;
     }
 }
-
 
 </style>
 
 <!-- news and events -->
 <section class="updates-news-section">
     <div class="container">
-
-
         <div class="updates-container">
+            <!-- News Section -->
             <div class="new-news-section">
                 <h3 class="section-title new-news-title">Latest News</h3>
                 <div class="new-news-slider">
-                    <div class="new-slider-controls">
-                        <button class="new-prev-btn news-prev">
-                            <i class="fas fa-arrow-left"></i>
-                        </button>
-                        <button class="new-next-btn news-next">
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
-                    </div>
                     <div class="new-news-content">
                         <div class="new-news-item">
                             <h4 class="new-news-headline">New Campus Facilities Opened</h4>
@@ -230,45 +242,42 @@
                             <p class="new-news-description">Students participate in eco-friendly initiatives</p>
                             <span class="new-news-date">April 20, 2023</span>
                         </div>
-                        <div class="new-news-item">
-                            <h4 class="new-news-headline">College Celebrates Earth Day</h4>
-                            <p class="new-news-description">Students participate in eco-friendly initiatives</p>
-                            <span class="new-news-date">April 20, 2023</span>
-                        </div>
                     </div>
                 </div>
             </div>
 
+            <!-- Events Section -->
             <div class="new-events-section">
                 <h3 class="section-title new-events-title">Upcoming Events</h3>
                 <div class="new-events-slider">
-                    <div class="new-slider-controls">
-                        <button class="new-prev-btn events-prev">
-                            <i class="fas fa-arrow-left"></i>
-                        </button>
-                        <button class="new-next-btn events-next">
-                            <i class="fas fa-arrow-right"></i>
-                        </button>
-                    </div>
                     <div class="new-events-content">
                         <div class="new-event-item">
                             <h4 class="new-event-headline">Charity Run</h4>
-                            <p class="new-event-description">Join us for a charity run to raise funds for local causes
-                            </p>
+                            <p class="new-event-description">Join us for a charity run to raise funds for local causes</p>
                             <span class="new-event-date">September 15, 2023</span>
                         </div>
                         <div class="new-event-item">
                             <h4 class="new-event-headline">Student Conference</h4>
-                            <p class="new-event-description">An educational conference for students on emerging topics
-                            </p>
+                            <p class="new-event-description">An educational conference for students on emerging topics</p>
                             <span class="new-event-date">October 1, 2023</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Slider Controls (Common for Both Sections) -->
+        <div class="new-slider-controls">
+            <button class="new-prev-btn news-prev">
+                <i class="fas fa-arrow-left"></i>
+            </button>
+            <button class="new-next-btn news-next">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
     </div>
 </section>
+
 
 <!-- Start Welcome Area section -->
 <section class="Welcome-area">
@@ -527,7 +536,7 @@
                             <h4>GRADE: A-1</h4>
                             <p>HSSC ANNUAL EXAMINATION - 2024</p>
                             <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
-                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -928,40 +937,7 @@
             }
         ];
 
-        // Set auto-scroll interval (3 seconds)
-        const autoScrollInterval = 3000;
-
-        // News and Events Slider Controls (Next/Prev Buttons)
-        document.querySelectorAll('.new-prev-btn, .new-next-btn').forEach(button => {
-            button.addEventListener('click', (e) => {
-                const isNext = e.target.classList.contains('news-next') || e.target.classList.contains('events-next');
-                const section = e.target.closest('.new-news-section') ? sliders[0] : sliders[1];
-                clearInterval(section.interval); // Stop auto-scroll during manual interaction
-                section.direction = isNext ? 1 : -1; // Update direction based on button clicked
-                scrollSlider(section.content, section.direction);
-                startAutoScroll(section); // Restart auto-scroll after manual interaction
-            });
-        });
-
-        // Function to start auto-scrolling (forward and backward)
-        function startAutoScroll(section) {
-            section.interval = setInterval(() => {
-                scrollSlider(section.content, section.direction);
-                section.direction *= -1; // Reverse direction after each auto-scroll
-            }, autoScrollInterval);
-        }
-
-        // Function to handle slider movement (forward/backward)
-        function scrollSlider(sliderContent, direction) {
-            const itemWidth = sliderContent.querySelector('.new-news-item')?.offsetWidth || sliderContent.querySelector('.new-event-item')?.offsetWidth;
-            sliderContent.scrollBy({
-                left: itemWidth * direction,
-                behavior: 'smooth'
-            });
-        }
-
-        // Start auto-scroll on page load for both sliders
-        sliders.forEach(section => startAutoScroll(section));
+        
     });
 </script>
 
