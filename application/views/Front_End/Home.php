@@ -103,50 +103,30 @@
     </div>
 </section><!-- Ends: . -->
 <style>
-    /* Updates Section */
-    .updates-news-section {
-        padding: 30px 0;
-        background: linear-gradient(300deg, #61c0ff, #2ecc71);
-    }
-
-    .updates-container {
-        display: flex;
-        justify-content: center;
-    }
-
-    .updates-wrapper {
-        width: 80%;
-        background: #fff;
-        border-radius: 10px;
-        padding: 20px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        position: relative;
-    }
-
-    .section-title {
-        font-size: 24px;
-        color: #444;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .new-slider-controls {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        margin-bottom: 10px;
-    }
-
-    .new-prev-btn,
-    .new-next-btn {
+    /* Position Buttons */
+    .new-prev-btn {
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
         background: #e0f7fa;
         border: none;
-        padding: 8px;
+        padding: 10px;
         border-radius: 50%;
         cursor: pointer;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        transition: background 0.3s;
+    }
+
+    .new-next-btn {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #e0f7fa;
+        border: none;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
         transition: background 0.3s;
     }
 
@@ -155,72 +135,40 @@
         background: #b2ebf2;
     }
 
-    .new-slider-content {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
+    /* Adjust Section Layout */
+    .updates-news-section {
+        position: relative;
     }
 
-    .new-news-content,
-    .new-events-content {
-        display: flex;
-        gap: 10px;
-        flex-wrap: nowrap;
-        overflow: hidden;
-        width: 50%;
+    .new-news-section {
+        position: relative;
+        padding-left: 50px;
     }
 
-    .new-news-item,
-    .new-event-item {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        background: #fff;
-        border-radius: 8px;
-        padding: 10px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .new-news-item img,
-    .new-event-item img {
-        width: 60px;
-        height: 60px;
-        border-radius: 5px;
-    }
-
-    .news-text,
-    .event-text {
-        max-width: 140px;
-    }
-
-    .new-news-headline,
-    .new-event-headline {
-        font-size: 14px;
-        color: #444;
-        margin: 0;
-    }
-
-    .new-news-date,
-    .new-event-date {
-        font-size: 12px;
-        color: #888;
+    .new-events-section {
+        position: relative;
+        padding-right: 50px;
     }
 </style>
+
 
 <!-- news and events -->
 <section class="updates-news-section">
     <div class="container">
-        <h3 class="section-title">Latest News & Upcoming Events</h3>
         <div class="updates-container">
             <!-- News Section -->
             <div class="new-news-section">
                 <h4 class="section-title new-news-title">Latest News</h4>
+                <!-- Prev Button at the start of Latest News -->
+                <button class="new-prev-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </button>
                 <div class="new-news-slider">
                     <div class="new-news-content">
                         <div class="new-news-item">
                             <img src="https://via.placeholder.com/60" alt="News Image">
                             <div class="news-text">
-                                <h5 class="new-news-headline">New Campus Facilities Opened</h5>
+                                <h6 class="new-news-headline">New Campus Facilities Opened</h6>
                                 <span class="new-news-date">Aug 10, 2023</span>
                             </div>
                         </div>
@@ -256,17 +204,11 @@
                         </div>
                     </div>
                 </div>
+                <!-- Next Button at the end of Upcoming Events -->
+                <button class="new-next-btn">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
             </div>
-        </div>
-
-        <!-- Slider Controls -->
-        <div class="new-slider-controls">
-            <button class="new-prev-btn">
-                <i class="fas fa-arrow-left"></i>
-            </button>
-            <button class="new-next-btn">
-                <i class="fas fa-arrow-right"></i>
-            </button>
         </div>
     </div>
 </section>
@@ -280,32 +222,32 @@
         const prevBtn = document.querySelector('.new-prev-btn');
         const nextBtn = document.querySelector('.new-next-btn');
 
-        const scrollWidth = newsContent.scrollWidth / newsContent.childElementCount;
-        let autoScrollInterval;
+        let currentIndex = 0;
+        const maxIndex = newsContent.childElementCount - 1;
 
-        const scrollItems = (direction) => {
-            newsContent.scrollBy({
-                left: direction * scrollWidth,
-                behavior: 'smooth',
+        const updateSlider = (direction) => {
+            currentIndex += direction;
+            if (currentIndex < 0) currentIndex = maxIndex;
+            if (currentIndex > maxIndex) currentIndex = 0;
+
+            newsContent.scrollTo({
+                left: currentIndex * newsContent.clientWidth,
+                behavior: 'smooth'
             });
-            eventsContent.scrollBy({
-                left: direction * scrollWidth,
-                behavior: 'smooth',
+
+            eventsContent.scrollTo({
+                left: currentIndex * eventsContent.clientWidth,
+                behavior: 'smooth'
             });
         };
 
-        prevBtn.addEventListener('click', () => scrollItems(-1));
-        nextBtn.addEventListener('click', () => scrollItems(1));
+        prevBtn.addEventListener('click', () => updateSlider(-1));
+        nextBtn.addEventListener('click', () => updateSlider(1));
 
-        const startAutoScroll = () => {
-            autoScrollInterval = setInterval(() => {
-                scrollItems(1);
-            }, 3000);
-        };
-
-        startAutoScroll();
+        setInterval(() => updateSlider(1), 3000);
     });
 </script>
+
 <!-- Start Welcome Area section -->
 <section class="Welcome-area">
     <div class="container">
@@ -395,7 +337,7 @@
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         overflow: hidden;
         width: 100%;
-        max-width: 300px;
+        max-width: 270px;
         text-align: center;
         margin: 0 auto;
         transition: transform 0.3s;
@@ -406,7 +348,7 @@
     }
 
     .high-achiever-card-image img {
-        width: 60%;
+        width: 40%;
         height: auto;
         object-fit: cover;
         border-radius: 16px;
@@ -418,7 +360,7 @@
     }
 
     .high-achiever-card-content {
-        padding: 15px;
+        padding: 4px;
     }
 
     .high-achiever-name {
@@ -493,13 +435,15 @@
     .swiper-pagination-bullet-active {
         background-color: #ffb606;
     }
+
+
 </style>
 <section class="high-achievers-section">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Out Top <span style="color: #ffb606;">Students</span></h2>
+                    <h2>Our Top <span style="color: #ffb606;">Students</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>
@@ -508,7 +452,7 @@
             <div class="swiper-wrapper">
                 <!-- Slide 1 -->
                 <div class="swiper-slide">
-                    <div class="high-achiever-card">
+                    <div class="high-achiever-card" id="">
                         <div class="high-achiever-card-image">
                             <img src="<?php echo base_url(); ?>asset/images/Students/01.png" alt="EMAN BINT E RAHEEL">
                         </div>
