@@ -77,20 +77,20 @@
 				<ul class="admission-links">
 					<li>
 						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/ADMISSION-REQUIRED-DOCUMENT-FINAL.pdf">
-							<i class="fa fa-download"></i> ADMISSION-REQUIRED
+							<i class="fa fa-download"></i> Admission-Form
 						</a>
 					</li>
 
 					<li>
 						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/01/Age-critera.jpeg">
-							<i class="fa fa-link"></i>Age-critera
+							<i class="fa fa-link"></i>Age-Critera
 						</a>
 					</li>
 
 					<li>
 						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/02/PISR-FEE-RATE-2024-1.pdf">
-							<i class="fa fa-link"></i> PISR-FEE-RATE
-                        </a>
+							<i class="fa fa-link"></i> PISR-Fee-Rate
+						                        </a>
 					</li>
 
 					<li>
@@ -130,14 +130,15 @@
 							<i class="fa fa-download"></i> Sallybus
 						</a>
 					</li>
-					<li>
-						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Academic-Calendar-2024-25-scaled.jpg">
-							<i class="fa fa-link"></i> Academic-Calendar-2024-25
-						</a>
-					</li>
+					
 					<li>
 						<a class="btn btn-primary" href="https://drive.google.com/drive/folders/1wMhqyVnkJ3Z-C-5L14eLc3EwxGl4a_wr">
 							<i class="fa fa-download"></i> Summer Task
+						</a>
+					</li>
+					<li>
+						<a class="btn btn-primary" href="https://drive.google.com/drive/folders/1P7B6zSNybgP9Bd8eygAc7bk98K1fmzJ6">
+							<i class="fa fa-download"></i> Date Sheet
 						</a>
 					</li>
 					<li>
@@ -145,9 +146,9 @@
 							<i class="fa fa-link"></i> School Uniform
 						</a>
 					</li>
-                    <li>
-						<a class="btn btn-primary" href="https://drive.google.com/drive/folders/1P7B6zSNybgP9Bd8eygAc7bk98K1fmzJ6">
-							<i class="fa fa-download"></i> Date Sheet
+					<li>
+						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Academic-Calendar-2024-25-scaled.jpg">
+							<i class="fa fa-link"></i> Academic-Calendar-2024-25
 						</a>
 					</li>
 				</ul>

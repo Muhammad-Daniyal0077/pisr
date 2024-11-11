@@ -170,20 +170,21 @@
   .center-heading, .center-paragraph {
       
       text-align: center; /* Center alignment */
-      margin-left: 400px;/* To ensure it is centered within the container */
+      margin-left: 518px;/* To ensure it is centered within the container */
   }
   
   /* Heading Style */
   .center-heading {
-      font-size: 3rem;
-      color: #2c3e50; /* Dark blue-grey color for the heading */
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      position: relative;
-      display: inline-block;
-      transition: all 0.4s ease-in-out;
-      margin-bottom: 20px;
+    font-size: 3rem;
+    color: #2c3e50;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+    /* margin-bottom: 20px; */
+    margin-top: 50px;
   }
   
   /* Paragraph Style */
@@ -304,7 +305,7 @@
 }  
   </style>
   </head>
-  
+  s
   <body>
   <div class="wpb_wrapper">
       <h1 class="center-heading">Educational Facilities</h1>
@@ -313,7 +314,7 @@
   
     <h2 class="container section-heading col-md-9">libraries</h2>
     
-        <div class="vc-hoverbox-wrapper" style="margin: 180px; margin-left: 250px;">
+        <div class="vc-hoverbox-wrapper" style="margin: 180px; margin-left: 360px; margin-top: 130px;">
             <div class="vc-hoverbox">
               <div class="vc-hoverbox-front" style="background-image: url('https://pisr.org/v2/wp-content/uploads/2021/06/1-300x225.jpg');"></div>
               <div class="vc-hoverbox-back">
