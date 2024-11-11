@@ -127,6 +127,7 @@
     line-height: 1.6;
     padding: 10px;
     text-align: justify; /* Align the text */
+ 
   }
   
     /* Description text styling */
@@ -241,6 +242,7 @@
     transform-style: preserve-3d;
     padding: 12px;
     border-radius: 6px;
+    margin: 135px 300px;
 }
 
   /* Hover effect with elevation */
@@ -312,11 +314,11 @@
       <p class="center-paragraph">The School caters to boys and girls of the Pakistani community in Riyadh from Play Group to Class XII. It maintains a high standard of education and provides a variety of curricular and co-curricular activities for the development of a wholesome and balanced personality of the students. The School is producing excellent results in School and Board Examinations.</p>
   </div>
   
-    <h2 class="container section-heading col-md-9">libraries</h2>
+    <h2 class="container section-heading col-md-9">Libraries</h2>
     
         <div class="vc-hoverbox-wrapper">
             <div class="vc-hoverbox">
-              <div class="vc-hoverbox-front" style="background-image: url('https://pisr.org/v2/wp-content/uploads/2021/06/1-300x225.jpg');"></div>
+              <div class="vc-hoverbox-front" style="background-image: url('<?php echo base_url(); ?>asset/images/Facilities/012.jpg');"></div>
               <div class="vc-hoverbox-back">
                 <p> Libraries and reading rooms have been provided in the Boys as well as the Girls Wings separately. The libraries contain reasonable number of books on various Subjects. Local & Pakistani Newspapers as well as magazines in English and Urdu are also provided to keep the students well-informed about local, national & international affairs. Reference sections are also available in these Libraries. Maps, charts, over-head projectors and other educational aids are provided to make classroom instruction(s) more effective. </p>
             </div>
