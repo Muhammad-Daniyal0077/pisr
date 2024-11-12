@@ -90,13 +90,11 @@
                     from both parents and students and are dedicated to delivering the best possible education to our
                     future leaders—our students.
                 </p>
-                <div class="div-sm-7 event-info">
-                    I eagerly anticipate a fantastic school year ahead.
-                    Warmest Regards,
-                </div>
-                <div class="div-sm-7 event-info">
-                    <h3>Mr. Raja Muhammad Irfan </h3>
-                </div>
+                <h3>Mr. Raja Muhammad Irfan </h3>
+                I eagerly anticipate a fantastic school year ahead.
+                Warmest Regards,
+               
+               
 
             </div>
         </div>
@@ -166,7 +164,7 @@
                 <div class="new-news-slider">
                     <div class="new-news-content">
                         <div class="new-news-item">
-                            <img src="https://via.placeholder.com/60" alt="News Image">
+                            <img src="<?php echo base_url(); ?>asset/images/downloads/s1.jp" alt="News Image" height="200" width="400">
                             <div class="news-text">
                                 <h6 class="new-news-headline">New Campus Facilities Opened</h6>
                                 <span class="new-news-date">Aug 10, 2023</span>
@@ -354,7 +352,7 @@
         border-radius: 16px;
         border-bottom: 2px solid #ffb606;
         max-height: 247px;
-        padding: 6px;
+        padding: 4px;
         background: cadetblue;
         margin-top: 6px;
     }
@@ -373,7 +371,7 @@
     .high-achiever-card-content h4 {
         margin: 5px 0;
         color: #555;
-        font-weight: 600;
+        font-weight: 200;
     }
 
     .high-achiever-card-content p {
