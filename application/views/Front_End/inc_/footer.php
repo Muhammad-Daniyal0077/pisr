@@ -78,7 +78,7 @@
                             <li><a href="https://www.facebook.com/PISR.official.page/"><i class="fab fa-facebook facebook"></i></a></li>
 <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
 <li><a href="https://www.instagram.com/pisr.official.page/"><i class="fab fa-instagram instagram"></i></a></li>
-<li><a href="#"><i class="fab fa-google-plus google"></i></a></li>
+<li><a href="https://pisr.org/v2/"><i class="fab fa-google-plus google"></i></a></li>
 <li><a href="#"><i class="fab fa-skype skype"></i></a></li>
 
                         </ul>
