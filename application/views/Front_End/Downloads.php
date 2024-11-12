@@ -82,20 +82,20 @@
 					</li>
 
 					<li>
-						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/01/Age-critera.jpeg">
-							<i class="fa fa-link"></i>Age-Critera
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/01/Age-critera.jpeg">
+							<i class="fa fa-download"></i>Age-Critera
 						</a>
 					</li>
 
 					<li>
-						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/02/PISR-FEE-RATE-2024-1.pdf">
-							<i class="fa fa-link"></i> PISR-Fee-Rate
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/PISR-FEE-RATE-2024-1.pdf">
+							<i class="fa fa-download"></i> PISR-Fee-Rate
 						                        </a>
 					</li>
 
 					<li>
-						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Qualified-list-ALL-Wing-Test-date-26-03-2024-updated.pdf">
-							<i class="fa fa-link"></i>Test 2024-2025
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Qualified-list-ALL-Wing-Test-date-26-03-2024-updated.pdf">
+							<i class="fa fa-download"></i>Test 2024-2025
 						</a>
 					</li>
                     
@@ -126,19 +126,19 @@
 				<h2>Acadimics</h2>
 				<ul class="admission-links">
 					<li>
-						<a class="btn btn-primary" href="https://drive.google.com/drive/folders/1QtTqrWs17c0YikNcs5N5YAkWu0RnGQ0W">
-							<i class="fa fa-download"></i> Sallybus
+						<a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1QtTqrWs17c0YikNcs5N5YAkWu0RnGQ0W">
+							<i class="fa fa-link"></i> Sallybus
 						</a>
 					</li>
 					
 					<li>
-						<a class="btn btn-primary" href="https://drive.google.com/drive/folders/1wMhqyVnkJ3Z-C-5L14eLc3EwxGl4a_wr">
-							<i class="fa fa-download"></i> Summer Task
+						<a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1wMhqyVnkJ3Z-C-5L14eLc3EwxGl4a_wr">
+							<i class="fa fa-link"></i> Summer Task
 						</a>
 					</li>
 					<li>
-						<a class="btn btn-primary" href="https://drive.google.com/drive/folders/1P7B6zSNybgP9Bd8eygAc7bk98K1fmzJ6">
-							<i class="fa fa-download"></i> Date Sheet
+						<a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1P7B6zSNybgP9Bd8eygAc7bk98K1fmzJ6">
+							<i class="fa fa-link"></i> Date Sheet
 						</a>
 					</li>
 					<li>
@@ -147,8 +147,8 @@
 						</a>
 					</li>
 					<li>
-						<a class="btn btn-secondary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Academic-Calendar-2024-25-scaled.jpg">
-							<i class="fa fa-link"></i> Academic-Calendar-2024-25
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Academic-Calendar-2024-25-scaled.jpg">
+							<i class="fa fa-download"></i> Academic-Calendar-2024-25
 						</a>
 					</li>
 				</ul>

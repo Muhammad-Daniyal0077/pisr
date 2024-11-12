@@ -41,6 +41,8 @@
                                 <li><a href="<?php echo base_url(); ?>about/adminstaff">Admin Staff</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/rulesregulations">Rules Regulation</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/faqs">FAQS</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/schoolhistory">School History</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/accreditation">Accreditation</a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>
@@ -55,6 +57,9 @@
                             
                                 <li><a href="<?php echo base_url(); ?>acadimics/worksheet">WORK SHEET</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/forms">FORMS</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel">Grade Levels</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/specialprograms">Special Programs</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram">Assessment Information</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/facaulty">FACULTY</a></li>
                             </ul>
                             <!-- dropdown end -->

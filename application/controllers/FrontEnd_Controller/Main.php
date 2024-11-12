@@ -83,6 +83,20 @@ class Main extends CI_Controller
 		$data['filename']='Faqs';
 		$this->load->view('Main',$data);
 	}
+	public function schoolhistory()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/about';
+		$data['filename']='Schoolhistory';
+		$this->load->view('Main',$data);
+	}
+	public function accreditation()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/about';
+		$data['filename']='Accreditation';
+		$this->load->view('Main',$data);
+	}
 	public function schooltime()
 	{
 		// Load view and pass the data
@@ -130,6 +144,27 @@ class Main extends CI_Controller
 		// Load view and pass the data
 		$data['path']='Front_End/acadimics';
 		$data['filename']='Forms';
+		$this->load->view('Main',$data);
+	}
+	public function specialprograms()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/acadimics';
+		$data['filename']='Specialprograms';
+		$this->load->view('Main',$data);
+	}
+	public function gradeslevel()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/acadimics';
+		$data['filename']='Gradeslevel';
+		$this->load->view('Main',$data);
+	}
+	public function assesmentprogram()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/acadimics';
+		$data['filename']='Assesmentprogram';
 		$this->load->view('Main',$data);
 	}
 	public function faculty() // Ensure the function name is correct
@@ -265,7 +300,7 @@ class Main extends CI_Controller
 	{
 		// Load view and pass the data
 		$data['path']='Front_End';
-		$data['filename']='downloads';
+		$data['filename']='Downloads';
 		$this->load->view('Main',$data);
 	}
 }
