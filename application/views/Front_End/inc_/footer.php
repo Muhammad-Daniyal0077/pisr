@@ -75,11 +75,12 @@
                     <div class="col-md-6 col-sm-12 footer-no-padding">
                         <ul class="list-unstyled footer-menu text-right">
                             <li>Follow us:</li>
-                            <li><a href="#"><i class="fa fa-facebook facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus google"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype skype"></i></a></li>
+                            <li><a href="https://www.facebook.com/PISR.official.page/"><i class="fab fa-facebook facebook"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+<li><a href="https://www.instagram.com/pisr.official.page/"><i class="fab fa-instagram instagram"></i></a></li>
+<li><a href="#"><i class="fab fa-google-plus google"></i></a></li>
+<li><a href="#"><i class="fab fa-skype skype"></i></a></li>
+
                         </ul>
                     </div>
                 </div>
