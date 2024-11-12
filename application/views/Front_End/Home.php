@@ -286,7 +286,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 video-play-btn">
-                <a href="https://www.youtube.com/watch?v=uXFUl0KcIkA" class="video-iframe"><i
+                <a href="<?php echo base_url(); ?>asset/video/Facebook.mp4" class="video-iframe"><i
                         class="fa fa-play"></i></a>
             </div>
 
@@ -459,8 +459,8 @@
                         </div>
                         <div class="high-achiever-card-content">
                             <h1 class="high-achiever-name">EMAN BINT E RAHEEL</h1>
-                            <h4>MARKS: 1062</h4>
-                            <h4>GRADE: A-1</h4>
+                            <h4>Marks: 1062</h4>
+                            <h4>Grade: A-1</h4>
                             <p>SSC ANNUAL EXAMINATION - 2024</p>
                             <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
@@ -474,8 +474,8 @@
                         </div>
                         <div class="high-achiever-card-content">
                             <h1 class="high-achiever-name">FAIZA USMAN</h1>
-                            <h4>MARKS: 1043</h4>
-                            <h4>GRADE: A-1</h4>
+                            <h4>Marks: 1043</h4>
+                            <h4>Grade: A-1</h4>
                             <p>SSC ANNUAL EXAMINATION - 2024</p>
                             <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
@@ -489,8 +489,8 @@
                         </div>
                         <div class="high-achiever-card-content">
                             <h1 class="high-achiever-name">AIMAN HARIS</h1>
-                            <h4>MARKS: 1036</h4>
-                            <h4>GRADE: A-1</h4>
+                            <h4>Marks: 1036</h4>
+                            <h4>Grade: A-1</h4>
                             <p>SSC ANNUAL EXAMINATION - 2024</p>
                             <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
@@ -504,8 +504,8 @@
                         </div>
                         <div class="high-achiever-card-content">
                             <h1 class="high-achiever-name">HIBA SIDDIQUEI</h1>
-                            <h4>MARKS: 1032</h4>
-                            <h4>GRADE: A-1</h4>
+                            <h4>Marks: 1032</h4>
+                            <h4>Grade: A-1</h4>
                             <p>HSSC ANNUAL EXAMINATION - 2024</p>
                             <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
@@ -521,66 +521,66 @@
 </section>
 
 <section class="counter-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-5 col-sm-offset-0 counters">
-					<div class="row">
-						<div class="col-sm-6 counters-item">
-							<div class="section counter-box">
-								<img src="images/index/counter-icon-01.png" alt="">
-								<div class="project-count counter">7095</div>
-								<span>active students</span>
-							</div>
-						</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-sm-offset-0 counters">
+                <div class="row">
+                    <div class="col-sm-6 counters-item">
+                        <div class="section counter-box">
+                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-01.png" alt="">
+                            <div class="project-count counter">7095</div>
+                            <span>active students</span>
+                        </div>
+                    </div>
 
-						<div class="col-sm-6 counters-item">
-							<div class="section counter-box">
-								<img src="images/index/counter-icon-02.png" alt="">
-								<div class="project-count counter">508</div>
-								<span>online courses</span>
-							</div>
-						</div>
+                    <div class="col-sm-6 counters-item">
+                        <div class="section counter-box">
+                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-02.png" alt="">
+                            <div class="project-count counter">508</div>
+                            <span>online courses</span>
+                        </div>
+                    </div>
 
-						<div class="col-sm-6 counters-item">
-							<div class="section counter-box">
-								<img src="images/index/counter-icon-03.png" alt="">
-								<div class="project-count counter">167</div>
-								<span>Year of history</span>
-							</div>
-						</div>
+                    <div class="col-sm-6 counters-item">
+                        <div class="section counter-box">
+                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-03.png" alt="">
+                            <div class="project-count counter">98</div>
+                            <span>Year of history</span>
+                        </div>
+                    </div>
 
-						<div class="col-sm-6 counters-item">
-							<div class="section counter-box">
-								<img src="images/index/counter-icon-04.png" alt="">
-								<div class="project-count counter">70</div>
-								<span>active students</span>
-							</div>
-						</div>
+                    <div class="col-sm-6 counters-item">
+                        <div class="section counter-box">
+                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-04.png" alt="">
+                            <div class="project-count counter">70</div>
+                            <span>active students</span>
+                        </div>
+                    </div>
 
-					</div>
-				</div>
+                </div>
+            </div>
 
-				<div class="col-sm-5 col-sm-offset-0 counter-text-bottom">
-					<div class="counter-text-box">
-						<div class="counter-text">
-							<div class="row">
-								<div class="col-sm-12 section-header-box">
-									<div class="section-header">
-										<h2>Get Started Today</h2>
-									</div><!-- ends: .section-header -->
-								</div>
-							</div>
-						</div>
+            <div class="col-sm-5 col-sm-offset-0 counter-text-bottom">
+                <div class="counter-text-box">
+                    <div class="counter-text">
+                        <div class="row">
+                            <div class="col-sm-12 section-header-box">
+                                <div class="section-header">
+                                    <h2>Get Started Today</h2>
+                                </div><!-- ends: .section-header -->
+                            </div>
+                        </div>
+                    </div>
 
-						<div class="counter-btn">
-							<a href ="#">Apply Now</a>
-						</div>
-					</div>
-				</div>
+                    <div class="counter-btn">
+                        <a href="#">Apply Now</a>
+                    </div>
+                </div>
+            </div>
 
-			</div>
-		</div>
-	</section>
+        </div>
+    </div>
+</section>
 
 <style>
     .card {
@@ -732,6 +732,92 @@
         </div>
     </div>
 </section>
+
+
+<section class="gallery">
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Photo Gallery</h1>
+        <div class="row g-4">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-1024x683.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-150x150.jpg" alt="Conference Image 1" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-683x1024.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-150x150.jpg" alt="Conference Image 2" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-1024x683.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-150x150.jpg" alt="Conference Image 3" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-1024x683.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-150x150.jpg" alt="Conference Image 4" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-1024x683.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-150x150.jpg" alt="Conference Image 5" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-1024x683.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-150x150.jpg" alt="Conference Image 6" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-1024x683.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-150x150.jpg" alt="Conference Image 7" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-1024x692.jpg" target="_blank" class="gallery-item">
+                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-150x150.jpg" alt="Conference Image 8" class="img-fluid rounded shadow-sm">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap Lightbox & Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    .gallery {
+        padding: 50px 0;
+    }
+
+    .gallery h1 {
+        font-size: 2.5rem;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .gallery-item {
+        display: block;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .gallery-item:hover {
+        transform: scale(1.05);
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
 
 
 
@@ -947,57 +1033,19 @@
 
 
 
-<section class="gallery">
-    <div class="container mt-5">
-        <h1 class="text-center mb-4">Photo Gallery</h1>
-        <div class="row no-gutters">
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-150x150.jpg" alt="Conference Image 1"
-                    width="230px">
-            </a>
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-683x1024.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-150x150.jpg"
-                    alt="Conference Image 2" width="230px">
-            </a>
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-150x150.jpg"
-                    alt="Conference Image 3" width="230px">
-            </a>
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-150x150.jpg"
-                    alt="Conference Image 4" width="230px">
-            </a>
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-150x150.jpg"
-                    alt="Conference Image 5" width="230px">
-            </a>
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-150x150.jpg"
-                    alt="Conference Image 6" width="230px">
-            </a>
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-1024x683.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-150x150.jpg"
-                    alt="Conference Image 7" width="230px">
-            </a>
-            <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-1024x692.jpg" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-150x150.jpg"
-                    alt="Conference Image 8" width="230px">
-            </a>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-</section>
-
-
-
+<!-- sponsers -->
 <section class="publication-area">
     <div class="container">
+        <div class="row">
+            <div class="col-sm-12 section-header-box">
+                <div class="section-header section-header-l">
+                    <h2>Ministry of <span style="color: #ffb606;">Education</span></h2>
 
+                </div><!-- ends: .section-header -->
+            </div>
+        </div>
 
         <div class="row">
             <div class="col-sm-6 col-md-3 single-book">
@@ -1005,9 +1053,7 @@
                     <a href="https://east.education/pre-primary-syllabus-pakistan/">
                         <img src="<?php echo base_url(); ?>asset/images/test.png" alt="" class="img-responsive"
                             style="padding: 45px;"></a>
-                    <div class="publication-text">
-                        <h3><a href="">Curriculum</a></h3>
-                    </div>
+
                 </div>
             </div>
 
@@ -1016,9 +1062,6 @@
                     <a href="https://oup.com.pk/school-textbooks.html"><img
                             src="https://pisr.org/v2/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-08-at-11.24.19-e1623228452483-300x136.jpeg"
                             alt="" class="img-responsive"></a>
-                    <div class="publication-text">
-                        <h3><a href="">Curriculum</a></h3>
-                    </div>
                 </div>
             </div>
 
@@ -1030,9 +1073,7 @@
 								width: 144px;
 								margin-left: 57px;
 								padding-top: 18px;"></a>
-                    <div class="publication-text">
-                        <h3><a href="">Affiliation</a></h3>
-                    </div>
+
                 </div>
             </div>
 
@@ -1042,9 +1083,7 @@
                     <a href="https://www.moe.gov.sa/en/Pages/default.aspx">
                         <img src="https://pisr.org/v2/wp-content/uploads/2021/06/MOE_of_KSA.png" alt=""
                             class="img-responsive"></a>
-                    <div class="publication-text">
-                        <h3><a href="">Supervised By</a></h3>
-                    </div>
+
                 </div>
             </div>
 
