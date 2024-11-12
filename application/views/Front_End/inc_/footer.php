@@ -87,9 +87,7 @@
         .instagram {
             color: #e30724; /* Instagram pink */
         }
-        .google {
-            color: #b03a30; /* Google red */
-        }
+       
         .youtube {
             color: #FF0000; /* YouTube red */
         }
@@ -107,9 +105,7 @@
             color: #e36607; /* Slightly darker pink for Instagram */
         }
 
-        a:hover i.google {
-            color: #f71602; /* Darker red for Google */
-        }
+     
 
         a:hover i.youtube {
             color: #c4302b; /* Darker red for YouTube */
@@ -129,7 +125,6 @@
                             <li><a href="https://www.facebook.com/PISR.official.page/"><i class="fab fa-facebook facebook"></i></a></li>
 <li><a href="https://twitter.com/PISRSchool"><i class="fab fa-twitter twitter"></i></a></li>
 <li><a href="https://www.instagram.com/pisr.official.page/"><i class="fab fa-instagram instagram"></i></a></li>
-<li><a href="https://pisr.org/v2/"><i class="fab fa-google-plus google"></i></a></li>
 <li><a href="https://www.youtube.com/channel/UC0LdbY6woH_qfAPkPmgC1Gw/featured"><i class="fab fa-youtube youtube"></i></a></li>
 
 
