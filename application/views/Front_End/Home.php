@@ -93,8 +93,8 @@
                 <h3>Mr. Raja Muhammad Irfan </h3>
                 I eagerly anticipate a fantastic school year ahead.
                 Warmest Regards,
-               
-               
+
+
 
             </div>
         </div>
@@ -433,8 +433,6 @@
     .swiper-pagination-bullet-active {
         background-color: #ffb606;
     }
-
-
 </style>
 <section class="high-achievers-section">
     <div class="container">
@@ -513,6 +511,159 @@
             <div class="custom-swiper-pagination swiper-pagination"></div>
             <div class="custom-swiper-button-next swiper-button-next"></div>
             <div class="custom-swiper-button-prev swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<style>
+    .card {
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .card a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .card a:hover {
+        text-decoration: none;
+        /* Prevents underline */
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-weight: bold;
+        color: #0056b3;
+    }
+
+    .card-text {
+        color: #333;
+    }
+
+    .section-header h2 {
+        margin-bottom: 30px;
+    }
+</style>
+
+<!-- School Sections Information -->
+<section class="container my-5">
+    <div class="row">
+        <div class="col-sm-12 section-header-box">
+            <div class="section-header section-header-l text-center">
+                <h2>School <span style="color: #ffb606;">Sections</span></h2>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Pre School -->
+        <div class="col-md-4 mb-4">
+            <a href="#">
+                <div class="card shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Play_Group.jpg" alt="Pre School">
+                    <div class="card-body">
+                        <h5 class="card-title">Pre School</h5>
+                        <p class="card-text">Play Group to Grade-1</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Junior Girls Section -->
+        <div class="col-md-4 mb-4">
+            <a href="#">
+                <div class="card shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/junior_girls.jpg" alt="Junior Girls Section">
+                    <div class="card-body">
+                        <h5 class="card-title">Junior Girls Section</h5>
+                        <p class="card-text">Grade-2 to Grade-4</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Junior Boys Section -->
+        <div class="col-md-4 mb-4">
+            <a href="#">
+                <div class="card shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/junior_boys.jpg" alt="Junior Boys Section">
+                    <div class="card-body">
+                        <h5 class="card-title">Junior Boys Section</h5>
+                        <p class="card-text">Grade-2 to Grade-4</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Middle Girls Section -->
+        <div class="col-md-4 mb-4">
+            <a href="#">
+                <div class="card shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Girls.jpg" alt="Middle Girls Section">
+                    <div class="card-body">
+                        <h5 class="card-title">Middle Girls Section</h5>
+                        <p class="card-text">Grade-5 to Grade-8</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Middle Boys Section -->
+        <div class="col-md-4 mb-4">
+            <a href="#">
+                <div class="card shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Boys.jpg" alt="Middle Boys Section">
+                    <div class="card-body">
+                        <h5 class="card-title">Middle Boys Section</h5>
+                        <p class="card-text">Grade-5 to Grade-8</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Senior Girls Section -->
+        <div class="col-md-4 mb-4">
+            <a href="#">
+                <div class="card shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Girls.jpg" alt="Senior Girls Section">
+                    <div class="card-body">
+                        <h5 class="card-title">Senior Girls Section</h5>
+                        <p class="card-text">Grade-9 to Grade-12</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Senior Boys Section -->
+        <div class="col-md-4 mb-4">
+            <a href="#">
+                <div class="card shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Boys.jpg" alt="Senior Boys Section">
+                    <div class="card-body">
+                        <h5 class="card-title">Senior Boys Section</h5>
+                        <p class="card-text">Grade-9 to Grade-12</p>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
 </section>
