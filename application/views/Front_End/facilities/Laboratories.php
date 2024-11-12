@@ -149,73 +149,180 @@
         School is producing excellent results in School and Board Examinations.</p>
 </div>
 
+
+
+<style>
+   @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+
+
+
+
+
+.container {
+  width: 100%;
+  margin: 2rem auto;
+  padding-inline: 1rem;
+}
+@media only screen and (min-width: 767px) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1rem;
+}
+@media only screen and (min-width: 767px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  }
+}
+
+.article {
+  position: relative;
+  cursor: pointer;
+}
+.article:hover:before {
+  opacity: 1;
+}
+.article:hover .article__cover {
+  transform: translateX(-2rem) scale(1.05);
+}
+.article:hover .article__title, .article:hover .article__info {
+  opacity: 1;
+  transform: translateX(0);
+}
+.article:hover .article__title {
+  transition-delay: 0s;
+}
+.article:hover .article__info {
+  transition-delay: 0.1s;
+}
+.article:before {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.47);
+  transition: opacity 0.3s ease-in-out;
+}
+.article__figure {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  height: 0;
+  padding-bottom: 100%;
+}
+@media only screen and (min-width: 500px) {
+  .article__figure {
+    padding-bottom: 50%;
+  }
+}
+@media only screen and (min-width: 767px) {
+  .article__figure {
+    padding-bottom: 66.6%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .article__figure {
+    padding-bottom: 50%;
+  }
+}
+.article__cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -2rem;
+  width: calc(100% + 2rem);
+  height: 100%;
+  object-fit: cover;
+  transform: translateX(0);
+  transition: transform 0.55s ease-in-out;
+}
+.article__caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 90%;
+}
+.article__title, .article__info {
+  opacity: 0;
+  max-width: 25rem;
+  padding: 0.85rem 1rem;
+  transform: translateX(50%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  color: #eaf4ff;
+  
+}
+.article__title {
+  background-color: rgba(51, 51, 51, 0.5);
+  font-weight: 300;
+  transition-delay: 0.1s;
+  font-size: 2.4rem;
+}
+.article__info {
+  background-color: rgba(51, 51, 51, 0.7);
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+</style>
+
+  
+
+
+
+
+
+
+
+
 <div class="info">
 
 
     <h2 class="container section-heading ">Laboratories</h2>
     <section class="events-list-03">
-        <div class="container">
-            <div class="row event-body-content">
-                <div class="col-sm-12 events-full-box ">
-                    <div class="events-single-box">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <img src="<?php echo base_url(); ?>asset/images/Facilities/013.jpg" alt="not"
-                                    class="img-responsive-principle">
-                            </div>
+      
+<div class="container">
+    <div class="grid">
+      <article class="article">
+        <figure class="article__figure"><img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/013.jpg"/>
+          <figcaption class="article__caption">
+            <h4 class="article__title">COMPUTER LABORATORIES</h4>
+            <p class="article__info">The School is equipped with five fully functional Computer Laboratories; each equipped with latest technology including smart board, high tech computers, projectors and an internet connection on every computer.  </p>
+          </figcaption>
+        </figure>
+      </article>
+      <article class="article">
+        <figure class="article__figure"><img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/13.webp"/>
+          <figcaption class="article__caption">
+            <h4 class="article__title">Chemistry, Physics & Biology Laboratories</h4>
+            <p class="article__info">  Well equipped and maintained Chemistry, Physics and Biology Laboratories have been
+                established in SBW-I and SGW-I for academic activities. These laboratories are
+                updated with apparatus, chemicals and tools necessary for conducting science
+                practicals.
 
-                            <div class="col-sm-6 event-info img-fluid">
-                                <h4>COMPUTER LABORATORIES
-                                </h4>
-                                <p class="div-sm-7 event-info " style="margin-top: 60px;">
-                                    As the Principal of our esteemed institution, it is my honor to The School is
-                                    equipped with five fully functional Computer Laboratories; each equipped with latest
-                                    technology including smart board, high tech computers, projectors and an internet
-                                    connection on every computer. </p>
-
-
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+                Multimedia systems, smart boards and internet connection have also been provided to
+                assist in delivering lectures using modern techniques.</p>
+          </figcaption>
+        </figure>
+      </article>
+    </div>
+  </div>
     </section>
-    <section class="events-list-03">
-        <div class="container">
-            <div class="row event-body-content">
-                <div class="col-sm-12 events-full-box ">
-                    <div class="events-single-box">
-                        <div class="row">
-                            
-
-                            <div class="col-sm-6 event-info img-fluid">
-                                <h4>Chemistry, Physics & Biology Laboratories
-
-                                </h4>
-                                <p class="div-sm-7 event-info " style="margin-top: 19px;">
-                                    Well equipped and maintained Chemistry, Physics and Biology Laboratories have been
-                                    established in SBW-I and SGW-I for academic activities. These laboratories are
-                                    updated with apparatus, chemicals and tools necessary for conducting science
-                                    practicals.
-
-                                    Multimedia systems, smart boards and internet connection have also been provided to
-                                    assist in delivering lectures using modern techniques.</p>
-
-
-
-                            </div>
-                            <div class="col-md-6">
-                                <img src="<?php echo base_url(); ?>asset/images/Facilities/13.webp" alt="not"
-                                    class="img-responsive-principle">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
+    
     <!-- ./ End Teachers Area section -->
     <script>
         AOS.init();
