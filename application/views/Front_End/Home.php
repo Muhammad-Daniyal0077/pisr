@@ -570,12 +570,10 @@
 									</div><!-- ends: .section-header -->
 								</div>
 							</div>
-							<p>Lorem ipsums dolors sit amet consectetur adipiselo elit sed do eiused tempor the
-								incididunt ut labore et.</p>
 						</div>
 
 						<div class="counter-btn">
-							<a href="#">Purchase Theme</a>
+							<a href ="#">Apply Now</a>
 						</div>
 					</div>
 				</div>

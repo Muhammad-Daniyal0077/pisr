@@ -1070,9 +1070,10 @@ header .tp-rightarrow {
 
 .counter-area {
 	background: transparent url("../images/index/counter-bg.jpg") no-repeat center center/cover;
-	min-height: 500px;
+	min-height: 480px;
 	position: relative;
-	padding: 100px 0;
+	padding: 20px 0;
+	margin-bottom: 30px;
 }
 
 .counter-area:before {
@@ -1137,7 +1138,7 @@ header .tp-rightarrow {
 }
 
 .counter-area .counter-text-bottom .counter-text-box .counter-text {
-	padding: 60px 46px;
+	padding: 30px 46px;
 	margin: 0;
 }
 
