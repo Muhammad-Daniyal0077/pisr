@@ -339,7 +339,7 @@
 /* Responsive Design Adjustments */
 @media (max-width: 768px) {
     .img-responsive {
-        margin-bottom: 15px;
+        margin-bottom: 4px;
         /* Add margin for smaller screens */
     }
 }

@@ -75,9 +75,7 @@ h3 {
 	transition: all 0.3s ease-in-out;
 }
 
-.section-header-box {
-	margin-bottom: 28px;
-}
+
 
 .section-header,
 .section-header-l {
@@ -955,9 +953,11 @@ header .tp-rightarrow {
 /*=======[ Indec Video Section Style ]========*/
 
 .video-main-area {
-	background: transparent url("../images/index/video-bg.jpg") no-repeat center center/cover;
-	padding: 130px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+                url("../images/downloads/backgrounds.png") no-repeat center center / cover;
+    padding: 130px 0;
 }
+
 
 .video-main-area .video-play-btn {
 	margin-bottom: 40px;
@@ -1073,7 +1073,7 @@ header .tp-rightarrow {
 	min-height: 480px;
 	position: relative;
 	padding: 20px 0;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .counter-area:before {
@@ -1168,7 +1168,7 @@ header .tp-rightarrow {
 
 .publication-area {
 	background: #ffffff;
-	padding: 100px 0;
+	padding-bottom: 30px;
 }
 
 .publication-area .publication-single-item {
@@ -1180,7 +1180,9 @@ header .tp-rightarrow {
 
 .publication-area .publication-single-item:hover {
 	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
-	transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid black;
+    background: #ccffee;
 }
 
 .publication-area .publication-single-item:hover .publication-text h3 a {
@@ -1358,8 +1360,7 @@ header .tp-rightarrow {
 
 .students-say-area {
 	background: #ffffff;
-	padding: 100px 0;
-	min-height: 500px;
+	padding: 30px 0;
 }
 
 .students-say-area .section-header h2 {
