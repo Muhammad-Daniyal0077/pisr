@@ -67,7 +67,7 @@
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Principle no <span style="color: #ffb606;">Message</span></h2>
+                    <h2>Principle <span style="color: #ffb606;">Message</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>
@@ -100,6 +100,7 @@
         </div>
     </div>
 </section><!-- Ends: . -->
+
 <style>
     /* Position Buttons */
     .new-prev-btn {
@@ -297,6 +298,9 @@
 </section>
 <!-- ./ End Video Area section -->
 
+
+
+
 <!-- Top studetns -->
 <style>
     /* General styling */
@@ -434,6 +438,7 @@
         background-color: #ffb606;
     }
 </style>
+
 <section class="high-achievers-section">
     <div class="container">
         <div class="row">
@@ -515,7 +520,69 @@
     </div>
 </section>
 
+<section class="counter-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-5 col-sm-offset-0 counters">
+					<div class="row">
+						<div class="col-sm-6 counters-item">
+							<div class="section counter-box">
+								<img src="images/index/counter-icon-01.png" alt="">
+								<div class="project-count counter">7095</div>
+								<span>active students</span>
+							</div>
+						</div>
 
+						<div class="col-sm-6 counters-item">
+							<div class="section counter-box">
+								<img src="images/index/counter-icon-02.png" alt="">
+								<div class="project-count counter">508</div>
+								<span>online courses</span>
+							</div>
+						</div>
+
+						<div class="col-sm-6 counters-item">
+							<div class="section counter-box">
+								<img src="images/index/counter-icon-03.png" alt="">
+								<div class="project-count counter">167</div>
+								<span>Year of history</span>
+							</div>
+						</div>
+
+						<div class="col-sm-6 counters-item">
+							<div class="section counter-box">
+								<img src="images/index/counter-icon-04.png" alt="">
+								<div class="project-count counter">70</div>
+								<span>active students</span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-sm-5 col-sm-offset-0 counter-text-bottom">
+					<div class="counter-text-box">
+						<div class="counter-text">
+							<div class="row">
+								<div class="col-sm-12 section-header-box">
+									<div class="section-header">
+										<h2>Get Started Today</h2>
+									</div><!-- ends: .section-header -->
+								</div>
+							</div>
+							<p>Lorem ipsums dolors sit amet consectetur adipiselo elit sed do eiused tempor the
+								incididunt ut labore et.</p>
+						</div>
+
+						<div class="counter-btn">
+							<a href="#">Purchase Theme</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 
 <style>
     .card {
@@ -879,8 +946,6 @@
 
 </section>
 <!-- ./ End Students Say Area section -->
-
-
 
 
 
