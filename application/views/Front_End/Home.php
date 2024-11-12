@@ -618,7 +618,7 @@
         <div class="col-md-4 mb-4">
             <a href="#">
                 <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Girls.jpg" alt="Middle Girls Section">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Girls.avif" alt="Middle Girls Section">
                     <div class="card-body">
                         <h5 class="card-title">Middle Girls Section</h5>
                         <p class="card-text">Grade-5 to Grade-8</p>
@@ -631,7 +631,7 @@
         <div class="col-md-4 mb-4">
             <a href="#">
                 <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Boys.jpg" alt="Middle Boys Section">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Boys.avif" alt="Middle Boys Section">
                     <div class="card-body">
                         <h5 class="card-title">Middle Boys Section</h5>
                         <p class="card-text">Grade-5 to Grade-8</p>
@@ -644,7 +644,7 @@
         <div class="col-md-4 mb-4">
             <a href="#">
                 <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Girls.jpg" alt="Senior Girls Section">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Girls.avif" alt="Senior Girls Section">
                     <div class="card-body">
                         <h5 class="card-title">Senior Girls Section</h5>
                         <p class="card-text">Grade-9 to Grade-12</p>
@@ -657,7 +657,7 @@
         <div class="col-md-4 mb-4">
             <a href="#">
                 <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Boys.jpg" alt="Senior Boys Section">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Boys.avif" alt="Senior Boys Section">
                     <div class="card-body">
                         <h5 class="card-title">Senior Boys Section</h5>
                         <p class="card-text">Grade-9 to Grade-12</p>
