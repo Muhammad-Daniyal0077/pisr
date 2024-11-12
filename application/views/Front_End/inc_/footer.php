@@ -65,6 +65,53 @@
         </div>
     </div>
 
+
+    <style>
+        /* Basic styling for the icons */
+        a {
+            text-decoration: none;
+        }
+
+        i {
+            font-size: 30px; /* Set a large icon size */
+            transition: all 0.6s ease; /* Smooth transition for hover */
+        }
+
+        /* Default colors for each icon */
+        .facebook {
+            color: #a0b3db; /* Facebook blue */
+        }
+        .twitter {
+            color: #9bdffa; /* Twitter blue */
+        }
+        .instagram {
+            color: #e30724; /* Instagram pink */
+        }
+       
+        .youtube {
+            color: #FF0000; /* YouTube red */
+        }
+
+        /* Hover effects */
+        a:hover i.facebook {
+            color: #0746f5; /* Slightly lighter blue for Facebook */
+        }
+
+        a:hover i.twitter {
+            color: #0796ed; /* Lighter blue for Twitter */
+        }
+
+        a:hover i.instagram {
+            color: #e36607; /* Slightly darker pink for Instagram */
+        }
+
+     
+
+        a:hover i.youtube {
+            color: #c4302b; /* Darker red for YouTube */
+        }
+    </style>
+
     <div class="footer-bottom">
         <div class="container">
             <div class="footer-bottom-inner">
@@ -76,10 +123,11 @@
                         <ul class="list-unstyled footer-menu text-right">
                             <li>Follow us:</li>
                             <li><a href="https://www.facebook.com/PISR.official.page/"><i class="fab fa-facebook facebook"></i></a></li>
-<li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+<li><a href="https://twitter.com/PISRSchool"><i class="fab fa-twitter twitter"></i></a></li>
 <li><a href="https://www.instagram.com/pisr.official.page/"><i class="fab fa-instagram instagram"></i></a></li>
-<li><a href="https://pisr.org/v2/"><i class="fab fa-google-plus google"></i></a></li>
-<li><a href="#"><i class="fab fa-skype skype"></i></a></li>
+<li><a href="https://www.youtube.com/channel/UC0LdbY6woH_qfAPkPmgC1Gw/featured"><i class="fab fa-youtube youtube"></i></a></li>
+
+
 
                         </ul>
                     </div>
