@@ -158,11 +158,7 @@
 
 
 
-  .container {
-    width: 100%;
-    margin: 2rem auto;
-    padding-inline: 1rem;
-  }
+ 
 
   @media only screen and (min-width: 767px) {
     .container {
