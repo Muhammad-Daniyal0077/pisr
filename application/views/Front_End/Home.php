@@ -743,6 +743,8 @@
 <style>
     .gallery {
         padding: 50px 0;
+        margin-top:30px ;
+        border-radius:15px;
     }
 
     .gallery h1 {
@@ -789,7 +791,7 @@
         right: -40px;
     }
 
-    .custom-slick-prev:hover,
+    .s:hover,
     .custom-slick-next:hover {
         background-color: #0056b3;
     }
@@ -857,7 +859,7 @@
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Image 1"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/22.jpg" alt="Image 2"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Image 2"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Image 3"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 3"></div>
@@ -873,7 +875,7 @@
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/17.jpg" alt="Image 7"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/16.jpg    " alt="Image 7"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/19.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/21.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Image 7"></div>
         </div>
         <button class="custom-slick-prev">&#10094;</button>
         <button class="custom-slick-next">&#10095;</button>
