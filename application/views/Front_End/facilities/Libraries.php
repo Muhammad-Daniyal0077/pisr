@@ -89,12 +89,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  /* Hover Effects */
-  .center-heading:hover {
-    color: #ff6347;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transform: scale(1.1);
-  }
 
   .center-paragraph:hover {
     color: #3498db;
@@ -114,9 +108,10 @@
     }
   }
 
+
   .center-heading,
   .center-paragraph {
-    animation: ease-in-out;
+    animation: fadeInUp 1s ease-out;
   }
 
   .center-paragraph {

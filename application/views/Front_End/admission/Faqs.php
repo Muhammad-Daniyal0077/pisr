@@ -152,12 +152,10 @@
 					</div>
 					<div class="dropdown-body-custom">
 						<div class="dropdown-content-custom">
-							<p>PISR's Admissions are open all year round.</p>
+							<p>PISR's Admissions are open all year round (12 Months)</p>
 						</div>
 					</div>
 				</div>
-
-			
 
 				<div class="dropdown-custom">
 					<div class="dropdown-header-custom" role="button">
@@ -170,52 +168,47 @@
 					</div>
 				</div>
 
+				<div class="admission-links m-s ">
+					<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/05/Admission-Required-Document.pdf">
+						<i class="fa fa-download"></i> Required Documents for Admission?
+					</a>
+				</div>
+
+				<div class="admission-links">
+					<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/fee-structure.pdf">
+						<i class="fa fa-download"></i>School Fee Structure for New Admission?
+					</a>
+				</div>
 
 				<style>
-	.admission-links a {
-		display: flex;
-		align-items: center;
-		justify-content: flex-start;
-		padding: 14px 15px;
-		width: 100%;
-		font-size: 16px;
-		border-radius: 5px;
-		text-decoration: none;
-		color: #fff;
-		margin:10px -11px;
-	}
+					.admission-links a {
+						display: flex;
+						align-items: center;
+						justify-content: flex-start;
+						padding: 14px 15px;
+						width: 100%;
+						font-size: 16px;
+						border-radius: 5px;
+						text-decoration: none;
+						color: #fff;
+						margin: 10px 4px;
+					}
 
-	.admission-links .btn-primary {
-		background-color: #007bff;
-		border-color: #007bff;
-		width: 460px;
-	}
-
-</style>
-
-
-				<div class="admission-links col-md-6">	
-				<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/ADMISSION-REQUIRED-DOCUMENT-FINAL.pdf">
-					<i class="fa fa-download"></i> Admission-Form
-				</a>
-		
-		
-		
-		
-			</div><br>
-			<div class="admission-links col-md-6">
-
-<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/ADMISSION-REQUIRED-DOCUMENT-FINAL.pdf">
-	<i class="fa fa-download"></i> Admission-Form
-</a>
+					.admission-links .btn-primary {
+						background-color: #007bff;
+						border-color: #007bff;
+						width: 460px;
+					}
+				</style>
 
 
-</div>
 
 
-	
+
+
+
 			</div>
-	
+
 
 			<div class="col-md-6">
 				<h2>Fee Payment</h2>
@@ -290,7 +283,7 @@
 <script>
 	// JavaScript for toggling dropdowns
 	document.querySelectorAll('.dropdown-header-custom').forEach(header => {
-		header.addEventListener('click', function () {
+		header.addEventListener('click', function() {
 			const dropdown = this.closest('.dropdown-custom');
 			dropdown.classList.toggle('active');
 		});

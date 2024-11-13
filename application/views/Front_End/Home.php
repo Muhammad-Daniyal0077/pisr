@@ -301,7 +301,6 @@
 
 
 
-<!-- Top studetns -->
 <style>
     /* General styling */
     .high-achievers-section {
@@ -439,6 +438,7 @@
     }
 </style>
 
+<!-- Top studetns -->
 <section class="high-achievers-section">
     <div class="container">
         <div class="row">
@@ -520,6 +520,7 @@
     </div>
 </section>
 
+<!-- Count Number section -->
 <section class="counter-area">
     <div class="container">
         <div class="row">

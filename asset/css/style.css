@@ -961,7 +961,7 @@ header .tp-rightarrow {
 
 .video-main-area .video-play-btn {
 	margin-bottom: 40px;
-	text-align: center;
+	text-align:	center;
 	z-index: 1;
 }
 
@@ -1069,7 +1069,7 @@ header .tp-rightarrow {
 /*=======[ Index Counter Area Style ]========*/
 
 .counter-area {
-	background: transparent url("../images/index/counter-bg.jpg") no-repeat center center/cover;
+	background: transparent url("../images/downloads/numbers.jpg") no-repeat center center/cover;
 	min-height: 480px;
 	position: relative;
 	padding: 20px 0;

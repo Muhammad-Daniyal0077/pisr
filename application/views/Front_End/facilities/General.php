@@ -129,23 +129,18 @@
     letter-spacing: 2px;
     position: relative;
     display: inline-block;
-    transition: all 0.4s ease-in-out;
     margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+    margin-top: 80px;
   }
 
   .center-paragraph {
     font-size: 1.8rem;
     color: #34495e;
     line-height: 1.8;
-    max-width: 1030px;
+    max-width: 1100px;
     margin: 30px auto;
     transition: all 0.4s ease-in-out;
-  }
-
-  .center-heading:hover {
-    color: #ff6347;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transform: scale(1.1);
   }
 
   .center-paragraph:hover {
@@ -166,13 +161,9 @@
   }
 
   .center-heading {
-    animation: fadeInUp 1s ease-out;
+  
   }
 
-  .center-paragraph {
-    animation: fadeInUp 1.5s ease-out;
-    animation-delay: 0.3s;
-  }
 </style>
 </head>
 
@@ -231,7 +222,7 @@
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-           
+
             Each wing of the school has a canteen. Students can buy refreshments and other edibles there. Cleanliness, quality of food, and pricing are kept under strict watch by the administration.
           </p>
         </div>
@@ -244,7 +235,7 @@
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
+
             This facility has been introduced in the school to help and facilitate easy access to stationery items at reasonable prices.
           </p>
         </div>
@@ -257,9 +248,9 @@
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
+
             The school employs Saudi security guards on a contractual basis to ensure the safety of the students as well as school premises during school and pack-up times.
-            
+
           </p>
         </div>
       </div>
@@ -271,9 +262,9 @@
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
-            
-A large fleet of air-conditioned buses provides pick and drop services to students from all around Riyadh and Al-Kharj city.
+
+
+            A large fleet of air-conditioned buses provides pick and drop services to students from all around Riyadh and Al-Kharj city.
           </p>
         </div>
       </div>
@@ -285,9 +276,9 @@ A large fleet of air-conditioned buses provides pick and drop services to studen
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
-            
-            
+
+
+
             The school is affiliated with the Federal Board of Intermediate and Secondary Education, Islamabad at Secondary and Higher Secondary Levels.
           </p>
         </div>
@@ -300,8 +291,8 @@ A large fleet of air-conditioned buses provides pick and drop services to studen
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
-            
+
+
             Properly qualified staff has been engaged to impart physical training in both boys' and girls' wings. Games and sports are an essential part of the school timetable.
           </p>
         </div>
@@ -314,9 +305,9 @@ A large fleet of air-conditioned buses provides pick and drop services to studen
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
-            
-            
+
+
+
             The Junior Boys Wing includes students from Nursery, KG, and Classes I to IV.
           </p>
         </div>
@@ -329,11 +320,11 @@ A large fleet of air-conditioned buses provides pick and drop services to studen
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
-            
-            
-            
-The Activity Room, introduced for classes Play Group to IV, engages students in different learning activities using various gadgets and multimedia systems.
+
+
+
+
+            The Activity Room, introduced for classes Play Group to IV, engages students in different learning activities using various gadgets and multimedia systems.
           </p>
         </div>
       </div>
@@ -345,10 +336,10 @@ The Activity Room, introduced for classes Play Group to IV, engages students in 
         <div class="vc-hoverbox-front"></div>
         <div class="vc-hoverbox-back">
           <p class="para">
-            
-            
-            
-            
+
+
+
+
             Textbooks and practical notebooks are provided on payment to the student
           </p>
         </div>
@@ -357,7 +348,7 @@ The Activity Room, introduced for classes Play Group to IV, engages students in 
     </div>
 
 
-    
+
   </section>
 
   <!-- Bootstrap JS -->
