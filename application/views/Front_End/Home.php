@@ -165,14 +165,14 @@
                 <div class="new-news-slider">
                     <div class="new-news-content">
                         <div class="new-news-item">
-                            <img src="<?php echo base_url(); ?>asset/images/downloads/s1.jp" alt="News Image" height="200" width="400">
+                            <img src="<?php echo base_url(); ?>asset/images/post/002.avif" alt="News Image" height="100" width="100">
                             <div class="news-text">
                                 <h6 class="new-news-headline">New Campus Facilities Opened</h6>
                                 <span class="new-news-date">Aug 10, 2023</span>
                             </div>
                         </div>
                         <div class="new-news-item">
-                            <img src="https://via.placeholder.com/60" alt="News Image">
+                            <img src="<?php echo base_url(); ?>asset/images/post/001.avif" alt="News Image" height="100" width="100">
                             <div class="news-text">
                                 <h5 class="new-news-headline">Earth Day Celebrations</h5>
                                 <span class="new-news-date">Apr 20, 2023</span>
@@ -188,14 +188,17 @@
                 <div class="new-events-slider">
                     <div class="new-events-content">
                         <div class="new-event-item">
-                            <img src="https://via.placeholder.com/60" alt="Event Image">
+                            <img src="<?php echo base_url(); ?>asset/images/post/003.avif" alt="Event Image"
+                            height="100" width="100">
+                            
                             <div class="event-text">
                                 <h5 class="new-event-headline">Charity Run</h5>
                                 <span class="new-event-date">Sep 15, 2023</span>
                             </div>
                         </div>
                         <div class="new-event-item">
-                            <img src="https://via.placeholder.com/60" alt="Event Image">
+                            <img src="<?php echo base_url(); ?>asset/images/post/004.avif" alt="Event Image"
+                            height="100" width="100">
                             <div class="event-text">
                                 <h5 class="new-event-headline">Student Conference</h5>
                                 <span class="new-event-date">Oct 1, 2023</span>

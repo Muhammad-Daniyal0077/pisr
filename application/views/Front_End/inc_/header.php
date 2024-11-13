@@ -56,7 +56,6 @@
                           
                             
                                 <li><a href="<?php echo base_url(); ?>acadimics/worksheet">WORK SHEET</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/forms">FORMS</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel" style="color:red;">Grade Levels</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" style="color:red;">Special Programs</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram" style="color:red;">Assessment Information</a></li>

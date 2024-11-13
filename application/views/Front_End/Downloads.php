@@ -105,18 +105,38 @@
 
 
 			<div class="col-md-4">
-				<h2>KG</h2>
+				<h2>Forms</h2>
 				<ul class="admission-links">
 					<li>
-						<a class="btn btn-primary" href="">
-							<i class="fa fa-download"></i> Download information
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/character-certificate.pdf">
+							<i class="fa fa-download"></i> Character Certificate
 						</a>
 					</li>
+				
 					<li>
-						<a class="btn btn-secondary" href="">
-							<i class="fa fa-link"></i> More Details
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/Bonafide-form.pdf">
+							<i class="fa fa-download"></i>Bonified Certificate
 						</a>
 					</li>
+				
+					<li>
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/07/withdrawal-form.pdf">
+							<i class="fa fa-download"></i> School Leaving Certificate
+						</a>
+					</li>
+				
+					<li>
+						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/SECURITY-REFUND-FORM-I.T-05-12-2016.pdf">
+							<i class="fa fa-download"></i> Security Refund
+						</a>
+					</li>
+				
+					<li>
+						<a class="btn btn-primary" href="">
+							<i class="fa fa-download"></i> Provisional Certificate
+						</a>
+					</li>
+				
 				
 				</ul>
 

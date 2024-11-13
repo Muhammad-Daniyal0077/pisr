@@ -133,13 +133,7 @@ class Main extends CI_Controller
 		$data['filename']='Worksheet';
 		$this->load->view('Main',$data);
 	}
-	public function forms()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/acadimics';
-		$data['filename']='Forms';
-		$this->load->view('Main',$data);
-	}
+	
 	public function specialprograms()
 	{
 		// Load view and pass the data
