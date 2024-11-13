@@ -13,7 +13,7 @@
                         <li><a href="http://parent.pisr.org/"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
                         <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS</a></li>
                         <li><a href="register.html"><i class="fa fa-building top-icon"></i>CARRIERS</a>
-                        </li>
+</li>
 
                                 
                     </ul>
@@ -58,12 +58,12 @@
                                
                           
                             
-                                <li><a href="<?php echo base_url(); ?>acadimics/worksheet">WORK SHEET</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/worksheet">Worksheet</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/curriculum" style="color:red;">Curriculum Overview</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel" style="color:red;">Grade Levels</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" style="color:red;">Special Programs</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram" style="color:red;">Assessment Information</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/facaulty">FACULTY</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/facaulty">Faculty</a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>
@@ -72,11 +72,11 @@
                             <ul class="dropdown list-unstyled">
                                 
                                
-                                <li><a href="<?php echo base_url(); ?>admission/admissionreg">ADMISSION REGISTRATION FORM</a></li>
+                                <li><a href="<?php echo base_url(); ?>admission/admissionreg">Admission Registeration Forms</a></li>
                                 
-                                <li><a href="<?php echo base_url(); ?>admission/admissionpolicy">SCHOOL ADMISSION POLICY</a></li>
+                                <li><a href="<?php echo base_url(); ?>admission/admissionpolicy">School Admission policy</a></li>
                                 
-                                <li><a href="<?php echo base_url(); ?>admission/admissiontests">ADMISSION TEST SYLLABUS</a></li>
+                                <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Sallybus</a></li>
                                 <li><a href="<?php echo base_url(); ?>admission/enrollementdates" style="color:red;">Enrollement Dates</a></li>
                                 <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
                             </ul>
@@ -85,7 +85,7 @@
                         <li><a data-scroll href="#">ACHIEVEMENT</a>
                             <ul class="list-unstyled dropdown">
                                 <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li>
-                                <li><a href="<?php echo base_url(); ?>achievments/successstories">SUCCESS STORIES</a></li>
+                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
                             </ul>
                         </li>
                         <li><a data-scroll href="#">FACILITIES</a>
