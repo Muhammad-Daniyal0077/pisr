@@ -12,6 +12,7 @@
                     <ul class="list-unstyled">
                         <li><a href="register.html"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
                         <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS
+                        <li><a href="register.html"><i class="fa fa-user-plus top-icon"></i>CARRERS</a></li>
                                 PORTAL</a></li>
                     </ul>
                 </div>
