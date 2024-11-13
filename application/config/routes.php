@@ -62,7 +62,6 @@ $route['about/schoolmission'] = 'FrontEnd_Controller/Main/schoolmission';
 $route['about/schoolmanagment'] = 'FrontEnd_Controller/Main/schoolmanagment';  
 $route['about/adminstaff'] = 'FrontEnd_Controller/Main/adminstaff';  
 $route['about/rulesregulations'] = 'FrontEnd_Controller/Main/rulesregulations';  
-$route['about/faqs'] = 'FrontEnd_Controller/Main/faqs';
 $route['about/schoolhistory'] = 'FrontEnd_Controller/Main/schoolhistory';
 $route['about/accreditation'] = 'FrontEnd_Controller/Main/accreditation';
 $route['acadimics/schooltime'] = 'FrontEnd_Controller/Main/schooltime';
@@ -82,6 +81,8 @@ $route['admission/feesstructure'] = 'FrontEnd_Controller/Main/feesstructure';
 $route['admission/admissionpolicy'] = 'FrontEnd_Controller/Main/admissionpolicy';
 $route['admission/agecriteria'] = 'FrontEnd_Controller/Main/agecriteria';
 $route['admission/admissiontests'] = 'FrontEnd_Controller/Main/admissiontests';
+$route['admission/enrollementdates'] = 'FrontEnd_Controller/Main/enrollementdates';
+$route['admission/faqs'] = 'FrontEnd_Controller/Main/faqs';
 $route['achievments/fbise'] = 'FrontEnd_Controller/Main/fbise';
 $route['achievments/successstories'] = 'FrontEnd_Controller/Main/successstories';
 

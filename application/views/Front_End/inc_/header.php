@@ -40,9 +40,9 @@
                                 <li><a href="<?php echo base_url(); ?>about/schoolmanagment">School Management Concil</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/adminstaff">Admin Staff</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/rulesregulations">Rules Regulation</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/faqs">FAQS</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/schoolhistory">School History</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/accreditation">Accreditation</a></li>
+                                
+                                <li><a href="<?php echo base_url(); ?>about/schoolhistory" style="color:red;">School History</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/accreditation" style="color:red;">Accreditation</a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>
@@ -57,9 +57,9 @@
                             
                                 <li><a href="<?php echo base_url(); ?>acadimics/worksheet">WORK SHEET</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/forms">FORMS</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel">Grade Levels</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/specialprograms">Special Programs</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram">Assessment Information</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel" style="color:red;">Grade Levels</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" style="color:red;">Special Programs</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram" style="color:red;">Assessment Information</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/facaulty">FACULTY</a></li>
                             </ul>
                             <!-- dropdown end -->
@@ -74,6 +74,8 @@
                                 <li><a href="<?php echo base_url(); ?>admission/admissionpolicy">SCHOOL ADMISSION POLICY</a></li>
                                 
                                 <li><a href="<?php echo base_url(); ?>admission/admissiontests">ADMISSION TEST SYLLABUS</a></li>
+                                <li><a href="<?php echo base_url(); ?>admission/enrollementdates" style="color:red;">Enrollement Dates</a></li>
+                                <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>

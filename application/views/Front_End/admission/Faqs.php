@@ -157,18 +157,7 @@
 					</div>
 				</div>
 
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Required documents for admission <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>Please visit <a
-									href="https://pisr.org/v2/wp-content/uploads/2021/05/Admission-Required-Document.pdf"
-									target="_blank">this link</a>.</p>
-						</div>
-					</div>
-				</div>
+			
 
 				<div class="dropdown-custom">
 					<div class="dropdown-header-custom" role="button">
@@ -181,18 +170,52 @@
 					</div>
 				</div>
 
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						School Fee Structure <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>Please visit <a href="https://pisr.org/v2/wp-content/uploads/2021/06/fee-structure.pdf"
-									target="_blank">this link</a>.</p>
-						</div>
-					</div>
-				</div>
+
+				<style>
+	.admission-links a {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		padding: 14px 15px;
+		width: 100%;
+		font-size: 16px;
+		border-radius: 5px;
+		text-decoration: none;
+		color: #fff;
+		margin:10px -11px;
+	}
+
+	.admission-links .btn-primary {
+		background-color: #007bff;
+		border-color: #007bff;
+		width: 460px;
+	}
+
+</style>
+
+
+				<div class="admission-links col-md-6">	
+				<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/ADMISSION-REQUIRED-DOCUMENT-FINAL.pdf">
+					<i class="fa fa-download"></i> Admission-Form
+				</a>
+		
+		
+		
+		
+			</div><br>
+			<div class="admission-links col-md-6">
+
+<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/ADMISSION-REQUIRED-DOCUMENT-FINAL.pdf">
+	<i class="fa fa-download"></i> Admission-Form
+</a>
+
+
+</div>
+
+
+	
 			</div>
+	
 
 			<div class="col-md-6">
 				<h2>Fee Payment</h2>

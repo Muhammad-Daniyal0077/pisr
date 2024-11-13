@@ -76,13 +76,7 @@ class Main extends CI_Controller
 		$data['filename']='RulesRegulations';
 		$this->load->view('Main',$data);
 	}
-	public function faqs()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/about';
-		$data['filename']='Faqs';
-		$this->load->view('Main',$data);
-	}
+	
 	public function schoolhistory()
 	{
 		// Load view and pass the data
@@ -230,6 +224,20 @@ class Main extends CI_Controller
 		// Load view and pass the data
 		$data['path']='Front_End/admission';
 		$data['filename']='Admissiontests';
+		$this->load->view('Main',$data);
+	}
+	public function enrollementdates()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/admission';
+		$data['filename']='Enrollementdates';
+		$this->load->view('Main',$data);
+	}
+	public function faqs()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/admission';
+		$data['filename']='Faqs';
 		$this->load->view('Main',$data);
 	}
 	public function fbise()
