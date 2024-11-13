@@ -96,6 +96,7 @@ $route['downloads'] = 'FrontEnd_Controller/Main/downloads';
 $route['events'] = 'FrontEnd_Controller/Main/events';
 
 
+
 // Backend Routes
 $route['login'] = 'BackEnd_Controller/Admin_login';
 $route['auth/login'] = 'BackEnd_Controller/Admin_login/authenticate';

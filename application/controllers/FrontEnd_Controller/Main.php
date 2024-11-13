@@ -312,5 +312,6 @@ class Main extends CI_Controller
 		$data['filename']='Downloads';
 		$this->load->view('Main',$data);
 	}
+	
 }
 
