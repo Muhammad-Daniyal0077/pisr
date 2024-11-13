@@ -12,7 +12,7 @@
                     <ul class="list-unstyled">
                         <li><a href="http://parent.pisr.org/"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
                         <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS</a></li>
-                        <li><a href="register.html"><i class="fa fa-building top-icon"></i>CARRIERS</a>
+                        <li><a href="<?php echo base_url(); ?>carrers/carrers"><i class="fa fa-building top-icon"></i>Apply Now</a>
 </li>
 
                                 

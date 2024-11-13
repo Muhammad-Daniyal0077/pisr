@@ -94,6 +94,7 @@ $route['gallery'] = 'FrontEnd_Controller/Main/gallery';
 $route['contact'] = 'FrontEnd_Controller/Main/contact';
 $route['downloads'] = 'FrontEnd_Controller/Main/downloads';
 $route['events'] = 'FrontEnd_Controller/Main/events';
+$route['carrers/carrers'] = 'FrontEnd_Controller/Main/carrers';
 
 
 

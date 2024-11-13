@@ -313,5 +313,13 @@ class Main extends CI_Controller
 		$this->load->view('Main',$data);
 	}
 	
+	public function carrers()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/carrers';
+		$data['filename']='Carrers';
+		$this->load->view('Main',$data);
+	}
+	
 }
 
