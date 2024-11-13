@@ -778,37 +778,37 @@
         <div class="gallery-slider">
             <div>
                 <a href="https://source.unsplash.com/1024x683/?campus" target="_blank" class="gallery-item">
-                    <img src="https://source.unsplash.com/150x150/?campus" alt="Campus Image 1" class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Campus Image 1" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
             <div>
                 <a href="https://source.unsplash.com/1024x683/?students" target="_blank" class="gallery-item">
-                    <img src="https://source.unsplash.com/150x150/?students" alt="Students Image 2" class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Students Image 2" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
             <div>
                 <a href="https://source.unsplash.com/1024x683/?classroom" target="_blank" class="gallery-item">
-                    <img src="https://source.unsplash.com/150x150/?classroom" alt="Classroom Image 3" class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Classroom Image 3" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
             <div>
                 <a href="https://source.unsplash.com/1024x683/?library" target="_blank" class="gallery-item">
-                    <img src="https://source.unsplash.com/150x150/?library" alt="Library Image 4" class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Library Image 4" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
             <div>
                 <a href="https://source.unsplash.com/1024x683/?graduation" target="_blank" class="gallery-item">
-                    <img src="https://source.unsplash.com/150x150/?graduation" alt="Graduation Image 5" class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Graduation Image 5" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
             <div>
                 <a href="https://source.unsplash.com/1024x683/?event" target="_blank" class="gallery-item">
-                    <img src="https://source.unsplash.com/150x150/?event" alt="Event Image 6" class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Event Image 6" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
             <div>
                 <a href="https://source.unsplash.com/1024x683/?auditorium" target="_blank" class="gallery-item">
-                    <img src="https://source.unsplash.com/150x150/?auditorium" alt="Auditorium Image 7" class="img-fluid rounded shadow-sm">
+                    <img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Auditorium Image 7" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
         </div>
