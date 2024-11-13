@@ -23,15 +23,6 @@
         text-align: center;
     }
 
-    /* Heading styling */
-    .wpb_wrapper h1 {
-        color: #000080;
-        /* Navy Blue */
-        font-weight: bold;
-        font-size: 3em;
-        margin-bottom: 15px;
-    }
-
     h1 {
         color: #000080;
         /* Navy Blue */
@@ -39,15 +30,6 @@
         font-size: 1.5em;
     }
 
-    /* Paragraph styling */
-    .wpb_wrapper p {
-        color: #008000;
-        /* Green */
-        font-size: 1.2em;
-        line-height: 1.6;
-        text-align: center;
-        font-family: Arial, sans-serif;
-    }
 
     .vc_tta-panels {
         margin: 20px 0;
