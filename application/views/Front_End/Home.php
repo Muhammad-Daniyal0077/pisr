@@ -189,8 +189,8 @@
                     <div class="new-events-content">
                         <div class="new-event-item">
                             <img src="<?php echo base_url(); ?>asset/images/post/003.avif" alt="Event Image"
-                            height="100" width="100">
-                            
+                                height="100" width="100">
+
                             <div class="event-text">
                                 <h5 class="new-event-headline">Charity Run</h5>
                                 <span class="new-event-date">Sep 15, 2023</span>
@@ -198,7 +198,7 @@
                         </div>
                         <div class="new-event-item">
                             <img src="<?php echo base_url(); ?>asset/images/post/004.avif" alt="Event Image"
-                            height="100" width="100">
+                                height="100" width="100">
                             <div class="event-text">
                                 <h5 class="new-event-headline">Student Conference</h5>
                                 <span class="new-event-date">Oct 1, 2023</span>
@@ -737,121 +737,234 @@
     </div>
 </section>
 
-
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 
 <style>
     .gallery {
-    padding: 50px 0;
-}
+        padding: 50px 0;
+    }
 
-.gallery h1 {
-    font-size: 2.5rem;
-    color: #333;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
+    .gallery h1 {
+        font-size: 2.5rem;
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+    }
 
-.gallery-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+    .gallery-item {
+        padding: 2px 10px;
+    }
 
-.slick-prev, .slick-next {
-    color: #007bff;
-    font-size: 24px;
-}
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+    }
 
-.slick-prev:hover, .slick-next:hover {
-    color: #0056b3;
-}
+    /* Custom Prev and Next buttons */
+    .custom-slick-prev,
+    .custom-slick-next {
+        position: absolute;
+        top: 45%;
+        transform: translateY(-50%);
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        font-size: 24px;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1;
+        border-radius: 50%;
+    }
 
+    .custom-slick-prev {
+        left: -40px;
+    }
+
+    .custom-slick-next {
+        right: -40px;
+    }
+
+    .custom-slick-prev:hover,
+    .custom-slick-next:hover {
+        background-color: #0056b3;
+    }
+
+    /* Modal Styles */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1050;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .modal-content {
+        position: relative;
+        margin: auto;
+        padding: 0;
+        max-width: 700px;
+        width: 90%;
+    }
+
+    .modal img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .prev,
+    .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px;
+        z-index: 2;
+    }
+
+    .prev {
+        left: 20px;
+    }
+
+    .next {
+        right: 20px;
+    }
 </style>
 
 <section class="gallery">
     <div class="container mt-5">
         <h1 class="text-center mb-4">College Photo Gallery</h1>
         <div class="gallery-slider">
-            <div>
-                <a href="https://source.unsplash.com/1024x683/?campus" target="_blank" class="gallery-item">
-                    <img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Campus Image 1" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
-            <div>
-                <a href="https://source.unsplash.com/1024x683/?students" target="_blank" class="gallery-item">
-                    <img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Students Image 2" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
-            <div>
-                <a href="https://source.unsplash.com/1024x683/?classroom" target="_blank" class="gallery-item">
-                    <img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Classroom Image 3" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
-            <div>
-                <a href="https://source.unsplash.com/1024x683/?library" target="_blank" class="gallery-item">
-                    <img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Library Image 4" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
-            <div>
-                <a href="https://source.unsplash.com/1024x683/?graduation" target="_blank" class="gallery-item">
-                    <img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Graduation Image 5" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
-            <div>
-                <a href="https://source.unsplash.com/1024x683/?event" target="_blank" class="gallery-item">
-                    <img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Event Image 6" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
-            <div>
-                <a href="https://source.unsplash.com/1024x683/?auditorium" target="_blank" class="gallery-item">
-                    <img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Auditorium Image 7" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Image 1"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Image 4"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Image 5"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Image 6"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 7"></div>
         </div>
+        <button class="custom-slick-prev">&#10094;</button>
+        <button class="custom-slick-next">&#10095;</button>
     </div>
 </section>
 
-
+<!-- Modal -->
+<div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <span class="prev">&#10094;</span>
+    <span class="next">&#10095;</span>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="Image Preview">
+    </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script>
-$(document).ready(function() {
-    $('.gallery-slider').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2500,
-        dots: true,
-        arrows: true,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
+    $(document).ready(function() {
+        // Initialize Slick Slider
+        $('.gallery-slider').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+            dots: true,
+            arrows: false,
+            rows: 2,
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: { slidesToShow: 3 }
+                },
+                {
+                    breakpoint: 768,
+                    settings: { slidesToShow: 2 }
+                },
+                {
+                    breakpoint: 480,
+                    settings: { slidesToShow: 1 }
                 }
-            },
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                }
-            }
-        ]
-    });
-});
-</script>
+            ]
+        });
 
+        // Custom navigation buttons
+        $('.custom-slick-prev').on('click', function() {
+            $('.gallery-slider').slick('slickPrev');
+        });
+
+        $('.custom-slick-next').on('click', function() {
+            $('.gallery-slider').slick('slickNext');
+        });
+
+        // Modal Functionality
+        var modal = $('#imageModal');
+        var modalImage = $('#modalImage');
+        var currentIndex = 0;
+
+        // Open Modal on Image Click
+        $('.gallery-item img').on('click', function() {
+            currentIndex = $(this).closest('.gallery-item').index();
+            showImageInModal(currentIndex);
+            modal.show();
+        });
+
+        // Show Image in Modal
+        function showImageInModal(index) {
+            var src = $('.gallery-item').eq(index).find('img').attr('src');
+            modalImage.attr('src', src);
+        }
+
+        // Close Modal
+        $('.close').on('click', function() {
+            modal.hide();
+        });
+
+        // Next and Previous Buttons for Modal
+        $('.next').on('click', function() {
+            currentIndex = (currentIndex + 1) % $('.gallery-item').length;
+            showImageInModal(currentIndex);
+        });
+
+        $('.prev').on('click', function() {
+            currentIndex = (currentIndex - 1 + $('.gallery-item').length) % $('.gallery-item').length;
+            showImageInModal(currentIndex);
+        });
+
+        // Close Modal on outside click
+        $(window).on('click', function(event) {
+            if (event.target === modal[0]) {
+                modal.hide();
+            }
+        });
+    });
+</script>
 
 
 
