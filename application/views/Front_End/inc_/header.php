@@ -10,10 +10,12 @@
                 </div>
                 <div class="col-sm-6 col-xs-12 header-top-right">
                     <ul class="list-unstyled">
-                        <li><a href="register.html"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
-                        <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS
-                        <li><a href="register.html"><i class="fa fa-user-plus top-icon"></i>CARRERS</a></li>
-                                PORTAL</a></li>
+                        <li><a href="http://parent.pisr.org/"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
+                        <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS</a></li>
+                        <li><a href="register.html"><i class="fa fa-building top-icon"></i>CARRIERS</a>
+                        </li>
+
+                                
                     </ul>
                 </div>
             </div>
@@ -39,7 +41,7 @@
                                 <li><a href="<?php echo base_url(); ?>about/schoolvision">School Vision</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/schoolmission">School Mission</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/schoolmanagment">School Management Concil</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/adminstaff">Admin Staff</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/adminstaff">Administration</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/rulesregulations">Rules Regulation</a></li>
                                 
                                 <li><a href="<?php echo base_url(); ?>about/schoolhistory" style="color:red;">School History</a></li>
@@ -57,6 +59,7 @@
                           
                             
                                 <li><a href="<?php echo base_url(); ?>acadimics/worksheet">WORK SHEET</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/curriculum" style="color:red;">Curriculum Overview</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel" style="color:red;">Grade Levels</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" style="color:red;">Special Programs</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram" style="color:red;">Assessment Information</a></li>
