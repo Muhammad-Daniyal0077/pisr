@@ -141,6 +141,13 @@ class Main extends CI_Controller
 		$data['filename']='Specialprograms';
 		$this->load->view('Main',$data);
 	}
+	public function curriculum()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/acadimics';
+		$data['filename']='Curriculum';
+		$this->load->view('Main',$data);
+	}
 	public function gradeslevel()
 	{
 		// Load view and pass the data

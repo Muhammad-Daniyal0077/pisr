@@ -70,6 +70,7 @@ $route['acadimics/task'] = 'FrontEnd_Controller/Main/task';
 $route['acadimics/uniform'] = 'FrontEnd_Controller/Main/uniform';
 $route['acadimics/datesheet'] = 'FrontEnd_Controller/Main/datesheet';
 $route['acadimics/worksheet'] = 'FrontEnd_Controller/Main/worksheet';
+$route['acadimics/curriculum'] = 'FrontEnd_Controller/Main/curriculum';
 $route['acadimics/gradeslevel'] = 'FrontEnd_Controller/Main/gradeslevel';
 $route['acadimics/specialprograms'] = 'FrontEnd_Controller/Main/specialprograms';
 $route['acadimics/assesmentprogram'] = 'FrontEnd_Controller/Main/assesmentprogram';
