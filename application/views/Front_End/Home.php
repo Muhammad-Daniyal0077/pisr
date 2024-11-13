@@ -738,89 +738,119 @@
 </section>
 
 
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+<style>
+    .gallery {
+    padding: 50px 0;
+}
+
+.gallery h1 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slick-prev, .slick-next {
+    color: #007bff;
+    font-size: 24px;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    color: #0056b3;
+}
+
+</style>
+
 <section class="gallery">
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Photo Gallery</h1>
-        <div class="row g-4">
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-1024x683.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/image-min-150x150.jpg" alt="Conference Image 1" class="img-fluid rounded shadow-sm">
+        <h1 class="text-center mb-4">College Photo Gallery</h1>
+        <div class="gallery-slider">
+            <div>
+                <a href="https://source.unsplash.com/1024x683/?campus" target="_blank" class="gallery-item">
+                    <img src="https://source.unsplash.com/150x150/?campus" alt="Campus Image 1" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-683x1024.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2429-min-150x150.jpg" alt="Conference Image 2" class="img-fluid rounded shadow-sm">
+            <div>
+                <a href="https://source.unsplash.com/1024x683/?students" target="_blank" class="gallery-item">
+                    <img src="https://source.unsplash.com/150x150/?students" alt="Students Image 2" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-1024x683.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2417-min-150x150.jpg" alt="Conference Image 3" class="img-fluid rounded shadow-sm">
+            <div>
+                <a href="https://source.unsplash.com/1024x683/?classroom" target="_blank" class="gallery-item">
+                    <img src="https://source.unsplash.com/150x150/?classroom" alt="Classroom Image 3" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-1024x683.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2440-min-150x150.jpg" alt="Conference Image 4" class="img-fluid rounded shadow-sm">
+            <div>
+                <a href="https://source.unsplash.com/1024x683/?library" target="_blank" class="gallery-item">
+                    <img src="https://source.unsplash.com/150x150/?library" alt="Library Image 4" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-1024x683.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2445-min-150x150.jpg" alt="Conference Image 5" class="img-fluid rounded shadow-sm">
+            <div>
+                <a href="https://source.unsplash.com/1024x683/?graduation" target="_blank" class="gallery-item">
+                    <img src="https://source.unsplash.com/150x150/?graduation" alt="Graduation Image 5" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-1024x683.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2455-min-150x150.jpg" alt="Conference Image 6" class="img-fluid rounded shadow-sm">
+            <div>
+                <a href="https://source.unsplash.com/1024x683/?event" target="_blank" class="gallery-item">
+                    <img src="https://source.unsplash.com/150x150/?event" alt="Event Image 6" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-1024x683.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2483-min-150x150.jpg" alt="Conference Image 7" class="img-fluid rounded shadow-sm">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3">
-                <a href="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-1024x692.jpg" target="_blank" class="gallery-item">
-                    <img src="https://pisr.org/v2/wp-content/uploads/2023/12/IMG_2480-min-150x150.jpg" alt="Conference Image 8" class="img-fluid rounded shadow-sm">
+            <div>
+                <a href="https://source.unsplash.com/1024x683/?auditorium" target="_blank" class="gallery-item">
+                    <img src="https://source.unsplash.com/150x150/?auditorium" alt="Auditorium Image 7" class="img-fluid rounded shadow-sm">
                 </a>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Bootstrap Lightbox & Popper.js -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
-<style>
-    .gallery {
-        padding: 50px 0;
-    }
 
-    .gallery h1 {
-        font-size: 2.5rem;
-        color: #333;
-        font-weight: bold;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-    }
-
-    .gallery-item {
-        display: block;
-        overflow: hidden;
-        border-radius: 10px;
-        transition: transform 0.3s ease-in-out;
-    }
-
-    .gallery-item:hover {
-        transform: scale(1.05);
-    }
-
-    .gallery-item img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.gallery-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: true,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+});
+</script>
 
 
 
@@ -1030,8 +1060,6 @@
 
 
     </div> <!--/.container-->
-
-
 </section>
 <!-- ./ End Students Say Area section -->
 
@@ -1094,6 +1122,12 @@
         </div>
     </div>
 </section>
+
+
+<!-- for what student parents says -->
+<!-- Bootstrap Lightbox & Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 
 <script>
@@ -1186,3 +1220,4 @@
 <!-- Include Slick.js -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+what student says
