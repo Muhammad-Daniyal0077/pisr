@@ -4,7 +4,7 @@ admission form
 <div class="pic">
 	<div class="page-title dark-background" data-aos="fade" style="background-image: url(https://pisr.org/v2/wp-content/uploads/2021/06/Untitled-design1.png);">
 		<div class="background-overlay"></div> <!-- Overlay div for dull effect -->
-		<div class="container">
+		<div style="margin-top: 50px;" class="container">
 			<h1 class="animated-title">Admission Registeration Form</h1>
 			<nav class="breadcrumbs">
 				<ol>
@@ -17,10 +17,7 @@ admission form
 </div>
 
 <style>
-       body {
-    background: linear-gradient(to right, #007bff, #00c6ff);
-    font-family: Arial, sans-serif;
-}
+
 
 .pic {
     position: relative;
@@ -39,13 +36,6 @@ admission form
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
 }
 
 .form-container {
