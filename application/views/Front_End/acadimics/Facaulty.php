@@ -167,18 +167,44 @@
                     <div style="width: 1210px;">
                         <div class="inner-container">
                             <div class="row justify-content-center dropdown-content-custom ">
-                               
-                                        <div class="col-md-4 mb-4">
-                                            <div class="card text-center shadow-lg rounded border-0">
-                                                <img src="" class="card-img-top rounded-circle img-fluid">
-                                                <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
-                                                <div class="card-body">
-                                                    <h5 class="card-title text-info">Waqas</h5>
-                                                    <p class="card-text text-muted"></p>
-                                                </div>
-                                            </div>
+
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
                                         </div>
-                               
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -197,24 +223,51 @@
         <div class="vc_tta-panel-body">
             <div class="vc_row">
                 <div class="vc_column">
-                    <div style="width: 1210px; margin-left:-550px" >
+                    <div style="width: 1210px; margin-left:-550px">
                         <div class="inner-container">
                             <div class="row justify-content-center dropdown-content-custom ">
-                                <?php if (!empty($female_faculty)): ?>
-                                    <?php foreach ($female_faculty as $member): ?>
-                                        <div class="col-md-4 mb-4">
-                                            <div class="card text-center shadow-lg rounded border-0">
-                                                <img src="<?php echo base_url($member->faculty_img); ?>" class="card-img-top rounded-circle img-fluid" alt="<?php echo $member->faculty_name; ?>">
-                                                <div class="card-body">
-                                                    <h5 class="card-title text-info"><?php echo $member->faculty_name; ?></h5>
-                                                    <p class="card-text text-muted"><?php echo $member->faculty_designation; ?></p>
-                                                </div>
-                                            </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
                                         </div>
-                                    <?php endforeach; ?>
-                                <?php else: ?>
-                                    <p>No female faculty members found.</p>
-                                <?php endif; ?>
+                                    </div>
+                                </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Waqas</h5>
+                                            <p class="card-text text-muted"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                         
+                                 
                             </div>
                         </div>
                     </div>

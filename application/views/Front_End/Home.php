@@ -165,14 +165,12 @@
                 <div class="new-news-slider">
                     <div class="new-news-content">
                         <div class="new-news-item">
-                            <img src="<?php echo base_url(); ?>asset/images/post/002.avif" alt="News Image" height="100" width="100">
                             <div class="news-text">
                                 <h6 class="new-news-headline">New Campus Facilities Opened</h6>
                                 <span class="new-news-date">Aug 10, 2023</span>
                             </div>
                         </div>
                         <div class="new-news-item">
-                            <img src="<?php echo base_url(); ?>asset/images/post/001.avif" alt="News Image" height="100" width="100">
                             <div class="news-text">
                                 <h5 class="new-news-headline">Earth Day Celebrations</h5>
                                 <span class="new-news-date">Apr 20, 2023</span>
@@ -188,17 +186,12 @@
                 <div class="new-events-slider">
                     <div class="new-events-content">
                         <div class="new-event-item">
-                            <img src="<?php echo base_url(); ?>asset/images/post/003.avif" alt="Event Image"
-                                height="100" width="100">
-
                             <div class="event-text">
                                 <h5 class="new-event-headline">Charity Run</h5>
                                 <span class="new-event-date">Sep 15, 2023</span>
                             </div>
                         </div>
                         <div class="new-event-item">
-                            <img src="<?php echo base_url(); ?>asset/images/post/004.avif" alt="Event Image"
-                                height="100" width="100">
                             <div class="event-text">
                                 <h5 class="new-event-headline">Student Conference</h5>
                                 <span class="new-event-date">Oct 1, 2023</span>
@@ -854,26 +847,26 @@
     <div class="container mt-5">
         <h1 class="text-center mb-4">College Photo Gallery</h1>
         <div class="gallery-slider">
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Image 1"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/22.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/08.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/09.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/10.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/11.jpg" alt="Image 4"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/12.jpg" alt="Image 5"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/15.jpg" alt="Image 6"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/14.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/13.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/20.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/17.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/16.jpg    " alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/19.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/01.jpg" alt="Image 1"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/03.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/22.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/05.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/06.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/07.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/08.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/09.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/10.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/11.jpg" alt="Image 4"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/12.jpg" alt="Image 5"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/15.jpg" alt="Image 6"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/14.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/13.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/20.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/17.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/16.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/19.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/04.jpg" alt="Image 7"></div>
         </div>
         <button class="custom-slick-prev">&#10094;</button>
         <button class="custom-slick-next">&#10095;</button>
