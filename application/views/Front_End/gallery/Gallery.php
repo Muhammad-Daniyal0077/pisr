@@ -149,142 +149,155 @@
     }
 </style>
 
+<!-- Education Conference Section -->
 <section class="container">
     <h2 class="container section-heading">Gallery Section of PISR</h2>
     <h3>PISR Education Conference 2023</h3>
 
     <div class="container mt-5">
-        <div class="gallery-slider">
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Image 1"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/22.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/08.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/09.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/10.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/11.jpg" alt="Image 4"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/12.jpg" alt="Image 5"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/15.jpg" alt="Image 6"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/14.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/13.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/20.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/17.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/16.jpg    " alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/19.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Image 7"></div>
+        <div id="conferenceSlider" class="gallery-slider">
+        <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/01.jpg" alt="Image 1"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/03.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/22.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/05.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/06.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/07.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/08.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/09.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/10.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/11.jpg" alt="Image 4"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/12.jpg" alt="Image 5"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/15.jpg" alt="Image 6"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/14.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/13.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/20.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/17.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/16.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/19.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/04.jpg" alt="Image 7"></div>
         </div>
-        <button class="custom-slick-prev">&#10094;</button>
-        <button class="custom-slick-next">&#10095;</button>
+        <button class="custom-slick-prev conference-prev">&#10094;</button>
+        <button class="custom-slick-next conference-next">&#10095;</button>
     </div>
 
-    <!-- Modal -->
-    <div id="imageModal" class="modal">
+    <!-- Modal for Conference Slider -->
+    <div id="conferenceModal" class="modal">
         <span class="close">&times;</span>
         <span class="prev">&#10094;</span>
         <span class="next">&#10095;</span>
         <div class="modal-content">
-            <img id="modalImage" src="" alt="Image Preview">
+            <img id="conferenceModalImage" src="" alt="Image Preview">
         </div>
     </div>
 </section>
 
-
-
+<!-- Independence Day Section -->
 <section class="container">
     <h3>Pakistan Independence Day Celebration</h3>
 
     <div class="container mt-5">
-        <div class="gallery-slider">
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Image 1"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/22.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/08.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/09.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/10.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/11.jpg" alt="Image 4"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/12.jpg" alt="Image 5"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/15.jpg" alt="Image 6"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/14.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/13.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/20.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/17.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/16.jpg    " alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/19.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Image 7"></div>
+        <div id="independenceSlider" class="gallery-slider">
+        <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/01.jpg" alt="Image 1"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/03.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/22.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/05.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/06.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/07.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/08.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/09.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/10.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/11.jpg" alt="Image 4"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/12.jpg" alt="Image 5"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/15.jpg" alt="Image 6"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/14.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/13.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/20.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/17.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/16.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/19.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/04.jpg" alt="Image 7"></div>
         </div>
-        <button class="custom-slick-prev">&#10094;</button>
-        <button class="custom-slick-next">&#10095;</button>
+        <button class="custom-slick-prev independence-prev">&#10094;</button>
+        <button class="custom-slick-next independence-next">&#10095;</button>
     </div>
 
-    <!-- Modal -->
-    <div id="imageModal" class="modal">
+    <!-- Modal for Independence Slider -->
+    <div id="independenceModal" class="modal">
         <span class="close">&times;</span>
         <span class="prev">&#10094;</span>
         <span class="next">&#10095;</span>
         <div class="modal-content">
-            <img id="modalImage" src="" alt="Image Preview">
+            <img id="independenceModalImage" src="" alt="Image Preview">
         </div>
     </div>
 </section>
+
 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 <script>
-    $(document).ready(function() {
-        // Initialize Slick Slider
-        $('.gallery-slider').slick({
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2500,
-            dots: true,
-            arrows: false,
-            rows: 2,
-            responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
+   $(document).ready(function () {
+    // Initialize Slick Slider for Conference Slider
+    $('#conferenceSlider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: true,
+        arrows: false,
+        rows: 2,
+        responsive: [
+            { breakpoint: 1024, settings: { slidesToShow: 3 } },
+            { breakpoint: 768, settings: { slidesToShow: 2 } },
+            { breakpoint: 480, settings: { slidesToShow: 1 } }
+        ]
+    });
 
-        // Custom navigation buttons
-        $('.custom-slick-prev').on('click', function() {
-            $('.gallery-slider').slick('slickPrev');
-        });
+    // Custom navigation buttons for Conference Slider
+    $('.conference-prev').on('click', function () {
+        $('#conferenceSlider').slick('slickPrev');
+    });
 
-        $('.custom-slick-next').on('click', function() {
-            $('.gallery-slider').slick('slickNext');
-        });
+    $('.conference-next').on('click', function () {
+        $('#conferenceSlider').slick('slickNext');
+    });
 
-        // Modal Functionality
-        var modal = $('#imageModal');
-        var modalImage = $('#modalImage');
-        var currentIndex = 0;
+    // Initialize Slick Slider for Independence Slider
+    $('#independenceSlider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        dots: true,
+        arrows: false,
+        rows: 2,
+        responsive: [
+            { breakpoint: 1024, settings: { slidesToShow: 3 } },
+            { breakpoint: 768, settings: { slidesToShow: 2 } },
+            { breakpoint: 480, settings: { slidesToShow: 1 } }
+        ]
+    });
+
+    // Custom navigation buttons for Independence Slider
+    $('.independence-prev').on('click', function () {
+        $('#independenceSlider').slick('slickPrev');
+    });
+
+    $('.independence-next').on('click', function () {
+        $('#independenceSlider').slick('slickNext');
+    });
+
+    // Function to handle modal display
+    function setupModal(sliderId, modalId, modalImageId) {
+        const modal = $(modalId);
+        const modalImage = $(modalImageId);
+        let currentIndex = 0;
 
         // Open Modal on Image Click
-        $('.gallery-item img').on('click', function() {
+        $(sliderId + ' .gallery-item img').on('click', function () {
             currentIndex = $(this).closest('.gallery-item').index();
             showImageInModal(currentIndex);
             modal.show();
@@ -292,31 +305,37 @@
 
         // Show Image in Modal
         function showImageInModal(index) {
-            var src = $('.gallery-item').eq(index).find('img').attr('src');
+            const src = $(sliderId + ' .gallery-item').eq(index).find('img').attr('src');
             modalImage.attr('src', src);
         }
 
         // Close Modal
-        $('.close').on('click', function() {
+        $(modalId + ' .close').on('click', function () {
             modal.hide();
         });
 
         // Next and Previous Buttons for Modal
-        $('.next').on('click', function() {
-            currentIndex = (currentIndex + 1) % $('.gallery-item').length;
+        $(modalId + ' .next').on('click', function () {
+            currentIndex = (currentIndex + 1) % $(sliderId + ' .gallery-item').length;
             showImageInModal(currentIndex);
         });
 
-        $('.prev').on('click', function() {
-            currentIndex = (currentIndex - 1 + $('.gallery-item').length) % $('.gallery-item').length;
+        $(modalId + ' .prev').on('click', function () {
+            currentIndex = (currentIndex - 1 + $(sliderId + ' .gallery-item').length) % $(sliderId + ' .gallery-item').length;
             showImageInModal(currentIndex);
         });
 
         // Close Modal on outside click
-        $(window).on('click', function(event) {
+        $(window).on('click', function (event) {
             if (event.target === modal[0]) {
                 modal.hide();
             }
         });
-    });
+    }
+
+    // Setup modals for each slider
+    setupModal('#conferenceSlider', '#conferenceModal', '#conferenceModalImage');
+    setupModal('#independenceSlider', '#independenceModal', '#independenceModalImage');
+});
+
 </script>
