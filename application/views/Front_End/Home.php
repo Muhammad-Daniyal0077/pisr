@@ -516,7 +516,9 @@
     </div>
 </section>
 
-<!-- Count Number section -->
+
+
+<!-- Counter Section -->
 <section class="counter-area">
     <div class="container">
         <div class="row">
@@ -525,11 +527,10 @@
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-01.png" alt="">
-                            <div class="project-count counter">7095</div>
+                            <div class="project-count counter" data-count="7095">7095</div>
                             <span>active students</span>
                         </div>
                     </div>
-
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-02.png" alt="">
@@ -537,7 +538,6 @@
                             <span>online courses</span>
                         </div>
                     </div>
-
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-03.png" alt="">
@@ -545,7 +545,6 @@
                             <span>Year of history</span>
                         </div>
                     </div>
-
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-04.png" alt="">
@@ -553,10 +552,8 @@
                             <span>active students</span>
                         </div>
                     </div>
-
                 </div>
             </div>
-
             <div class="col-sm-5 col-sm-offset-0 counter-text-bottom">
                 <div class="counter-text-box">
                     <div class="counter-text">
@@ -564,20 +561,19 @@
                             <div class="col-sm-12 section-header-box">
                                 <div class="section-header">
                                     <h2>Get Started Today</h2>
-                                </div><!-- ends: .section-header -->
+                                </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="counter-btn">
                         <a href="#">Apply Now</a>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
+
 
 <style>
     .card {
@@ -734,8 +730,8 @@
 <style>
     .gallery {
         padding: 50px 0;
-        margin-top:30px ;
-        border-radius:15px;
+        margin-top: 30px;
+        border-radius: 15px;
     }
 
     .gallery h1 {
@@ -847,26 +843,26 @@
     <div class="container mt-5">
         <h1 class="text-center mb-4">College Photo Gallery</h1>
         <div class="gallery-slider">
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/01.jpg" alt="Image 1"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/02.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/03.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/22.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/05.jpg" alt="Image 2"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/06.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/07.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/08.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/09.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/10.jpg" alt="Image 3"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/11.jpg" alt="Image 4"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/12.jpg" alt="Image 5"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/15.jpg" alt="Image 6"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/14.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/13.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/20.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/17.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/16.jpg    " alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/19.jpg" alt="Image 7"></div>
-            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/gallery/04.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/01.jpg" alt="Image 1"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/02.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/03.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/22.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/05.jpg" alt="Image 2"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/06.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/07.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/08.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/09.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/10.jpg" alt="Image 3"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/11.jpg" alt="Image 4"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/12.jpg" alt="Image 5"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/15.jpg" alt="Image 6"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/14.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/13.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/20.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/17.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/16.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/19.jpg" alt="Image 7"></div>
+            <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/04.jpg" alt="Image 7"></div>
         </div>
         <button class="custom-slick-prev">&#10094;</button>
         <button class="custom-slick-next">&#10095;</button>
@@ -898,15 +894,21 @@
             rows: 2,
             responsive: [{
                     breakpoint: 1024,
-                    settings: { slidesToShow: 3 }
+                    settings: {
+                        slidesToShow: 3
+                    }
                 },
                 {
                     breakpoint: 768,
-                    settings: { slidesToShow: 2 }
+                    settings: {
+                        slidesToShow: 2
+                    }
                 },
                 {
                     breakpoint: 480,
-                    settings: { slidesToShow: 1 }
+                    settings: {
+                        slidesToShow: 1
+                    }
                 }
             ]
         });
@@ -980,35 +982,35 @@
                 <!-- Image Slider (slider-nav) -->
                 <div class="col-sm-3 col-sm-offset-4">
                     <div class="carousel-images slider-nav">
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/001.jpg" alt="1"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/001.jpg" alt="1"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/002.jpg" alt="2"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/002.jpg" alt="2"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/003.jpg" alt="3"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/003.jpg" alt="3"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/004.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/004.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/005.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/005.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/006.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/006.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/007.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/007.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/008.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/008.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/009.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/009.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/010.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/010.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/011.png" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/011.png" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/012.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/012.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/013.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/013.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/014.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/014.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
-                        <div><img src="<?php echo base_url(); ?>asset/images/parents/015.jpg" alt="4"
+                        <div><img src="<?php echo base_url(); ?>asset/images/Parents/015.jpg" alt="4"
                                 class="img-responsive img-circle"></div>
                     </div>
                 </div>
@@ -1330,4 +1332,3 @@
 <!-- Include Slick.js -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-what student says

@@ -167,21 +167,88 @@
                     <div style="width: 1210px;">
                         <div class="inner-container">
                             <div class="row justify-content-center dropdown-content-custom ">
-                                <?php if (!empty($male_faculty)): ?>
-                                    <?php foreach ($male_faculty as $member): ?>
-                                        <div class="col-md-4 mb-4">
-                                            <div class="card text-center shadow-lg rounded border-0">
-                                                <img src="<?php echo base_url($member->faculty_img); ?>" class="card-img-top rounded-circle img-fluid" alt="<?php echo $member->faculty_name; ?>">
-                                                <div class="card-body">
-                                                    <h5 class="card-title text-info"><?php echo $member->faculty_name; ?></h5>
-                                                    <p class="card-text text-muted"><?php echo $member->faculty_designation; ?></p>
-                                                </div>
-                                            </div>
+
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/01.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Waqas Muqbool
+                                            </h5>
+                                            <p class="card-text text-muted">M.Sc. (Chemistry)</p>
                                         </div>
-                                    <?php endforeach; ?>
-                                <?php else: ?>
-                                    <p>No male faculty members found.</p>
-                                <?php endif; ?>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/02.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Muhammad Shahzad Ahmad
+                                            </h5>
+                                            <p class="card-text text-muted">M.Sc. (Physics)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/03.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Muhammad Nazir Ali Bahader
+                                            </h5>
+                                            <p class="card-text text-muted">M.Sc. (Chemistry)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/04.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Muhammad Khurram Shahzad Qureshi
+                                           </h5>
+                                            <p class="card-text text-muted"> M.Phil (Chemistry), M.Ed. (Sc.)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/05.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Muhammad Nasim
+                                            </h5>
+                                            <p class="card-text text-muted">B.S. Hons. (Computer Science)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/06.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Javaid Mirza
+                                            </h5>
+                                            <p class="card-text text-muted">M.A. (English)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/07.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Hafiz Rizwan Ahmad
+                                            </h5>
+                                            <p class="card-text text-muted">M.A. (History)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/08.jpeg" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Hayat Ullah
+                                            </h5>
+                                            <p class="card-text text-muted">M.A. (Political Science)</p>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -200,24 +267,96 @@
         <div class="vc_tta-panel-body">
             <div class="vc_row">
                 <div class="vc_column">
-                    <div style="width: 1210px; margin-left:-550px" >
+                    <div style="width: 1210px; margin-left:-550px">
                         <div class="inner-container">
                             <div class="row justify-content-center dropdown-content-custom ">
-                                <?php if (!empty($female_faculty)): ?>
-                                    <?php foreach ($female_faculty as $member): ?>
-                                        <div class="col-md-4 mb-4">
-                                            <div class="card text-center shadow-lg rounded border-0">
-                                                <img src="<?php echo base_url($member->faculty_img); ?>" class="card-img-top rounded-circle img-fluid" alt="<?php echo $member->faculty_name; ?>">
-                                                <div class="card-body">
-                                                    <h5 class="card-title text-info"><?php echo $member->faculty_name; ?></h5>
-                                                    <p class="card-text text-muted"><?php echo $member->faculty_designation; ?></p>
-                                                </div>
-                                            </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">	Mrs Shaista Jamil</h5>
+                                            <p class="card-text text-muted">MA Political(Science)</p>
                                         </div>
-                                    <?php endforeach; ?>
-                                <?php else: ?>
-                                    <p>No female faculty members found.</p>
-                                <?php endif; ?>
+                                    </div>
+                                </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mrs. Saeeda Bano	</h5>
+                                            <p class="card-text text-muted">MA (Islamic Studies)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mrs.Sadaf Abdul Aziz</h5>
+                                            <p class="card-text text-muted">M.B.A</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">	Mrs. Saadia Sayed	</h5>
+                                            <p class="card-text text-muted">B.Sc-B.Ed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                         
+                                 
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">	Mrs. Rubina Ashraf	</h5>
+                                            <p class="card-text text-muted">Islamic History</p>
+                                        </div>
+                                    </div>
+                                </div>
+                         
+                                 
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mrs.Romana Qadeer	</h5>
+                                            <p class="card-text text-muted">B.A</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr. Riffat Bibi	</h5>
+                                            <p class="card-text text-muted">B.A</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="col-md-4 mb-4">
+                                    <div class="card text-center shadow-lg rounded border-0">
+                                        <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-info">Mr.Rahat Hafeez		</h5>
+                                            <p class="card-text text-muted">M.A(English)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                         
+                                 
+                           
+                          
+                                 
                             </div>
                         </div>
                     </div>

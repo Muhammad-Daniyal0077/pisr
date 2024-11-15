@@ -132,21 +132,6 @@
     background-color: #f9f9f9;
     font-family: 'Arial', sans-serif;
   }
-</style>
-
-
-
-<div class="wpb_wrapper" style="margin: 62px 33px;">
-  <h1 class="center-heading">Educational Facilities</h1>
-  <p class="center-paragraph">The School caters to boys and girls of the Pakistani community in Riyadh from Play
-    Group to Class XII. It maintains a high standard of education and provides a variety of curricular and
-    co-curricular activities for the development of a wholesome and balanced personality of the students. The
-    School is producing excellent results in School and Board Examinations.</p>
-</div>
-
-
-
-<style>
   @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
 
 
@@ -293,13 +278,26 @@
 
 
 
+<div class="wpb_wrapper" style="margin: 62px 33px;">
+  <h1 class="center-heading">Educational Facilities</h1>
+  <p class="center-paragraph">The School caters to boys and girls of the Pakistani community in Riyadh from Play
+    Group to Class XII. It maintains a high standard of education and provides a variety of curricular and
+    co-curricular activities for the development of a wholesome and balanced personality of the students. The
+    School is producing excellent results in School and Board Examinations.</p>
+</div>
+
+
+
+
+
+
 
 
 
 <div class="info">
 
 
-  <h2 class="container section-heading ">Laboratories</h2>
+  <h2 class="container section-heading ">Libraries</h2>
   <section class="events-list-03">
 
     <div class="container">
