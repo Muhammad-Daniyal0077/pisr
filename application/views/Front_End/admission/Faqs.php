@@ -17,128 +17,144 @@
 
 <style>
 	/* Specific styles for dropdown */
-	.dropdown-custom {
-		border: 1px solid #ddd;
-		border-radius: 8px;
-		background: #fff;
-		margin-bottom: 10px;
-		transition: all 0.3s ease;
-	}
+.dropdown-custom {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
 
-	.dropdown-header-custom {
-		padding: 12px;
-		font-size: 18px;
-		background-color: #509999;
-		color: #fff;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		cursor: pointer;
-		border-radius: 8px;
-		transition: background-color 0.3s ease;
-	}
+.dropdown-header-custom {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #509999;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
 
-	.dropdown-header-custom:hover {
-		background-color: #337ab7;
-	}
+.dropdown-header-custom:hover {
+    background-color: #337ab7;
+}
 
-	.dropdown-icon-custom {
-		transition: transform 0.3s ease;
-	}
+.dropdown-icon-custom {
+    transition: transform 0.3s ease;
+}
 
-	.dropdown-body-custom {
-		max-height: 0;
-		overflow: hidden;
-		transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
-		padding: 0;
-	}
+.dropdown-body-custom {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+    padding: 0;
+}
 
-	.dropdown-custom.active .dropdown-body-custom {
-		max-height: 600px;
-		padding: 15px;
-	}
+.dropdown-custom.active .dropdown-body-custom {
+    max-height: 600px;
+    padding: 15px;
+}
 
-	.dropdown-custom.active .dropdown-icon-custom {
-		transform: rotate(45deg);
-	}
+.dropdown-custom.active .dropdown-icon-custom {
+    transform: rotate(45deg);
+}
 
-	.dropdown-content-custom p {
-		color: #4a4a4a;
-		font-size: 15px;
-		line-height: 1.7;
-		background-color: #f1f8ff;
-		padding: 10px 15px;
-		border-radius: 5px;
-		border-left: 4px solid #337ab7;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		margin-bottom: 10px;
-	}
+.dropdown-content-custom p {
+    color: #4a4a4a;
+    font-size: 15px;
+    line-height: 1.7;
+    background-color: #f1f8ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border-left: 4px solid #337ab7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
 
-	.container-custom {
-		max-width: 1000px;
-		margin: 0 auto;
-		padding: 20px;
-	}
+.container-custom {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
 
-	h2 {
-		padding: 10px 0;
-		/* Padding for the headings */
-		margin: 10px 0;
-		/* Margin for spacing */
-		border-bottom: 2px solid #509999;
-		/* Underline effect */
-		font-size: 24px;
-		/* Font size for headings */
-	}
+h2 {
+    padding: 10px 0;
+    margin: 10px 0;
+    border-bottom: 2px solid #509999;
+    font-size: 24px;
+}
 
-	.wpb_wrapper {
-		max-width: 600px;
-		margin: 20px auto;
-		padding: 20px;
-		background-color: #f9f9f9;
-		border-radius: 10px;
-		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-	}
+.wpb_wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
-	h4 {
-		margin-bottom: 20px;
-		font-size: 24px;
-		color: #333;
-	}
+h4 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
 
-	.form-control {
-		width: 100%;
-		padding: 12px;
-		margin: 10px 0;
-		border: 1px solid #ccc;
-		border-radius: 5px;
-		font-size: 16px;
-		transition: border-color 0.3s ease;
-	}
+.form-control {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
 
-	.form-control:focus {
-		border-color: #509999;
-		outline: none;
-	}
+.form-control:focus {
+    border-color: #509999;
+    outline: none;
+}
 
-	textarea.form-control {
-		resize: vertical;
-	}
+textarea.form-control {
+    resize: vertical;
+}
 
-	.submit-button {
-		background-color: #509999;
-		color: #fff;
-		border: none;
-		padding: 12px 20px;
-		font-size: 16px;
-		border-radius: 5px;
-		cursor: pointer;
-		transition: background-color 0.3s ease;
-	}
+.submit-button {
+    background-color: #509999;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
-	.submit-button:hover {
-		background-color: #337ab7;
-	}
+.submit-button:hover {
+    background-color: #337ab7;
+}
+
+.admission-links a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 15px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 4px;
+}
+
+.admission-links .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    width: 460px;
+}
+
 </style>
 
 <section class="events-list-03">
@@ -179,27 +195,6 @@
 						<i class="fa fa-download"></i>School Fee Structure for New Admission?
 					</a>
 				</div>
-
-				<style>
-					.admission-links a {
-						display: flex;
-						align-items: center;
-						justify-content: flex-start;
-						padding: 14px 15px;
-						width: 100%;
-						font-size: 16px;
-						border-radius: 5px;
-						text-decoration: none;
-						color: #fff;
-						margin: 10px 4px;
-					}
-
-					.admission-links .btn-primary {
-						background-color: #007bff;
-						border-color: #007bff;
-						width: 460px;
-					}
-				</style>
 
 
 
