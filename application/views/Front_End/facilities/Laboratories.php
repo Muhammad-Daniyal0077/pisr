@@ -43,17 +43,7 @@
     padding: 0 20px;
   }
 
-  /* Title Styles */
-  h1.animated-title {
-    font-family: 'Arial', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 3rem;
-    text-align: center;
-    color: #003366;
-    animation: fadeInUp 1s ease-out;
 
-  }
 
   h2.section-heading {
     background-color: #509999;
