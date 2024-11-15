@@ -67,7 +67,7 @@
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Principle test<span style="color: #ffb606;">Message</span></h2>
+                    <h2>Principle <span style="color: #ffb606;">Message</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>
