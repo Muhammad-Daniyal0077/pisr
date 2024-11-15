@@ -14,8 +14,7 @@
     </div>
 </div>
 <style>
-    /* Center container styling */
-	
+    /* General container styling */
     .wpb_wrapper {
         max-width: 1100px;
         margin: 0 auto;
@@ -25,34 +24,21 @@
 
     /* Heading styling */
     .wpb_wrapper h1 {
-        color: #000080;
-        /* Navy Blue */
+        color: #000080; /* Navy Blue */
         font-weight: bold;
         font-size: 3em;
         margin-bottom: 15px;
     }
 
-    h1 {
-        color: #000080;
-        /* Navy Blue */
-        font-weight: bold;
-        font-size: 1.5em;
-    }
-
     /* Paragraph styling */
     .wpb_wrapper p {
-        color: #008000;
-        /* Green */
+        color: #008000; /* Green */
         font-size: 1.2em;
         line-height: 1.6;
-        text-align: center;
         font-family: Arial, sans-serif;
     }
 
-    .vc_tta-panels {
-        margin: 20px 0;
-    }
-
+    /* Accordion panel styles */
     .vc_tta-panel {
         border-radius: 8px;
         margin-bottom: 20px;
@@ -61,8 +47,7 @@
     }
 
     .vc_tta-panel-heading {
-        
-        background-color: #509999;
+        background-color: #509999; /* Light Blue */
         color: #fff;
         padding: 10px;
         border-radius: 8px 8px 0 0;
@@ -74,37 +59,13 @@
         display: none;
     }
 
-    .vc_separator h4 {
-        margin: 0;
-        text-align: center;
-    }
-
-    .inner-container {
-        margin-top: 50px;
-    }
-
-    .text-center {
-        text-align: center;
-    }
-
-    .text-primary {
-        color: #007bff;
-    }
-
-    .mb-5 {
-        margin-bottom: 3rem;
-    }
-
-    .mb-4 {
-        margin-bottom: 1.5rem;
-    }
-
+    /* Card styles */
     .card {
         padding: 12px 14px;
         background-color: #cde8ff;
-        
         transition: transform 0.2s ease-in-out;
         width: 301px;
+        border-radius: 10px;
     }
 
     .card:hover {
@@ -138,10 +99,6 @@
         border-radius: 0.5rem;
     }
 
-    .rounded-circle {
-        border-radius: 50%;
-    }
-
     .btn-primary {
         background-color: #007bff;
         color: #fff;
@@ -161,21 +118,14 @@
         font-weight: 500;
     }
 
+    /* Media query for larger screens */
     @media (min-width: 992px) {
         .col-md-4 {
             width: 24.333333%;
         }
     }
 
-    .mb-4 {
-        margin-bottom: 3.8rem;
-        margin-right: 30px;
-    }
-
-    span {
-        color: #ffffff;
-    }
-
+    /* Hover effect for cards */
     .animated-hover-image {
         overflow: hidden;
         border-radius: 8px;
@@ -188,36 +138,44 @@
         transition: transform 0.4s ease;
     }
 
-    /* Hover effect */
     .animated-hover-image:hover .animated-image {
         transform: scale(1.1);
     }
 
+    /* List styling */
     .about-pISR-scm-list {
-
-        /* Remove default padding */
         list-style-type: decimal;
-        /* This ensures ordered numbers are displayed */
         padding-left: 150px;
-        /* Adds space for the numbers */
     }
 
     .about-pISR-scm-list li {
         font-size: 1.2em;
-        /* Font size for the list items */
         color: #2c3e50;
-        /* Color for the list items */
         margin: 5px 0;
-        /* Space between list items */
         transition: transform 0.2s;
-        /* Smooth transition for hover effect */
     }
 
     .about-pISR-scm-list li:hover {
         transform: scale(1.05);
-        /* Slightly increase size on hover */
+    }
+
+    /* Admission section */
+    .admission-text {
+        font-size: 1.1em;
+    }
+
+    .medium-instruction, .merit-policy {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    /* Image content styling */
+    .image-section img {
+        max-width: 100%;
+        border-radius: 10px;
     }
 </style>
+
 
 
 

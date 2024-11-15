@@ -299,7 +299,7 @@
 <div class="info">
 
 
-  <h2 class="container section-heading ">Laboratories</h2>
+  <h2 class="container section-heading ">Libraries</h2>
   <section class="events-list-03">
 
     <div class="container">

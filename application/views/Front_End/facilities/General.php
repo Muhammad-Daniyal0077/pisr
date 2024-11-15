@@ -160,9 +160,7 @@
     }
   }
 
-  .center-heading {
-  
-  }
+
 
 </style>
 </head>

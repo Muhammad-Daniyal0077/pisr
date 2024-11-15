@@ -16,139 +16,122 @@
 </div>
 <style>
   /* Reset */
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+ /* Reset */
 
-  /* Container styling */
-  .hover-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    padding: 40px;
-    background: linear-gradient(135deg, #f8f9fa, #e0e7ff);
-  }
 
-  /* Wrapper for the hover box with perspective */
-  .vc-hoverbox-wrapper {
-    perspective: 1004px;
-    width: 260px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-    transform-style: preserve-3d;
-    padding: 12px;
-    border-radius: 6px;
-  }
+/* Container styling */
+.hover-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+  background: linear-gradient(135deg, #f8f9fa, #e0e7ff);
+}
 
-  /* Hover effect with elevation */
-  .vc-hoverbox-wrapper:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  }
+/* Wrapper for the hover box with perspective */
+.vc-hoverbox-wrapper {
+  perspective: 1004px;
+  width: 260px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 6px;
+  transition: transform 0.3s ease-in-out;
+}
 
-  /* Hover box styling */
-  .vc-hoverbox {
-    width: 100%;
-    height: 250px;
-    position: relative;
-    transition: transform 0.8s ease;
-    transform-style: preserve-3d;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  }
+/* Hover effect with elevation */
+.vc-hoverbox-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
 
-  /* Front side of the box */
-  .vc-hoverbox-front {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    overflow: hidden;
-    transform: rotateY(0deg);
-    transition: opacity 0.3s ease;
-  }
+/* Hover box styling */
+.vc-hoverbox {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease;
+}
 
-  /* Back side of the box */
-  .vc-hoverbox-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    background-color: #f1f8ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    transform: rotateY(180deg);
-    color: #333;
-    border-radius: 10px;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
-  }
+/* Front side of the box */
+.vc-hoverbox-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  transform: rotateY(0deg);
+}
 
-  /* Flip effect when hovering over the wrapper */
-  .vc-hoverbox-wrapper:hover .vc-hoverbox {
-    transform: rotateY(180deg);
-  }
+/* Back side of the box */
+.vc-hoverbox-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #f1f8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  transform: rotateY(180deg);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.15);
+}
 
-  /* Name below the box */
-  .vc-hoverbox-wrapper h2 {
-    font-family: 'Akronim', cursive;
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: 15px;
-    color: #003366;
-    transition: color 0.3s;
-  }
+/* Flip effect on hover */
+.vc-hoverbox-wrapper:hover .vc-hoverbox {
+  transform: rotateY(180deg);
+}
 
-  /* Hover effect for name */
-  .vc-hoverbox-wrapper:hover h2 {
-    color: #007acc;
-  }
+/* Name below the box */
+.vc-hoverbox-wrapper h2 {
+  font-family: 'Akronim', cursive;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #003366;
+  transition: color 0.3s;
+}
 
-  /* Description text styling */
-  .para {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    margin-top: 5px;
-    color: #4a4a4a;
-    font-size: 12px;
-    line-height: 1.7;
-    background-color: #eaf4ff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border-left: 4px solid #007acc;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+/* Hover effect for name */
+.vc-hoverbox-wrapper:hover h2 {
+  color: #007acc;
+}
 
-  .section-heading {
-    background-color: #509999;
-    /* Light blue background */
-    color: #ffffff;
-    /* White text */
-    padding: 15px 20px;
-    /* Padding for spacing */
-    text-align: center;
-    /* Center align text */
-    border-radius: 10px;
-    /* Rounded corners */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    /* Subtle shadow for depth */
-    font-family: 'Arial', sans-serif;
-    /* Clean font */
-    font-size: 24px;
-    /* Larger font size */
-    letter-spacing: 1px;
-    /* Slightly spaced letters */
-    margin: 20px 176px;
-    /* Space below the heading */
-  }
+/* Description text styling */
+.para {
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  background-color: #eaf4ff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-left: 4px solid #007acc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section heading styling */
+.section-heading {
+  background-color: #509999;
+  color: #ffffff;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin: 20px 176px;
+}
+
 </style>
 </head>
 
