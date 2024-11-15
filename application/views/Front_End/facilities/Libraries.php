@@ -15,54 +15,12 @@
   </div>
 </div>
 <style>
-  /* Reset */
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
 
-  /* Page Title */
-  .page-title {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    padding: 50px 0;
-    color: #fff;
-  }
 
-  .page-title .background-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
-    /* Dark overlay */
-  }
 
-  h1 {
-    text-align: center;
-  }
 
-  /* Container */
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
 
-  /* Title Styles */
-  h1.animated-title {
-    font-family: 'Arial', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 3rem;
-    text-align: center;
-    color: #003366;
-    animation: fadeInUp 1s ease-out;
 
-  }
 
   h2.section-heading {
     background-color: #509999;
@@ -95,28 +53,15 @@
     transform: translateY(-5px);
   }
 
-  /* Animations */
-  @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 
 
   .center-heading,
   .center-paragraph {
     animation: fadeInUp 1s ease-out;
+    text-align: center;
   }
 
-  .center-paragraph {
-    animation-delay: 0.3s;
-  }
+
 
   .img-responsive-principle {
     width: 98%;
@@ -126,25 +71,8 @@
     margin-top: 35px;
   }
 
-  .events-list-03 {
-
-    padding: 2px 0;
-    background-color: #f9f9f9;
-    font-family: 'Arial', sans-serif;
-  }
-  @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
 
 
-
-
-
- 
-
-  @media only screen and (min-width: 767px) {
-    .container {
-      padding-inline: 2rem;
-    }
-  }
 
   .grid {
     display: grid;
