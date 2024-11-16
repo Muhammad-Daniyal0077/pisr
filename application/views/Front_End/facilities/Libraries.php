@@ -18,11 +18,7 @@
 
 
 
-
-
-
-
-  h2.section-heading {
+h2.section-heading {
     background-color: #509999;
     color: #ffffff;
     padding: 15px 20px;
@@ -48,12 +44,6 @@
   }
 
 
-  .center-paragraph:hover {
-    color: #3498db;
-    transform: translateY(-5px);
-  }
-
-
 
   .center-heading,
   .center-paragraph {
@@ -61,147 +51,242 @@
     text-align: center;
   }
 
-
-
-  .img-responsive-principle {
-    width: 98%;
-    height: auto;
-    border-radius: 12px;
-    object-fit: cover;
-    margin-top: 35px;
+  .center-paragraph {
+    animation-delay: 0.3s;
   }
 
+ 
 
 
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 1rem;
-  }
 
-  @media only screen and (min-width: 767px) {
     .grid {
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 1.5rem;
-      margin-bottom: 60px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1rem;
     }
-  }
 
-  .article {
-    position: relative;
-    cursor: pointer;
-  }
+    @media only screen and (min-width: 767px) {
+      .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+        margin-bottom: 60px;
+      }
+    }
 
-  .article:hover:before {
-    opacity: 1;
-  }
+    .article {
+      position: relative;
+      cursor: pointer;
+    }
 
-  .article:hover .article__cover {
-    transform: translateX(-2rem) scale(1.05);
-  }
+    .article:hover:before {
+      opacity: 1;
+    }
 
-  .article:hover .article__title,
-  .article:hover .article__info {
-    opacity: 1;
-    transform: translateX(0);
-  }
+    .article:hover .article__cover {
+      transform: translateX(-2rem) scale(1.05);
+    }
 
-  .article:hover .article__title {
-    transition-delay: 0s;
-  }
+    .article:hover .article__title,
+    .article:hover .article__info {
+      opacity: 1;
+      transform: translateX(0);
+    }
 
-  .article:hover .article__info {
-    transition-delay: 0.1s;
-  }
+    .article:hover .article__title {
+      transition-delay: 0s;
+    }
 
-  .article:before {
-    content: "";
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.47);
-    transition: opacity 0.3s ease-in-out;
-  }
+    .article:hover .article__info {
+      transition-delay: 0.1s;
+    }
 
+    .article:before {
+      content: "";
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.47);
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    .article__figure {
+      position: relative;
+      overflow: hidden;
+      margin: 0;
+      height: 0;
+      padding-bottom: 100%;
+    }
+
+    @media only screen and (min-width: 500px) {
+      .article__figure {
+        padding-bottom: 50%;
+      }
+    }
+
+
+      @media only screen and (min-width: 767px) {
+        .article__figure {
+          padding-bottom: 66.6%;
+        }
+      }
+
+      @media only screen and (min-width: 1200px) {
+        .article__figure {
+          padding-bottom: 50%;
+        }
+
+
+      }
+
+      .article__title,
+      .article__info {
+        opacity: 0;
+        max-width: 40rem;
+        padding: 0.85rem 1rem;
+        transform: translateX(50%);
+        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+        color: #eaf4ff;
+
+      }
+
+
+    
+    
+
+      .article__info {
+        background-color: rgba(51, 51, 51, 0.7);
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-size: 1rem;
+      }
+      @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+
+
+
+
+@media only screen and (min-width: 767px) {
+  .container {
+    padding-inline: 2rem;
+  }
+}
+
+
+.article {
+  position: relative;
+  cursor: pointer;
+}
+
+.article:hover:before {
+  opacity: 1;
+}
+
+.article:hover .article__cover {
+  transform: translateX(-2rem) scale(1.05);
+}
+
+.article:hover .article__title,
+.article:hover .article__info {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.article:hover .article__title {
+  transition-delay: 0s;
+}
+
+.article:hover .article__info {
+  transition-delay: 0.1s;
+}
+
+.article:before {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.47);
+  transition: opacity 0.3s ease-in-out;
+}
+
+.article__figure {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  height: 0;
+  padding-bottom: 100%;
+}
+
+@media only screen and (min-width: 500px) {
   .article__figure {
-    position: relative;
-    overflow: hidden;
-    margin: 0;
-    height: 0;
-    padding-bottom: 100%;
-    width:1000px;
-
+    padding-bottom: 50%;
   }
+}
 
-  @media only screen and (min-width: 500px) {
-    .article__figure {
-      padding-bottom: 50%;
-    }
+@media only screen and (min-width: 767px) {
+  .article__figure {
+    padding-bottom: 66.6%;
   }
+}
 
-  @media only screen and (min-width: 767px) {
-    .article__figure {
-      padding-bottom: 66.6%;
-    }
+@media only screen and (min-width: 1200px) {
+  .article__figure {
+    padding-bottom: 50%;
   }
+}
 
-  @media only screen and (min-width: 1200px) {
-    .article__figure {
-      padding-bottom: 50%;
-    }
-  }
+.article__cover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -2rem;
+  width: calc(100% + 2rem);
+  height: 300px;
+  object-fit: cover;
+  transform: translateX(0);
+  transition: transform 0.55s ease-in-out;
+}
 
-  .article__cover {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: -2rem;
-    width: calc(100% + 2rem);
-    height: 100%;
-    object-fit: cover;
-    transform: translateX(0);
-    transition: transform 0.55s ease-in-out;
-  }
+.article__caption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
 
-  .article__caption {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    max-width: 90%;
-  }
+.article__title,
+.article__info {
+  opacity: 0;
+  max-width: 40rem;
+  padding: 0.85rem 1rem;
+  transform: translateX(50%);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  color: #eaf4ff;
 
-  .article__title,
-  .article__info {
-    opacity: 0;
-    max-width: 40rem;
-    padding: 0.85rem 1rem;
-    transform: translateX(50%);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    color: #eaf4ff;
+}
 
-  }
+.article__title {
+  background-color: rgba(51, 51, 51, 0.5);
+  font-weight: 300;
+  transition-delay: 0.1s;
+  font-size: 2.4rem;
+}
 
-  .article__title {
-    background-color: rgba(51, 51, 51, 0.5);
-    font-weight: 300;
-    transition-delay: 0.1s;
-    font-size: 2.4rem;
-  }
-
-  .article__info {
-    background-color: rgba(51, 51, 51, 0.7);
-    font-weight: 100;
-    letter-spacing: 2px;
-    font-size: 1rem;
-  }
+.article__info {
+  background-color: rgba(51, 51, 51, 0.7);
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
 </style>
 
 
@@ -229,9 +314,9 @@
   <section class="events-list-03">
 
     <div class="container">
-      <div class="grid">
+      <!-- <div class="grid"> -->
         <article class="article">
-          <figure class="article__figure col-md-6"><img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/012.jpg" />
+          <figure class="article__figure col-md-12"><img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/012.avif" />
             <figcaption class="article__caption">
               <h4 class="article__title">Libraries</h4>
               <p class="article__info">Libraries and reading rooms have been provided in the Boys as well as the Girls Wings separately.  The libraries contain reasonable number of books on various Subjects.  Local & Pakistani Newspapers as well as magazines in English and Urdu are also provided to keep the students well-informed about local, national & international affairs. Reference sections are also available in these Libraries.  Maps, charts, over-head projectors and other educational aids are provided to make classroom instruction(s) more effective. </p>
@@ -239,7 +324,7 @@
           </figure>
         </article>
        
-      </div>
+      <!-- </div> -->
     </div>
   </section>
 
