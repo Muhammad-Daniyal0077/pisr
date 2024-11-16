@@ -61,7 +61,8 @@
 
     /* Card styles */
     .card {
-        padding: 12px 14px;
+        padding: 20px 10px;
+        
         background-color: #cde8ff;
         transition: transform 0.2s ease-in-out;
         width: 301px;
@@ -73,12 +74,7 @@
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     }
 
-    .card-img-top {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border: 5px solid #fff;
-    }
+
 
     .card-title {
         font-size: 1.25rem;
@@ -86,7 +82,8 @@
     }
 
     .card-text {
-        margin-top: 10px;
+        margin: 10px ;
+      
         color: #6c757d;
         font-size: 14px;
     }
@@ -174,12 +171,14 @@
         max-width: 100%;
         border-radius: 10px;
     }
+   
+
 </style>
 
 
 
 
-    <section class="container" style="margin-top: 20px;">
+    <section class="container">
 		     <!-- General Section -->
 			 <div class="col-md-6 vc_tta-panel" id="general">
 				<div class="vc_tta-panel-heading" onclick="togglePanel('general')">
@@ -188,15 +187,15 @@
 					</h4>
 				</div>
                 <div class="vc_tta-panel-body">
-                    <div class="vc_row">
+                    <div class="vc_row" >
                         <div class="vc_column">
-                            <div style="width: 1210px; margin-left: 55px;">
+                            <div >
                                 <div class="inner-container">
                                     <div class="row justify-content-center dropdown-content-custom">
                                         <!-- Fee Collection Section -->
-                                        <div class="col-md-4 mb-4" style="margin-top: 3px;">
+                                        <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                                <div class="card-body" style="height: 860px;">
+                                                <div class="card-body">
                                                     <h1>FEE COLLECTION</h1>
                                                     <span class="card-text text-muted">
                                                         <ol>
@@ -216,7 +215,7 @@
                                         <!-- FBISE Exam Fee Section -->
                                         <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                                <div class="card-body" style="height: 280px; !important;">
+                                                <div class="card-body" >
                                                     <h1>FBISE EXAM FEE</h1>
                                                     <span class="card-text text-muted">
                                                         Board Registration Fee is collected from regular students of classes IX and XI during the month of April as per instructions of Federal Board of Intermediate and Secondary Education Pakistan.
@@ -226,7 +225,7 @@
                                         </div>
                                         <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                                <div class="card-body" style="height: 280px; !important;">
+                                                <div class="card-body">
                                                     <h1>TRANSPORT FEE</h1>
                                                     <span class="card-text text-muted">
                                                     Bus fee is collected on monthly basis excluding months of July and August for students availing school transport services. Bus fee will be paid along with the normal tuition fee.  Those students who wish to discontinue must inform the Transport In-Charge   in    writing   at    least  5   days   earlier    from    the commencement of next month, failing which the bus fee will remain payable of the next month.
@@ -236,7 +235,7 @@
                                         </div>
                                         <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                                <div class="card-body" style="height: 120px; !important;">
+                                                <div class="card-body" >
                                                     <h1>DISCIPLINE FINE</h1>
                                                     <span class="card-text text-muted">
                                                     The school reserves the right to fine the student if he/she is found guilty of misconduct.
@@ -246,7 +245,7 @@
                                         </div>
                                         <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                                <div class="card-body" style="height: 320px; !important;">
+                                                <div class="card-body">
                                                     <h1>LATE FEE FINE</h1>
                                                     <span class="card-text text-muted">
                                                     This surcharge is collected upon late payment of tuition and/or transport fee. Its schedule is mentioned below.
@@ -268,7 +267,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 mb-4" style="margin-top: -200px;">
+                                        <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
                                                 <div class="card-body" style="height: 300px; !important;">
                                                     <h1>DAILY SCHOOL ABSENCE FINE</h1>
@@ -284,7 +283,7 @@
                                         </div>
                                         <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                                <div class="card-body" style="height: 120px; !important;">
+                                                <div class="card-body">
                                                     <h1>EXAM ABSENCE FINE</h1>
                                                     <span class="card-text text-muted">
                                                     This fine is applied to students who do not appear in papers during their examination.
@@ -292,9 +291,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 mb-4" style="margin-top: -10px;">
+                                        <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                                <div class="card-body" style="height: 230px; !important;">
+                                                <div class="card-body">
                                                     <h1>FEE DEFAULT</h1>
                                                     <span class="card-text text-muted">
                                                     The name of the student, whose fee remains unpaid up to 40 days from the last due date i.e. 20th of the month, will automatically be struck off from the School roll. Fee will be charged up to the struck off date. In this case, approval for re-admission is subject to availability of seats.
@@ -302,9 +301,9 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-md-4 mb-4" style="margin-top: -8px;">
+                                        <div class="col-md-4 mb-4">
                                             <div class="card text-center shadow-lg rounded border-0">
-                                            <div class="card-body" style="height: 220px;">
+                                            <div class="card-body">
                                                     <h1>STUDENT WITHDRAWAL</h1>
                                                     <span class="card-text text-muted">
                                                     Students are given School Leaving Certificates (SLC) after clearance from relevant departments. Once the SLC has been issued, student will be charged SAR 100 in case re-admission within six months during the same academic year after. In other cases its considered new admission.
