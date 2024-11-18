@@ -183,7 +183,7 @@
 			 <div class="col-md-6 vc_tta-panel" id="general">
 				<div class="vc_tta-panel-heading" onclick="togglePanel('general')">
 					<h4 class="vc_tta-panel-title">
-						<span class="vc_tta-title-text">Fee Policy</span>
+						<strong class="vc_tta-title-text">Fee Policy</strong>
 					</h4>
 				</div>
                 <div class="vc_tta-panel-body">
