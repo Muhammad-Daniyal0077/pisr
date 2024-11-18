@@ -1,3 +1,7 @@
+<style>
+
+</style>
+
 <header id="header">
     <div class="header-top">
         <div class="container">
@@ -13,9 +17,9 @@
                         <li><a href="http://parent.pisr.org/"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
                         <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS</a></li>
                         <li><a href="<?php echo base_url(); ?>carrers/carrers"><i class="fa fa-building top-icon"></i>Apply Now</a>
-</li>
+                        </li>
 
-                                
+
                     </ul>
                 </div>
             </div>
@@ -43,7 +47,7 @@
                                 <li><a href="<?php echo base_url(); ?>about/schoolmanagment">School Management Concil</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/adminstaff">Administration</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/rulesregulations">Rules Regulation</a></li>
-                                
+
                                 <li><a href="<?php echo base_url(); ?>about/schoolhistory" style="color:red;">School History</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/accreditation" style="color:red;">Accreditation</a></li>
                             </ul>
@@ -53,11 +57,11 @@
                             <!-- dropdwon start -->
                             <ul class="dropdown list-unstyled">
                                 <li><a href="<?php echo base_url(); ?>acadimics/schooltime">School Timing</a></li>
-                               
-                               
-                               
-                          
-                            
+
+
+
+
+
                                 <li><a href="<?php echo base_url(); ?>acadimics/worksheet">Worksheet</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/curriculum" style="color:red;">Curriculum Overview</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel" style="color:red;">Grade Levels</a></li>
@@ -70,12 +74,19 @@
                         <li><a data-scroll href="#">ADMISSION</a>
                             <!-- dropdwon start -->
                             <ul class="dropdown list-unstyled">
-                                
-                               
+
                                 <li><a href="<?php echo base_url(); ?>admission/admissionreg">Admission Registeration Forms</a></li>
-                                
-                                <li><a href="<?php echo base_url(); ?>admission/admissionpolicy">School Admission policy</a></li>
-                                
+
+                                <li class="admission-dropdown">
+                                    <a href="<?php echo base_url(); ?>admission/admissionpolicy">School Admission Policy</a>
+                                    <ul class="admission-dropdown-menu">
+                                        <li>Fee Policy</li>
+                                        <li>Admission Policy</li>
+                                    </ul>
+                                </li>
+
+
+
                                 <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Sallybus</a></li>
                                 <li><a href="<?php echo base_url(); ?>admission/enrollementdates" style="color:red;">Enrollement Dates</a></li>
                                 <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
@@ -102,7 +113,7 @@
                         <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact</a></li>
                         <li>
                             <a data-scroll href="<?php echo base_url(); ?>downloads">Downloads
-                                <i class="fa fa-download"></i> 
+                                <i class="fa fa-download"></i>
                             </a>
                         </li>
 
