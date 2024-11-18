@@ -213,6 +213,20 @@ class Main extends CI_Controller
 		$data['filename']='Admissionpolicy';
 		$this->load->view('Main',$data);
 	}
+	public function feepolicy()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/policies';
+		$data['filename']='Feepolicy';
+		$this->load->view('Main',$data);
+	}
+	public function adpolicy()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End/policies';
+		$data['filename']='Adpolicy';
+		$this->load->view('Main',$data);
+	}
 	public function agecriteria()
 	{
 		// Load view and pass the data
