@@ -1,5 +1,42 @@
 <style>
-
+/* Admission Drop down css */
+ /* Container for the admission dropdown */
+ .admission-dropdown {
+    position: relative;
+  }
+  
+  /* Dropdown menu styling specific to admission */
+  .admission-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%; /* Position to the right of the parent */
+    background-color: #fff;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* To ensure it appears above other elements */
+    width: 182px;
+      border-radius: 4px;
+      border-top-color: yellow;
+  }
+  
+  /* Show the dropdown on hover */
+  .admission-dropdown:hover .admission-dropdown-menu {
+    display: block;
+  }
+  
+  /* Styling for dropdown menu items */
+  .admission-dropdown-menu li {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .admission-dropdown-menu li:hover {
+    background-color: yellow;
+  }
+  
 </style>
 
 <header id="header">
@@ -78,10 +115,10 @@
                                 <li><a href="<?php echo base_url(); ?>admission/admissionreg">Admission Registeration Forms</a></li>
 
                                 <li class="admission-dropdown">
-                                    <a href="<?php echo base_url(); ?>admission/admissionpolicy">School Admission Policy</a>
+                                    <a href="#">School Admission Policy</a>
                                     <ul class="admission-dropdown-menu">
-                                        <li>Fee Policy</li>
-                                        <li>Admission Policy</li>
+                                        <li><a href="<?php echo base_url(); ?>policies/feepolicy">Fee Policy</a></li>
+                                        <li><a href="<?php echo base_url(); ?>policies/adpolicy">Admission Policy</a></li>
                                     </ul>
                                 </li>
 
