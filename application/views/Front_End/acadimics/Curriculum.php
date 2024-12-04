@@ -115,7 +115,7 @@
 
     @media only screen and (min-width: 500px) {
         .article__figure {
-            padding-bottom: 50%;
+            padding-bottom: 70%;
         }
     }
 
@@ -124,12 +124,7 @@
         .article__figure {
             padding-bottom: 66.6%;
         }
-    }
-
-    @media only screen and (min-width: 1200px) {
-        .article__figure {
-            padding-bottom: 50%;
-        }
+    
 
 
     }
@@ -137,7 +132,7 @@
     .article__title,
     .article__info {
         opacity: 0;
-        max-width: 48rem;
+        max-width: 70rem;
         padding: 0.85rem 1rem;
         transform: translateX(50%);
         transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
@@ -148,7 +143,7 @@
 
     .article__info {
         background-color: rgba(51, 51, 51, 0.7);
-        font-weight: 100;
+        font-weight: 80;
         letter-spacing: 2px;
         font-size: 1rem;
     }
@@ -251,16 +246,7 @@
         max-width: 90%;
     }
 
-    .article__title,
-    .article__info {
-        opacity: 0;
-        max-width: 40rem;
-        padding: 0.85rem 1rem;
-        transform: translateX(50%);
-        transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-        color: #eaf4ff;
-
-    }
+   
 
     .article__title {
         background-color: rgba(51, 51, 51, 0.5);
@@ -269,18 +255,13 @@
         font-size: 2.4rem;
     }
 
-    .article__info {
-        background-color: rgba(51, 51, 51, 0.7);
-        font-weight: 100;
-        letter-spacing: 2px;
-        font-size: 1rem;
-    }
+   
 </style>
 
 
 
 <div class="wpb_wrapper" style="margin: 30px 33px;">
-    <h1 class="center-heading">Educational Facilities</h1>
+    <h1 class="center-heading">Curriculum Overview</h1>
 
 </div>
 
@@ -291,8 +272,8 @@
         <div class="grid">
             <!-- Pre School Section -->
             <article class="article">
-                <figure class="article__figure">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/013.jpg" />
+                <figure class="article__figure" style="height: 400px;">
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/014.jpg" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">Pre School</h4>
                         <p class="article__info">
@@ -305,54 +286,64 @@
 
             <!-- Junior School Section -->
             <article class="article">
-                <figure class="article__figure">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/13.webp" />
+                <figure class="article__figure" style="height: 400px;">
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/015.jpg" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">Junior School</h4>
                         <p class="article__info">
-                            Our JS program, catering to students from Grade 2-Grade 4, is dedicated to nurturing the leaders of tomorrow. By combining top-notch education with the development of essential social skills, we aim to prepare our young learners for success in the 21st Century. Through interactive lessons, hands-on activities, and project-based learning, we create a dynamic learning environment that fosters creativity and critical thinking. We are committed to equipping our students with the necessary skills to thrive in an ever-changing world. Through a range of weekly activities and competitions, we strive to instill confidence and leadership qualities in our students. By following the esteemed Oxford Curriculum and delivering engaging lessons, we ensure that our students emerge as exemplary individuals who are ready to make a positive impact on society.
-                            <br><br>
-                            With a focus on STEAM activities, our program encourages both students and teachers to engage in a dynamic learning experience. By promoting the achievement of lesson objectives while fostering a love for learning, we cultivate a passion for education in our students. Through expertly crafted lesson plans and a variety of activities, we create a supportive learning environment where students can thrive and reach their full potential. At JS, we are committed to providing our students with the tools they need to thrive in a rapidly advancing technological landscape. That's why we have introduced Robotics into our curriculum, along with Microbit Education and microbit chips. With these tools, our students will not only stay up to date with the latest advancements, but they will also have the opportunity to explore and create with cutting-edge technology. By incorporating Robotics into our programs, we are empowering our students to think critically, problem-solve, and collaborate in innovative ways. Through hands-on experience with microbit chips, they will learn how to program and control robots, gaining valuable skills that will serve them well in their future careers. Our goal is to inspire a new generation of tech-savvy individuals who are equipped to take on the challenges of tomorrow.
+                            Our <strong>JS program</strong> for students in <strong>Grade 2-Grade 4</strong> focuses on developing <strong>leaders</strong> of tomorrow by combining high-quality education with essential <strong>social skills</strong>. Through <strong>interactive lessons</strong>, <strong>hands-on activities</strong>, and <strong>project-based learning</strong>, we foster <strong>creativity</strong> and <strong>critical thinking</strong>. We are committed to preparing students for success in the <strong>21st Century</strong> by instilling <strong>confidence</strong> and <strong>leadership qualities</strong> through <strong>weekly activities</strong> and <strong>competitions</strong>.
+                        <br><br>
+                            The program emphasizes <strong>STEAM activities</strong> and promotes the achievement of lesson objectives while creating a passion for <strong>learning</strong>. We provide a <strong>supportive learning environment</strong> and focus on developing <strong>critical thinking</strong> skills. With the introduction of <strong>Robotics</strong> and <strong>Microbit Education</strong> using <strong>microbit chips</strong>, our students gain hands-on experience in <strong>programming</strong> and <strong>robotics</strong>, empowering them to become tech-savvy problem-solvers. Our goal is to prepare students to face the challenges of the future with the skills and knowledge they need to succeed.
                         </p>
+                        
                     </figcaption>
                 </figure>
+                <h3 class="text-center text-primary" style="margin-top: 10px;">Junior School</h3>
+
             </article>
 
             <!-- Middle School Section -->
             <article class="article">
-                <figure class="article__figure">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/013.jpg" />
+                <figure class="article__figure" style="height: 400px;">
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/016.jpg" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">Middle School</h4>
                         <p class="article__info">
-                            At Middle school we prioritize ensuring that students not only excel in their academic pursuits but also develop essential life skills that will serve them well beyond the classroom. By focusing on research, analytical, and reasoning skills, students are better equipped to approach problems and challenges with a critical mindset.
-                            <br><br>
-                            Through our emphasis on leadership development, organizational skills, and effective communication, we empower students to take on leadership roles and communicate effectively with their peers and future colleagues. These skills are invaluable in both personal and professional settings, and we strive to cultivate them in each student we work with. By following the esteemed Oxford Curriculum and delivering engaging lessons, we ensure that our students emerge as exemplary individuals who are ready to make a positive impact on society.
-                            <br><br>
-                            Our supportive learning environment fosters independence and encourages students to make decisions based on critical thinking. By providing a space where students can freely explore ideas and opinions, we promote a culture of curiosity and growth. Students are encouraged to take ownership of their learning journey and develop the confidence to navigate challenges with a strong foundation of critical thinking skills.
-                            <br><br>
-                            With a focus on STEAM activities, our program encourages both students and teachers to engage in a dynamic learning experience. By promoting the achievement of lesson objectives while fostering a love for learning, we cultivate a passion for education in our students. Through expertly crafted lesson plans and a variety of activities, we create a supportive learning environment where students can thrive and reach their full potential.
+                            At <strong>Middle School</strong>, we focus on ensuring students excel academically while developing essential <strong>life skills</strong> such as <strong>research</strong>, <strong>analytical</strong>, and <strong>reasoning skills</strong> to help them approach challenges with a <strong>critical mindset</strong>. 
+                        
+                            Our emphasis on <strong>leadership development</strong>, <strong>organizational skills</strong>, and <strong>effective communication</strong> empowers students to take on leadership roles and communicate confidently with peers and colleagues. These skills are crucial in both <strong>personal</strong> and <strong>professional</strong> settings, preparing students to make a positive impact on society.
+                        
+                            We provide a <strong>supportive learning environment</strong> that encourages <strong>independence</strong> and critical thinking. By fostering a culture of <strong>curiosity</strong> and <strong>growth</strong>, students develop the confidence to take ownership of their learning journey.
+                        
+                            Our focus on <strong>STEAM activities</strong> ensures a dynamic learning experience. Through engaging lessons and <strong>expertly crafted lesson plans</strong>, we promote a <strong>passion for education</strong>, helping students thrive and reach their full potential.
                         </p>
+                        
                     </figcaption>
                 </figure>
+                <h3 class="text-center text-primary" style="margin-top: 10px;">Middle School</h3>
+
             </article>
 
             <!-- High School Section -->
             <article class="article">
-                <figure class="article__figure">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/13.webp" />
+                <figure class="article__figure" style="height: 400px;">
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/017.jpg" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">High School</h4>
                         <p class="article__info">
-                            At High School, we believe that equipping students with essential life skills is crucial in preparing them for the challenges of the modern world. Our high school is affiliated with Federal Board Islamabad and we follow the assigned curriculum by emphasizing the development of planning and organizational skills, students are empowered to effectively manage their time and tasks, leading to greater success in both academic and professional endeavors. Through hands-on learning experiences and interactive workshops, we provide students with the tools they need to thrive in the fast-paced environment of the 21st century.
-                            <br><br>
-                            Continuous learning is a core value that we instill in our students, as we recognize the importance of staying adaptable and open to new ideas and innovations. By fostering a culture of curiosity and growth, we empower students to expand their knowledge and skills beyond the classroom walls. Through a variety of educational programs and events, students are encouraged to explore new subject areas, engage with diverse perspectives, and develop a passion for lifelong learning.
-                            <br><br>
-                            Our commitment to preparing students for the job market extends beyond theoretical knowledge, as we believe in the importance of practical application in real-life contexts. Through a range of hands-on activities, internships, career counselling sessions, university roadshows and networking opportunities, we provide students with the chance to apply their learning in meaningful ways. By equipping students with the skills and experience needed to succeed in their future careers, we empower them to confidently navigate the challenges and opportunities that await them in the professional world.
+                            At <strong>High School</strong>, we focus on equipping students with essential <strong>life skills</strong> to prepare them for the challenges of the modern world. Affiliated with the <strong>Federal Board Islamabad</strong>, we emphasize <strong>planning</strong> and <strong>organizational skills</strong> to help students effectively manage their time and tasks, ensuring success in both academic and professional endeavors. Through <strong>hands-on learning</strong> and <strong>interactive workshops</strong>, students gain the tools to thrive in the fast-paced <strong>21st century</strong>.
+                        
+                            We foster a culture of <strong>continuous learning</strong> by encouraging students to stay adaptable, expand their knowledge, and develop a passion for <strong>lifelong learning</strong>. A variety of educational programs and events provide opportunities for students to engage with diverse perspectives and explore new subject areas.
+                        
+                            Our commitment to preparing students for the <strong>job market</strong> goes beyond theoretical knowledge. Through <strong>hands-on activities</strong>, <strong>internships</strong>, <strong>career counseling</strong>, <strong>university roadshows</strong>, and networking, we help students apply their learning in meaningful ways. By providing <strong>practical experience</strong>, we equip students with the skills needed to succeed in their future careers and confidently navigate the <strong>professional world</strong>.
                         </p>
+                        
                     </figcaption>
                 </figure>
+                <h3 class="text-center text-primary" style="margin-top: 10px;">High School</h3>
             </article>
+            
+
         </div>
     </div>
 </section>
