@@ -85,7 +85,7 @@
                                 <li><a href="<?php echo base_url(); ?>about/adminstaff">Administration</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/rulesregulations">Rules Regulation</a></li>
 
-                                <li><a href="<?php echo base_url(); ?>about/schoolhistory" style="color:red;">School History</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/schoolhistory">School History</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/accreditation" style="color:red;">Accreditation</a></li>
                             </ul>
                             <!-- dropdown end -->
@@ -117,8 +117,8 @@
                                 <li class="admission-dropdown">
                                     <a href="#">School Admission Policy</a>
                                     <ul class="admission-dropdown-menu">
-                                        <li><a href="<?php echo base_url(); ?>policies/feepolicy">Fee Policy</a></li>
-                                        <li><a href="<?php echo base_url(); ?>policies/adpolicy">Admission Policy</a></li>
+                                        <li><a href="https://drive.google.com/file/d/1NVDha0OO-79rvFep8QEG_nJpvAXosCrv/view?usp=drive_link">Fee Policy</a></li>
+                                        <li><a href="https://drive.google.com/file/d/11aDi2GATKcYecv9b_uPkm7TbEerf42lD/view?usp=drive_link">Admission Policy</a></li>
                                     </ul>
                                 </li>
 
