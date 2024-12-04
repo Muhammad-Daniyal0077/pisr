@@ -238,7 +238,8 @@
 </style>
 <!-- Page Title -->
 <div class="pic">
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(<?php echo base_url(); ?>asset/images/downloads/background.png);">
+    <div class="page-title dark-background" data-aos="fade" 
+    style="background-image: url(<?php echo base_url(); ?>asset/images/downloads/background.png);">
         <div class="background-overlay"></div> <!-- Overlay div for dull effect -->
         <div class="container">
             <h1 class="animated-title">School Vision</h1>

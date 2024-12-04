@@ -1,8 +1,8 @@
 <!-- Page Title -->
 <div class="pic">
 	<div class="page-title dark-background" data-aos="fade"
-		style="background-image: url(https://pisr.org/v2/wp-content/uploads/2021/06/Untitled-design1.png);">
-		<div class="background-overlay"></div> <!-- Overlay div for dull effect -->
+	style="background-image: url(<?php echo base_url(); ?>asset/images/downloads/background.png);">
+	<div class="background-overlay"></div> <!-- Overlay div for dull effect -->
 		<div class="container">
 			<h1 class="animated-title">Accreditation</h1>
 			<nav class="breadcrumbs">
