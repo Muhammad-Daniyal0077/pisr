@@ -14,3 +14,19 @@
 		</div>
 	</div>
 </div>
+
+<section class="events-list-03 py-5 bg-light">
+<div class="container text-center mt-5">
+    <div class="card shadow-lg p-4">
+        <h3 class="text-primary">This Page is in Process</h3>
+        <p class="text-muted">We're working hard to get this page up and running. Stay tuned!</p>
+        <div class="mt-4">
+		<a href="<?php echo base_url(); ?>home" class="btn btn-primary">Go Back</a>
+		<a href="<?php echo base_url(); ?>home" class="btn btn-secondary">Home</a>
+		
+        </div>
+    </div>
+</div>
+
+    
+</section>
