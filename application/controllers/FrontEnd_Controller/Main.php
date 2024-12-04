@@ -148,11 +148,11 @@ class Main extends CI_Controller
 		$data['filename']='Curriculum';
 		$this->load->view('Main',$data);
 	}
-	public function gradeslevel()
+	public function mtts()
 	{
 		// Load view and pass the data
 		$data['path']='Front_End/acadimics';
-		$data['filename']='Gradeslevel';
+		$data['filename']='MTSS';
 		$this->load->view('Main',$data);
 	}
 	public function assesmentprogram()
