@@ -100,6 +100,8 @@
 
 
                                 <li><a href="<?php echo base_url(); ?>acadimics/worksheet">Worksheet</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/curriculum" style="color:red;">Curriculum Overview</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/Academic-sport-program" style="color:red;">Academic Support Programs-MTSS</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/curriculum">Curriculum Overview</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel" style="color:red;">Grade Levels</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" style="color:red;">Special Programs</a></li>

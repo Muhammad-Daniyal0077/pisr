@@ -14,6 +14,7 @@
     </div>
   </div>
 </div>
+
 <style>
   h2.section-heading {
     background-color: #509999;
@@ -289,8 +290,6 @@
 
 
 <div class="info">
-
-
   <h2 class="container section-heading ">Laboratories</h2>
   <section class="events-list-03">
 
