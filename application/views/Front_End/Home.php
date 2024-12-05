@@ -160,22 +160,47 @@
                 <h4 class="section-title new-news-title">Latest News</h4>
                 <!-- Prev Button at the start of Latest News -->
                 <button class="new-prev-btn">
-                    <i class="fas fa-arrow-left"></i>
+                    <i class="fas fa-arrow-left" style="font-size: 1.5rem;"></i>
                 </button>
                 <div class="new-news-slider">
                     <div class="new-news-content">
                         <div class="new-news-item">
                             <div class="news-text">
-                                <h6 class="new-news-headline">New Campus Facilities Opened</h6>
-                                <span class="new-news-date">Aug 10, 2023</span>
+                                <h6 class="new-news-headline">Revision in school fees for Session 2024-2025</h6>
+                                <a href="https://pisr.org/v2/wp-content/uploads/2024/06/Fee-Increase-Letter.pdf" class="new-news-date">Fee Increase Letter</a>
                             </div>
                         </div>
                         <div class="new-news-item">
                             <div class="news-text">
-                                <h5 class="new-news-headline">Earth Day Celebrations</h5>
-                                <span class="new-news-date">Apr 20, 2023</span>
+                                <h5 class="new-news-headline">Fee Counter Timings: 06:30 AM to 2:00 PM </h5>
+                                <span class="new-news-date">(Sunday to Thursday) (Friday-Saturday off)</span>
                             </div>
                         </div>
+                        <div class="new-news-item">
+                            <div class="news-text">
+                                <h5 class="new-news-headline">Nursery/KG/Play Group has no uniform dress code </h5>
+                                <span class="new-news-date">Students can come in outfits of their choice.</span>
+                            </div>
+                        </div>
+                        <div class="new-news-item">
+                            <div class="news-text">
+                                <h5 class="new-news-headline">Main Office building shifted  </h5>
+                                <span class="new-news-date">From Nasiriyah to Al Washam Building</span>
+                            </div>
+                        </div>
+                        <div class="new-news-item">
+                            <div class="news-text">
+                                <h5 class="new-news-headline">For Admission Queries</h5>
+                                <span class="new-news-date">Please  WhatsApp 0580793894.</span>
+                            </div>
+                        </div>
+                        <div class="new-news-item">
+                            <div class="news-text">
+                                <h5 class="new-news-headline">There is no change in the uniform </h5>
+                                <span class="new-news-date">Design/ pattern..</span>
+                            </div>
+                        </div>
+                    
                     </div>
                 </div>
             </div>
@@ -187,21 +212,16 @@
                     <div class="new-events-content">
                         <div class="new-event-item">
                             <div class="event-text">
-                                <h5 class="new-event-headline">Charity Run</h5>
-                                <span class="new-event-date">Sep 15, 2023</span>
+                                <h5 class="new-event-headline">No Records Found</h5>
+                                <span class="new-event-date">Null</span>
                             </div>
                         </div>
-                        <div class="new-event-item">
-                            <div class="event-text">
-                                <h5 class="new-event-headline">Student Conference</h5>
-                                <span class="new-event-date">Oct 1, 2023</span>
-                            </div>
-                        </div>
+                    
                     </div>
                 </div>
                 <!-- Next Button at the end of Upcoming Events -->
                 <button class="new-next-btn">
-                    <i class="fas fa-arrow-right"></i>
+                <i class="fas fa-arrow-right" style="font-size: 1.5rem;"></i>
                 </button>
             </div>
         </div>
@@ -527,14 +547,14 @@
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-01.png" alt="">
-                            <div class="project-count counter" data-count="7095">7095</div>
+                            <div class="project-count counter" data-count="4,219">4,219</div>
                             <span>active students</span>
                         </div>
                     </div>
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-02.png" alt="">
-                            <div class="project-count counter">508</div>
+                            <div class="project-count counter">  Coming Soon </div>
                             <span>online courses</span>
                         </div>
                     </div>
@@ -549,7 +569,7 @@
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-04.png" alt="">
                             <div class="project-count counter">70</div>
-                            <span>active students</span>
+                            <span>Awards</span>
                         </div>
                     </div>
                 </div>
