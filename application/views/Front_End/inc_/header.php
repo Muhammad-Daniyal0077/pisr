@@ -117,7 +117,7 @@
                                     <a href="#">School Admission Policy</a>
                                     <ul class="admission-dropdown-menu">
                                         <li><a href="https://drive.google.com/file/d/1NVDha0OO-79rvFep8QEG_nJpvAXosCrv/view?usp=drive_link">Fee Policy</a></li>
-                                        <li><a href="https://drive.google.com/file/d/11aDi2GATKcYecv9b_uPkm7TbEerf42lD/view?usp=drive_link">Admission Policy</a></li>
+                                        <li><a href="https://drive.google.com/file/d/1IDC7p-SpomeorSQeckledSM00DeaNW_U/view?usp=sharing">Admission Policy</a></li>
                                     </ul>
                                 </li>
 
