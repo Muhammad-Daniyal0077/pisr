@@ -53,7 +53,7 @@
                     <ul class="list-unstyled">
                         <li><a href="http://parent.pisr.org/"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
                         <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS</a></li>
-                        <li><a href="<?php echo base_url(); ?>carrers/carrers"><i class="fa fa-building top-icon"></i>Apply Now</a>
+                        <li><a href="https://pisr-uat15.sowaanerp.com/jobs"><i class="fa fa-building top-icon"></i>Apply Now</a>
                         </li>
 
 
@@ -79,13 +79,11 @@
                             <!-- dropdwon start -->
                             <ul class="dropdown list-unstyled">
                                 <li><a href="<?php echo base_url(); ?>about/principlemessage">Principle Message</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/schoolvision">School Vision</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/schoolmission">School Mission</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/schoolhistory">School History</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/schoolvision">School Vision & Mission</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/schoolmanagment">School Management Concil</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/adminstaff">Administration</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/rulesregulations">Rules Regulation</a></li>
-
-                                <li><a href="<?php echo base_url(); ?>about/schoolhistory" style="color:red;">School History</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/accreditation" style="color:red;">Accreditation</a></li>
                             </ul>
                             <!-- dropdown end -->
@@ -100,10 +98,8 @@
 
 
                                 <li><a href="<?php echo base_url(); ?>acadimics/worksheet">Worksheet</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/curriculum" style="color:red;">Curriculum Overview</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/Academic-sport-program" style="color:red;">Academic Support Programs-MTSS</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/Academic-sport-program">Academic Support Programs-MTSS</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/curriculum">Curriculum Overview</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/gradeslevel" style="color:red;">Grade Levels</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" style="color:red;">Special Programs</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram">Assessment Policy</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/facaulty">Faculty</a></li>

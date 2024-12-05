@@ -58,7 +58,6 @@ $route['default_controller'] = 'welcome';
 $route['home'] = 'FrontEnd_Controller/Main';  
 $route['about/principlemessage'] = 'FrontEnd_Controller/Main/principlemessage';  
 $route['about/schoolvision'] = 'FrontEnd_Controller/Main/schoolvision';  
-$route['about/schoolmission'] = 'FrontEnd_Controller/Main/schoolmission';  
 $route['about/schoolmanagment'] = 'FrontEnd_Controller/Main/schoolmanagment';  
 $route['about/adminstaff'] = 'FrontEnd_Controller/Main/adminstaff';  
 $route['about/rulesregulations'] = 'FrontEnd_Controller/Main/rulesregulations';  
@@ -87,17 +86,15 @@ $route['admission/enrollementdates'] = 'FrontEnd_Controller/Main/enrollementdate
 $route['admission/faqs'] = 'FrontEnd_Controller/Main/faqs';
 $route['achievments/fbise'] = 'FrontEnd_Controller/Main/fbise';
 $route['achievments/successstories'] = 'FrontEnd_Controller/Main/successstories';
-
 $route['facilities/general'] = 'FrontEnd_Controller/Main/general';
 $route['facilities/libraries'] = 'FrontEnd_Controller/Main/libraries';
+$route['facilities/laboratories'] = 'FrontEnd_Controller/Main/laboratories';
 $route['facilities/laboratories'] = 'FrontEnd_Controller/Main/laboratories';
 $route['facilities/extracurricular'] = 'FrontEnd_Controller/Main/extracurricular';
 $route['gallery'] = 'FrontEnd_Controller/Main/gallery';
 $route['contact'] = 'FrontEnd_Controller/Main/contact';
 $route['downloads'] = 'FrontEnd_Controller/Main/downloads';
 $route['events'] = 'FrontEnd_Controller/Main/events';
-$route['carrers/carrers'] = 'FrontEnd_Controller/Main/carrers';
-
 
 
 // Backend Routes

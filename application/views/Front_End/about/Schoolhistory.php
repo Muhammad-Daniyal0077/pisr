@@ -15,7 +15,7 @@
 	</div>
 </div>
 <!-- End Page Title -->
-<!-- Principle Area section -->
+<!-- History Area section -->
 <section class="events-list-03">
 	<div class="container">
 		<div class="row align-items-center">
