@@ -4,12 +4,14 @@
         <div class="row">
             <div class=" col-sm-12 footer-content-box">
                 <div class="col-sm-4">
-                    <img class="alignnone size-full wp-image-10"
-                        src="https://pisr.org/v2/wp-content/uploads/2021/06/PISR-e1623144368927.png"
-                        style="width: 112px; height: 46px;">
-                    <p class="mt-4">We are Educatios, creat your passion and inspiration. And hope success will come
-                        for your
-                        dream. Please send email and get latest news.</p>
+                <h3>Get in touch</h3>
+                    <a ref="https://pisr.org/v2/wp-content/uploads/2022/10/PISR-VAT-certificate.pdf">
+                        <img style="margin-bottom: 12px;" h
+                            loading="lazy" decoding="async" class="aligncenter wp-image-7127"
+                            src="https://pisr.org/v2/wp-content/uploads/2022/10/WhatsApp-Image-2022-10-16-at-3.39.46-PM-2-e1665988024285.jpeg"
+                            alt="" width="110" height="100"></a>
+
+                            <br>
                     <ul class="list-unstyled">
                         <li><span><i class="fa fa-phone footer-icon"></i></span>+966114414428</li>
                         <li><span><i class="fa fa-envelope footer-icon"></i></span>support_team@pisr.org</li>
@@ -18,7 +20,7 @@
                 </div>
 
 
-                <div class="col-sm-2 m-2">
+                <div class="col-sm-4 m-2">
                     <h3>Links</h3>
                     <ul class="list-unstyled">
                         <li><a href="<?php echo base_url(); ?>about/principlemessage"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Principlemessaage</a>
@@ -50,13 +52,7 @@
 
                 </div>
 
-                <div class="col-sm-2">
-                    <h3>Get in touch</h3>
-                    <a href="https://pisr.org/v2/wp-content/uploads/2022/10/PISR-VAT-certificate.pdf"><img
-                            loading="lazy" decoding="async" class="aligncenter wp-image-7127"
-                            src="https://pisr.org/v2/wp-content/uploads/2022/10/WhatsApp-Image-2022-10-16-at-3.39.46-PM-2-e1665988024285.jpeg"
-                            alt="" width="110" height="100"></a>
-                </div>
+              
 
 
 
@@ -129,7 +125,7 @@
             <div class="footer-bottom-inner">
                 <div class="row">
                     <div class="col-md-6 col-sm-12 footer-no-padding">
-                        <span style="color:white">&copy; Copyright 2019 PISR | All rights reserved</span>
+                        <span style="color:white">&copy; Copyright 2024 PISR | All rights reserved</span>
                     </div>
                     <div class="col-md-6 col-sm-12 footer-no-padding">
                         <ul class="list-unstyled footer-menu text-right">

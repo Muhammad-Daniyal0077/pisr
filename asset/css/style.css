@@ -1,4 +1,4 @@
-/*-------------------------------------------------------
+f/*-------------------------------------------------------
 [Master Stylesheet]
 	Template Name	LearnPro - Education HTML Tamplate
 	Description: 	A responsive Modern Education HTML5 Tamplate
@@ -75,6 +75,18 @@ h3 {
 	transition: all 0.3s ease-in-out;
 }
 
+@media (max-width: 768px) {
+	.slide video {
+	  margin-left: 0 !important; /* Remove margin for smaller screens */
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.slide video {
+	  max-height: 60vh; /* Reduce max height for very small screens */
+	}
+  }
+
 
 
 .section-header,
@@ -86,7 +98,7 @@ h3 {
 .section-header:before,
 .section-header-l:before {
 	border-bottom: 1px solid #b2b2b2;
-	bottom: 15px;
+	bottom: 0px;
 	content: "";
 	height: 2px;
 	left: 50%;
@@ -225,7 +237,7 @@ header {
 }
 
 header .header-top {
-	background: #292929;
+	background: #003d6d;
 }
 
 header .header-top .header-top-left ul {
@@ -1164,77 +1176,6 @@ header .tp-rightarrow {
 	font-size: 25px;
 }
 
-/*=======[ Index Publication Area Style ]========*/
-
-.publication-area {
-	background: #ffffff;
-	padding-bottom: 30px;
-}
-
-.publication-area .publication-single-item {
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
-    transition: all 0.3s ease-in-out;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.publication-area .publication-single-item:hover {
-	box-shadow: 0 1px 30px rgba(0, 0, 0, 0.25);
-    transition: all 0.3s ease-in-out;
-    border: 2px solid black;
-    background: #ccffee;
-}
-
-.publication-area .publication-single-item:hover .publication-text h3 a {
-	color: #fec722;
-}
-
-.publication-area .publication-single-item:hover .publication-text ul li a {
-	background: #fec722;
-	border: 1px solid #fec722;
-}
-
-.publication-area .publication-single-item img {
-	min-height: 144px;
-	width: 158%;
-	width: 278px;
-	border-radius: 1px;
-	padding: 20px;
-}
-
-.publication-area .publication-single-item .publication-text {
-	padding: 23px 25px;
-}
-
-.publication-area .publication-single-item .publication-text h3 a {
-	color: #333333;
-	text-decoration: none;
-	transition: all 0.3s ease-in-out;
-}
-
-.publication-area .publication-single-item .publication-text ul li {
-	display: inline-block;
-	color: #fec722;
-	font-family: "Montserrat", sans-serif;
-	font-size: 15px;
-	font-weight: 600;
-}
-
-.publication-area .publication-single-item .publication-text ul li:last-child {
-	float: right;
-}
-
-.publication-area .publication-single-item .publication-text ul li a {
-	color: #333333;
-	font-family: "Open Sans", sans-serif;
-	font-size: 10px;
-	font-weight: 600;
-	text-transform: uppercase;
-	text-decoration: none;
-	border: 1px solid #333333;
-	padding: 5px 15px;
-	transition: all 0.3s ease-in-out;
-}
 
 /*=======[Index News Area Style ]========*/
 
@@ -1441,10 +1382,12 @@ header .tp-rightarrow {
 
 .students-say-area .slick-prev {
 	background: url("../images/index/arror-02-left.png") center center no-repeat;
+	background-color: #3446cf;
 }
 
 .students-say-area .slick-next {
 	background: url("../images/index/arror-02-right.png") center center no-repeat;
+	background-color: #3446cf;
 }
 
 /*=======[Index Instraction Area Style ]========*/

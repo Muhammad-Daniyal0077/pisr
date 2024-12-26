@@ -1,63 +1,52 @@
+<style>
+
+
+</style>
+
+<!-- counter -->
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
 <div class="slider-wrapper">
     <div class="slider">
         <div class="slide">
-            <img src="<?php echo base_url(); ?>asset/images/downloads/s1.jpg" alt="Slide 1">
-
-        </div>
-        <div class="slide">
-            <img src="<?php echo base_url(); ?>asset/images/downloads/s2.jpg" alt="Slide 2">
-
-        </div>
-        <div class="slide">
-            <img src="<?php echo base_url(); ?>asset/images/downloads/s3.jpg" alt="Slide 3">
-
-        </div>
-        <div class="slide">
-            <img src="<?php echo base_url(); ?>asset/images/downloads/s4.jpg" alt="Slide 4">
-
+            <video src="<?php echo base_url(); ?>asset/video/sorts.mp4" autoplay muted loop style="margin-left: -206px !important;"></video>
         </div>
     </div>
-    <!-- Navigation Buttons -->
-    <button class="prev-btn" onclick="moveSlide(-1)">&#10094;</button>
-    <button class="next-btn" onclick="moveSlide(1)">&#10095;</button>
 </div>
 
 
-
-<!-- Success stories -->
-<section class="slider-content-bottom">
+<!-- Start Welcome Area section -->
+<section class="Welcome-area">
     <div class="container">
-        <div class="row sider-btm-row-inner">
-            <div class="col-sm-4 content_body slide_cont_box_01">
-                <div class="slider-btm-box btm-item_01">
-                    <a href="<?php echo base_url(); ?>achievments/fbise"><img
-                            src="<?php echo base_url(); ?>asset/images/index/slide-bottom-01.png" alt=""
-                            class="btm-item-icon"></a>
-                    <h3>ACHIEVEMENT</h3>
-                </div>
-            </div>
+        <div class="row">
+            <div class="col-sm-6 Welcome-area-text">
+                <div class="row">
+                    <div class="col-sm-12 section-header-box">
+                        <div class="section-header section-header-l">
+                            <h2>Welcome To <span style="color: #0632ff;">PISR</span></h2>
 
-            <div class="col-sm-4 content_body slide_cont_box_02">
-                <div class="slider-btm-box btm-item_02">
-                    <a href="<?php echo base_url(); ?>achievments/successstories"><img
-                            src="<?php echo base_url(); ?>asset/images/index/slide-bottom-02.png" alt=""
-                            class="btm-item-icon"></a>
-                    <h3>SUCCESS STORY</h3>
+                        </div><!-- ends: .section-header -->
+                    </div>
                 </div>
-            </div>
+                <p style="margin-top: 16px;">PISR is a proficient and contemporary school
+                    with years of experience and knowledge in grooming of children. We provide experienced teachers
+                    and supportive environment for everyone.
+                    <br> <br>
+                    PISR was initially established in 1966, with the strength of only six students in a rented villa
+                    on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were
+                    keenly interested in the future of their generations. It got shut down after few months due to
+                    certain legal formalities but it didn’t stop them to keep struggle going.
+                </p>
 
-            <div class="col-sm-4 content_body slide_cont_box_03">
-                <div class="slider-btm-box btm-item_03">
-                    <a href="<?php echo base_url(); ?>events"><img
-                            src="<?php echo base_url(); ?>asset/images/index/slide-bottom-03.png" alt=""
-                            class="btm-item-icon"></a>
-                    <h3>EVENTS / ANNOUNCEMENTS</h3>
-                </div>
-            </div>
 
+            </div><!-- Ends: . -->
+
+            <div class="col-sm-6">
+                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
+            </div><!-- Ends: . -->
         </div>
     </div>
-</section>
+</section><!-- Ends: . -->
+<!-- ./ End Welcome Area section -->
 
 
 
@@ -67,7 +56,7 @@
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Principle test<span style="color: #ffb606;">Message</span></h2>
+                    <h2>Principle <span style="color: #0632ff;">Message</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>
@@ -184,14 +173,14 @@
                         </div>
                         <div class="new-news-item">
                             <div class="news-text">
-                                <h5 class="new-news-headline">Main Office building shifted  </h5>
+                                <h5 class="new-news-headline">Main Office building shifted </h5>
                                 <span class="new-news-date">From Nasiriyah to Al Washam Building</span>
                             </div>
                         </div>
                         <div class="new-news-item">
                             <div class="news-text">
                                 <h5 class="new-news-headline">For Admission Queries</h5>
-                                <span class="new-news-date">Please  WhatsApp 0580793894.</span>
+                                <span class="new-news-date">Please WhatsApp 0580793894.</span>
                             </div>
                         </div>
                         <div class="new-news-item">
@@ -200,7 +189,7 @@
                                 <span class="new-news-date">Design/ pattern..</span>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
             </div>
@@ -216,12 +205,12 @@
                                 <span class="new-event-date">Null</span>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
                 <!-- Next Button at the end of Upcoming Events -->
                 <button class="new-next-btn">
-                <i class="fas fa-arrow-right" style="font-size: 1.5rem;"></i>
+                    <i class="fas fa-arrow-right" style="font-size: 1.5rem;"></i>
                 </button>
             </div>
         </div>
@@ -263,56 +252,6 @@
     });
 </script>
 
-<!-- Start Welcome Area section -->
-<section class="Welcome-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 Welcome-area-text">
-                <div class="row">
-                    <div class="col-sm-12 section-header-box">
-                        <div class="section-header section-header-l">
-                            <h2>Welcome To <span style="color: #ffb606;">PISR</span></h2>
-
-                        </div><!-- ends: .section-header -->
-                    </div>
-                </div>
-                <p>PISR is a proficient and contemporary school
-                    with years of experience and knowledge in grooming of children. We provide experienced teachers
-                    and supportive environment for everyone.
-                    <br> <br>
-                    PISR was initially established in 1966, with the strength of only six students in a rented villa
-                    on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were
-                    keenly interested in the future of their generations. It got shut down after few months due to
-                    certain legal formalities but it didn’t stop them to keep struggle going.
-                </p>
-
-
-            </div><!-- Ends: . -->
-
-            <div class="col-sm-6">
-                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
-            </div><!-- Ends: . -->
-        </div>
-    </div>
-</section><!-- Ends: . -->
-<!-- ./ End Welcome Area section -->
-
-<!-- Start Video Area Section -->
-<section class="video-main-area video">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 video-play-btn">
-                <a href="<?php echo base_url(); ?>asset/video/Facebook.mp4" class="video-iframe"><i
-                        class="fa fa-play"></i></a>
-            </div>
-
-            <div class="video-content">
-                <h2>Take a Tour of PISR</h2>
-            </div><!-- ends: .section-header -->
-        </div>
-    </div>
-</section>
-<!-- ./ End Video Area section -->
 
 
 
@@ -460,11 +399,12 @@
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Our Top <span style="color: #ffb606;">Students</span></h2>
+                    <h2>Our Top <span style="color: #0632ff;">Students</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>
         </div>
+
         <div class="custom-swiper-container swiper-container">
             <div class="swiper-wrapper">
                 <!-- Slide 1 -->
@@ -547,29 +487,37 @@
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-01.png" alt="">
-                            <div class="project-count counter" data-count="4,219">4,219</div>
-                            <span>active students</span>
+                            <div class="project-count counter">
+                                <h1 data-purecounter-start="0" data-purecounter-end="4219" data-purecounter-duration="1" class="purecounter"></h1>
+                            </div>
+                            <span>Active students</span>
                         </div>
                     </div>
+
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-02.png" alt="">
-                            <div class="project-count counter">  Coming Soon </div>
-                            <span>online courses</span>
+                            <div class="project-count counter">
+                                <h1 data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></h1>
+                            </div>
+                            <span>FACULTY</span>
                         </div>
                     </div>
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-03.png" alt="">
-                            <div class="project-count counter">98</div>
+                            <div class="project-count counter">
+                                <h1 data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></h1>
+                            </div>
                             <span>Year of history</span>
                         </div>
                     </div>
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
                             <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-04.png" alt="">
-                            <div class="project-count counter">70</div>
-                            <span>Awards</span>
+                            <div class="project-count counter">
+                                <h1 data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></h1>
+                            </div> <span>Awards</span>
                         </div>
                     </div>
                 </div>
@@ -596,156 +544,99 @@
 
 
 <style>
-    .card {
-        border: 1px solid #e0e0e0;
-        border-radius: 10px;
-        overflow: hidden;
-        transition: transform 0.3s;
-    }
+    /* Add a gap and enhance card styling */
+#school-levels .card {
+    border: 1px solid #ddd; /* Light border for the card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures child elements don’t overflow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+}
 
-    .card:hover {
-        transform: scale(1.05);
-        list-style: none;
-        text-decoration: none;
-    }
+#school-levels .card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Emphasize shadow */
+}
 
-    .card a {
-        text-decoration: none;
-        color: inherit;
-    }
+#school-levels .card-img-top {
+    max-height: 200px; /* Restrict image height */
+    object-fit: cover; /* Keep aspect ratio */
+}
 
-    .card a:hover {
-        text-decoration: none;
-        /* Prevents underline */
-    }
+#school-levels .card-title {
+    font-size: 1.25rem; /* Increase title size */
+    font-weight: bold;
+}
 
-    .card img {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
+#school-levels .btn-primary {
+    background-color: #0632ff; /* Match section header color */
+    border-color: #0632ff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
-    .card-body {
-        padding: 15px;
-    }
+#school-levels .btn-primary:hover {
+    background-color: #0056e0; /* Slightly darker blue on hover */
+    transform: scale(1.05); /* Slight enlarge effect */
+}
 
-    .card-title {
-        font-weight: bold;
-        color: #0056b3;
-    }
-
-    .card-text {
-        color: #333;
-    }
-
-    .section-header h2 {
-        margin-bottom: 30px;
-    }
 </style>
 
-<!-- School Sections Information -->
-<section class="container my-5">
-    <div class="row">
-        <div class="col-sm-12 section-header-box">
-            <div class="section-header section-header-l text-center">
-                <h2>School <span style="color: #ffb606;">Sections</span></h2>
+<section id="school-levels" class="py-5 bg-light">
+    <div class="container">
+        <div class="row py-4" style="margin-bottom: 12px;">
+            <div class="col-sm-12 section-header-box">
+                <div class="section-header section-header-l ">
+                    <h2>School <span style="color: #0632ff;">Sections</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4"> <!-- Use Bootstrap’s gap utility -->
+            <!-- Pre-School Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center shadow-sm h-100">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Play_Group.jpg" class="card-img-top" alt="Pre-School">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Pre-School</h5>
+                        <p class="card-text">Engaging activities and nurturing environment for young learners.</p>
+                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Junior School Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center shadow-sm h-100">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/junior_boys.jpg" class="card-img-top" alt="Junior School">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Junior School</h5>
+                        <p class="card-text">Building foundational skills through interactive learning.</p>
+                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Middle School Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center shadow-sm h-100">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Boys.avif" class="card-img-top" alt="Middle School">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Middle School</h5>
+                        <p class="card-text">Preparing students with advanced knowledge and critical thinking skills.</p>
+                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- High School Card -->
+            <div class="col-lg-3 col-md-6">
+                <div class="card text-center shadow-sm h-100">
+                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Boys.avif" class="card-img-top" alt="High School">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">High School</h5>
+                        <p class="card-text">Focused on academic excellence and career preparation.</p>
+                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <!-- Pre School -->
-        <div class="col-md-4 mb-4">
-            <a href="#">
-                <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Play_Group.jpg" alt="Pre School">
-                    <div class="card-body">
-                        <h5 class="card-title">Pre School</h5>
-                        <p class="card-text">Play Group to Grade-1</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Junior Girls Section -->
-        <div class="col-md-4 mb-4">
-            <a href="#">
-                <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/junior_girls.jpg" alt="Junior Girls Section">
-                    <div class="card-body">
-                        <h5 class="card-title">Junior Girls Section</h5>
-                        <p class="card-text">Grade-2 to Grade-4</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Junior Boys Section -->
-        <div class="col-md-4 mb-4">
-            <a href="#">
-                <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/junior_boys.jpg" alt="Junior Boys Section">
-                    <div class="card-body">
-                        <h5 class="card-title">Junior Boys Section</h5>
-                        <p class="card-text">Grade-2 to Grade-4</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Middle Girls Section -->
-        <div class="col-md-4 mb-4">
-            <a href="#">
-                <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Girls.avif" alt="Middle Girls Section">
-                    <div class="card-body">
-                        <h5 class="card-title">Middle Girls Section</h5>
-                        <p class="card-text">Grade-5 to Grade-8</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Middle Boys Section -->
-        <div class="col-md-4 mb-4">
-            <a href="#">
-                <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Boys.avif" alt="Middle Boys Section">
-                    <div class="card-body">
-                        <h5 class="card-title">Middle Boys Section</h5>
-                        <p class="card-text">Grade-5 to Grade-8</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Senior Girls Section -->
-        <div class="col-md-4 mb-4">
-            <a href="#">
-                <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Girls.avif" alt="Senior Girls Section">
-                    <div class="card-body">
-                        <h5 class="card-title">Senior Girls Section</h5>
-                        <p class="card-text">Grade-9 to Grade-12</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Senior Boys Section -->
-        <div class="col-md-4 mb-4">
-            <a href="#">
-                <div class="card shadow-sm">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Boys.avif" alt="Senior Boys Section">
-                    <div class="card-body">
-                        <h5 class="card-title">Senior Boys Section</h5>
-                        <p class="card-text">Grade-9 to Grade-12</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
 </section>
-
 
 <style>
     .gallery {
@@ -861,7 +752,7 @@
 
 <section class="gallery">
     <div class="container mt-5">
-        <h1 class="text-center mb-4">College Photo Gallery</h1>
+        <h1 class="text-center mb-4">Photo Gallery</h1>
         <div class="gallery-slider">
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/01.jpg" alt="Image 1"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/02.jpg" alt="Image 2"></div>
@@ -988,7 +879,7 @@
 
 
 <!-- ./ End Students Say Area section -->
-<section class="students-say-area">
+<section class="students-say-area" style="margin-top: 12px;">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 section-header-box">
@@ -1196,57 +1087,40 @@
 <!-- ./ End Students Say Area section -->
 
 
-
-
-
 <!-- sponsers -->
 <section class="publication-area">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Ministry of <span style="color: #ffb606;">Education</span></h2>
+                    <h2>Ministry of <span style="color: #0632ff;">Education</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-6 col-md-3 single-book">
-                <div class="publication-single-item">
-                    <a href="https://east.education/pre-primary-syllabus-pakistan/">
-                        <img src="<?php echo base_url(); ?>asset/images/test.png" alt="" class="img-responsive"
-                            style="padding: 45px;"></a>
+        <div class="row" style="margin-top:20px;box-shadow: -9px 14px 12px -5px #888888;border: 2px solid #dee2e6; margin-bottom: 32px; padding: 28px;">
 
+            <div class="col-sm-6 col-md-4  single-book">
+                <div class="publication-single-item">
+                    <img width="105px"
+                        src="https://pisr.org/v2/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-08-at-11.24.19-e1623228452483-300x136.jpeg"
+                        alt="" style="width: 200px;padding: 5px;">
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-3  single-book">
+            <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
-                    <a href="https://oup.com.pk/school-textbooks.html"><img
-                            src="https://pisr.org/v2/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-08-at-11.24.19-e1623228452483-300x136.jpeg"
-                            alt="" class="img-responsive"></a>
-                </div>
-            </div>
+                    <img width="105px" src="https://pisr.org/v2/wp-content/uploads/2021/03/image6-1-150x150.png" style="width: 100px;padding: 5px;" alt="">
 
-            <div class="col-sm-6 col-md-3  single-book">
-                <div class="publication-single-item">
-                    <a href="https://www.fbise.edu.pk/">
-                        <img src="https://pisr.org/v2/wp-content/uploads/2021/03/image6-1-150x150.png" alt=""
-                            class="img-responsive" style="height: 146px;
-								width: 144px;
-								margin-left: 57px;
-								padding-top: 18px;"></a>
 
                 </div>
             </div>
 
 
-            <div class="col-sm-6 col-md-3  single-book">
+            <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
-                    <a href="https://www.moe.gov.sa/en/Pages/default.aspx">
-                        <img src="https://pisr.org/v2/wp-content/uploads/2021/06/MOE_of_KSA.png" alt=""
-                            class="img-responsive"></a>
+                    <img width="105px" src="https://pisr.org/v2/wp-content/uploads/2021/06/MOE_of_KSA.png" alt="" style="width: 200px;padding: 5px;">
 
                 </div>
             </div>
@@ -1255,7 +1129,91 @@
     </div>
 </section>
 
+<!-- sticky social icons -->
+<section class="sticky">
+    <style>
+        /* Wrapper for sticky social icons */
+        .sticky-social-icons-wrapper {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            /* Smaller gap */
+        }
 
+        /* Individual social icon styling */
+        .sticky-social-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            /* Smaller size */
+            height: 30px;
+            /* Smaller size */
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+            /* Smaller font */
+            border-radius: 50%;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        /* Hover effect */
+        .sticky-social-icon:hover {
+            background-color: #007bff;
+            transform: scale(1.1);
+            /* Slight zoom */
+            text-decoration: none;
+        }
+
+        /* Social media specific colors */
+        .sticky-facebook {
+            background-color: #3b5998;
+        }
+
+        .sticky-twitter {
+            background-color: #1DA1F2;
+        }
+
+        .sticky-instagram {
+            background-color: #E4405F;
+        }
+
+        .sticky-linkedin {
+            background-color: #0077B5;
+        }
+    </style>
+
+    <!-- Sticky Social Media Icons -->
+    <div class="sticky-social-icons-wrapper">
+        <a href="https://www.facebook.com/PISR.official.page/" target="_blank" class="sticky-social-icon sticky-facebook">
+            <i class="fab fa-facebook-f fa-sm"></i>
+
+        </a>
+        <a href="https://twitter.com/PISRSchool" target="_blank" class="sticky-social-icon sticky-twitter">
+            <i class="fab fa-twitter fa-sm"></i>
+        </a>
+        <a href="https://www.instagram.com/pisr.official.page/" target="_blank" class="sticky-social-icon sticky-instagram">
+            <i class="fab fa-instagram fa-sm"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/pisr/" target="_blank" class="sticky-social-icon sticky-linkedin">
+            <i class="fab fa-linkedin-in fa-sm"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UC0LdbY6woH_qfAPkPmgC1Gw/featured" target="_blank" class="sticky-social-icon sticky-linkedin">
+            <i class="fab fa-youtube youtube fa-sm"></i>
+        </a>
+    </div>
+</section>
+
+<script>
+    // for counter values
+    new PureCounter();
+</script>
 <!-- for what student parents says -->
 <!-- Bootstrap Lightbox & Popper.js -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

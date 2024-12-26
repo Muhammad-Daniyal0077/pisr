@@ -48,13 +48,6 @@ class Main extends CI_Controller
 		$data['filename']='Schoolvision';
 		$this->load->view('Main',$data);
 	}
-	public function schoolmanagment()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/about';
-		$data['filename']='Schoolmanagmentcounil';
-		$this->load->view('Main',$data);
-	}
 	public function adminstaff()
 	{
 		// Load view and pass the data
@@ -62,13 +55,7 @@ class Main extends CI_Controller
 		$data['filename']='adminstaff';
 		$this->load->view('Main',$data);
 	}
-	public function rulesregulations()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/about';
-		$data['filename']='RulesRegulations';
-		$this->load->view('Main',$data);
-	}
+
 	
 	public function schoolhistory()
 	{
@@ -77,20 +64,8 @@ class Main extends CI_Controller
 		$data['filename']='Schoolhistory';
 		$this->load->view('Main',$data);
 	}
-	public function accreditation()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/about';
-		$data['filename']='Accreditation';
-		$this->load->view('Main',$data);
-	}
-	public function schooltime()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/acadimics';
-		$data['filename']='Schooltime';
-		$this->load->view('Main',$data);
-	}
+	
+
 	public function calender()
 	{
 		// Load view and pass the data
@@ -119,13 +94,7 @@ class Main extends CI_Controller
 		$data['filename']='datesheet';
 		$this->load->view('Main',$data);
 	}
-	public function worksheet()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/acadimics';
-		$data['filename']='Worksheet';
-		$this->load->view('Main',$data);
-	}
+
 	
 	public function specialprograms()
 	{
@@ -220,13 +189,6 @@ class Main extends CI_Controller
 		$data['filename']='Admissiontests';
 		$this->load->view('Main',$data);
 	}
-	public function enrollementdates()
-	{
-		// Load view and pass the data
-		$data['path']='Front_End/admission';
-		$data['filename']='Enrollementdates';
-		$this->load->view('Main',$data);
-	}
 	public function faqs()
 	{
 		// Load view and pass the data
@@ -303,6 +265,13 @@ class Main extends CI_Controller
 		// Load view and pass the data
 		$data['path']='Front_End';
 		$data['filename']='Downloads';
+		$this->load->view('Main',$data);
+	}
+	public function pdzone()
+	{
+		// Load view and pass the data
+		$data['path']='Front_End';
+		$data['filename']='Pdzone';
 		$this->load->view('Main',$data);
 	}
 	

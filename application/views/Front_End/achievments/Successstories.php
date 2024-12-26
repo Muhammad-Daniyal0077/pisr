@@ -16,7 +16,6 @@
 </div>
 <style>
   /* Reset */
- /* Reset */
 
 
 /* Container styling */
@@ -136,9 +135,15 @@
 </head>
 
 <body>
-
-  <h2 class="container section-heading col-md-9">Success Storeis of PISR</h2>
+  
+  
+  <h2 class="container section-heading col-md-9"> Wall of fame:</h2>
   <section class="hover-section">
+    <p>
+   
+  At our annual Wall of fame, we are thrilled to showcase and celebrate our outstanding achievers who shine brightly and make us proud. Each of these individuals has displayed exceptional talent, determination, and hard work in their respective fields, setting a shining example for their peers and inspiring others to reach for their own greatness. From academics to athletics, from the arts to community service, these individuals have excelled and proven that dedication and passion can lead to incredible success. We are honored to have such remarkable individuals in our community, and we congratulate them on their well-deserved recognition.
+  
+    </p>
 
     <!-- Box 1: Pakistani Cricketer -->
     <div class="vc-hoverbox-wrapper">
@@ -193,7 +198,3 @@
       });
     });
   </script>
-
-</body>
-
-</html>

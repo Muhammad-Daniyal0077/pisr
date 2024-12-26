@@ -1,19 +1,67 @@
+ /* Admission Drop down css */
+ /* Container for the admission dropdown */
+ .admission-dropdown {
+    position: relative;
+}
+
+/* Dropdown menu styling specific to admission */
+.admission-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* Position to the right of the parent */
+    background-color: #fff;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    /* To ensure it appears above other elements */
+    width: 215px;
+    border-radius: 4px;
+}
+
+/* Show the dropdown on hover */
+.admission-dropdown:hover .admission-dropdown-menu {
+    display: block;
+}
+
+/* Styling for dropdown menu items */
+.admission-dropdown-menu li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* navbar images */
+.navbar-header img {
+    width: 85px;
+    margin-left: -86px;
+}
+
+
 .carousel-images {
     text-align: center;
-    transition: transform 0.5s ease; /* Smooth transition for scaling */
+    transition: transform 0.5s ease;
+    /* Smooth transition for scaling */
 }
 
 .carousel-inner {
-    overflow: hidden; /* Hide overflow to maintain carousel height */
+    overflow: hidden;
+    /* Hide overflow to maintain carousel height */
 }
 
 .img-circle {
     border-radius: 50%;
-    width: 120px; /* Set a fixed size */
-    height: 65px; /* Set a fixed size */
+    width: 120px;
+    /* Set a fixed size */
+    height: 65px;
+    /* Set a fixed size */
     margin: 0 auto;
-    border: 2px solid #f8f9fa; /* Optional: Add a border for better definition */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    border: 2px solid #f8f9fa;
+    /* Optional: Add a border for better definition */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a subtle shadow */
 }
 
 .teacher-card {
@@ -76,7 +124,7 @@
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 /* Modal Content (image) */
@@ -136,6 +184,7 @@
 }
 
 .animated-title {
+    margin-top: 50px;
     font-size: 3rem;
     /* Adjust as needed */
     font-weight: bold;
@@ -375,6 +424,7 @@
 }
 
 .animated-title {
+
     font-size: 3rem;
     /* Adjust as needed */
     font-weight: bold;
@@ -530,7 +580,7 @@
 }
 
 /* Image Styling */
-.img-responsive{
+.img-responsive {
     width: 98%;
     height: auto;
     border-radius: 80px;
@@ -581,58 +631,76 @@
         /* Add margin for smaller screens */
     }
 }
+
 .core-values-title {
-font-size: 2em; /* Increase font size for the title */
-font-weight: bold; /* Make the title bold */
-color: #4a90e2; /* Change color to a pleasing shade */
-margin-bottom: 10px; /* Space below the title */
-text-align: center; /* Center the title */
+    font-size: 2em;
+    /* Increase font size for the title */
+    font-weight: bold;
+    /* Make the title bold */
+    color: #4a90e2;
+    /* Change color to a pleasing shade */
+    margin-bottom: 10px;
+    /* Space below the title */
+    text-align: center;
+    /* Center the title */
 }
 
 .core-values-text {
-font-size: 1.5em; /* Increase font size for the text */
-color: #333; /* Darker color for better readability */
-text-align: center; /* Center the text */
+    font-size: 1.5em;
+    /* Increase font size for the text */
+    color: #333;
+    /* Darker color for better readability */
+    text-align: center;
+    /* Center the text */
 }
 
 .core-value {
-background-color: #e0f7fa; /* Light background color */
-border-radius: 5px; /* Rounded corners */
-padding: 5px 10px; /* Add some padding */
-margin: 0 10px; /* Space between values */
-transition: background-color 0.3s; /* Smooth transition for hover effect */
+    background-color: #e0f7fa;
+    /* Light background color */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 5px 10px;
+    /* Add some padding */
+    margin: 0 10px;
+    /* Space between values */
+    transition: background-color 0.3s;
+    /* Smooth transition for hover effect */
 }
 
 .core-value:hover {
-background-color: #b2ebf2; /* Change background on hover */
-cursor: pointer; /* Change cursor to pointer on hover */
+    background-color: #b2ebf2;
+    /* Change background on hover */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
 }
-.imgs{
+
+.imgs {
     width: 100%;
-height: auto;
-margin-top: 35px;
-object-fit: cover;
-border-radius: 8px;
-opacity: 0;
-animation: fadeIn 1s forwards;
-transition: transform 0.5s ease, opacity 0.5s ease;
+    height: auto;
+    margin-top: 35px;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
-.imgs:hover{
+
+.imgs:hover {
     transform: scale(1.1);
 }
 
 /* for rules and regulations */
 /* Specific styles for dropdown */
-  .dropdown-custom {
+.dropdown-custom {
     border: 1px solid #ddd;
     border-radius: 8px;
     background: #fff;
     margin-bottom: 10px;
     transition: all 0.3s ease;
     overflow: hidden;
-  }
+}
 
-  .dropdown-header-custom {
+.dropdown-header-custom {
     padding: 15px;
     font-size: 18px;
     background-color: #509999;
@@ -643,55 +711,65 @@ transition: transform 0.5s ease, opacity 0.5s ease;
     cursor: pointer;
     border-radius: 8px;
     transition: background-color 0.3s ease;
-  }
+}
 
-  .dropdown-header-custom:hover {
+.dropdown-header-custom:hover {
     background-color: #337ab7;
-  }
+}
 
-  .dropdown-icon-custom {
+.dropdown-icon-custom {
     transition: transform 0.3s ease;
-  }
+}
 
-  .dropdown-body-custom {
+.dropdown-body-custom {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
     padding: 0;
-  }
+}
 
-  .dropdown-custom.active .dropdown-body-custom {
+.dropdown-custom.active .dropdown-body-custom {
     max-height: 600px;
     /* Adjust based on content */
     padding: 15px;
-  }
-
-  .dropdown-custom.active .dropdown-icon-custom {
-    transform: rotate(45deg);
-  }
-p {
-  color: #4a4a4a; /* Softer dark gray for better readability */
-  font-size: 15px; /* Slightly larger font size */
-  line-height: 1.7; /* Improved line height for readability */
-  background-color: #f1f8ff; /* Light blue background to highlight the text */
-  padding: 10px 15px; /* Padding for spacing inside the paragraph */
-  border-radius: 5px; /* Rounded corners for a smooth look */
-  border-left: 4px solid #337ab7; /* Blue left border for emphasis */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  margin-bottom: 10px; /* Spacing between paragraphs */
 }
 
-  .dropdown-content-custom {
+.dropdown-custom.active .dropdown-icon-custom {
+    transform: rotate(45deg);
+}
+
+p {
+    color: #4a4a4a;
+    /* Softer dark gray for better readability */
+    font-size: 15px;
+    /* Slightly larger font size */
+    line-height: 1.7;
+    /* Improved line height for readability */
+    background-color: #f1f8ff;
+    /* Light blue background to highlight the text */
+    padding: 10px 15px;
+    /* Padding for spacing inside the paragraph */
+    border-radius: 5px;
+    /* Rounded corners for a smooth look */
+    border-left: 4px solid #337ab7;
+    /* Blue left border for emphasis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    margin-bottom: 10px;
+    /* Spacing between paragraphs */
+}
+
+.dropdown-content-custom {
     font-size: 14px;
     color: #333;
     line-height: 1.6;
-  }
+}
 
-  .container-custom {
+.container-custom {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-  }
+}
 
 
 
@@ -885,5 +963,3 @@ p {
         width: 100%;
     }
 }
-
-

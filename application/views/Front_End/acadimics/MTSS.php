@@ -1,3 +1,19 @@
+<style>
+.modal-backdrop {
+    z-index: 10000; /* Keeps backdrop below navbar */
+}
+
+/* Customize modal width */
+.modal-dialog {
+    max-width: 600px; /* Adjust width to your preference */
+    margin: 30px auto; /* Center it properly */
+}
+
+.modal-content {
+    border-radius: 12px; /* Optional for a smoother look */
+}
+</style>
+
 <!-- Page Title -->
 <div class="pic">
 	<div class="page-title dark-background" data-aos="fade"
@@ -15,13 +31,7 @@
 	</div>
 </div>
 
-<style>
-	/* Ensure modal is on top of all content */
-.modal {
-    z-index: 1050 !important;
-}
 
-</style>
 <!-- MTTs Area section -->
 <section class="events-list-03">
 	<div class="container">
@@ -88,7 +98,7 @@
 	</div>
 
 	<!-- Modal for image and content -->
-	<div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+	<div class="modal" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">

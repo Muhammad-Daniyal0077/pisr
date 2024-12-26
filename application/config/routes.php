@@ -58,17 +58,12 @@ $route['default_controller'] = 'welcome';
 $route['home'] = 'FrontEnd_Controller/Main';  
 $route['about/principlemessage'] = 'FrontEnd_Controller/Main/principlemessage';  
 $route['about/schoolvision'] = 'FrontEnd_Controller/Main/schoolvision';  
-$route['about/schoolmanagment'] = 'FrontEnd_Controller/Main/schoolmanagment';  
 $route['about/adminstaff'] = 'FrontEnd_Controller/Main/adminstaff';  
-$route['about/rulesregulations'] = 'FrontEnd_Controller/Main/rulesregulations';  
 $route['about/schoolhistory'] = 'FrontEnd_Controller/Main/schoolhistory';
-$route['about/accreditation'] = 'FrontEnd_Controller/Main/accreditation';
-$route['acadimics/schooltime'] = 'FrontEnd_Controller/Main/schooltime';
 $route['acadimics/calender'] = 'FrontEnd_Controller/Main/calender';
 $route['acadimics/task'] = 'FrontEnd_Controller/Main/task';
 $route['acadimics/uniform'] = 'FrontEnd_Controller/Main/uniform';
 $route['acadimics/datesheet'] = 'FrontEnd_Controller/Main/datesheet';
-$route['acadimics/worksheet'] = 'FrontEnd_Controller/Main/worksheet';
 $route['acadimics/curriculum'] = 'FrontEnd_Controller/Main/curriculum';
 $route['acadimics/Academic-sport-program'] = 'FrontEnd_Controller/Main/mtts';
 $route['acadimics/specialprograms'] = 'FrontEnd_Controller/Main/specialprograms';
@@ -80,7 +75,6 @@ $route['admission/feesstructure'] = 'FrontEnd_Controller/Main/feesstructure';
 $route['admission/admissionpolicy'] = 'FrontEnd_Controller/Main/admissionpolicy';
 $route['admission/agecriteria'] = 'FrontEnd_Controller/Main/agecriteria';
 $route['admission/admissiontests'] = 'FrontEnd_Controller/Main/admissiontests';
-$route['admission/enrollementdates'] = 'FrontEnd_Controller/Main/enrollementdates';
 $route['admission/faqs'] = 'FrontEnd_Controller/Main/faqs';
 $route['achievments/fbise'] = 'FrontEnd_Controller/Main/fbise';
 $route['achievments/successstories'] = 'FrontEnd_Controller/Main/successstories';
@@ -93,6 +87,7 @@ $route['gallery'] = 'FrontEnd_Controller/Main/gallery';
 $route['contact'] = 'FrontEnd_Controller/Main/contact';
 $route['downloads'] = 'FrontEnd_Controller/Main/downloads';
 $route['events'] = 'FrontEnd_Controller/Main/events';
+$route['pdzone'] = 'FrontEnd_Controller/Main/pdzone';
 
 
 // Backend Routes

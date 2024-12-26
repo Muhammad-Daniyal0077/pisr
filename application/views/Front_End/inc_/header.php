@@ -1,43 +1,7 @@
 <style>
-/* Admission Drop down css */
- /* Container for the admission dropdown */
- .admission-dropdown {
-    position: relative;
-  }
-  
-  /* Dropdown menu styling specific to admission */
-  .admission-dropdown-menu {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 100%; /* Position to the right of the parent */
-    background-color: #fff;
-    padding: 10px;
-    list-style: none;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* To ensure it appears above other elements */
-    width: 182px;
-      border-radius: 4px;
-      border-top-color: yellow;
-  }
-  
-  /* Show the dropdown on hover */
-  .admission-dropdown:hover .admission-dropdown-menu {
-    display: block;
-  }
-  
-  /* Styling for dropdown menu items */
-  .admission-dropdown-menu li {
-    padding: 5px 10px;
-    cursor: pointer;
-  }
-  
-  .admission-dropdown-menu li:hover {
-    background-color: yellow;
-  }
-  
+
 </style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
 <header id="header">
     <div class="header-top">
@@ -54,8 +18,12 @@
                         <li><a href="http://parent.pisr.org/"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
                         <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS</a></li>
                         <li><a href="https://pisr-uat15.sowaanerp.com/jobs"><i class="fa fa-building top-icon"></i>Apply Now</a>
+                        <li>
+                            <a data-scroll href="<?php echo base_url(); ?>downloads">Downloads
+                                <i class="fa fa-download"></i>
+                            </a>
                         </li>
-
+                        </li>
 
                     </ul>
                 </div>
@@ -66,76 +34,60 @@
     <div class="header-body">
         <nav class="navbar edu-navbar">
             <div class="container">
-                <div style="width: 22px;" class="navbar-header">
+                <div class="navbar-header">
 
-                    <a href="index.html" class="navbar-brand  data-scroll"><img src="images/logo.png" alt=""></a>
+                    <img src="<?php echo base_url(); ?>asset/images/logoheader.png" alt="">
                 </div>
 
-                <div class="collapse navbar-collapse edu-nav main-menu" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse edu-nav main-menu" id="bs-example-navbar-collapse-1" style="width: 1200px">
                     <ul class="nav navbar-nav pull-right">
                         <li class="active"><a data-scroll="" href="<?php echo base_url(); ?>home">Home</a>
                         </li>
-                        <li><a data-scroll="" href="#">ABOUT US</a>
+                        <li><a data-scroll="" href="#">ABOUT US <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
                             <!-- dropdwon start -->
                             <ul class="dropdown list-unstyled">
                                 <li><a href="<?php echo base_url(); ?>about/principlemessage">Principle Message</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/schoolhistory">School History</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/schoolvision">School Vision & Mission</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/schoolmanagment">School Management Concil</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/adminstaff">Administration</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/rulesregulations">Rules Regulation</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/schoolhistory">School History</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/accreditation" style="color:red;">Accreditation</a></li>
+                                <li><a href="<?php echo base_url(); ?>gallery">Gallery</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/adminstaff">Our Team</a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>
-                        <li><a data-scroll="" href="#">ACADEMICS</a>
+                        <li><a data-scroll="" href="#">ACADEMICS <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
                             <!-- dropdwon start -->
                             <ul class="dropdown list-unstyled">
-                                <li><a href="<?php echo base_url(); ?>acadimics/schooltime">School Timing</a></li>
-
-
-
-
-
-                                <li><a href="<?php echo base_url(); ?>acadimics/worksheet">Worksheet</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/Academic-sport-program">Academic Support Programs-MTSS</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/curriculum">Curriculum Overview</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" style="color:red;">Special Programs</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/Academic-sport-program">Academic Support Programs-MTSS</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram">Assessment Policy</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/facaulty">Faculty</a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" >Review worksheets </a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>
-                        <li><a data-scroll href="#">ADMISSION</a>
+                        <li><a data-scroll href="#">ADMISSION <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
                             <!-- dropdwon start -->
                             <ul class="dropdown list-unstyled">
 
                                 <li><a href="<?php echo base_url(); ?>admission/admissionreg">Admission Registeration Forms</a></li>
 
                                 <li class="admission-dropdown">
-                                    <a href="#">School Admission Policy</a>
+                                    <a href="#" style="display: inline-flex; align-items: center; white-space: nowrap;">
+                                        School Admission Policy
+                                        <i class="bi bi-caret-right-fill" style="font-size: 16px;"></i></i>
+                                    </a>
+
                                     <ul class="admission-dropdown-menu">
-                                        <li><a href="https://drive.google.com/file/d/1NVDha0OO-79rvFep8QEG_nJpvAXosCrv/view?usp=sharing">Fee Policy</a></li>
-                                        <li><a href="https://drive.google.com/file/d/11aDi2GATKcYecv9b_uPkm7TbEerf42lD/view?usp=drive_link">Admission Policy</a></li>
+                                        <li><a href="https://drive.google.com/file/d/1Jy7YdlTpklotJ_Nuimnea_R1tq5pwl25/view?usp=sharing">Fee Policy</a></li>
+                                        <li><a href="https://drive.google.com/file/d/1IDC7p-SpomeorSQeckledSM00DeaNW_U/view?usp=drive_link">Admission Policy</a></li>
                                     </ul>
                                 </li>
 
-
-
-                                <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Sallybus</a></li>
-                                <li><a href="<?php echo base_url(); ?>admission/enrollementdates" style="color:red;">Enrollement Dates</a></li>
-                                <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
+                                <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Syllabus</a></li>                                <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>
-                        <li><a data-scroll href="#">ACHIEVEMENT</a>
-                            <ul class="list-unstyled dropdown">
-                                <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li>
-                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
-                            </ul>
-                        </li>
-                        <li><a data-scroll href="#">FACILITIES</a>
+                        <li><a data-scroll href="#">FACILITIES <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
                             <ul class="list-unstyled dropdown">
                                 <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
                                 <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
@@ -143,15 +95,15 @@
                                 <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li>
                             </ul>
                         </li>
-
-
-                        <li><a data-scroll href="<?php echo base_url(); ?>gallery">Gallery</a></li>
-                        <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact</a></li>
-                        <li>
-                            <a data-scroll href="<?php echo base_url(); ?>downloads">Downloads
-                                <i class="fa fa-download"></i>
-                            </a>
+                        <li><a data-scroll href="#">Wall of Fame <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
+                            <ul class="list-unstyled dropdown">
+                                <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li>
+                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
+                            </ul>
                         </li>
+                     
+                        <li><a data-scroll href="<?php echo base_url(); ?>pdzone">PD Zone</a></li>
+                        <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact Us</a></li>
 
                     </ul>
                 </div><!-- /.navbar-collapse -->

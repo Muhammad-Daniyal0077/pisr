@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/style.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/responsive.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/custom.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!-- Font Awesome 5 CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -64,7 +65,6 @@
 
 
     <?php include('Front_End/inc_/footer.php') ?>
-
 
 
 

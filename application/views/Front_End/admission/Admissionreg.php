@@ -1,5 +1,3 @@
-admission form
-
 <!-- Page Title -->
 <div class="pic">
 	<div class="page-title dark-background" data-aos="fade" style="background-image: url(https://pisr.org/v2/wp-content/uploads/2021/06/Untitled-design1.png);">
