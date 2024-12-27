@@ -14,41 +14,33 @@
 </div>
 
 
-<!-- Start Welcome Area section -->
+
+
+
+<!-- Principle Area section -->
 <section class="Welcome-area">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 Welcome-area-text">
-                <div class="row">
-                    <div class="col-sm-12 section-header-box">
-                        <div class="section-header section-header-l">
-                            <h2>Welcome To <span style="color: #0632ff;">PISR</span></h2>
+            <div class="col-sm-12 section-header-box">
+                <div class="section-header section-header-l">
+                    <h2>Welcome <span style="color: #0632ff;">To PISR</span></h2>
 
-                        </div><!-- ends: .section-header -->
-                    </div>
-                </div>
-                <p style="margin-top: 16px;">PISR is a proficient and contemporary school
-                    with years of experience and knowledge in grooming of children. We provide experienced teachers
-                    and supportive environment for everyone.
-                    <br> <br>
-                    PISR was initially established in 1966, with the strength of only six students in a rented villa
-                    on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were
-                    keenly interested in the future of their generations. It got shut down after few months due to
-                    certain legal formalities but it didn’t stop them to keep struggle going.
-                </p>
-
-
-            </div><!-- Ends: . -->
-
+                </div><!-- ends: .section-header -->
+            </div>
+            <div class="col-sm-6 event-info img-fluid mt-4" >
+                <p class="div-sm-7 event-info ">
+                PISR is a proficient and contemporary school with years of experience and knowledge in grooming of children. We provide experienced teachers and supportive environment for everyone.     </p>
+                
+               <p> PISR was initially established in 1966, with the strength of only six students in a rented villa on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were keenly interested in the future of their generations. It got shut down after few months due to certain legal formalities but it didn’t stop them to keep struggle going.</p>
+            
+        
+            </div>
             <div class="col-sm-6">
-                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
+            <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
             </div><!-- Ends: . -->
         </div>
     </div>
 </section><!-- Ends: . -->
-<!-- ./ End Welcome Area section -->
-
-
 
 <!-- Principle Area section -->
 <section class="Welcome-area">
@@ -1132,61 +1124,83 @@
 <!-- sticky social icons -->
 <section class="sticky">
     <style>
-        /* Wrapper for sticky social icons */
-        .sticky-social-icons-wrapper {
-            position: fixed;
-            top: 50%;
-            right: 0;
-            transform: translateY(-50%);
-            z-index: 9999;
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            /* Smaller gap */
-        }
+       /* Wrapper for sticky social icons */
+.sticky-social-icons-wrapper {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
-        /* Individual social icon styling */
-        .sticky-social-icon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 30px;
-            /* Smaller size */
-            height: 30px;
-            /* Smaller size */
-            background-color: #333;
-            color: white;
-            font-size: 14px;
-            /* Smaller font */
-            border-radius: 50%;
-            text-decoration: none;
-            transition: background-color 0.3s, transform 0.3s;
-        }
+/* Individual social icon styling */
+.sticky-social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* Larger for better touch targets */
+    height: 40px;
+    background-color: #333;
+    color: white;
+    font-size: 16px; /* Adjust for readability */
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
 
-        /* Hover effect */
-        .sticky-social-icon:hover {
-            background-color: #007bff;
-            transform: scale(1.1);
-            /* Slight zoom */
-            text-decoration: none;
-        }
+/* Hover effect */
+.sticky-social-icon:hover {
+    background-color: #007bff;
+    transform: scale(1.1);
+    text-decoration: none;
+}
 
-        /* Social media specific colors */
-        .sticky-facebook {
-            background-color: #3b5998;
-        }
+/* Social media specific colors */
+.sticky-facebook {
+    background-color: #3b5998;
+}
 
-        .sticky-twitter {
-            background-color: #1DA1F2;
-        }
+.sticky-twitter {
+    background-color: #1DA1F2;
+}
 
-        .sticky-instagram {
-            background-color: #E4405F;
-        }
+.sticky-instagram {
+    background-color: #E4405F;
+}
 
-        .sticky-linkedin {
-            background-color: #0077B5;
-        }
+.sticky-linkedin {
+    background-color: #0077B5;
+}
+
+.sticky-youtube {
+    background-color: #FF0000;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .sticky-social-icons-wrapper {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        flex-direction: row; /* Arrange icons horizontally */
+        justify-content: center;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+        gap: 12px; /* Slightly larger gap */
+        width: 376px;
+    }
+
+    .sticky-social-icon {
+        width: 30px; /* Adjusted for mobile */
+        height: 30px;
+        font-size: 14px; /* Smaller font size */
+    }
+}
+
     </style>
 
     <!-- Sticky Social Media Icons -->

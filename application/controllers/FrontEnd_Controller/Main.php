@@ -273,8 +273,6 @@ class Main extends CI_Controller
 		$data['path']='Front_End';
 		$data['filename']='Pdzone';
 		$this->load->view('Main',$data);
-	}
-	
-	
+	}	
 }
 

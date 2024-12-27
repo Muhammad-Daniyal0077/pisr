@@ -748,10 +748,15 @@ header .tp-rightarrow {
 	font-family: "Open Sans", sans-serif;
 	color: #666666;
 	padding-bottom: 25px;
-	width: 460px;
+	width: 400px;
 }
 
-
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .Welcome-area .Welcome-area-text p {
+        width: 330px;
+    }
+}
 
 .Welcome-area .read_more-btn {
 	color: #666;
