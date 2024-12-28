@@ -35,7 +35,8 @@
                 <th><b>N</b>ame </th>
                 <th>Designation</th>
                 <th>Gender</th>
-                <th>Image</th>
+			    <th>Image</th>
+				<th>Status</th>
                 <th>Action</th>
                 <!-- <th data-type="date" data-format="YYYY/DD/MM">Start Date</th> -->
               </tr>
@@ -48,11 +49,14 @@
                   <tr>
                     <td><?php echo $srNo++; ?></td> <!-- Display and increment Sr. No. -->
                     <td><?php echo $member->faculty_name; ?></td>
-                    <td><?php echo $member->faculty_designation; ?></td>
-                    <td><?php echo $member->gender; ?></td>
+                    <td><?php echo $this->db->get_where('designation_type',array('id'=>$member->faculty_designation))->row()->staff_type; ?></td>
+					<td><?php echo $member->gender; ?></td>
                     <td>
-                      <img src="<?php echo base_url($member->faculty_img); ?>" alt="<?php echo $member->faculty_name; ?>" style="width: 50px; height: 50px;">
+                      <img src="<?php echo base_url();?>uploads/faculty_images/<?php echo $member->faculty_img; ?>" alt="<?php echo $member->faculty_name; ?>" style="width: 50px; height: 50px;">
                     </td>
+					  <td>    <?php echo ($member->status == 0) ? 'Inactive' : 'Active'; ?>
+					  </td>
+
                     <td>
                       <div class="d-flex justify-content-start">
                         <a href="<?php echo base_url('updatefaculty/' . $member->id); ?>" class="btn btn-warning me-2">
