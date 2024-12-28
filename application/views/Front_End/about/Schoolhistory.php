@@ -19,9 +19,12 @@
 <section class="events-list-03">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-md-6 text-center" style="margin-top: 50px;">
-				<img src="<?php echo base_url(); ?>asset/images/downloads/backgrounds.png" alt="PISR History Image" class="img-fluid" style="border-radius: 12px;" height="500" width="500">
-			</div>
+		<div class="col-md-6">
+							<img src="<?php echo base_url(); ?>asset/images/downloads/backgrounds.png" alt="not" class="img-responsive-principle">
+						</div>
+			
+
+			
 
 
 			<div class="col-md-6">

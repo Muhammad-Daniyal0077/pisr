@@ -14,141 +14,150 @@
     </div>
 </div>
 <style>
-    .vc_tta-panels {
-        margin: 20px 0;
-    }
-
-    .vc_tta-panel {
-        border-radius: 8px;
-        margin-bottom: 20px;
-        padding: 15px;
-        background-color: #fff;
-    }
-
-    .vc_tta-panel-heading {
-        padding: 6px 15px;
-        font-size: 18px;
-        background-color: #509999;
-        color: #fff;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        cursor: pointer;
-        border-radius: 8px;
-        transition: background-color 0.3s ease;
-    }
-
-    .vc_tta-panel-body {
-        display: none;
-        /* Initially hide the content */
-    }
-
-    .vc_separator h4 {
-        margin: 0;
-        text-align: center;
-    }
-
-    .inner-container {
-        margin-top: 50px;
-    }
-
-    .text-center {
-        text-align: center;
-    }
-
-    .text-primary {
-        color: #007bff;
-    }
-
-    .mb-5 {
-        margin-bottom: 3rem;
-    }
-
-    .mb-4 {
-        margin-bottom: 1.5rem;
-    }
-
-    .card {
-        padding: 12px 0px;
-        background-color: #cde8ff;
-        height: 226px;
-        transition: transform 0.2s ease-in-out;
-    }
-
-    .card:hover {
-        transform: translateY(-10px);
-    }
-
-    .card-img-top {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border: 5px solid #fff;
-    }
-
-    .card-title {
-        font-size: 1.25rem;
-        font-weight: bold;
-    }
-
-    .card-text {
-        font-size: 1rem;
-        margin-top: 10px;
-        color: #6c757d;
-    }
-
-    .shadow-lg {
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .rounded {
-        border-radius: 0.5rem;
-    }
-
-    .rounded-circle {
-        border-radius: 50%;
-    }
-
-    .btn-primary {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        padding: 5px 10px;
-        cursor: pointer;
-    }
-
-    .btn-primary:hover {
-        background-color: #0056b3;
-    }
-
-    span {
-        display: block;
-        margin-top: 10px;
-        color: #333;
-        font-weight: 500;
-    }
-
-    @media (min-width: 992px) {
-        .col-md-4 {
-            width: 21.333333%;
+       .vc_tta-panels {
+            margin: 20px 0;
         }
-    }
 
-    .mb-4 {
-        margin-bottom: 3.5rem;
-    }
+        .vc_tta-panel {
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+        }
 
-    span {
-        color: #ffffff;
-    }
+        .vc_tta-panel-heading {
+            padding: 6px 15px;
+            font-size: 18px;
+            background-color: #509999;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
 
-    /* Styling for title text and heading when the panel is active */
-    .active-panel .vc_tta-title-text,
-    .active-panel .vc_tta-panel-heading {
-        color: #e1e8e8;
-        /* Color when active */
-        background-color: #68b368;
-    }
+        .vc_tta-panel-body {
+            display: none; 
+        }
+
+        .vc_separator h4 {
+            margin: 0;
+            text-align: center;
+        }
+
+        .inner-container {
+            margin-top: 50px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-primary {
+            color: #007bff;
+        }
+
+        .mb-5 {
+            margin-bottom: 3rem;
+        }
+
+        .mb-4 {
+            margin-bottom: 1.5rem;
+        }
+
+        .card {
+            padding: 12px 0px;
+            background-color: #cde8ff;
+            height: 226px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card-img-top {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border: 5px solid #fff;
+            border-radius: 50%; 
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            margin-top: 10px;
+            color: #6c757d;
+        }
+
+        .shadow-lg {
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .rounded {
+            border-radius: 0.5rem;
+        }
+
+        .rounded-circle {
+            border-radius: 50%;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        span {
+            display: block;
+            margin-top: 10px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        @media (min-width: 992px) {
+            .col-md-4 {
+                width: 21.333333%;
+            }
+        }
+
+        .mb-4 {
+            margin-bottom: 3.5rem;
+        }
+
+        span {
+            color: #ffffff;
+        }
+
+        /* Styling for title text and heading when the panel is active */
+        .active-panel .vc_tta-title-text,
+        .active-panel .vc_tta-panel-heading {
+            color: #e1e8e8; 
+            background-color: #68b368; 
+        }
+
+        /* Responsive CSS */
+        @media (max-width: 768px) {
+            .inner-container {
+                margin-top: 20px; 
+            }
+
+            .col-md-4 {
+                width: 28%;            }
+        }
 </style>
 
 
