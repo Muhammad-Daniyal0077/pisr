@@ -45,6 +45,63 @@ class Academics extends CI_Controller
 		$data['filename'] = 'faculty';
 		$this->load->view('Admin', $data);
 	}
+	public function faculty_designation()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$staff_type    = $this->input->post('designation');
+			$data_Save['staff_type']    = $this->input->post('designation');
+			$code = strtolower(str_replace(' ', '_', $staff_type));
+			$data_Save['code']    = $code;
+
+			if($this->db->insert('designation_type',$data_Save)){
+				redirect('academics/faculty-designation');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$query = $this->db->get('designation_type'); // Replace 'faculty' with your actual table name
+			$data['designation_type'] = $query->result(); // Get the result as an array of objects
+			$data['path'] = 'Back_End/acadimics/faculty_designation';
+			$data['filename'] = 'index';
+			$this->load->view('Admin', $data);
+		}
+	}
+	public function edit_faculty_designation($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('designation_type_id');
+			$staff_type    = $this->input->post('designation');
+			$data_Save['staff_type']    = $this->input->post('designation');
+			$code = strtolower(str_replace(' ', '_', $staff_type));
+			$data_Save['code']    = $code;
+
+
+			if($this->db->update('designation_type',$data_Save,$data_id)){
+				redirect('academics/faculty-designation');
+			}else{
+				redirect('academics/faculty-designation');
+			}
+		}
+		else {
+			$data['designation_type_edit']=$this->db->get_where('designation_type',array('id' => $Get));
+			$data['path'] = 'Back_End/acadimics/faculty_designation';
+			$data['filename'] = 'edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+	public function delete_designation()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('designation_type', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
 
 	public function addfaculty()
 	{

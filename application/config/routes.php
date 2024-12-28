@@ -109,6 +109,10 @@ $route['deleteimages'] = 'BackEnd_Controller/Gallery/delete';
 $route['updateimages/(:num)'] = 'BackEnd_Controller/Gallery/updateimages/$1';
 
 
+$route['academics/faculty-designation'] = 'BackEnd_Controller/Academics/faculty_designation';
+$route['academics/faculty-designation/edit/(:num)'] = 'BackEnd_Controller/Academics/edit_faculty_designation/$1';
+$route['designation/remove'] = 'BackEnd_Controller/Academics/delete_designation';
+
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
