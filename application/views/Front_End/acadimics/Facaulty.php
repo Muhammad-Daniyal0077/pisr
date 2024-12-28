@@ -279,7 +279,7 @@
                     <div style="width: 1210px; margin-left:-550px">
                         <div class="inner-container">
                             <div class="row justify-content-center dropdown-content-custom ">
-                            
+
                             <div class="col-md-4 mb-4">
                                     <div class="card text-center shadow-lg rounded border-0">
                                         <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
@@ -289,7 +289,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            
+
                             <div class="col-md-4 mb-4">
                                     <div class="card text-center shadow-lg rounded border-0">
                                         <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
@@ -299,7 +299,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            
+
                             <div class="col-md-4 mb-4">
                                     <div class="card text-center shadow-lg rounded border-0">
                                         <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
@@ -309,7 +309,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            
+
                             <div class="col-md-4 mb-4">
                                     <div class="card text-center shadow-lg rounded border-0">
                                         <img src="<?php echo base_url(); ?>asset/images/teachars/001.png" class="card-img-top rounded-circle img-fluid" alt="">
@@ -319,8 +319,8 @@
                                         </div>
                                     </div>
                                 </div>
-                         
-                                 
+
+
                             </div>
                             <div class="col-md-4 mb-4">
                                     <div class="card text-center shadow-lg rounded border-0">
@@ -331,8 +331,8 @@
                                         </div>
                                     </div>
                                 </div>
-                         
-                                 
+
+
                             </div>
                             <div class="col-md-4 mb-4">
                                     <div class="card text-center shadow-lg rounded border-0">
@@ -361,11 +361,11 @@
                                         </div>
                                     </div>
                                 </div>
-                         
-                                 
-                           
-                          
-                                 
+
+
+
+
+
                             </div>
                         </div>
                     </div>

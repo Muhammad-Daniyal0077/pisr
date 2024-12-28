@@ -47,157 +47,140 @@ class   Gallery extends CI_Controller
     }
 public function addimages()
 {
-    // Load helpers and libraries
-    $this->load->helper(['form', 'url']);
-    $this->load->library('upload');
 
-    // Check if files are selected
-    if (empty($_FILES['img']['name'][0])) {
-        $data['error'] = "No files selected.";
-        $data['path'] = 'Back_End/gallery';
-        $data['filename'] = 'addgallery';
-        $this->load->view('Admin', $data);
-        return;
-    }
+	if ($this->input->server('REQUEST_METHOD') === 'POST') {
+		$data_Save['img_head']            = $this->input->post('img_head');
+		$data_Save['status']     = $this->input->post('status');
 
-    // Configure upload settings
-    $config['upload_path'] = './uploads/gallery/';
-    $config['allowed_types'] = 'jpg|jpeg|png';
-    $config['max_size'] = 2048; // Max size in KB
-    $files = $_FILES;
-    $uploaded_images = []; // Array to store file paths for successfully uploaded images
+		$image = array();
+		$ImageCount = count($_FILES['images']['name']);
+		for ($i = 0; $i < $ImageCount; $i++) {
+			$_FILES['file']['name']       = $_FILES['images']['name'][$i];
+			$_FILES['file']['type']       = $_FILES['images']['type'][$i];
+			$_FILES['file']['tmp_name']   = $_FILES['images']['tmp_name'][$i];
+			$_FILES['file']['error']      = $_FILES['images']['error'][$i];
+			$_FILES['file']['size']       = $_FILES['images']['size'][$i];
 
-    // Loop through each file and attempt to upload
-    for ($i = 0; $i < count($files['img']['name']); $i++) {
-        $_FILES['img']['name'] = $files['img']['name'][$i];
-        $_FILES['img']['type'] = $files['img']['type'][$i];
-        $_FILES['img']['tmp_name'] = $files['img']['tmp_name'][$i];
-        $_FILES['img']['error'] = $files['img']['error'][$i];
-        $_FILES['img']['size'] = $files['img']['size'][$i];
+			// File upload configuration
+			$uploadPath = 'uploads/gallery/';
+			$config['upload_path'] = $uploadPath;
+			$config['allowed_types'] = 'jpg|jpeg|png|gif';
 
-        // Set a unique filename for each image
-        $config['file_name'] = time() . '_' . $files['img']['name'][$i];
-        $this->upload->initialize($config);
+			// Load and initialize upload library
+			$this->load->library('upload', $config);
+			$this->upload->initialize($config);
 
-        // Attempt to upload each file
-        if ($this->upload->do_upload('img')) {
-            $upload_data = $this->upload->data(); // Get uploaded file details
-            $uploaded_images[] = 'uploads/gallery/' . $upload_data['file_name']; // Collect each image path
-        } else {
-            // If any upload fails, show error and return
-            $data['error'] = $this->upload->display_errors();
-            $data['path'] = 'Back_End/gallery';
-            $data['filename'] = 'addgallery';
-            $this->load->view('Admin', $data);
-            return;
-        }
-    }
+			// Upload file to server
+			if ($this->upload->do_upload('file')) {
+				// Uploaded file data
+				$imageData = $this->upload->data();
+				$uploadImgData[$i] = $imageData['file_name'];
+			}
+		}
+		//                    print_r($uploadImgData);
 
-    // Convert array of image paths to JSON to store in a single column
-    $dataToInsert = [
-        'img_head' => $this->input->post('img_head', true), // Sanitize input
-        'img' => json_encode($uploaded_images) // Store all image paths as JSON
-    ];
-
-    // Insert data into the 'gallery' table
-    if ($this->db->insert('gallery', $dataToInsert)) {
-        // Redirect to gallery view page on success
-        redirect('admin/gallery');
-    } else {
-        // If insertion fails, show error
-        $data['error'] = "Failed to add images to the gallery.";
-        $data['path'] = 'Back_End/gallery';
-        $data['filename'] = 'addgallery';
-        $this->load->view('Admin', $data);
-    }
-}
-
-    
+		if (!empty($uploadImgData)) {
+			// Insert files data into the database
+			$data_Save['img'] = json_encode($uploadImgData);
+		}
 
 
-public function updateimages($id)
-{
-    $this->load->helper('form'); // Load the form helper
-    $this->load->library('upload'); // Load the upload library
 
-    // Check if the form is submitted
-    if ($this->input->post()) {
-        // Get existing images from the database
-        $existing_images = json_decode($this->input->post('existing_image'), true) ?: [];
+		if ($this->db->insert('gallery', $data_Save)) {
+			redirect('admin/gallery');
+		} else {
+			redirect('admin/addgallery');
+		}
+	} else {
+		$data['path'] = 'Back_End/gallery';
+		$data['filename'] = 'addgallery';
+		$this->load->view('Admin', $data);
+	}
 
-        // Configure upload settings
-        $config['upload_path'] = './uploads/gallery/';
-        $config['allowed_types'] = 'jpg|jpeg|png';
-        $config['max_size'] = 2048; // Max size in KB
-
-        $files = $_FILES;
-        $uploaded_images = []; // Array to store paths of successfully uploaded images
-
-        // Loop through each file for upload
-        for ($i = 0; $i < count($files['img']['name']); $i++) {
-            if (!empty($files['img']['name'][$i])) { // Check if there's a file to upload
-                $_FILES['img']['name'] = $files['img']['name'][$i];
-                $_FILES['img']['type'] = $files['img']['type'][$i];
-                $_FILES['img']['tmp_name'] = $files['img']['tmp_name'][$i];
-                $_FILES['img']['error'] = $files['img']['error'][$i];
-                $_FILES['img']['size'] = $files['img']['size'][$i];
-
-                // Set a unique filename for each image
-                $config['file_name'] = time() . '_' . $files['img']['name'][$i];
-                $this->upload->initialize($config);
-
-                if ($this->upload->do_upload('img')) {
-                    $upload_data = $this->upload->data();
-                    $uploaded_images[] = 'uploads/gallery/' . $upload_data['file_name']; // Store each file path
-                } else {
-                    // Handle the error if any file fails to upload
-                    $data['upload_error'] = $this->upload->display_errors();
-                    // Optionally, you can show this error in the view
-                }
-            }
-        }
-
-        // Merge new uploaded images with existing ones
-        $all_images = array_merge($existing_images, $uploaded_images);
-
-        // Prepare data for update
-        $update_data = [
-            'img_head' => $this->input->post('img_head', true), // Sanitize input
-            'img' => json_encode($all_images) // Store all image paths as JSON array
-        ];
-
-        // Update the database record
-        $this->db->where('id', $id);
-        $this->db->update('gallery', $update_data);
-
-        // Redirect or show success message
-        redirect('admin/gallery'); // Change to your redirection after update
-    }
-
-    // Retrieve the image entry to edit 
-    $this->db->where('id', $id);
-    $data['gallery'] = $this->db->get('gallery')->row();
-
-    if (empty($data['gallery'])) {
-        show_404(); // Show 404 if the gallery item is not found
-        return;
-    }
-
-    // Prepare view data
-    $data['path'] = 'Back_End/gallery';
-    $data['filename'] = 'editgallery';
-    $data['existing_images'] = json_decode($data['gallery']->img); // Decode JSON to array
-
-    // Load the view
-    $this->load->view('Admin', $data);
 }
 
 
 
 
+	public function updateimages($id)
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id'] = $this->input->post('id');
+			$data_Save['img_head'] = $this->input->post('img_head');
+			$data_Save['status'] = $this->input->post('status');  // if you have a 'status' field
+			$removeimg = $this->input->post('removeimg');
+			$image = array();
+
+			// Handling the file upload
+			$ImageCount = count($_FILES['images']['name']);
+			for ($i = 0; $i < $ImageCount; $i++) {
+				$_FILES['file']['name'] = $_FILES['images']['name'][$i];
+				$_FILES['file']['type'] = $_FILES['images']['type'][$i];
+				$_FILES['file']['tmp_name'] = $_FILES['images']['tmp_name'][$i];
+				$_FILES['file']['error'] = $_FILES['images']['error'][$i];
+				$_FILES['file']['size'] = $_FILES['images']['size'][$i];
+
+				// File upload configuration
+				$uploadPath = 'uploads/gallery/';
+				$config['upload_path'] = $uploadPath;
+				$config['allowed_types'] = 'jpg|jpeg|png|gif';
+
+				// Load and initialize upload library
+				$this->load->library('upload', $config);
+				$this->upload->initialize($config);
+
+				// Upload file to server
+				if ($this->upload->do_upload('file')) {
+					// Uploaded file data
+					$imageData = $this->upload->data();
+					$image[$i] = $imageData['file_name'];
+				}
+			}
+
+			// Handle removal of images
+			if ($removeimg) {
+				$removeimglist = json_decode($removeimg, true);
+				$row_data = $this->db->get_where('gallery', array('id' => $id))->row()->img;
+				$files_images = json_decode($row_data);
+
+				// Remove the images from the existing list
+				foreach ($removeimglist as $re) {
+					if (($key = array_search($re, $files_images)) !== false) {
+						unset($files_images[$key]);
+					}
+				}
+
+				// Merge the remaining images with newly uploaded ones
+				$image = array_merge($image, $files_images);
+			} else {
+				$row_data = $this->db->get_where('gallery', array('id' => $id))->row()->img;
+				$files_images = json_decode($row_data);
+				$image = array_merge($image, $files_images);
+			}
+
+			// Update image data in the database
+			if (!empty($image)) {
+				$data_Save['img'] = json_encode($image);
+			}
+
+			// Save the changes to the database
+			if ($this->db->update('gallery', $data_Save, $data_id)) {
+				redirect('admin/gallery');
+			} else {
+				redirect('admin/addgallery');
+			}
+		} else {
+			// Display the form for editing the gallery
+			$data['gallery'] = $this->db->get_where('gallery', array('id' => $id));
+			$data['path'] = 'Back_End/gallery';
+			$data['filename'] = 'editgallery';
+			$this->load->view('Admin', $data);
+		}
+	}
 
 
-    public function delete()
+
+	public function delete()
     {
         $id = $this->input->post('get_id');
 

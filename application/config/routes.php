@@ -109,6 +109,11 @@ $route['deleteimages'] = 'BackEnd_Controller/Gallery/delete';
 $route['updateimages/(:num)'] = 'BackEnd_Controller/Gallery/updateimages/$1';
 
 
+$route['admin/our_team'] = 'BackEnd_Controller/Our_team';
+$route['admin/our_team/create'] = 'BackEnd_Controller/Our_team/create';
+
+
+
 $route['academics/faculty-designation'] = 'BackEnd_Controller/Academics/faculty_designation';
 $route['academics/faculty-designation/edit/(:num)'] = 'BackEnd_Controller/Academics/edit_faculty_designation/$1';
 $route['designation/remove'] = 'BackEnd_Controller/Academics/delete_designation';

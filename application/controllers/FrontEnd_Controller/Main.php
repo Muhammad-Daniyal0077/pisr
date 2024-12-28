@@ -126,15 +126,16 @@ class Main extends CI_Controller
 	}
 	public function faculty() // Ensure the function name is correct
 	{
-		// Retrieve male faculty
-		$this->db->where('gender', 'Male');
-		$data['male_faculty'] = $this->db->get('faculty')->result();
-		
-		// Retrieve female faculty
-		$this->db->where('gender', 'Female');
-		$data['female_faculty'] = $this->db->get('faculty')->result();
+//		// Retrieve male faculty
+//		$this->db->where('gender', 'Male');
+//		$data['male_faculty'] = $this->db->get('faculty')->result();
+//
+//		// Retrieve female faculty
+//		$this->db->where('gender', 'Female');
+//		$data['female_faculty'] = $this->db->get('faculty')->result();
 	
 		// Load view and pass the data
+		$data['faculty_list'] = $this->db->get('faculty');
 		$data['path'] = 'Front_End/acadimics';
 		$data['filename'] = 'Facaulty'; // Ensure filename is correctly capitalized
 		$this->load->view('Main', $data);

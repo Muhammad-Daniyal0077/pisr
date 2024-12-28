@@ -20,11 +20,21 @@
               <label for="img_head" class="form-label">Imge Header</label>
               <input type="text" class="form-control" id="img_head" name="img_head" required>
             </div>
+			<div class="col-sm-6 col-md-12">
+				  <label for="gender" class="form-label">Status</label>
+				  <div class="form-floating"><select class="form-select" id="Status"  name="status" required>
+						  <option selected="selected">Select Status</option>
+						  <option value="1">Published</option>
+						  <option value="0">Unpublished</option>
+					  </select>
+					  <label for="Status">Status</label>
+				  </div>
+			</div>
             
             <div class="col-md-6">
               <label for="img" class="col-form-label">Upload Images</label>
-              <input class="form-control" type="file" id="img" name="img[]" multiple required>
-            </div>
+				<input type="file" name="images[]" class="form-control" multiple="multiple">
+			</div>
         
             <div class="text-center mt-4">
               <button type="submit" class="btn btn-primary">Submit</button>

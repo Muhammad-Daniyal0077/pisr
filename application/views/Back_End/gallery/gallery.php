@@ -30,7 +30,8 @@
               <tr>
                 <th>Sr. No.</th>
                 <th>Image Header</th>
-                <th>Images</th>
+				<th>Images</th>
+				<th>Status</th>
                 <th>Action</th>
                 <!-- <th data-type="date" data-format="YYYY/DD/MM">Start Date</th> -->
               </tr>
@@ -44,22 +45,27 @@
                     <td><?php echo $srNo++; ?></td> <!-- Display and increment Sr. No. -->
                     <td><?php echo $row->img_head; ?></td>
                     <td>
-                      <?php
-                      // Decode the JSON-encoded array of image paths
-                      $images = json_decode($row->img, true);
+						<?php
+						// Decode the JSON-encoded array of image paths
+						$images = json_decode($row->img, true);
 
-                      // Check if decoding was successful and images array is not empty
-                      if (!empty($images)) {
-                        foreach ($images as $imagePath) {
-                          // Display each image with a base URL
-                          echo '<img src="' . base_url($imagePath) . '" width="50" style="margin: 5px;">';
-                        }
-                      } else {
-                        echo "No images available";
-                      }
-                      ?>
-                    </td>
+						// Check if decoding was successful and images array is not empty
+						if (!empty($images)) {
+							foreach ($images as $imagePath) {
+								// Add the path before uploads/gallery/
+								$fullImagePath = 'uploads/gallery/' . $imagePath;
 
+								// Display each image with a base URL
+								echo '<img src="' . base_url($fullImagePath) . '" width="50" style="margin: 5px;">';
+							}
+						} else {
+							echo "No images available";
+						}
+						?>
+
+					</td>
+					  <td>    <?php echo ($row->status == 0) ? 'Inactive' : 'Active'; ?>
+					  </td>
                     <td>
                       <div class="d-flex justify-content-start">
                         <a href="<?php echo base_url('updateimages/' . $row->id); ?>" class="btn btn-warning me-2">
@@ -96,7 +102,7 @@
     var get_id = val;
     swal({
         title: "Are you sure?",
-        text: "Once deleted, you will not be able to recover this Staff!",
+        text: "Once deleted, you will not be able to recover this Gallery!",
         icon: "warning",
         buttons: true,
         dangerMode: true,
@@ -110,19 +116,20 @@
               get_id: get_id
             },
             success: function(data) {
-              swal("Poof! Your Staff has been deleted!", {
+              swal("Poof! Your Gallery has been deleted!", {
                 icon: "success",
               }).then(() => {
                 window.location.reload(); // Reload page after success message
               });
             },
             error: function(xhr, status, error) {
-              swal("Error!", "There was a problem deleting the staff.", "error");
+              swal("Error!", "There was a problem deleting the Gallery.", "error");
             }
           });
         } else {
-          swal("Your Staff is safe!");
+          swal("Your Gallery is safe!");
         }
       });
   }
 </script>
+
