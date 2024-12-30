@@ -62,8 +62,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo base_url(); ?>admin/our-team">
-						<i class="bi bi-circle"></i><span>Our Team</span>
+					<a href="<?php echo base_url(); ?>admin/admission/school-admission-policy">
+						<i class="bi bi-circle"></i><span>School Admission Policy</span>
 					</a>
 				</li>
 

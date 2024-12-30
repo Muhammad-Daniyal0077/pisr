@@ -120,6 +120,8 @@ $route['admin/faqs/edit/(:num)'] = 'BackEnd_Controller/Faq/edit_Faq/$1';
 $route['faqs/remove'] = 'BackEnd_Controller/Faq/delete_faqs';
 
 
+$route['admin/admission/school-admission-policy'] = 'BackEnd_Controller/Admission/school_admission_policy';
+
 
 
 $route['academics/faculty-designation'] = 'BackEnd_Controller/Academics/faculty_designation';
