@@ -49,6 +49,26 @@
 
 			</ul>
 		</li>
+
+		<li class="nav-item">
+			<a class="nav-link collapsed" data-bs-target="#components-navse" data-bs-toggle="collapse" href="#">
+				<i class="bi bi-menu-button-wide"></i><span>Admission</span><i class="bi bi-chevron-down ms-auto"></i>
+			</a>
+			<ul id="components-navse" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+				<li>
+					<a href="<?php echo base_url(); ?>admin/faqs">
+						<i class="bi bi-circle"></i><span>FAQ'S</span>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo base_url(); ?>admin/our-team">
+						<i class="bi bi-circle"></i><span>Our Team</span>
+					</a>
+				</li>
+
+			</ul>
+		</li>
       <li class="nav-item">
         <a class="nav-link collapsed"   href="<?php echo base_url(); ?>admin/gallery">
           <i class="bi bi-journal-text"></i>

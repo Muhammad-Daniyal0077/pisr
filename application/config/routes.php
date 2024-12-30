@@ -114,6 +114,11 @@ $route['admin/our-team/create'] = 'BackEnd_Controller/Our_team/create';
 $route['admin/our-team/edit/(:num)'] = 'BackEnd_Controller/Our_team/edit_our_team/$1';
 $route['our_team/remove'] = 'BackEnd_Controller/Our_team/delete_our_team';
 
+$route['admin/faqs'] = 'BackEnd_Controller/Faq';
+$route['admin/faqs/create'] = 'BackEnd_Controller/Faq/create';
+$route['admin/faqs/edit/(:num)'] = 'BackEnd_Controller/Faq/edit_Faq/$1';
+$route['faqs/remove'] = 'BackEnd_Controller/Faq/delete_faqs';
+
 
 
 
