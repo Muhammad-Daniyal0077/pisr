@@ -67,6 +67,12 @@
 					</a>
 				</li>
 
+				<li>
+					<a href="<?php echo base_url(); ?>admin/admission/school-admission-policy">
+						<i class="bi bi-circle"></i><span>Admission Test Syllabus</span>
+					</a>
+				</li>
+
 			</ul>
 		</li>
       <li class="nav-item">
