@@ -22,7 +22,7 @@
 				<div class="card-body">
 					<div class="container d-flex justify-content-between align-items-center">
 						<h2 class="card-title mb-0">Our Team</h2>
-						<a href="<?php echo base_url(); ?>admin/our_team/create" class="btn btn-primary me-2">
+						<a href="<?php echo base_url(); ?>admin/our-team/create" class="btn btn-primary me-2">
 							<i class="fas fa-plus"></i> Add Our Team </a>
 					</div>
 
@@ -57,7 +57,7 @@
 
 									<td>
 										<div class="d-flex justify-content-start">
-											<a href="<?php echo base_url('updatefaculty/' . $member->id); ?>" class="btn btn-warning me-2">
+											<a href="<?php echo base_url('admin/our-team/edit/' . $member->id); ?>" class="btn btn-warning me-2">
 												<i class="fas fa-pencil-alt"></i> Edit
 											</a>
 
@@ -93,7 +93,7 @@
 		var get_id = val;
 		swal({
 			title: "Are you sure?",
-			text: "Once deleted, you will not be able to recover this Staff!",
+			text: "Once deleted, you will not be able to recover this Our Team!",
 			icon: "warning",
 			buttons: true,
 			dangerMode: true,
@@ -102,19 +102,19 @@
 				if (willDelete) {
 					$.ajax({
 						type: 'POST',
-						url: '<?php echo base_url(); ?>faculty/remove', // Ensure this URL matches your route
+						url: '<?php echo base_url(); ?>our_team/remove', // Ensure this URL matches your route
 						data: {
 							get_id: get_id
 						},
 						success: function(data) {
-							swal("Poof! Your Staff has been deleted!", {
+							swal("Poof! Your Our Team has been deleted!", {
 								icon: "success",
 							}).then(() => {
 								window.location.reload(); // Reload page after success message
 							});
 						},
 						error: function(xhr, status, error) {
-							swal("Error!", "There was a problem deleting the staff.", "error");
+							swal("Error!", "There was a problem deleting the Our Team.", "error");
 						}
 					});
 				} else {

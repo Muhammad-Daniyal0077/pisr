@@ -56,11 +56,12 @@ class Our_team extends CI_Controller
 
 			if ($_FILES['image']['name']) {
 				$staff_img              = $_FILES['image']['name'];
-				move_uploaded_file($_FILES['faculty_img']['tmp_name'], 'uploads/our_team/' . $staff_img);
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/our_team/' . $staff_img);
 				$data_Save['image']   = $staff_img;
 			}
+
 			if($this->db->insert('our_team',$data_Save)){
-				redirect('admin/our_team/');
+				redirect('admin/our-team/');
 			}else{
 				echo "Error";
 			}
@@ -73,116 +74,47 @@ class Our_team extends CI_Controller
 			$this->load->view('Admin', $data);
 		}
 	}
-	public function edit_faculty_designation($id)
+	public function edit_our_team($id)
 	{
 		$Get=$id;
 		if ($this->input->server('REQUEST_METHOD') === 'POST') {
-			$data_id['id']            			= $this->input->post('designation_type_id');
-			$staff_type    = $this->input->post('designation');
-			$data_Save['staff_type']    = $this->input->post('designation');
-			$code = strtolower(str_replace(' ', '_', $staff_type));
-			$data_Save['code']    = $code;
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['name']            = $this->input->post('name');
+			$data_Save['designation']            = $this->input->post('designation');
+			$data_Save['about']            = $this->input->post('about');
+			$data_Save['status']                = $this->input->post('status');
 
 
-			if($this->db->update('designation_type',$data_Save,$data_id)){
-				redirect('academics/faculty-designation');
+			if ($_FILES['image']['name']) {
+				$staff_img              = $_FILES['image']['name'];
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/our_team/' . $staff_img);
+				$data_Save['image']   = $staff_img;
+			}
+
+			if($this->db->update('our_team',$data_Save,$data_id)){
+				redirect('admin/our-team/');
 			}else{
-				redirect('academics/faculty-designation');
+				redirect('admin/our-team/');
 			}
 		}
 		else {
-			$data['designation_type_edit']=$this->db->get_where('designation_type',array('id' => $Get));
-			$data['path'] = 'Back_End/acadimics/faculty_designation';
+			$data['our_team_edit']=$this->db->get_where('our_team',array('id' => $Get));
+			$data['designation_type'] = $this->db->get('designation_type'); // Replace 'faculty' with your actual table name
+			$data['path'] = 'Back_End/our_team';
 			$data['filename'] = 'edit';
 			$this->load->view('Admin', $data);
 		}
 	}
-	public function delete_designation()
+	public function delete_our_team()
 	{
 		$id = $this->input->post('get_id');
 
-		if ($this->db->delete('designation_type', ['id' => $id])) {
+		if ($this->db->delete('our_team', ['id' => $id])) {
 			echo json_encode(['status' => 'success']);
 		} else {
 			echo json_encode(['status' => 'error']);
 		}
 	}
 
-	public function addfaculty()
-	{
-		if ($this->input->server('REQUEST_METHOD') === 'POST') {
-			$data_Save['faculty_name']            = $this->input->post('faculty_name');
-			$data_Save['faculty_designation']            = $this->input->post('faculty_designation');
-			$data_Save['gender']                = $this->input->post('gender');
-			$data_Save['status']                = $this->input->post('status');
 
-			if ($_FILES['faculty_img']['name']) {
-				$staff_img              = $_FILES['faculty_img']['name'];
-				move_uploaded_file($_FILES['faculty_img']['tmp_name'], 'uploads/faculty_images/' . $staff_img);
-				$data_Save['faculty_img']   = $staff_img;
-			}
-			if ($this->db->insert('faculty', $data_Save)) {
-				redirect('academics/faculty');
-			} else {
-				redirect('academics/addfacultys');
-			}
-		} else {
-			$data['staff_members_list'] = $this->db->get('faculty');
-			$data['designation_type'] = $this->db->get('designation_type');
-			$data['path'] = 'Back_End/acadimics/faculty';
-			$data['filename'] = 'addfaculty';
-			$this->load->view('Admin', $data);
-		}
-
-	}
-
-	public function updatefaculty($id)
-	{
-		if ($this->input->server('REQUEST_METHOD') === 'POST') {
-			// Collect POST data
-			$data_id['id'] = $this->input->post('faculty_id');
-			$data_Save['faculty_name'] = $this->input->post('faculty_name');
-			$data_Save['faculty_designation'] = $this->input->post('faculty_designation');
-			$data_Save['gender'] = $this->input->post('gender');
-			$data_Save['status'] = $this->input->post('status');  // if you have a 'status' field
-
-			// Handle image upload
-			if ($_FILES['faculty_img']['name']) {
-				$faculty_img = $_FILES['faculty_img']['name'];
-				move_uploaded_file($_FILES['faculty_img']['tmp_name'], 'uploads/faculty_images/' . $faculty_img);
-				$data_Save['faculty_img'] = $faculty_img;
-			}
-
-			// Update the record in the database
-			if ($this->db->update('faculty', $data_Save, $data_id)) {
-				redirect('academics/faculty');
-			} else {
-				redirect('academics/addfaculty');
-			}
-		} else {
-			// Load the data to populate the edit form
-			$data['faculty_edit'] = $this->db->get_where('faculty', array('id' => $id));
-			$data['designation_type'] = $this->db->get('designation_type');
-			$data['path'] = 'Back_End/acadimics/faculty';
-			$data['filename'] = 'editfaculty';
-			$this->load->view('Admin', $data);
-		}
-	}
-
-
-
-
-
-
-
-	public function deletefaculty()
-	{
-		$id = $this->input->post('get_id');
-
-		if ($this->db->delete('faculty', ['id' => $id])) {
-			echo json_encode(['status' => 'success']);
-		} else {
-			echo json_encode(['status' => 'error']);
-		}
-	}
 }

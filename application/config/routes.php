@@ -109,8 +109,11 @@ $route['deleteimages'] = 'BackEnd_Controller/Gallery/delete';
 $route['updateimages/(:num)'] = 'BackEnd_Controller/Gallery/updateimages/$1';
 
 
-$route['admin/our_team'] = 'BackEnd_Controller/Our_team';
-$route['admin/our_team/create'] = 'BackEnd_Controller/Our_team/create';
+$route['admin/our-team'] = 'BackEnd_Controller/Our_team';
+$route['admin/our-team/create'] = 'BackEnd_Controller/Our_team/create';
+$route['admin/our-team/edit/(:num)'] = 'BackEnd_Controller/Our_team/edit_our_team/$1';
+$route['our_team/remove'] = 'BackEnd_Controller/Our_team/delete_our_team';
+
 
 
 

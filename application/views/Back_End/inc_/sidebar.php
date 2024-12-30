@@ -42,7 +42,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo base_url(); ?>admin/our_team">
+					<a href="<?php echo base_url(); ?>admin/our-team">
 						<i class="bi bi-circle"></i><span>Our Team</span>
 					</a>
 				</li>

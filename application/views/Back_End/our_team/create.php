@@ -15,7 +15,7 @@
 				<div class="card-body">
 					<h5 class="card-title">Our Team</h5>
 
-					<form class="row g-3" action="<?php echo base_url('admin/our_team/create'); ?>" method="post" enctype="multipart/form-data">
+					<form class="row g-3" action="<?php echo base_url('admin/our-team/create'); ?>" method="post" enctype="multipart/form-data">
 						<div class="col-md-12">
 							<label for="name" class="form-label">Name</label>
 							<input type="text" class="form-control" id="name" name="name" required>
@@ -31,7 +31,7 @@
 							</select>
 						</div>
 						<div class="col-md-12">
-							<textarea class="form-control" rows="5" id="about"></textarea>
+							<textarea class="form-control" name="about" rows="5" id="about"></textarea>
 						</div>
 						<div class="col-md-6">
 							<label for="image" class="col-form-label">Upload Image</label>
@@ -50,7 +50,7 @@
 						</div>
 						<div class="text-center mt-4">
 							<button type="submit" class="btn btn-primary">Submit</button>
-							<a href="<?php echo base_url();?>admin/our_team/" class="btn btn-secondary">Back</a>
+							<a href="<?php echo base_url();?>admin/our-team/" class="btn btn-secondary">Back</a>
 						</div>
 					</form>
 
