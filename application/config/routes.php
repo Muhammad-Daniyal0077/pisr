@@ -121,7 +121,10 @@ $route['faqs/remove'] = 'BackEnd_Controller/Faq/delete_faqs';
 
 
 $route['admin/admission/school-admission-policy'] = 'BackEnd_Controller/Admission/school_admission_policy';
-
+$route['admin/admission/admission-test-syllabus'] = 'BackEnd_Controller/Admission/admission_test_syllabus';
+$route['admin/admission/admission-test-syllabus/create'] = 'BackEnd_Controller/Admission/admission_test_syllabus_create';
+$route['admin/admission/admission-test-syllabus/edit/(:num)'] = 'BackEnd_Controller/Admission/admission_test_syllabus_edit/$1';
+$route['syllabus/remove'] = 'BackEnd_Controller/Admission/delete_syllabus';
 
 
 $route['academics/faculty-designation'] = 'BackEnd_Controller/Academics/faculty_designation';

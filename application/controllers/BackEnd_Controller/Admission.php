@@ -47,6 +47,94 @@ class Admission extends CI_Controller
 	}
 
 
+	public function admission_test_syllabus()
+	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('admission_test_syllabus'); // Replace 'faculty' with your actual table name
+		$data['admission_test_syllabus'] = $query->result(); // Get the result as an array of objects
+
+		$data['path'] = 'Back_End/admission';
+		$data['filename'] = 'admission_test_syllabus';
+		$this->load->view('Admin', $data);
+	}
+
+	public function admission_test_syllabus_create()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['name']            = $this->input->post('name');
+			$data_Save['status']                = $this->input->post('status');
+
+			if ($_FILES['image']['name']) {
+				$syllabus_img              = $_FILES['image']['name'];
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/syllabus_image/' . $syllabus_img);
+				$data_Save['image']   = $syllabus_img;
+			}
+
+			if ($_FILES['file']['name']) {
+				$syllabus_file              = $_FILES['file']['name'];
+				move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/syllabus_file/' . $syllabus_file);
+				$data_Save['file']   = $syllabus_file;
+			}
+
+			if($this->db->insert(' admission_test_syllabus',$data_Save)){
+				redirect('admin/admission/admission-test-syllabus/');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$data['path'] = 'Back_End/admission';
+			$data['filename'] = 'admission_test_syllabus_create';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+
+	public function admission_test_syllabus_edit($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['name']            = $this->input->post('name');
+			$data_Save['status']                = $this->input->post('status');
+
+			if ($_FILES['image']['name']) {
+				$syllabus_img              = $_FILES['image']['name'];
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/syllabus_image/' . $syllabus_img);
+				$data_Save['image']   = $syllabus_img;
+			}
+
+			if ($_FILES['file']['name']) {
+				$syllabus_file              = $_FILES['file']['name'];
+				move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/syllabus_file/' . $syllabus_file);
+				$data_Save['file']   = $syllabus_file;
+			}
+
+			if($this->db->update('admission_test_syllabus',$data_Save,$data_id)){
+				redirect('admin/admission/admission-test-syllabus/');
+			}else{
+				redirect('admin/admission/admission-test-syllabus/');
+			}
+		}
+		else {
+			$data['admission_test_syllabus_edit']=$this->db->get_where('admission_test_syllabus',array('id' => $Get));
+			$data['path'] = 'Back_End/admission';
+			$data['filename'] = 'admission_test_syllabus_edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+	public function delete_syllabus()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('admission_test_syllabus', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
 
 	public function school_admission_policy()
 	{
@@ -54,7 +142,7 @@ class Admission extends CI_Controller
 		if ($this->input->server('REQUEST_METHOD') === 'POST') {
 			$data_id['id']            			= 2;
 			$data_Save['fee_policy']            = $this->input->post('fee_policy');
-			$data_Save['admission_policy']            = $this->input->post('admission_policy');
+			$data_Save['admission_policy']      = $this->input->post('admission_policy');
 
 
 			if($this->db->update('school_admission_policy',$data_Save,$data_id)){
@@ -80,86 +168,12 @@ class Admission extends CI_Controller
 
 
 
-	public function create()
-	{
-		if ($this->input->server('REQUEST_METHOD') === 'POST') {
-			$data_Save['question']            = $this->input->post('question');
-			$data_Save['answer']            = $this->input->post('answer');
-			$data_Save['status']                = $this->input->post('status');
-
-			if($this->db->insert('faqs',$data_Save)){
-				redirect('admin/faqs/');
-			}else{
-				echo "Error";
-			}
-		}
-		else {
-			$this->db->order_by('ID', 'ASC');
-			$data['path'] = 'Back_End/faq';
-			$data['filename'] = 'create';
-			$this->load->view('Admin', $data);
-		}
-	}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	public function edit_Faq($id)
-	{
-		$Get=$id;
-		if ($this->input->server('REQUEST_METHOD') === 'POST') {
-			$data_id['id']            			= $this->input->post('edit_id');
-			$data_Save['question']            = $this->input->post('question');
-			$data_Save['answer']            = $this->input->post('answer');
-			$data_Save['status']                = $this->input->post('status');
-
-
-
-			if($this->db->update('faqs',$data_Save,$data_id)){
-				redirect('admin/faqs/');
-			}else{
-				redirect('admin/faqs/');
-			}
-		}
-		else {
-			$data['faqs_edit']=$this->db->get_where('faqs',array('id' => $Get));
-			$data['path'] = 'Back_End/faq';
-			$data['filename'] = 'edit';
-			$this->load->view('Admin', $data);
-		}
-	}
-	public function delete_faqs()
-	{
-		$id = $this->input->post('get_id');
-
-		if ($this->db->delete('faqs', ['id' => $id])) {
-			echo json_encode(['status' => 'success']);
-		} else {
-			echo json_encode(['status' => 'error']);
-		}
-	}
 
 
 }
