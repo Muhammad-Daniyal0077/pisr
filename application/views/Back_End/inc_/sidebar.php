@@ -96,6 +96,27 @@
 			</ul>
 		</li>
 
+		<li class="nav-item">
+			<a class="nav-link collapsed" data-bs-target="#components-navssse" data-bs-toggle="collapse" href="#">
+				<i class="bi bi-card-list" style=" color: #28a745;"></i><span>Home Page Settings</span><i class="bi bi-chevron-down ms-auto"></i>
+			</a>
+			<ul id="components-navssse" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+				<li>
+					<a href="<?php echo base_url(); ?>admin/home-page-settings/our-top-students">
+						<i class="bi bi-circle"></i><span>Our Top Students</span>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo base_url(); ?>admin/wall-of-fame/success-stories">
+						<i class="bi bi-circle"></i><span>Success Stories</span>
+					</a>
+				</li>
+
+
+			</ul>
+		</li>
+
 
 		<li class="nav-item">
         <a class="nav-link collapsed" href="pages-contact.html">

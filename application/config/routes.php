@@ -127,6 +127,10 @@ $route['admin/wall-of-fame/success-stories/create'] = 'BackEnd_Controller/Wall_o
 $route['admin/wall-of-fame/success-stories/edit/(:num)'] = 'BackEnd_Controller/Wall_of_fame/success_stories_edit/$1';
 $route['success_stories/remove'] = 'BackEnd_Controller/Wall_of_fame/delete_success_stories';
 
+$route['admin/home-page-settings/our-top-students'] = 'BackEnd_Controller/Home/top_students';
+$route['admin/home-page-settings/our-top-students/create'] = 'BackEnd_Controller/Home/top_students_create';
+$route['admin/home-page-settings/our-top-students/edit/(:num)'] = 'BackEnd_Controller/Home/top_students_edit/$1';
+$route['our_top_students/remove'] = 'BackEnd_Controller/Home/delete_top_students';
 
 
 $route['admin/faqs'] = 'BackEnd_Controller/Faq';
