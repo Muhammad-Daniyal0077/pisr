@@ -87,7 +87,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="<?php echo base_url(); ?>admin/admission/school-admission-policy">
+					<a href="<?php echo base_url(); ?>admin/wall-of-fame/success-stories">
 						<i class="bi bi-circle"></i><span>Success Stories</span>
 					</a>
 				</li>

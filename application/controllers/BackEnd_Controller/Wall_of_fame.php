@@ -34,7 +34,91 @@ class Wall_of_fame extends CI_Controller
 			redirect('login'); // Redirect to login if not logged in
 		}
 	}
-	//home page
+
+	public function success_stories()
+	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('success_stories'); // Replace 'faculty' with your actual table name
+		$data['success_stories'] = $query->result(); // Get the result as an array of objects
+
+		$data['path'] = 'Back_End/Wall_of_fame';
+		$data['filename'] = 'success_stories_index';
+		$this->load->view('Admin', $data);
+	}
+
+	public function success_stories_create()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['name']            = $this->input->post('name');
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['about']            = $this->input->post('about');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['image']['name']) {
+				$staff_img              = $_FILES['image']['name'];
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/success_stories/' . $staff_img);
+				$data_Save['image']   = $staff_img;
+			}
+			if($this->db->insert('success_stories',$data_Save)){
+				redirect('admin/wall-of-fame/success-stories');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$data['path'] = 'Back_End/Wall_of_fame';
+			$data['filename'] = 'success_stories_create';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+	public function success_stories_edit($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['name']            = $this->input->post('name');
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['about']            = $this->input->post('about');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['image']['name']) {
+				$staff_img              = $_FILES['image']['name'];
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/success_stories/' . $staff_img);
+				$data_Save['image']   = $staff_img;
+			}
+
+			if($this->db->update('success_stories',$data_Save,$data_id)){
+				redirect('admin/wall-of-fame/success-stories');
+			}else{
+				redirect('admin/wall-of-fame/success-stories');
+			}
+		}
+		else {
+			$data['success_stories_edit']=$this->db->get_where('success_stories',array('id' => $Get));
+			$data['path'] = 'Back_End/Wall_of_fame';
+			$data['filename'] = 'success_stories_edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+	public function delete_success_stories()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('success_stories', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
+
+
+
+
+
 	public function index()
 	{
 		// Query the database to get data from the 'faculty' table

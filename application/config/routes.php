@@ -115,12 +115,17 @@ $route['admin/our-team/edit/(:num)'] = 'BackEnd_Controller/Our_team/edit_our_tea
 $route['our_team/remove'] = 'BackEnd_Controller/Our_team/delete_our_team';
 
 
-//$route['admin/wal-of-fame'] = 'BackEnd_Controller/Wall_of_fame';
 $route['admin/wall-of-fame/fbise'] = 'BackEnd_Controller/Wall_of_fame';
 $route['admin/wall-of-fame/fbise/create'] = 'BackEnd_Controller/Wall_of_fame/fbise_create';
 $route['admin/wall-of-fame/fbise/edit/(:num)'] = 'BackEnd_Controller/Wall_of_fame/fbise_edit/$1';
 $route['fbise/remove'] = 'BackEnd_Controller/Wall_of_fame/delete_fbise';
 
+//$route['admin/wall-of-fame'] = 'BackEnd_Controller/Wall_of_fame';
+
+$route['admin/wall-of-fame/success-stories'] = 'BackEnd_Controller/Wall_of_fame/success_stories';
+$route['admin/wall-of-fame/success-stories/create'] = 'BackEnd_Controller/Wall_of_fame/success_stories_create';
+$route['admin/wall-of-fame/success-stories/edit/(:num)'] = 'BackEnd_Controller/Wall_of_fame/success_stories_edit/$1';
+$route['success_stories/remove'] = 'BackEnd_Controller/Wall_of_fame/delete_success_stories';
 
 
 
