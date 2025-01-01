@@ -114,6 +114,16 @@ $route['admin/our-team/create'] = 'BackEnd_Controller/Our_team/create';
 $route['admin/our-team/edit/(:num)'] = 'BackEnd_Controller/Our_team/edit_our_team/$1';
 $route['our_team/remove'] = 'BackEnd_Controller/Our_team/delete_our_team';
 
+
+//$route['admin/wal-of-fame'] = 'BackEnd_Controller/Wall_of_fame';
+$route['admin/wall-of-fame/fbise'] = 'BackEnd_Controller/Wall_of_fame';
+$route['admin/wall-of-fame/fbise/create'] = 'BackEnd_Controller/Wall_of_fame/fbise_create';
+$route['admin/wall-of-fame/fbise/edit/(:num)'] = 'BackEnd_Controller/Wall_of_fame/fbise_edit/$1';
+$route['fbise/remove'] = 'BackEnd_Controller/Wall_of_fame/delete_fbise';
+
+
+
+
 $route['admin/faqs'] = 'BackEnd_Controller/Faq';
 $route['admin/faqs/create'] = 'BackEnd_Controller/Faq/create';
 $route['admin/faqs/edit/(:num)'] = 'BackEnd_Controller/Faq/edit_Faq/$1';
@@ -130,6 +140,8 @@ $route['syllabus/remove'] = 'BackEnd_Controller/Admission/delete_syllabus';
 $route['academics/faculty-designation'] = 'BackEnd_Controller/Academics/faculty_designation';
 $route['academics/faculty-designation/edit/(:num)'] = 'BackEnd_Controller/Academics/edit_faculty_designation/$1';
 $route['designation/remove'] = 'BackEnd_Controller/Academics/delete_designation';
+
+
 
 
 $route['404_override'] = '';
