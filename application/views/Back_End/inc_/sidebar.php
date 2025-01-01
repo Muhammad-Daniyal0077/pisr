@@ -12,7 +12,7 @@
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-menu-button-wide"></i><span>Academics</span><i class="bi bi-chevron-down ms-auto"></i>
+		<i class="bi bi-book" style="color: #007bff;"></i><span>Academics</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
@@ -32,7 +32,7 @@
 		<!-- End Components Nav -->
 		<li class="nav-item">
 			<a class="nav-link collapsed" data-bs-target="#components-nave" data-bs-toggle="collapse" href="#">
-				<i class="bi bi-menu-button-wide"></i><span>About Us</span><i class="bi bi-chevron-down ms-auto"></i>
+			<i class="bi bi-person-circle" style="color: #007bff;"></i><span>About Us</span><i class="bi bi-chevron-down ms-auto"></i>
 			</a>
 			<ul id="components-nave" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
@@ -52,7 +52,7 @@
 
 		<li class="nav-item">
 			<a class="nav-link collapsed" data-bs-target="#components-navse" data-bs-toggle="collapse" href="#">
-				<i class="bi bi-menu-button-wide"></i><span>Admission</span><i class="bi bi-chevron-down ms-auto"></i>
+			<i class="bi bi-card-list" style=" color: #28a745;"></i><span>Admission</span><i class="bi bi-chevron-down ms-auto"></i>
 			</a>
 			<ul id="components-navse" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
@@ -75,31 +75,12 @@
 
 			</ul>
 		</li>
-      <li class="nav-item">
-        <a class="nav-link collapsed"   href="<?php echo base_url(); ?>admin/gallery">
-          <i class="bi bi-journal-text"></i>
-          <span>Gallery</span>
-        </a>   
-      </li><!-- End Forms Nav -->
-    
-
-
-      <li class="nav-heading">Pages</li>
-
-<!--      <li class="nav-item">-->
-<!--        <a class="nav-link collapsed" href="users-profile.html">-->
-<!--          <i class="bi bi-person"></i>-->
-<!--          <span>Profile</span>-->
-<!--        </a>-->
-<!--      </li>-->
-		<!-- End Profile Page Nav -->
-
 
 
       <li class="nav-item">
         <a class="nav-link collapsed" href="pages-contact.html">
-          <i class="bi bi-envelope"></i>
-          <span>Contact</span>
+		<i class="bi bi-envelope text-primary"></i>
+          <span>Contact Us</span>
         </a>
       </li><!-- End Contact Page Nav -->
 

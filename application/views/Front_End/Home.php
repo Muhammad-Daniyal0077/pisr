@@ -1,14 +1,41 @@
+<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
 <style>
+    .custom-slider-wrapper {
+        width: 100%;
+        height: 100vh; /* Set height to 100% of the viewport */
+        margin: 0;
+        position: relative;
+        overflow: hidden;
+    }
 
+    .custom-slider {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
 
+    .custom-slide {
+        min-width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Make the video cover the entire container */
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 </style>
 
-<!-- counter -->
-<script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
-<div class="slider-wrapper">
-    <div class="slider">
-        <div class="slide">
-            <video src="<?php echo base_url(); ?>asset/video/sorts.mp4" autoplay muted loop style="margin-left: -206px !important;"></video>
+<!-- Counter -->
+<div class="custom-slider-wrapper">
+    <div class="custom-slider" id="videoSlider">
+        <!-- Single Video -->
+        <div class="custom-slide">
+            <video src="<?php echo base_url(); ?>asset/video/long.mp4" autoplay muted loop></video>
         </div>
     </div>
 </div>
@@ -27,16 +54,16 @@
 
                 </div><!-- ends: .section-header -->
             </div>
-            <div class="col-sm-6 event-info img-fluid mt-4" >
+            <div class="col-sm-6 event-info img-fluid mt-4">
                 <p class="div-sm-7 event-info ">
-                PISR is a proficient and contemporary school with years of experience and knowledge in grooming of children. We provide experienced teachers and supportive environment for everyone.     </p>
-                
-               <p> PISR was initially established in 1966, with the strength of only six students in a rented villa on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were keenly interested in the future of their generations. It got shut down after few months due to certain legal formalities but it didn’t stop them to keep struggle going.</p>
-            
-        
+                    PISR is a proficient and contemporary school with years of experience and knowledge in grooming of children. We provide experienced teachers and supportive environment for everyone. </p>
+
+                <p> PISR was initially established in 1966, with the strength of only six students in a rented villa on Khazan Road, Riyadh. It was started by five families of Pakistan Air Force officers who were keenly interested in the future of their generations. It got shut down after few months due to certain legal formalities but it didn’t stop them to keep struggle going.</p>
+
+
             </div>
             <div class="col-sm-6">
-            <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
+                <img src="<?php echo base_url(); ?>asset/images/second_background.jpeg" alt="" class="imgs">
             </div><!-- Ends: . -->
         </div>
     </div>
@@ -209,8 +236,6 @@
     </div>
 </section>
 
-
-
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         const newsContent = document.querySelector('.new-news-content');
@@ -243,8 +268,6 @@
         setInterval(() => updateSlider(1), 3000);
     });
 </script>
-
-
 
 
 
@@ -537,39 +560,50 @@
 
 <style>
     /* Add a gap and enhance card styling */
-#school-levels .card {
-    border: 1px solid #ddd; /* Light border for the card */
-    border-radius: 8px; /* Rounded corners */
-    overflow: hidden; /* Ensures child elements don’t overflow */
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
-}
+    #school-levels .card {
+        border: 1px solid #ddd;
+        /* Light border for the card */
+        border-radius: 8px;
+        /* Rounded corners */
+        overflow: hidden;
+        /* Ensures child elements don’t overflow */
+        transition: transform 0.3s, box-shadow 0.3s;
+        /* Smooth hover effects */
+    }
 
-#school-levels .card:hover {
-    transform: scale(1.05); /* Slightly enlarge on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Emphasize shadow */
-}
+    #school-levels .card:hover {
+        transform: scale(1.05);
+        /* Slightly enlarge on hover */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        /* Emphasize shadow */
+    }
 
-#school-levels .card-img-top {
-    max-height: 200px; /* Restrict image height */
-    object-fit: cover; /* Keep aspect ratio */
-}
+    #school-levels .card-img-top {
+        max-height: 200px;
+        /* Restrict image height */
+        object-fit: cover;
+        /* Keep aspect ratio */
+    }
 
-#school-levels .card-title {
-    font-size: 1.25rem; /* Increase title size */
-    font-weight: bold;
-}
+    #school-levels .card-title {
+        font-size: 1.25rem;
+        /* Increase title size */
+        font-weight: bold;
+    }
 
-#school-levels .btn-primary {
-    background-color: #0632ff; /* Match section header color */
-    border-color: #0632ff;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
+    #school-levels .btn-primary {
+        background-color: #0632ff;
+        /* Match section header color */
+        border-color: #0632ff;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
 
-#school-levels .btn-primary:hover {
-    background-color: #0056e0; /* Slightly darker blue on hover */
-    transform: scale(1.05); /* Slight enlarge effect */
-}
-
+    #school-levels .btn-primary:hover {
+        background-color: #0056e0;
+        /* Slightly darker blue on hover */
+        transform: scale(1.05);
+        /* Slight enlarge effect */
+    }
 </style>
 
 <section id="school-levels" class="py-5 bg-light">
@@ -1124,83 +1158,89 @@
 <!-- sticky social icons -->
 <section class="sticky">
     <style>
-       /* Wrapper for sticky social icons */
-.sticky-social-icons-wrapper {
-    position: fixed;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
-    z-index: 9999;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+        /* Wrapper for sticky social icons */
+        .sticky-social-icons-wrapper {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
 
-/* Individual social icon styling */
-.sticky-social-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px; /* Larger for better touch targets */
-    height: 40px;
-    background-color: #333;
-    color: white;
-    font-size: 16px; /* Adjust for readability */
-    border-radius: 50%;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s;
-}
+        /* Individual social icon styling */
+        .sticky-social-icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            /* Larger for better touch targets */
+            height: 40px;
+            background-color: #333;
+            color: white;
+            font-size: 16px;
+            /* Adjust for readability */
+            border-radius: 50%;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
 
-/* Hover effect */
-.sticky-social-icon:hover {
-    background-color: #007bff;
-    transform: scale(1.1);
-    text-decoration: none;
-}
+        /* Hover effect */
+        .sticky-social-icon:hover {
+            background-color: #007bff;
+            transform: scale(1.1);
+            text-decoration: none;
+        }
 
-/* Social media specific colors */
-.sticky-facebook {
-    background-color: #3b5998;
-}
+        /* Social media specific colors */
+        .sticky-facebook {
+            background-color: #3b5998;
+        }
 
-.sticky-twitter {
-    background-color: #1DA1F2;
-}
+        .sticky-twitter {
+            background-color: #1DA1F2;
+        }
 
-.sticky-instagram {
-    background-color: #E4405F;
-}
+        .sticky-instagram {
+            background-color: #E4405F;
+        }
 
-.sticky-linkedin {
-    background-color: #0077B5;
-}
+        .sticky-linkedin {
+            background-color: #0077B5;
+        }
 
-.sticky-youtube {
-    background-color: #FF0000;
-}
+        .sticky-youtube {
+            background-color: #FF0000;
+        }
 
-/* Responsive styling */
-@media (max-width: 768px) {
-    .sticky-social-icons-wrapper {
-        top: auto;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        flex-direction: row; /* Arrange icons horizontally */
-        justify-content: center;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
-        gap: 12px; /* Slightly larger gap */
-        width: 376px;
-    }
+        /* Responsive styling */
+        @media (max-width: 768px) {
+            .sticky-social-icons-wrapper {
+                top: auto;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                flex-direction: row;
+                /* Arrange icons horizontally */
+                justify-content: center;
+                padding: 10px;
+                background-color: rgba(0, 0, 0, 0.8);
+                /* Semi-transparent background */
+                gap: 12px;
+                /* Slightly larger gap */
+                width: 376px;
+            }
 
-    .sticky-social-icon {
-        width: 30px; /* Adjusted for mobile */
-        height: 30px;
-        font-size: 14px; /* Smaller font size */
-    }
-}
-
+            .sticky-social-icon {
+                width: 30px;
+                /* Adjusted for mobile */
+                height: 30px;
+                font-size: 14px;
+                /* Smaller font size */
+            }
+        }
     </style>
 
     <!-- Sticky Social Media Icons -->

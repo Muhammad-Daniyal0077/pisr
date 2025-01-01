@@ -78,6 +78,7 @@ h3 {
 @media (max-width: 768px) {
 	.slide video {
 	  margin-left: 0 !important; /* Remove margin for smaller screens */
+	  margin-top: 65px;
 	}
   }
   
