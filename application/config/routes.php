@@ -114,6 +114,25 @@ $route['admin/our-team/create'] = 'BackEnd_Controller/Our_team/create';
 $route['admin/our-team/edit/(:num)'] = 'BackEnd_Controller/Our_team/edit_our_team/$1';
 $route['our_team/remove'] = 'BackEnd_Controller/Our_team/delete_our_team';
 
+
+$route['admin/wall-of-fame/fbise'] = 'BackEnd_Controller/Wall_of_fame';
+$route['admin/wall-of-fame/fbise/create'] = 'BackEnd_Controller/Wall_of_fame/fbise_create';
+$route['admin/wall-of-fame/fbise/edit/(:num)'] = 'BackEnd_Controller/Wall_of_fame/fbise_edit/$1';
+$route['fbise/remove'] = 'BackEnd_Controller/Wall_of_fame/delete_fbise';
+
+//$route['admin/wall-of-fame'] = 'BackEnd_Controller/Wall_of_fame';
+
+$route['admin/wall-of-fame/success-stories'] = 'BackEnd_Controller/Wall_of_fame/success_stories';
+$route['admin/wall-of-fame/success-stories/create'] = 'BackEnd_Controller/Wall_of_fame/success_stories_create';
+$route['admin/wall-of-fame/success-stories/edit/(:num)'] = 'BackEnd_Controller/Wall_of_fame/success_stories_edit/$1';
+$route['success_stories/remove'] = 'BackEnd_Controller/Wall_of_fame/delete_success_stories';
+
+$route['admin/home-page-settings/our-top-students'] = 'BackEnd_Controller/Home/top_students';
+$route['admin/home-page-settings/our-top-students/create'] = 'BackEnd_Controller/Home/top_students_create';
+$route['admin/home-page-settings/our-top-students/edit/(:num)'] = 'BackEnd_Controller/Home/top_students_edit/$1';
+$route['our_top_students/remove'] = 'BackEnd_Controller/Home/delete_top_students';
+
+
 $route['admin/faqs'] = 'BackEnd_Controller/Faq';
 $route['admin/faqs/create'] = 'BackEnd_Controller/Faq/create';
 $route['admin/faqs/edit/(:num)'] = 'BackEnd_Controller/Faq/edit_Faq/$1';
@@ -130,6 +149,8 @@ $route['syllabus/remove'] = 'BackEnd_Controller/Admission/delete_syllabus';
 $route['academics/faculty-designation'] = 'BackEnd_Controller/Academics/faculty_designation';
 $route['academics/faculty-designation/edit/(:num)'] = 'BackEnd_Controller/Academics/edit_faculty_designation/$1';
 $route['designation/remove'] = 'BackEnd_Controller/Academics/delete_designation';
+
+
 
 
 $route['404_override'] = '';
