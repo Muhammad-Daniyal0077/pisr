@@ -28,6 +28,19 @@
         top: 0;
         left: 0;
     }
+    @media (max-width: 768px) {
+	.custom-slide {
+	  margin-left: 0 !important; /* Remove margin for smaller screens */
+	  margin-top: 80px;
+	}
+  }
+  
+  @media (max-width: 576px) {
+	.custom-slide {
+	  max-height: 60vh; /* Reduce max height for very small screens */
+	}
+  }
+
 </style>
 
 <!-- Counter -->
@@ -35,7 +48,7 @@
     <div class="custom-slider" id="videoSlider">
         <!-- Single Video -->
         <div class="custom-slide">
-            <video src="<?php echo base_url(); ?>asset/video/long.mp4" autoplay muted loop></video>
+            <video  src="<?php echo base_url(); ?>asset/video/long.mp4" autoplay muted></video>
         </div>
     </div>
 </div>
@@ -70,7 +83,7 @@
 </section><!-- Ends: . -->
 
 <!-- Principle Area section -->
-<section class="Welcome-area">
+<section class="Welcome-area" style="margin-top: 10px;">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 section-header-box">
@@ -801,6 +814,57 @@
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/19.jpg" alt="Image 7"></div>
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/04.jpg" alt="Image 7"></div>
         </div>
+        <style>
+    .custom-slick-prev, .custom-slick-next {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: 1000; /* Ensure buttons appear above other elements */
+}
+
+.custom-slick-prev:hover, .custom-slick-next:hover {
+    opacity: 1;
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.custom-slick-prev {
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-slick-next {
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+    .custom-slick-prev, .custom-slick-next 
+    {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-slick-prev, .custom-slick-next {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        margin: 21px;
+    }
+}
+
+        </style>
         <button class="custom-slick-prev">&#10094;</button>
         <button class="custom-slick-next">&#10095;</button>
     </div>
@@ -1230,7 +1294,7 @@
                 /* Semi-transparent background */
                 gap: 12px;
                 /* Slightly larger gap */
-                width: 376px;
+
             }
 
             .sticky-social-icon {

@@ -75,18 +75,6 @@ h3 {
 	transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 768px) {
-	.slide video {
-	  margin-left: 0 !important; /* Remove margin for smaller screens */
-	  margin-top: 65px;
-	}
-  }
-  
-  @media (max-width: 576px) {
-	.slide video {
-	  max-height: 60vh; /* Reduce max height for very small screens */
-	}
-  }
 
 
 

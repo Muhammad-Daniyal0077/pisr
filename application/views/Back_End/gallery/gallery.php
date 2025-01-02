@@ -30,8 +30,8 @@
               <tr>
                 <th>Sr. No.</th>
                 <th>Image Header</th>
-				<th>Images</th>
-				<th>Status</th>
+                <th>Images</th>
+                <th>Status</th>
                 <th>Action</th>
                 <!-- <th data-type="date" data-format="YYYY/DD/MM">Start Date</th> -->
               </tr>
@@ -45,27 +45,27 @@
                     <td><?php echo $srNo++; ?></td> <!-- Display and increment Sr. No. -->
                     <td><?php echo $row->img_head; ?></td>
                     <td>
-						<?php
-						// Decode the JSON-encoded array of image paths
-						$images = json_decode($row->img, true);
+                      <?php
+                      // Decode the JSON-encoded array of image paths
+                      $images = json_decode($row->img, true);
 
-						// Check if decoding was successful and images array is not empty
-						if (!empty($images)) {
-							foreach ($images as $imagePath) {
-								// Add the path before uploads/gallery/
-								$fullImagePath = 'uploads/gallery/' . $imagePath;
+                      // Check if decoding was successful and images array is not empty
+                      if (!empty($images)) {
+                        foreach ($images as $imagePath) {
+                          // Add the path before uploads/gallery/
+                          $fullImagePath = 'uploads/gallery/' . $imagePath;
 
-								// Display each image with a base URL
-								echo '<img src="' . base_url($fullImagePath) . '" width="50" style="margin: 5px;">';
-							}
-						} else {
-							echo "No images available";
-						}
-						?>
+                          // Display each image with a base URL
+                          echo '<img src="' . base_url($fullImagePath) . '" width="50" style="margin: 5px;">';
+                        }
+                      } else {
+                        echo "No images available";
+                      }
+                      ?>
 
-					</td>
-					  <td>    <?php echo ($row->status == 0) ? 'Inactive' : 'Active'; ?>
-					  </td>
+                    </td>
+                    <td> <?php echo ($row->status == 0) ? 'Inactive' : 'Active'; ?>
+                    </td>
                     <td>
                       <div class="d-flex justify-content-start">
                         <a href="<?php echo base_url('updateimages/' . $row->id); ?>" class="btn btn-warning me-2">
@@ -132,4 +132,3 @@
       });
   }
 </script>
-
