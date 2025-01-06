@@ -138,55 +138,29 @@
   
   
   <h2 class="container section-heading col-md-9"> Wall of fame:</h2>
+ 
   <section class="hover-section">
+     <div class="container">
     <p>
    
   At our annual Wall of fame, we are thrilled to showcase and celebrate our outstanding achievers who shine brightly and make us proud. Each of these individuals has displayed exceptional talent, determination, and hard work in their respective fields, setting a shining example for their peers and inspiring others to reach for their own greatness. From academics to athletics, from the arts to community service, these individuals have excelled and proven that dedication and passion can lead to incredible success. We are honored to have such remarkable individuals in our community, and we congratulate them on their well-deserved recognition.
   
     </p>
+    </div>
 
     <!-- Box 1: Pakistani Cricketer -->
+    <?php foreach ($success_stories as $row): ?>
     <div class="vc-hoverbox-wrapper">
       <div class="vc-hoverbox">
-        <div class="vc-hoverbox-front" style="background-image: url('https://pisr.org/v2/wp-content/uploads/2021/06/3-1.png');"></div>
+        <div class="vc-hoverbox-front" style="background-image: url('<?php echo base_url();?>uploads/success_stories/<?php echo $row->image; ?>"></div>
         <div class="vc-hoverbox-back">
-          <h2>Pakistani Cricketer</h2>
+         
+          <span><?php echo $row->about; ?> </h2>
         </div>
       </div>
-      <h2>Mr. Saeed Anwar</h2>
+      <h2><?php echo $row->name; ?></h2>
     </div>
-
-    <!-- Box 2: Dr. Madiha Virk - Gratitude Message -->
-    <div class="vc-hoverbox-wrapper">
-      <div class="vc-hoverbox">
-        <div class="vc-hoverbox-front" style="background-image: url('https://pisr.org/v2/wp-content/uploads/2021/06/3-1.jpg');"></div>
-        <div class="vc-hoverbox-back">
-          <span class="para">I did my Alma mater was Pakistan international school… I have no words to express my gratitude towards my mother institution… whatever I am today is because of the efforts put in disciplining me by my teachers and the institution itself.</span>
-        </div>
-      </div>
-      <h2>Dr. Madiha Virk</h2>
-    </div>
-
-    <!-- Box 3: Pakistani Journalist -->
-    <div class="vc-hoverbox-wrapper">
-      <div class="vc-hoverbox">
-        <div class="vc-hoverbox-front" style="background-image: url('https://pisr.org/v2/wp-content/uploads/2021/06/Picture1-e1623570334106.png');"></div>
-        <div class="vc-hoverbox-back">
-          <h2>Pakistani Journalist</h2>
-        </div>
-      </div>
-      <h2>Dr. Shahid Masood</h2>
-    </div>
-
-    <!-- Box 4: Dr. Numan Majeed - Gratitude Message -->
-    <div class="vc-hoverbox-wrapper">
-      <div class="vc-hoverbox">
-        <div class="vc-hoverbox-front" style="background-image: url('https://pisr.org/v2/wp-content/uploads/2021/06/85-e1664430481686.jpg');"></div>
-        <div class="vc-hoverbox-back">
-          <span class="para">Thank you PISR for making our dreams into reality. I miss my school time. Proud to be an alumnus of the best alma mater.<br>"Chemical Pathologist"</span>
-        </div>
-      </div>
-      <h2>Dr. Numan Majeed</h2>
+    <?php endforeach; ?>
     </div>
   </section>
 

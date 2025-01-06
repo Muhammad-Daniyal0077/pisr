@@ -72,7 +72,7 @@
 
 	.wpb_wrapper {
 		max-width: 600px;
-		margin: 20px auto;
+		margin: 0px auto;
 		padding: 20px;
 		background-color: #f9f9f9;
 		border-radius: 10px;
@@ -162,290 +162,64 @@
 		<div class="row">
 			<div class="col-md-6">
 				<h2>FAQS</h2>
+				<?php foreach ($faqs as $rows): ?>
 				<div class="dropdown-custom">
 					<div class="dropdown-header-custom" role="button">
-						Admissions are open <span class="dropdown-icon-custom">+</span>
+						<?php echo $rows->question; ?> <span class="dropdown-icon-custom">+</span>
 					</div>
 					<div class="dropdown-body-custom">
 						<div class="dropdown-content-custom">
-							<p>PISR's Admissions are open all year round (12 Months)</p>
+							<p><?php echo $rows->answer; ?></p>
 						</div>
 					</div>
 				</div>
-
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Session Period <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>PISR’s session starts from April.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Can I get my kids admission on visit visa? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>No, visit visa is not eligible for admission in PISR .</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Can I get my kids admission on expire Iqama? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>No, for admission you need to have valid iqama.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Where can I view the School Uniform options and where do I purchase it from? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>It can be found on School Website under Academics tab. You can purchase it from anywhere.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Do PISR have age criteria for admission in certain class? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>PISR have age criteria against every class.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-					How can we pay fees after admission confirmation? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>Once you successfully enrolled in PISR you can pay fees monthly, quarterly or annually depend on your level of convenience.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-					Can we pay fees online? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>No, PISR collect fees physically in the main office</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-					Where do I go if I want to contact the school? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>For any enquires; information; student absences and feedback please visit the School Website and under the Contact us Tab you will see</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="admission-links m-s ">
-					<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/05/Admission-Required-Document.pdf">
-						<i class="fa fa-download"></i> Required Documents for Admission?
-					</a>
-				</div>
-
-				<div class="admission-links">
-					<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/fee-structure.pdf">
-						<i class="fa fa-download"></i>School Fee Structure for New Admission?
-					</a>
-				</div>
-
-
-
-
-
-
-
+				<?php endforeach; ?>
 			</div>
-
-
-			<div class="col-md-6">
-				<h2>FAQS</h2>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Why we pay fees from April <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>Every student must pay the full academic session fee.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Where can I find Student timings <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>It can be found on School Website under Academics tab.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Do PISR admission open throughout the year? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>PISR academic year start in every April 202x - March admission are open when there is availability of seat.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						How often should I check the School Website? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>You may check the website weekly for updates.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Where can I find the School Calendar? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>On School Website under the Downloads Tab.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Where can I find Student Timetables? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>It can be found on School Website under ACADEMICS Tab / School Timing.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Where can I get admission without clearing the entry test? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>No, you need to clear entry test for getting admission in PISR. If you fail to clear entry test 1st attempt then PISR give you one more chance for test clearance. If student fails to clear retest then he/she need to restart his admission process from start.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						Where can I get admission without clearing the entry test? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>No, you need to clear entry test for getting admission in PISR. If you fail to clear entry test 1st attempt then PISR give you one more chance for test clearance. If student fails to clear retest then he/she need to restart his admission process from start.</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-						How can I get my kids admission if they are coming from other boards? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>
-								If students are coming from other boards they need to submit the following documents. <br>
-								o Original SLC. <br>
-								o Original result card. <br>
-								o Migration certificate. <br>
-								o For Cambridge need to submit equivalent certificate
-
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="dropdown-custom">
-					<div class="dropdown-header-custom" role="button">
-					Where do I find my child’s assignments? <span class="dropdown-icon-custom">+</span>
-					</div>
-					<div class="dropdown-body-custom">
-						<div class="dropdown-content-custom">
-							<p>
-								If students are coming from other boards they need to submit the following documents. <br>
-								o Original SLC. <br>
-								o Original result card. <br>
-								o Migration certificate. <br>
-								o For Cambridge need to submit equivalent certificate
-
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-
-
-	<div class="wpb_wrapper">
-		<div class="thim-contact-faqs text-center">
-			<h4>Didn't find the answer?</h4>
-			<div role="form" class="wpcf7" id="wpcf7-f6295-p91-o1" lang="en-US" dir="ltr">
-				<form action="/v2/?page_id=91#wpcf7-f6295-p91-o1" method="post" class="wpcf7-form init"
-					novalidate="novalidate">
-					<p>
-						<span class="wpcf7-form-control-wrap your-name">
-							<input type="text" name="your-name" class="form-control" placeholder="Name *" required>
+			<h2>Didn't find the answer?</h2>
+			<div class="wpb_wrapper col-md-6">
+				<div class="thim-contact-faqs text-center">
+					
+					<div role="form" class="wpcf7" id="wpcf7-f6295-p91-o1" lang="en-US" dir="ltr">
+						<form action="/v2/?page_id=91#wpcf7-f6295-p91-o1" method="post" class="wpcf7-form init"
+							novalidate="novalidate">
+							
+								<span class="wpcf7-form-control-wrap your-name">
+						    <input type="text" name="your-name" class="form-control" placeholder="Name *" required>
 						</span>
-					</p>
-					<p>
+
 						<span class="wpcf7-form-control-wrap your-email">
-							<input type="email" name="your-email" class="form-control" placeholder="Email *" required>
+						    <input type="email" name="your-email" class="form-control" placeholder="Email *" required>
 						</span>
-					</p>
-					<p>
+
 						<span class="wpcf7-form-control-wrap your-familycode">
-							<input type="text" name="your-familycode" class="form-control" placeholder="Family Code *"
-								required>
+						    <input type="text" name="your-familycode" class="form-control" placeholder="Family Code *" required>
 						</span>
-					</p>
-					<p>
+
 						<span class="wpcf7-form-control-wrap your-mobilenumber">
-							<input type="text" name="your-mobilenumber" class="form-control"
-								placeholder="Mobile Number *" required>
+						    <input type="text" name="your-mobilenumber" class="form-control" placeholder="Mobile Number *" required>
 						</span>
-					</p>
-					<p>
+
 						<span class="wpcf7-form-control-wrap your-subject">
-							<input type="text" name="your-subject" class="form-control" placeholder="Subject *"
-								required>
+						    <input type="text" name="your-subject" class="form-control" placeholder="Subject *" required>
 						</span>
-					</p>
-					<p>
+
 						<span class="wpcf7-form-control-wrap your-message">
-							<textarea name="your-message" class="form-control" placeholder="Message *"
-								required></textarea>
+						    <textarea name="your-message" class="form-control" placeholder="Message *" required></textarea>
 						</span>
-					</p>
 
-					<input type="submit" value="Submit" class="submit-button">
+							<input type="submit" value="Submit" class="submit-button">
 
-				</form>
-			</div>
+						</form>
+					</div>
+				</div>
+					</div>
 		</div>
 	</div>
 
+
+
+
+	
 </section>
 
 

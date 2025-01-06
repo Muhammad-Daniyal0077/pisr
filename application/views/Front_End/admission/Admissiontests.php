@@ -86,53 +86,15 @@
 <h2 class="section-heading">Admission Test Syllabus for Different Grades</h2>
 
     <div class="vc_row">
+        <?php foreach ($admission_test_syllabus as $rows): ?>
         <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/02/Admission-test-syllabus-for-Grade-PG-Nursery-KG-2024.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/PG-Nur-KG-300x300.jpeg" alt="PG, Nursery, KG">
-                <p>PG, Nursery, KG</p>
+             
+            <a href="<?php echo base_url(); ?>uploads/syllabus_file/<?php echo $rows->file; ?>" target="_blank">
+                <img src="<?php echo base_url();?>uploads/syllabus_image/<?php echo $rows->image; ?>" alt="PG, Nursery, KG">
+                <p><?php echo $rows->name; ?></p>
             </a>
         </div>
-        <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/02/Admission-test-syllabus-for-Grade-1-2-2024-1.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/grade-1-2-300x300.jpeg" alt="Grade 1-2">
-                <p>Grade 1-2</p>
-            </a>
-        </div>
-        <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/01/Admission-test-syllabus-Grade-3-4.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/grade-3-4-300x300.jpeg" alt="Grade 3-4">
-                <p>Grade 3-4</p>
-            </a>
-        </div>
-        <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/02/Admission-test-syllabus-for-Grade-5-2024-Revised.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/grade-5-300x261.jpeg" alt="Grade 5" style="padding: 14px 0px;">
-                <p>Grade 5</p>
-            </a>
-        </div>
-        <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/01/Admission-test-syllabus-Grade-6.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/grade-6-300x267.jpeg" alt="Grade 6">
-                <p>Grade 6</p>
-            </a>
-        </div>
-        <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/01/Admission-test-syllabus-Grade-7.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/grade-7-300x262.jpeg" alt="Grade 7">
-                <p>Grade 7</p>
-            </a>
-        </div>
-        <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/07/Admission-test-syllabus-Grade-8.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/grade-8-300x266.jpeg" alt="Grade 8">
-                <p>Grade 8</p>
-            </a>
-        </div>
-        <div class="vc_col-sm-3">
-            <a href="https://pisr.org/v2/wp-content/uploads/2024/02/Admission-test-syllabus-Grade-9.pdf" target="_blank">
-                <img src="https://pisr.org/v2/wp-content/uploads/2024/01/grade-9-300x253.jpeg" alt="Grade 9">
-                <p>Grade 9</p>
-            </a>
-        </div>
+        <?php endforeach; ?>
+    
     </div>
 </section>

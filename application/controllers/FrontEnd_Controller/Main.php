@@ -30,6 +30,10 @@ class Main extends CI_Controller
 
 	public function index()
 	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('our_top_students'); // Replace 'faculty' with your actual table name
+		$data['our_top_students'] = $query->result(); // Get the result as an array of objects
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End';
 		$data['filename'] = 'Home';
@@ -143,6 +147,7 @@ class Main extends CI_Controller
 
 	public function admissiontest()
 	{
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End/admission';
 		$data['filename'] = 'Admissiontest';
@@ -185,6 +190,10 @@ class Main extends CI_Controller
 	}
 	public function admissiontests()
 	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('admission_test_syllabus'); // Replace 'faculty' with your actual table name
+		$data['admission_test_syllabus'] = $query->result(); // Get the result as an array of objects
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End/admission';
 		$data['filename'] = 'Admissiontests';
@@ -192,6 +201,10 @@ class Main extends CI_Controller
 	}
 	public function faqs()
 	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('faqs'); // Replace 'faculty' with your actual table name
+		$data['faqs'] = $query->result(); // Get the result as an array of objects
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End/admission';
 		$data['filename'] = 'Faqs';
@@ -199,6 +212,14 @@ class Main extends CI_Controller
 	}
 	public function fbise()
 	{
+		// Retrieve male faculty
+		$this->db->where('Head', 'HSSC');
+		$data['hssc'] = $this->db->get('fbise')->result();
+
+		// Retrieve female faculty
+		$this->db->where('Head', 'SSC');
+		$data['ssc'] = $this->db->get('fbise')->result();
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End/achievments';
 		$data['filename'] = 'Fbise';
@@ -206,6 +227,10 @@ class Main extends CI_Controller
 	}
 	public function successstories()
 	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('success_stories'); // Replace 'faculty' with your actual table name
+		$data['success_stories'] = $query->result(); // Get the result as an array of objects
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End/achievments';
 		$data['filename'] = 'Successstories';
@@ -277,6 +302,20 @@ class Main extends CI_Controller
 		// Load view and pass the data
 		$data['path'] = 'Front_End';
 		$data['filename'] = 'Pdzone';
+		$this->load->view('Main', $data);
+	}
+	public function careers()
+	{
+		// Load view and pass the data
+		$data['path'] = 'Front_End';
+		$data['filename'] = 'careers/home';
+		$this->load->view('Main', $data);
+	}
+	public function careersform()
+	{
+		// Load view and pass the data
+		$data['path'] = 'Front_End';
+		$data['filename'] = 'careers/jobform';
 		$this->load->view('Main', $data);
 	}
 }

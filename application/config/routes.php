@@ -88,6 +88,8 @@ $route['contact'] = 'FrontEnd_Controller/Main/contact';
 $route['downloads'] = 'FrontEnd_Controller/Main/downloads';
 $route['events'] = 'FrontEnd_Controller/Main/events';
 $route['pdzone'] = 'FrontEnd_Controller/Main/pdzone';
+$route['careers/home'] = 'FrontEnd_Controller/Main/careers';
+$route['careers/form'] = 'FrontEnd_Controller/Main/careersform';
 
 
 // Backend Routes

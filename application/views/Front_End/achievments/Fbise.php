@@ -142,25 +142,18 @@
 				<div class="vc_column">
 					<div style="width: 1120px;">
 						<div class="inner-container">
-							<div class="row justify-content-center">
-								<div class="col-md-6 mb-4">
-									<div class="content-container">
-										<h5>2023</h5>
-										<img src="https://pisr.org/v2/wp-content/uploads/2024/09/POSITION-FIRST-THREE-HOLDER-2024-HSSC_page-0001-2048x1243.jpg"
-											class="img-fluid image-clickable"
-											alt="img">
-									</div>
-
-								</div>
-								<div class="col-md-6 mb-4">
-									<div class="content-container">
-										<h5>2023</h5>
-										<img src="https://pisr.org/v2/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-06-at-9.51.58-AM.jpeg"
-											class="img-fluid image-clickable"
-											alt="img">
-									</div>
-
-								</div>
+					<div class="row justify-content-center dropdown-content-custom ">
+								<?php foreach ($hssc as $row): ?>
+    <div class="col-md-4 mb-4">
+        <div class="content-container">
+            <h4 class="heading"><?php echo $row->head; ?></h4>
+            <h5><?php echo $row->title; ?></h5>
+            <img src="<?php echo base_url(); ?>uploads/fbise/<?php echo $row->image; ?>" 
+                 alt="<?php echo $row->title; ?>" 
+                 class="img-fluid image-clickable">
+        </div>
+    </div>
+<?php endforeach; ?>
 
 							</div>
 						</div>
@@ -171,6 +164,8 @@
 		</div>
 	</div>
 
+
+
 	<!-- KG Section -->
 	<div class="col-md-6 vc_tta-panel" id="kg">
 		<div class="vc_tta-panel-heading" onclick="togglePanel('kg')">
@@ -180,29 +175,22 @@
 			</h4>
 		</div>
 		<div class=" vc_tta-panel-body">
-
 			<div class="vc_row">
 				<div class="vc_column">
 					<div style="width: 1634px; margin-left: -570px;">
 						<div class="inner-container" style="margin-top: 0px;">
 							<div class="row justify-content-center dropdown-content-custom ">
+								<?php foreach ($ssc as $row): ?>
 								<div class="col-md-4 mb-4">
-								<div class="content-container">
-										<h5>2023</h5>
-										<img src="https://pisr.org/v2/wp-content/uploads/2024/08/POSITION-FIRST-THREE-HOLDER-2024-SSC_page-0001-2048x1243.jpg"
+								  <div class="content-container">
+								  	<h4 class= "heading"><?php echo $row->head ?></h2>
+										<h5><?php echo $row->title; ?></h5>
+										<img src="<?php echo base_url();?>uploads/fbise/<?php echo $row->image;?>"
 											class="img-fluid image-clickable"
 											alt="img">
 									</div>
 								</div>
-								<div class="col-md-4 mb-4">
-								<div class="content-container">
-										<h5>2023</h5>
-										<img src="https://pisr.org/v2/wp-content/uploads/2023/09/HSSC-position-holder.jpg"
-											class="img-fluid image-clickable"
-											alt="img">
-									</div>
-								</div>
-
+								 <?php endforeach; ?>
 							</div>
 						</div>
 					</div>

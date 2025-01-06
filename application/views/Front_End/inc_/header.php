@@ -17,7 +17,7 @@
                     <ul class="list-unstyled">
                         <li><a href="http://parent.pisr.org/"><i class="fa fa-user-plus top-icon"></i>PARENT PORTAL</a></li>
                         <li><a href="https://alumni.pisr.org/"><i class="fa fa-lock top-icon"></i>ALUMNI RELATIONS</a></li>
-                        <li><a href="https://pisr-uat15.sowaanerp.com/jobs"><i class="fa fa-building top-icon"></i>Apply Now</a>
+                        <li><a href="<?php echo base_url(); ?>careers/home"><i class="fa fa-building top-icon"></i>Careers</a>
                         <li>
                             <a data-scroll href="<?php echo base_url(); ?>downloads">Downloads
                                 <i class="fa fa-download"></i>
@@ -61,7 +61,7 @@
                                 <li><a href="<?php echo base_url(); ?>acadimics/Academic-sport-program">Academic Support Programs-MTSS</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram">Assessment Policy</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/facaulty">Faculty</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/specialprograms" >Review worksheets </a></li>
+                                <li><a href="<?php echo base_url(); ?>acadimics/specialprograms">Review worksheets </a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>
@@ -76,34 +76,44 @@
                                         School Admission Policy
                                         <i class="bi bi-caret-right-fill" style="font-size: 16px;"></i></i>
                                     </a>
+                                        <?php
+                                        $query = $this->db->get('school_admission_policy'); // Replace 'faculty' with your actual table name
+                                        $school_admission_policy = $query->result();
 
-                                    <ul class="admission-dropdown-menu">
-                                        <li><a href="https://drive.google.com/file/d/1Jy7YdlTpklotJ_Nuimnea_R1tq5pwl25/view?usp=sharing">Fee Policy</a></li>
-                                        <li><a href="https://drive.google.com/file/d/1IDC7p-SpomeorSQeckledSM00DeaNW_U/view?usp=drive_link">Admission Policy</a></li>
-                                    </ul>
-                                </li>
+                                        foreach ($school_admission_policy as $rows) { // Loop through the result set
+                                            ?>
+                                        <ul class="admission-dropdown-menu">
+                                <li><a href="<?php echo $rows->fee_policy;?>">Fee Policy</a></li>
+                                <li><a href="<?php echo $rows->admission_policy;?>">Admission Policy</a></li>
+                                <?php
+}
+?>
+                            </ul>
+                   
+                        </li>
 
-                                <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Syllabus</a></li>                                <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
-                            </ul>
-                            <!-- dropdown end -->
-                        </li>
-                        <li><a data-scroll href="#">FACILITIES <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
-                            <ul class="list-unstyled dropdown">
-                                <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
-                                <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
-                                <li><a href="<?php echo base_url(); ?>facilities/laboratories">Laboratories</a></li>
-                                <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li>
-                            </ul>
-                        </li>
-                        <li><a data-scroll href="#">Wall of Fame <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
-                            <ul class="list-unstyled dropdown">
-                                <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li>
-                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
-                            </ul>
-                        </li>
-                     
-                        <li><a data-scroll href="<?php echo base_url(); ?>pdzone">PD Zone</a></li>
-                        <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact Us</a></li>
+                        <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Syllabus</a></li>
+                        <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
+                    </ul>
+                    <!-- dropdown end -->
+                    </li>
+                    <li><a data-scroll href="#">FACILITIES <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
+                        <ul class="list-unstyled dropdown">
+                            <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
+                            <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
+                            <li><a href="<?php echo base_url(); ?>facilities/laboratories">Laboratories</a></li>
+                            <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li>
+                        </ul>
+                    </li>
+                    <li><a data-scroll href="#">Wall of Fame <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
+                        <ul class="list-unstyled dropdown">
+                            <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li>
+                            <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a data-scroll href="<?php echo base_url(); ?>pdzone">PD Zone</a></li>
+                    <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact Us</a></li>
 
                     </ul>
                 </div><!-- /.navbar-collapse -->

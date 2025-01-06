@@ -9,6 +9,26 @@
           <span>Dashboard</span>
         </a>
       </li><!-- End Dashboard Nav -->
+      		<!-- End Components Nav -->
+		<li class="nav-item">
+			<a class="nav-link collapsed" data-bs-target="#components-nave" data-bs-toggle="collapse" href="#">
+			<i class="bi bi-person-circle" style="color: #007bff;"></i><span>About Us</span><i class="bi bi-chevron-down ms-auto"></i>
+			</a>
+			<ul id="components-nave" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+
+				<li>
+					<a href="<?php echo base_url(); ?>admin/gallery">
+						<i class="bi bi-circle"></i><span>Gallery</span>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo base_url(); ?>admin/our-team">
+						<i class="bi bi-circle"></i><span>Our Team</span>
+					</a>
+				</li>
+
+			</ul>
+		</li>
 
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
@@ -29,26 +49,7 @@
         
         </ul>
       </li>
-		<!-- End Components Nav -->
-		<li class="nav-item">
-			<a class="nav-link collapsed" data-bs-target="#components-nave" data-bs-toggle="collapse" href="#">
-			<i class="bi bi-person-circle" style="color: #007bff;"></i><span>About Us</span><i class="bi bi-chevron-down ms-auto"></i>
-			</a>
-			<ul id="components-nave" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
-				<li>
-					<a href="<?php echo base_url(); ?>admin/gallery">
-						<i class="bi bi-circle"></i><span>Gallery</span>
-					</a>
-				</li>
-				<li>
-					<a href="<?php echo base_url(); ?>admin/our-team">
-						<i class="bi bi-circle"></i><span>Our Team</span>
-					</a>
-				</li>
-
-			</ul>
-		</li>
 
 		<li class="nav-item">
 			<a class="nav-link collapsed" data-bs-target="#components-navse" data-bs-toggle="collapse" href="#">
@@ -77,7 +78,7 @@
 		</li>
 		<li class="nav-item">
 			<a class="nav-link collapsed" data-bs-target="#components-navsse" data-bs-toggle="collapse" href="#">
-				<i class="bi bi-card-list" style=" color: #28a745;"></i><span>Wall of Fame</span><i class="bi bi-chevron-down ms-auto"></i>
+				<i class="bi bi-trophy-fill" style="color: #FF4500;"></i><span>Wall of Fame</span><i class="bi bi-chevron-down ms-auto"></i>
 			</a>
 			<ul id="components-navsse" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
@@ -98,7 +99,7 @@
 
 		<li class="nav-item">
 			<a class="nav-link collapsed" data-bs-target="#components-navssse" data-bs-toggle="collapse" href="#">
-				<i class="bi bi-card-list" style=" color: #28a745;"></i><span>Home Page Settings</span><i class="bi bi-chevron-down ms-auto"></i>
+				<i class="bi bi-house-door-fill" style=" color: #28a745;"></i><span>Home Page Settings</span><i class="bi bi-chevron-down ms-auto"></i>
 			</a>
 			<ul id="components-navssse" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
