@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center" style="margin-top:20px;">
+    <div class="row align-items-center" style="margin-top:20px;margin-bottom: 20px;">
         <!-- Left Column: Text Content -->
         <div class="col-lg-8 mb-4">
             <div class="card shadow-lg border-0">
@@ -41,7 +41,49 @@
         <!-- Right Column: Image Content -->
         <div class="col-lg-4 mb-4">
             <div class="card shadow-lg border-0">
-                <img src="https://pisr.org/v2/wp-content/uploads/2021/06/Untitled-design1.png" class="img-fluid"  width="200px" alt="Career Image">
+                <img src="<?php echo base_url(); ?>/asset/images/poster.jpg" class="img-fluid"  alt="Career Image"  style="border-radius: 10px;width: 250px;">
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center" style="margin-top:20px;margin-bottom: 20px;">
+        <!-- Left Column: Text Content -->
+        <div class="col-lg-8 mb-4">
+            <div class="card shadow-lg border-0">
+                <div class="card-body">
+                    <h3 class="card-title text-secondary">Join Our Team</h3>
+                    <p>
+                        We are looking for talented and passionate individuals to become part of our team. Explore the available opportunities and take the next step in your career with us.
+                        <a href="<?php echo base_url(); ?>careers/form" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Image Content -->
+        <div class="col-lg-4 mb-4">
+            <div class="card shadow-lg border-0">
+                <img src="<?php echo base_url(); ?>/asset/images/poster.jpg" class="img-fluid"  alt="Career Image" style="border-radius: 10px;width: 250px;">
+            </div>
+        </div>
+    </div>
+    <div class="row align-items-center" style="margin-top:20px;margin-bottom: 20px;">
+        <!-- Left Column: Text Content -->
+        <div class="col-lg-8 mb-4">
+            <div class="card shadow-lg border-0">
+                <div class="card-body">
+                    <h3 class="card-title text-secondary">Join Our Team</h3>
+                    <p>
+                        We are looking for talented and passionate individuals to become part of our team. Explore the available opportunities and take the next step in your career with us.
+                        <a href="<?php echo base_url(); ?>careers/form" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyModal">Apply Now</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Image Content -->
+        <div class="col-lg-4 mb-4">
+            <div class="card shadow-lg border-0">
+                <img src="<?php echo base_url(); ?>/asset/images/poster.jpg" class="img-fluid"   alt="Career Image"  style="border-radius: 10px;width: 250px;">
             </div>
         </div>
     </div>

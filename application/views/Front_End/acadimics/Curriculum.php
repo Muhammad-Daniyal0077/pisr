@@ -273,7 +273,7 @@
             <!-- Pre School Section -->
             <article class="article">
                 <figure class="article__figure" style="height: 400px;">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/014.jpg" />
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/downloads/junior.png" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">Pre School</h4>
                         <p class="article__info">
@@ -287,7 +287,7 @@
             <!-- Junior School Section -->
             <article class="article">
                 <figure class="article__figure" style="height: 400px;">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/015.jpg" />
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/downloads/hunir.jpeg" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">Junior School</h4>
                         <p class="article__info">
@@ -305,7 +305,7 @@
             <!-- Middle School Section -->
             <article class="article">
                 <figure class="article__figure" style="height: 400px;">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/016.jpg" />
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/downloads/hunir.jpeg" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">Middle School</h4>
                         <p class="article__info">
@@ -327,7 +327,7 @@
             <!-- High School Section -->
             <article class="article">
                 <figure class="article__figure" style="height: 400px;">
-                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/Facilities/017.jpg" />
+                    <img class="article__cover" src="<?php echo base_url(); ?>asset/images/downloads/high.jpeg" />
                     <figcaption class="article__caption">
                         <h4 class="article__title">High School</h4>
                         <p class="article__info">

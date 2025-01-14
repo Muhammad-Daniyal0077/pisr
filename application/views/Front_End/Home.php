@@ -632,7 +632,7 @@
             <!-- Pre-School Card -->
             <div class="col-lg-3 col-md-6">
                 <div class="card text-center shadow-sm h-100">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Play_Group.jpg" class="card-img-top" alt="Pre-School">
+                    <img src="<?php echo base_url(); ?>asset/images/downloads/junior.png" class="card-img-top" alt="Pre-School">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Pre-School</h5>
                         <p class="card-text">Engaging activities and nurturing environment for young learners.</p>
@@ -643,7 +643,7 @@
             <!-- Junior School Card -->
             <div class="col-lg-3 col-md-6">
                 <div class="card text-center shadow-sm h-100">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/junior_boys.jpg" class="card-img-top" alt="Junior School">
+                    <img src="<?php echo base_url(); ?>asset/images/downloads/hunir.jpeg" class="card-img-top" alt="Junior School">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Junior School</h5>
                         <p class="card-text">Building foundational skills through interactive learning.</p>
@@ -665,7 +665,7 @@
             <!-- High School Card -->
             <div class="col-lg-3 col-md-6">
                 <div class="card text-center shadow-sm h-100">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Senior_Boys.avif" class="card-img-top" alt="High School">
+                    <img src="<?php echo base_url(); ?>asset/images/downloads/high.jpeg" class="card-img-top" alt="High School">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">High School</h5>
                         <p class="card-text">Focused on academic excellence and career preparation.</p>

@@ -99,8 +99,8 @@
     /* Gallery Slider Styles */
     .gallery-slider .gallery-item img {
         width: 100%;
-        border-radius: 8px;
-        padding: 6px;
+        border-radius: 26px;
+        padding: 16px;
         transition: transform 0.3s;
         cursor: pointer;
     }
