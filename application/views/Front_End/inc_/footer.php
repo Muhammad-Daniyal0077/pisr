@@ -23,7 +23,7 @@
                 <div class="col-sm-4 m-2">
                     <h3>Links</h3>
                     <ul class="list-unstyled">
-                        <li><a href="<?php echo base_url(); ?>about/principlemessage"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Principlemessaage</a>
+                        <li><a href="<?php echo base_url(); ?>about/principlemessage"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Principalmessaage</a>
                         </li>
                         <li><a href="<?php echo base_url(); ?>gallery"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Gallery</a></li>
                         <li><a href="<?php echo base_url(); ?>achievments/successstories"><span><i class="fa fa-long-arrow-right footer-icon"></i></span>Successstories</a>

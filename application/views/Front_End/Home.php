@@ -88,7 +88,7 @@
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Principle <span style="color: #0632ff;">Message</span></h2>
+                    <h2>Principal <span style="color: #0632ff;">Message</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>
@@ -446,7 +446,6 @@
                             <h4>Marks: 1062</h4>
                             <h4>Grade: A-1</h4>
                             <p>SSC ANNUAL EXAMINATION - 2024</p>
-                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                 </div>
@@ -461,7 +460,6 @@
                             <h4>Marks: 1043</h4>
                             <h4>Grade: A-1</h4>
                             <p>SSC ANNUAL EXAMINATION - 2024</p>
-                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                 </div>
@@ -476,7 +474,6 @@
                             <h4>Marks: 1036</h4>
                             <h4>Grade: A-1</h4>
                             <p>SSC ANNUAL EXAMINATION - 2024</p>
-                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                 </div>
@@ -491,7 +488,6 @@
                             <h4>Marks: 1032</h4>
                             <h4>Grade: A-1</h4>
                             <p>HSSC ANNUAL EXAMINATION - 2024</p>
-                            <a href="<?php echo base_url(); ?>achievments/fbise" class="btn btn-primary">View More</a>
                         </div>
                     </div>
                 </div>
@@ -510,11 +506,11 @@
 <section class="counter-area">
     <div class="container">
         <div class="row">
-            <div class="col-sm-5 col-sm-offset-0 counters">
+            <div class="col-sm-12 col-sm-offset-0 counters">
                 <div class="row">
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-01.png" alt="">
+                        <i class="bi bi-person" style="font-size: 50px; color: #5ef35e;"></i>
                             <div class="project-count counter">
                                 <h1 data-purecounter-start="0" data-purecounter-end="4219" data-purecounter-duration="1" class="purecounter"></h1>
                             </div>
@@ -524,16 +520,17 @@
 
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-02.png" alt="">
+                        <i class="bi bi-person-workspace" style="font-size: 50px; color: #ff9999;"></i>
+
                             <div class="project-count counter">
-                                <h1 data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></h1>
+                                <h1 data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></h1>
                             </div>
                             <span>FACULTY</span>
                         </div>
                     </div>
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-03.png" alt="">
+                        <i class="bi bi-clock-history" style="font-size: 50px; color: #2fe4ff;"></i>
                             <div class="project-count counter">
                                 <h1 data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></h1>
                             </div>
@@ -542,7 +539,7 @@
                     </div>
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                            <img src="<?php echo base_url(); ?>asset/images/index/counter-icon-04.png" alt="">
+                        <i class="bi bi-trophy" style="font-size: 50px; color: gold;"></i>
                             <div class="project-count counter">
                                 <h1 data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></h1>
                             </div> <span>Awards</span>
@@ -550,22 +547,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-5 col-sm-offset-0 counter-text-bottom">
-                <div class="counter-text-box">
-                    <div class="counter-text">
-                        <div class="row">
-                            <div class="col-sm-12 section-header-box">
-                                <div class="section-header">
-                                    <h2>Get Started Today</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="counter-btn">
-                        <a href="#">Apply Now</a>
-                    </div>
-                </div>
-            </div>
+          
         </div>
     </div>
 </section>
@@ -1183,7 +1165,7 @@
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Ministry of <span style="color: #0632ff;">Education</span></h2>
+                    <h2>Our<span style="color: #0632ff;">Colaborators</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>

@@ -140,7 +140,7 @@ h3 {
 }
 
 .view_more_btn .view-more-item {
-	background: #fec722;
+	background: #86ed22;
 	color: #333333;
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
@@ -190,7 +190,7 @@ h3 {
 	left: 50%;
 	margin-top: 50px;
 	margin-left: -40px;
-	background: #fec722;
+	background: #86ed22;
 	border-radius: 2px;
 	padding: 7px 16px;
 	color: #333333;
@@ -198,7 +198,7 @@ h3 {
 }
 
 #search .close {
-	background-color: #fec722;
+	background-color: #86ed22;
 	border-color: #ffb600;
 	border-radius: 3px;
 	color: #333333;
@@ -336,7 +336,7 @@ header .header-body .edu-navbar .edu-nav .nav li a {
 }
 
 header .header-body .edu-navbar .edu-nav .nav li a:before {
-	background: #fec722;
+	background: #86ed22;
 	height: 2px;
 	width: 100%;
 	bottom: 0px;
@@ -353,7 +353,7 @@ header .header-body .edu-navbar .edu-nav .nav li a:active,
 header .header-body .edu-navbar .edu-nav .nav li a:focus {
 	background: transparent;
 	outline: none;
-	color: #fec722;
+	color: #86ed22;
 }
 
 header .header-body .edu-navbar .edu-nav .nav li.active a:before,
@@ -361,7 +361,7 @@ header .header-body .edu-navbar .edu-nav .nav li:hover a::before,
 header .header-body .edu-navbar .edu-nav .nav li:focus a::before {
 	visibility: visible;
 	opacity: 1;
-	background: #fec722;
+	background: #86ed22;
 	height: 2px;
 	width: 100%;
 	bottom: 0px;
@@ -418,7 +418,7 @@ header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li a {
 }
 
 header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li a:before {
@@ -482,11 +482,11 @@ header .header-body .edu-navbar .edu-nav .nav li:hover ul.dropdown {
 }
 
 header .header-body .edu-navbar .edu-nav .nav li:hover>a {
-	color: #fec722;
+	color: #86ed22;
 }
 
 header .header-body .edu-navbar .edu-nav .nav li.active a {
-	color: #fec722;
+	color: #86ed22;
 }
 
 header .header-body .edu-navbar .edu-nav .nav li.active a:before {
@@ -519,7 +519,7 @@ header .header-body .is-sticky .edu-navbar .edu-nav .nav li .dropdown li a {
 header .header-body .is-sticky .edu-navbar .edu-nav .nav li.active a,
 header .header-body .is-sticky .edu-navbar .edu-nav .nav li:hover a,
 header .header-body .is-sticky .edu-navbar .edu-nav .nav li:focus a {
-	color: #fec722;
+	color: #86ed22;
 }
 
 header .rev_slider_wrapper {
@@ -564,8 +564,8 @@ header .el-btn-regular {
 }
 
 header .el-btn-regular:hover {
-	background: #fec722;
-	border: 1px solid #fec722;
+	background: #86ed22;
+	border: 1px solid #86ed22;
 	color: #333333;
 	transition: all 0.3s ease-in-out;
 }
@@ -573,8 +573,8 @@ header .el-btn-regular:hover {
 header .slider-btn-left {
 	margin-right: 10px;
 	color: #333333;
-	border: 1px solid #fec722;
-	background: #fec722;
+	border: 1px solid #86ed22;
+	background: #86ed22;
 }
 
 header .tparrows.tp-leftarrow::before {
@@ -850,7 +850,7 @@ header .tp-rightarrow {
 }
 
 .Courses-area .single-courses figure figcaption div a {
-	background: #fec722;
+	background: #86ed22;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	border-radius: 0;
@@ -901,7 +901,7 @@ header .tp-rightarrow {
 .Courses-area .single-courses .courses-content-box .courses-content ul li {
 	display: table-cell;
 	font-size: 14px;
-	color: #fec722;
+	color: #86ed22;
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -972,7 +972,7 @@ header .tp-rightarrow {
 }
 
 .video-main-area .video-play-btn .video-iframe {
-	background: #fec722;
+	background: #86ed22;
 	border-radius: 50%;
 	color: #ffffff;
 	display: inline-block;
@@ -1156,7 +1156,7 @@ header .tp-rightarrow {
 }
 
 .counter-area .counter-text-bottom .counter-text-box .counter-btn {
-	background: #fec722;
+	background: #86ed22;
 	padding: 25px 0;
 }
 
@@ -1222,7 +1222,7 @@ header .tp-rightarrow {
 }
 
 .news-area .news-single-box:hover .news-content h3 a {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -1362,7 +1362,7 @@ header .tp-rightarrow {
 
 .students-say-area .carousel-text .single-box .rank-icons li {
 	display: inline-block;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .students-say-area .carousel-text .single-box h3 {
@@ -1464,7 +1464,7 @@ footer .footer-content-box h3 {
 }
 
 footer .footer-content-box h3 span {
-	color: #fec722;
+	color: #86ed22;
 	font-size: 28px;
 }
 
@@ -1496,7 +1496,7 @@ footer .footer-content-box ul li a {
 }
 
 footer .footer-content-box ul li a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.1s ease-in-out;
 	padding-left: 3px;
 }
@@ -1527,7 +1527,7 @@ footer .footer-content-box form .form-group input::-moz-placeholder {
 }
 
 footer .footer-content-box form .form-group button {
-	background: #fec722;
+	background: #86ed22;
 	border: medium none;
 	color: #000;
 	outline: medium none;
@@ -1556,7 +1556,7 @@ footer .footer-bottom .footer-bottom-inner p {
 
 footer .footer-bottom .footer-bottom-inner p span {
 	font-weight: 600;
-	color: #fec722;
+	color: #86ed22;
 }
 
 footer .footer-bottom .footer-bottom-inner .footer-menu {
@@ -1640,7 +1640,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_02 .Welcome-area .wel-text-box .wel-icon {
-	background-color: #fec722;
+	background-color: #86ed22;
 	border-radius: 100%;
 	height: 120px;
 	margin: 0 auto;
@@ -1764,7 +1764,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_02 .register-area .form-full-box .register-form .form-group input:focus {
-	border-color: #fec722;
+	border-color: #86ed22;
 	outline: none;
 	box-shadow: none;
 }
@@ -1774,7 +1774,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_02 .register-area .form-full-box .register-form .register-btn-box .register-btn {
-	background: #fec722;
+	background: #86ed22;
 	width: 100%;
 	color: #fff;
 	height: 40px;
@@ -1862,7 +1862,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: -55px;
 	padding: 30px 50px 10px;
 	z-index: 100;
-	background: #fec722;
+	background: #86ed22;
 	transform: rotate(-45deg);
 	text-transform: uppercase;
 	color: #ffffff;
@@ -1878,7 +1878,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	display: inline-block;
 	text-align: left;
 	font-family: "Montserrat", sans-serif;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_02 .Courses-area-02 .single-courses figure figcaption ul li:last-child {
@@ -1906,7 +1906,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .home_version_02 .Courses-area-02 .single-courses figure figcaption ul .rating {
 	position: absolute;
-	color: #fec722;
+	color: #86ed22;
 	bottom: 0;
 	z-index: 100;
 	right: 0;
@@ -1960,7 +1960,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_02 .information-area .info-content-box .info-btn .information-btn {
-	background: #fec722;
+	background: #86ed22;
 	color: #333333;
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
@@ -2048,7 +2048,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_02 .events-area .event-bottom-btn .view-more-item {
-	background: #fec722;
+	background: #86ed22;
 	color: #333333;
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
@@ -2118,7 +2118,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .home_version_02 .stu-parent-say-area .screen-content-box .single--item .content-box .rating-box li {
 	display: inline-block;
-	color: #fec722;
+	color: #86ed22;
 	font-size: 16px;
 }
 
@@ -2167,18 +2167,18 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .home_version_02 .stu-parent-say-area .owl-prev:hover,
 .home_version_02 .stu-parent-say-area .owl-next:hover {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 }
 
 .home_version_02 .stu-parent-say-area .owl-prev:hover .fa-angle-right,
 .home_version_02 .stu-parent-say-area .owl-next:hover .fa-angle-right {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
 .home_version_02 .stu-parent-say-area .owl-prev:hover .fa-angle-left,
 .home_version_02 .stu-parent-say-area .owl-next:hover .fa-angle-left {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -2257,7 +2257,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .home_version_02 .teachers-area .teacher-body .teachars-info ul li .teacher-icon:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 	transition: all 0.3s ease-in-out;
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -2509,8 +2509,8 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 header .header-body .intro-text .el-btn-regular:hover {
-	background: #fec722;
-	border: 1px solid #fec722;
+	background: #86ed22;
+	border: 1px solid #86ed22;
 	color: #333333;
 	transition: all 0.3s ease-in-out;
 }
@@ -2518,8 +2518,8 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .home_version_03 header .header-body .intro-text .slider-btn-left {
 	margin-right: 10px;
 	color: #333333;
-	border: 1px solid #fec722;
-	background: #fec722;
+	border: 1px solid #86ed22;
+	background: #86ed22;
 }
 
 .home_version_03 header .header-body .mouse-icon-box {
@@ -2550,7 +2550,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 header .header-body .mouse-icon-box:hover .mouse-icon::before {
-	background: #fec722;
+	background: #86ed22;
 	top: 28px;
 	transition: all 0.2s ease-in-out;
 }
@@ -2621,7 +2621,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 .Welcome-area .wel-shap .content-full-box .wel-content-box .readmore-btn:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_03 .Welcome-area .wel-shap .content-full-box .wel-content-box .readmore-btn:hover .readmore-btn-icon {
@@ -2725,7 +2725,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 .Welcome-area .event-box .readmore-btn-box .readmore-btn:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_03 .Welcome-area .event-box .readmore-btn-box .readmore-btn:hover .readmore-btn-icon {
@@ -2797,7 +2797,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 .search-curses-area .search-courses-form .cearch-form .scrach-btn-box .scrach-btn {
-	background: #fec722;
+	background: #86ed22;
 	border: none;
 	font-size: 15px;
 	border-radius: 0;
@@ -2861,7 +2861,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 .Courses-area .courses-wrapper .single-courses figure figcaption div a {
-	background: #fec722;
+	background: #86ed22;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	border-radius: 0;
@@ -2942,7 +2942,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .home_version_03 .Courses-area .courses-wrapper .single-courses .courses-content-box .rank-icons ul li {
 	display: inline-block;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_03 .Courses-area .courses-wrapper .single-courses .courses-content-box .rank-icons span {
@@ -2973,7 +2973,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 .Courses-area .courses-wrapper .single-courses:hover .courses-content-box .courses-content h3 a {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -3001,7 +3001,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .home_version_03 .Courses-area .courses-wrapper .owl-prev:hover,
 .home_version_03 .Courses-area .courses-wrapper .owl-next:hover {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -3009,7 +3009,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .home_version_03 .Courses-area .courses-wrapper .owl-prev:hover .fa-angle-right,
 .home_version_03 .Courses-area .courses-wrapper .owl-next:hover .fa-angle-left,
 .home_version_03 .Courses-area .courses-wrapper .owl-next:hover .fa-angle-right {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -3193,7 +3193,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 .all-stu-count-area .info-content-box .info-btn .information-btn {
-	background: #fec722;
+	background: #86ed22;
 	border: medium none;
 	border-radius: 0;
 	color: #333333;
@@ -3284,7 +3284,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	bottom: 0;
 	height: 52px;
 	width: 58px;
-	background: #fec722;
+	background: #86ed22;
 	left: 25px;
 }
 
@@ -3336,7 +3336,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_03 .blog-area .blog-wrapper .blog-single-box:hover .blog-content h3 a {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -3357,7 +3357,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .home_version_03 .blog-area .blog-wrapper .owl-prev:hover,
 .home_version_03 .blog-area .blog-wrapper .owl-next:hover {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -3365,7 +3365,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .home_version_03 .blog-area .blog-wrapper .owl-prev:hover .fa-angle-right,
 .home_version_03 .blog-area .blog-wrapper .owl-next:hover .fa-angle-left,
 .home_version_03 .blog-area .blog-wrapper .owl-next:hover .fa-angle-right {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -3544,7 +3544,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .header-body .edu-navbar .edu-nav .nav li a:before {
-	background: #fec722;
+	background: #86ed22;
 	height: 2px;
 	width: 100%;
 	bottom: 0px;
@@ -3561,7 +3561,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .home_version_04 .header-body .edu-navbar .edu-nav .nav li a:focus {
 	background: transparent;
 	outline: none;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .header-body .edu-navbar .edu-nav .nav li.active a:before,
@@ -3569,7 +3569,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .home_version_04 .header-body .edu-navbar .edu-nav .nav li:focus a::before {
 	visibility: visible;
 	opacity: 1;
-	background: #fec722;
+	background: #86ed22;
 	height: 2px;
 	width: 100%;
 	bottom: 0px;
@@ -3687,11 +3687,11 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .header-body .edu-navbar .edu-nav .nav li:hover>a {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .header-body .edu-navbar .edu-nav .nav li.active a {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .header-body .edu-navbar .edu-nav .nav li.active a:before {
@@ -3737,7 +3737,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .about_vi_e-area .about-content .readmore-btn:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .about_vi_e-area .about-content .readmore-btn:hover .readmore-btn-icon {
@@ -3836,7 +3836,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .about_vi_e-area .event-box .readmore-btn-box .readmore-btn:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .about_vi_e-area .event-box .readmore-btn-box .readmore-btn:hover .readmore-btn-icon {
@@ -3851,7 +3851,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .about_vi_e-area .video-wapper .video-play-btn .video-iframe {
-	background: #fec722;
+	background: #86ed22;
 	border-radius: 50%;
 	color: #ffffff;
 	display: inline-block;
@@ -3968,7 +3968,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .home_version_04 .Courses-area-04 .single-courses .courses-price ul li {
 	display: inline-block;
 	text-align: left;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .Courses-area-04 .single-courses .courses-price ul li:last-child {
@@ -3980,7 +3980,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .Courses-area-04 .single-courses .courses-price ul li span img {
-	border: 2px solid #fec722;
+	border: 2px solid #86ed22;
 }
 
 .home_version_04 .Courses-area-04 .single-courses .courses-price ul .courses-teacher {
@@ -4017,7 +4017,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	width: auto;
 	height: 34px;
 	line-height: 0;
-	border: 18px solid #fec722;
+	border: 18px solid #86ed22;
 	border-left: 1.5em solid transparent;
 	left: 0;
 	top: 0;
@@ -4041,7 +4041,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .Courses-area-04 .single-courses .courses-content h3 a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .Courses-area-04 .single-courses .courses-content p {
@@ -4065,7 +4065,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .Courses-area-04 .single-courses .courses-content .read_more-btn:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .Courses-area-04 .single-courses .courses-content .read_more-btn:hover i {
@@ -4119,7 +4119,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .trausted-stu-area .trausted-content .trausted-stu-btn:hover {
-	background: #fec722;
+	background: #86ed22;
 }
 
 .home_version_04 .trausted-stu-area .trausted-content .trausted-stu-btn a {
@@ -4211,7 +4211,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .reg-news_others .news-item-box a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .home_version_04 .reg-news_others .news-item-box a:hover .readmore-btn-icon {
@@ -4280,7 +4280,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .reg-news_others .regi-full-box .register-form .form-group input:focus {
-	border-color: #fec722;
+	border-color: #86ed22;
 	outline: none;
 	box-shadow: none;
 }
@@ -4304,7 +4304,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .reg-news_others .regi-full-box .register-form .register-btn-box .register-btn:hover {
-	background: #fec722;
+	background: #86ed22;
 }
 
 .home_version_04 .reg-news_others .success-story .success-story-box .single-item {
@@ -4351,7 +4351,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .home_version_04 .reg-news_others .success-story .owl-controls .owl-page.active span {
-	background: #fec722;
+	background: #86ed22;
 }
 
 .home_version_04 footer {
@@ -4415,7 +4415,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -4490,7 +4490,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .review-option .review-rank .rank-icons ul li .review-icon {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .review-option .categories {
@@ -4555,7 +4555,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .description-content .requirements ul li:before {
-	color: #fec722;
+	color: #86ed22;
 	position: absolute;
 	content: "\f101";
 	font-family: FontAwesome;
@@ -4578,7 +4578,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .description-content .count-list ol li:before {
-	color: #fec722;
+	color: #86ed22;
 	content: counter(count-me, decimal) ". ";
 	display: block;
 	left: -20px;
@@ -4674,7 +4674,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	line-height: 38px;
 	-webkit-transform: translateY(-50%) rotate(180deg);
 	transform: translateY(-50%) rotate(180deg);
-	color: #fec722;
+	color: #86ed22;
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .curriculum-text-box .curriculum-section .panel-group .panel .panel-body {
@@ -4696,13 +4696,13 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .curriculum-text-box .curriculum-section .panel-group .panel .panel-body .curriculum-single .lecture i {
-	color: #fec722;
+	color: #86ed22;
 	font-size: 18px;
 	padding-right: 10px;
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .curriculum-text-box .curriculum-section .panel-group .panel .panel-body .curriculum-single .lecture-btn {
-	background: #fec722;
+	background: #86ed22;
 	height: 24px;
 	text-align: center;
 	width: 68px;
@@ -4734,7 +4734,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .single-courses_v .single-courses-area .single-curses-contert .review-content .five-star-rating .rating-box .five {
 	font-size: 70px;
-	color: #fec722;
+	color: #86ed22;
 	font-family: "Montserrat", sans-serif;
 	line-height: 50px;
 }
@@ -4745,7 +4745,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .review-content .five-star-rating .rating-box ul li {
-	color: #fec722;
+	color: #86ed22;
 	display: inline-block;
 }
 
@@ -4767,7 +4767,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .review-content .rating-btom-padding .right-rating-text .rating-color-yellow {
-	background: #fec722;
+	background: #86ed22;
 	padding: 3px 140px;
 }
 
@@ -4827,7 +4827,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .single-courses_v .single-courses-area .single-curses-contert .comments .comment-single-item .comment-left-bar .comment-text ul .name .comment-author li {
 	display: inline-block;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .comments .comment-single-item .comment-left-bar .comment-text ul .name .comment-author li:first-child {
@@ -4859,7 +4859,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .leave_a_comment .form-group label:before {
-	color: #fec722;
+	color: #86ed22;
 	content: "*";
 	position: absolute;
 	right: -11px;
@@ -4898,12 +4898,12 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .single-courses_v .single-courses-area .single-curses-contert .leave_a_comment .form-group input:focus,
 .single-courses_v .single-courses-area .single-curses-contert .leave_a_comment .form-group textarea:focus {
-	border-color: #fec722;
+	border-color: #86ed22;
 	outline: none;
 }
 
 .single-courses_v .single-courses-area .single-curses-contert .leave_a_comment .form-group button {
-	background: #fec722;
+	background: #86ed22;
 	border: medium none;
 	border-radius: 0px;
 	float: left;
@@ -4955,7 +4955,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .sidebar-content .courses-price .price-text .price-btn-box {
-	background: #fec722;
+	background: #86ed22;
 	border: medium none;
 	border-radius: 0px;
 	height: 47px;
@@ -5017,7 +5017,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .single-courses_v .single-courses-area .sidebar-content .courses-features .features-text ul li span i {
 	margin-right: 10px;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .single-courses_v .single-courses-area .sidebar-content .share-socila-link {
@@ -5143,7 +5143,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .single-courses_v .single-courses-area .sidebar-content .all-corses .all-corses-text ul li span i {
 	margin-right: 10px;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .single-courses_v .single-courses-area .sidebar-content .latest-courses {
@@ -5203,7 +5203,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .sidebar-content .latest-courses .latest-courses-text .latest-single .course-prefix .latest-btn a {
-	background: #fec722;
+	background: #86ed22;
 	color: #333333;
 	font-size: 13px;
 	line-height: 24px;
@@ -5244,7 +5244,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area .sidebar-content .special-offer .special-text .offer-btn-box {
-	background: #fec722;
+	background: #86ed22;
 	border: medium none;
 	border-radius: 0px;
 	height: 48px;
@@ -5382,7 +5382,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area-01 .courses-wrapper .single-courses figure figcaption div a {
-	background: #fec722;
+	background: #86ed22;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	border-radius: 0;
@@ -5459,7 +5459,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .single-courses_v .single-courses-area-01 .courses-wrapper .single-courses .courses-content-box .rank-icons ul li {
 	display: inline-block;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .single-courses_v .single-courses-area-01 .courses-wrapper .single-courses .courses-content-box .rank-icons span {
@@ -5491,7 +5491,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .single-courses_v .single-courses-area-01 .courses-wrapper .single-courses:hover .courses-content-box .courses-content h3 a {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -5520,7 +5520,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .single-courses_v .single-courses-area-01 .courses-wrapper .owl-prev:hover,
 .single-courses_v .single-courses-area-01 .courses-wrapper .owl-next:hover {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -5528,7 +5528,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .single-courses_v .single-courses-area-01 .courses-wrapper .owl-prev:hover .fa-angle-right,
 .single-courses_v .single-courses-area-01 .courses-wrapper .owl-next:hover .fa-angle-left,
 .single-courses_v .single-courses-area-01 .courses-wrapper .owl-next:hover .fa-angle-right {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -5610,7 +5610,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -5684,7 +5684,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses .courses-1 .single-courses figure figcaption div a {
-	background: #fec722;
+	background: #86ed22;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	border-radius: 0;
@@ -5735,7 +5735,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .courses .courses-1 .single-courses .courses-content-box .courses-content ul li {
 	display: table-cell;
 	font-size: 15px;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .courses .courses-1 .single-courses .courses-content-box .courses-content-bottom {
@@ -5842,7 +5842,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: -55px;
 	padding: 30px 50px 10px;
 	z-index: 100;
-	background: #fec722;
+	background: #86ed22;
 	transform: rotate(-45deg);
 	text-transform: uppercase;
 	color: #ffffff;
@@ -5858,7 +5858,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	display: inline-block;
 	text-align: left;
 	font-family: "Montserrat", sans-serif;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .courses .courses-02 .single-courses figure figcaption ul li:last-child {
@@ -5890,7 +5890,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	z-index: 100;
 	right: 0;
 	padding: 0px 15px 13px;
-	color: #fec722;
+	color: #86ed22;
 	font-size: 12px;
 }
 
@@ -5912,7 +5912,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses .courses-02 .single-courses .courses-content-box .courses-content h3 a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .courses .courses-03 {
@@ -5965,7 +5965,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .courses .courses-03 .single-courses .courses-price ul li {
 	display: inline-block;
 	text-align: left;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .courses .courses-03 .single-courses .courses-price ul li:last-child {
@@ -5977,7 +5977,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses .courses-03 .single-courses .courses-price ul li span img {
-	border: 2px solid #fec722;
+	border: 2px solid #86ed22;
 }
 
 .courses .courses-03 .single-courses .courses-price ul .courses-teacher {
@@ -6014,7 +6014,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	width: auto;
 	height: 34px;
 	line-height: 0;
-	border: 18px solid #fec722;
+	border: 18px solid #86ed22;
 	border-left: 1.5em solid transparent;
 	left: 0;
 	top: 0;
@@ -6038,7 +6038,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses .courses-03 .single-courses .courses-content h3 a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .courses .courses-03 .single-courses .courses-content p {
@@ -6062,7 +6062,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses .courses-03 .single-courses .courses-content .read_more-btn:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .courses .courses-03 .single-courses .courses-content .read_more-btn:hover i {
@@ -6121,7 +6121,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses .courses-area-04 .courses-wrapper .single-courses figure figcaption div a {
-	background: #fec722;
+	background: #86ed22;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	border-radius: 0;
@@ -6203,7 +6203,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .courses .courses-area-04 .courses-wrapper .single-courses .courses-content-box .rank-icons ul li {
 	display: inline-block;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .courses .courses-area-04 .courses-wrapper .single-courses .courses-content-box .rank-icons span {
@@ -6235,7 +6235,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .courses .courses-area-04 .courses-wrapper .single-courses:hover .courses-content-box .courses-content h3 a {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6263,7 +6263,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .courses .courses-area-04 .courses-wrapper .owl-prev:hover,
 .courses .courses-area-04 .courses-wrapper .owl-next:hover {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6271,7 +6271,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .courses .courses-area-04 .courses-wrapper .owl-prev:hover .fa-angle-right,
 .courses .courses-area-04 .courses-wrapper .owl-next:hover .fa-angle-left,
 .courses .courses-area-04 .courses-wrapper .owl-next:hover .fa-angle-right {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6346,7 +6346,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .blog_1 header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6407,7 +6407,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .blog_1 .blog-area .bolg_side-left .single-item-box .single-item .img-box .img-caption .date {
-	background: #fec722;
+	background: #86ed22;
 	color: #333;
 }
 
@@ -6450,7 +6450,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .blog_1 .blog-area .bolg_side-left .single-item-box .single-item .single-text-box h3 .blog-btn-box:hover {
-	background: #fec722;
+	background: #86ed22;
 }
 
 .blog_1 .blog-area .bolg_side-left .single-item-box .single-item .single-text-box ul {
@@ -6487,7 +6487,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .blog_1 .blog-area .bolg_side-left .single-item-box .single-item .single-text-box:hover .blog-btn-box {
-	background: #fec722;
+	background: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6535,7 +6535,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .blog_1 .blog-area .bolg_side-left .blog-comment span {
 	position: relative;
-	color: #fec722;
+	color: #86ed22;
 	font-size: 17px;
 	padding-left: 25px;
 }
@@ -6546,7 +6546,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: 0px;
 	height: 1px;
 	width: 15px;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 }
 
@@ -6565,8 +6565,8 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .blog_1 .blog-area .bolg_side-left .pagination li.active a {
-	background: #fec722;
-	border: 1px solid #fec722;
+	background: #86ed22;
+	border: 1px solid #86ed22;
 	color: #333;
 }
 
@@ -6579,7 +6579,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .blog_1 .blog-area .bolg_side-left .pagination li a:hover {
 	z-index: 2;
 	color: #333;
-	background: #fec722;
+	background: #86ed22;
 	border-color: #ddd;
 }
 
@@ -6612,11 +6612,11 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .blog_1 .blog-area .blog_side-right .categories-item ul li a span {
 	margin-left: 15px;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .blog_1 .blog-area .blog_side-right .categories-item ul li a:hover i {
-	color: #fec722;
+	color: #86ed22;
 	padding-left: 5px;
 }
 
@@ -6713,7 +6713,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .blog_1 .blog-area .blog_side-right .recent-work .owl-prev:hover,
 .blog_1 .blog-area .blog_side-right .recent-work .owl-next:hover {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6721,7 +6721,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .blog_1 .blog-area .blog_side-right .recent-work .owl-prev:hover .fa-angle-right,
 .blog_1 .blog-area .blog_side-right .recent-work .owl-next:hover .fa-angle-left,
 .blog_1 .blog-area .blog_side-right .recent-work .owl-next:hover .fa-angle-right {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6781,14 +6781,14 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .blog_1 .blog-area .blog_side-right .recent-post-01 .recent-single .recent-content-item .recent-text a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .blog_1 .blog-area .blog_side-right .recent-post-01 .recent-single .recent-content-item .recent-text p {
 	font-size: 13px;
 	margin: 0;
 	padding-top: 10px;
-	color: #fec722;
+	color: #86ed22;
 	text-align: right;
 }
 
@@ -6810,7 +6810,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	border: none;
 	border-radius: 0px;
 	font-weight: 600;
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	padding: 8px 15px;
 	float: left;
 	margin: 0 10px 10px 0;
@@ -6819,7 +6819,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .blog_1 .blog-area .blog_side-right .populer-tags .tagcloud a:hover {
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -6872,7 +6872,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -6905,7 +6905,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .post_1_area .post_left-side .description-content .description-heading .time {
-	background: #fec722;
+	background: #86ed22;
 	width: 70px;
 	height: 70px;
 	float: left;
@@ -6949,7 +6949,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .post_1_area .post_left-side .description-content .description-text .description-side-left .author-img .author-details a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .post-1 .post_1_area .post_left-side .description-content .description-text .description-side-left ul {
@@ -7026,7 +7026,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	font-size: 18px;
 	height: 40px;
 	width: 40px;
-	background: #fec722;
+	background: #86ed22;
 	text-align: center;
 	border-radius: 50%;
 	color: #ffffff;
@@ -7063,12 +7063,12 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .post-1 .post_1_area .post_left-side .description-content .tag-links-box ul li:last-child a {
 	color: #666666;
 	padding: 4px 15px;
-	background: #fec722;
+	background: #86ed22;
 	border-radius: 0px;
 }
 
 .post-1 .post_1_area .post_left-side .description-content .tag-links-box ul li a {
-	color: #fec722;
+	color: #86ed22;
 	padding: 2px 10px;
 	background: #fafafa;
 	text-decoration: none;
@@ -7095,8 +7095,8 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .post_1_area .post_left-side .prev_next .text-box:hover a {
-	background: #fec722;
-	border: 1px solid #fec722;
+	background: #86ed22;
+	border: 1px solid #86ed22;
 }
 
 .post-1 .post_1_area .post_left-side .prev_next .prev {
@@ -7216,7 +7216,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .post_1_area .post_left-side .post_slider .blog-post figure figcaption div a {
-	background: #fec722;
+	background: #86ed22;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 600;
 	border-radius: 0;
@@ -7274,12 +7274,12 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .post_1_area .post_left-side .post_slider .blog-post:hover .courses-content-box .courses-content h3 a {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
 .post-1 .post_1_area .post_left-side .post_slider .blog-post:hover:before {
-	border-bottom: 25px solid #fec722;
+	border-bottom: 25px solid #86ed22;
 	border-left: 25px solid transparent;
 }
 
@@ -7344,7 +7344,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .post_1_area .post_left-side .comments .comment-single-item .comment-left-bar .comment-text .comment-author-box .reply a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .post-1 .post_1_area .post_left-side .comments .comment-single-item .comment-left-bar .comment-text p {
@@ -7404,11 +7404,11 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .post-1 .post_1_area .post_left-side .leave-comment-box .comment-respond input:focus,
 .post-1 .post_1_area .post_left-side .leave-comment-box .comment-respond textarea:focus {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 }
 
 .post-1 .post_1_area .post_left-side .leave-comment-box .comment-respond input[type="submit"] {
-	background: #fec722;
+	background: #86ed22;
 	border-radius: 0;
 	color: #fff;
 	border: none;
@@ -7462,14 +7462,14 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .sidebar-text-post .recent-post .recent-single .recent-content-item .recent-text a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .post-1 .sidebar-text-post .recent-post .recent-single .recent-content-item .recent-text p {
 	font-size: 13px;
 	margin: 0;
 	padding-top: 10px;
-	color: #fec722;
+	color: #86ed22;
 	text-align: right;
 }
 
@@ -7509,11 +7509,11 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .post-1 .sidebar-text-post .categories-item-post ul li a span {
 	margin-left: 15px;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .post-1 .sidebar-text-post .categories-item-post ul li a:hover i {
-	color: #fec722;
+	color: #86ed22;
 	padding-left: 5px;
 }
 
@@ -7527,7 +7527,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	border: none;
 	border-radius: 0px;
 	font-weight: 600;
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	padding: 8px 15px;
 	float: left;
 	margin: 0 10px 10px 0;
@@ -7536,7 +7536,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .post-1 .sidebar-text-post .populer-tags .tagcloud a:hover {
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -7589,7 +7589,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .teachers-01 header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -7660,7 +7660,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .teachers-01 .teachers-area .teachers-wapper-01 .teacher-body .teachars-info ul li .teacher-icon:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 	transition: all 0.3s ease-in-out;
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -7780,7 +7780,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .teachers-01 .teachers-area .teachers-wapper-02 figure figcaption ul li a:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 	transition: all 0.3s ease-in-out;
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -7833,7 +7833,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .t-profile-01 header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -7854,7 +7854,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: 0;
 	height: 1px;
 	width: 25%;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 }
 
@@ -7887,7 +7887,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .t-profile-01 .teacher-prolile-01 .t-profile-left .teacher-contact ul li a:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 	transition: all 0.3s ease-in-out;
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -7904,7 +7904,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: 0;
 	height: 1px;
 	width: 15%;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 }
 
@@ -7932,7 +7932,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .t-profile-01 .teacher-prolile-01 .t-profile-right .all-corsess-wapper .all-courses .profile__courses__inner ul li i {
-	color: #fec722;
+	color: #86ed22;
 	font-size: 16px;
 	margin-right: 10px;
 	width: 20px;
@@ -7963,7 +7963,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: 0;
 	height: 1px;
 	width: 25%;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 }
 
@@ -8021,7 +8021,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: 0;
 	height: 1px;
 	width: 25%;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 }
 
@@ -8033,7 +8033,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .t-profile-01 .teacher-prolile-01 .t-profile-right .teacher_skill .progress_bar-2 .single_skill .progress .progress-bar {
 	border-radius: 10px;
-	background: #fec722;
+	background: #86ed22;
 }
 
 .t-profile-01 .teacher-prolile-01 .t-profile-right .teacher_shedule_list h3 {
@@ -8049,7 +8049,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: 0;
 	height: 1px;
 	width: 25%;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 }
 
@@ -8092,7 +8092,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	left: 0;
 	height: 1px;
 	width: 30%;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 }
 
@@ -8118,7 +8118,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .t-profile-01 .teacher-prolile-01 .t-profile-right .courses-instuctor .instractor-courses-single:hover h3 a {
 	text-decoration: none;
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -8172,7 +8172,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .t-profile-01 .teacher-prolile-01 .t-profile-right .courses-instuctor .instractor-courses-single .instractor-courses-text .instractor-parson p a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .t-profile-01 .teacher-prolile-01 .t-profile-right .courses-instuctor .instractor-courses-single .instractor-courses-text .instractor-parson p span {
@@ -8213,7 +8213,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .t-profile-01 .teacher-prolile-01 .t-profile-right .courses-instuctor .instractor-courses-single .price ul li:last-child {
 	float: right;
-	color: #fec722;
+	color: #86ed22;
 	font-weight: 600;
 }
 
@@ -8270,7 +8270,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .become_teachers header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -8299,7 +8299,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	height: 2px;
 	width: 50px;
 	content: "";
-	background: #fec722;
+	background: #86ed22;
 	bottom: 0;
 	left: -25px;
 	position: absolute;
@@ -8330,7 +8330,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .become_teachers .become-teachers-01 .contact-form p a {
-	color: #fec722;
+	color: #86ed22;
 	text-decoration: none;
 }
 
@@ -8354,7 +8354,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .become_teachers .become-teachers-01 .contact-form .submit-btn input {
-	background: #fec722;
+	background: #86ed22;
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: 700;
@@ -8377,12 +8377,12 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .become_teachers .become-teachers-01 .tab-wapper ul li.active a {
-	background: #fec722;
+	background: #86ed22;
 	color: #fff;
 }
 
 .become_teachers .become-teachers-01 .tab-wapper ul li a {
-	color: #fec722;
+	color: #86ed22;
 	border: none;
 	text-align: center;
 	background: #fafafa;
@@ -8460,7 +8460,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-details-1 header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -8492,7 +8492,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .event-details-1 .event-details .post_left-side .clock-countdown .coundown-timer .single-counter {
 	height: 60px;
 	width: 80px;
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 	font-weight: 600;
 	padding: 7px 0;
@@ -8510,7 +8510,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .event-details-1 .event-details .post_left-side .clock-countdown .coundown-timer .single-chag-color {
 	background: #fafafa;
-	color: #fec722;
+	color: #86ed22;
 	font-weight: 600;
 }
 
@@ -8526,7 +8526,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	height: 1px;
 	width: 25%;
 	bottom: -1px;
-	background: #fec722;
+	background: #86ed22;
 	content: "";
 	left: 0;
 }
@@ -8545,13 +8545,13 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-details-1 .event-details .post_left-side .description-content .description-heading h3 a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .event-details-1 .event-details .post_left-side .description-content .description-heading p {
 	margin: 0;
 	padding: 0;
-	color: #fec722;
+	color: #86ed22;
 	font-size: 18px;
 }
 
@@ -8641,7 +8641,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	font-size: 18px;
 	height: 40px;
 	width: 40px;
-	background: #fec722;
+	background: #86ed22;
 	text-align: center;
 	border-radius: 50%;
 	color: #ffffff;
@@ -8699,7 +8699,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-details-1 .event-details .post_left-side .more-events .event-single-box .blog-content h4 a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .event-details-1 .event-details .post_left-side .more-events .event-single-box .blog-content .blog-time span {
@@ -8747,7 +8747,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-details-1 .event-details .post_left-side .more-events .event-single-box .blog-content .content-bottom span a:hover {
-	color: #fec722;
+	color: #86ed22;
 }
 
 .event-details-1 .event-details .post_left-side .more-events .event-single-box .blog-content .content-bottom span a:hover i {
@@ -8801,11 +8801,11 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .event-details-1 .event-details .post_left-side .leave-comment-box .comment-respond input:focus,
 .event-details-1 .event-details .post_left-side .leave-comment-box .comment-respond textarea:focus {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 }
 
 .event-details-1 .event-details .post_left-side .leave-comment-box .comment-respond input[type="submit"] {
-	background: #fec722;
+	background: #86ed22;
 	border-radius: 0;
 	color: #fff;
 	border: none;
@@ -8853,11 +8853,11 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .event-details-1 .sidebar-text-post .categories-item-post ul li a span {
 	margin-left: 15px;
-	color: #fec722;
+	color: #86ed22;
 }
 
 .event-details-1 .sidebar-text-post .categories-item-post ul li a:hover i {
-	color: #fec722;
+	color: #86ed22;
 	padding-left: 5px;
 }
 
@@ -8871,7 +8871,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	border: none;
 	border-radius: 0px;
 	font-weight: 600;
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	padding: 8px 15px;
 	float: left;
 	margin: 0 10px 10px 0;
@@ -8880,7 +8880,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-details-1 .sidebar-text-post .populer-tags .tagcloud a:hover {
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -8937,7 +8937,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-01 header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -9019,7 +9019,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-01 .events-grid-2 .event-bottom-btn .view-more-item {
-	background: #fec722;
+	background: #86ed22;
 	color: #333333;
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
@@ -9107,7 +9107,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-01 .events-grid-3 .event-bottom-btn .view-more-item {
-	background: #fec722;
+	background: #86ed22;
 	color: #333333;
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
@@ -9193,7 +9193,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .event-01 .events-list-03 .event-bottom-btn .view-more-item {
-	background: #fec722;
+	background: #86ed22;
 	color: #333333;
 	font-size: 15px;
 	font-family: "Open Sans", sans-serif;
@@ -9252,7 +9252,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .contact header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -9280,7 +9280,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .contact .contact-area-02 .contact-info .contact-box .single-address-box {
 	padding: 30px 0;
-	border-top: 1px solid #fec722;
+	border-top: 1px solid #86ed22;
 }
 
 .contact .contact-area-02 .contact-info .contact-box .single-address-box .single-address i {
@@ -9289,7 +9289,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	height: 40px;
 	line-height: 30px;
 	width: 30px;
-	color: #fec722;
+	color: #86ed22;
 	margin-right: 15px;
 }
 
@@ -9312,9 +9312,9 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .contact .contact-area-02 .contact-info .contact-box .single-address-box ul li i {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 	border-radius: 100%;
-	color: #fec722;
+	color: #86ed22;
 	height: 40px;
 	padding: 10px;
 	width: 40px;
@@ -9326,7 +9326,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 .contact .contact-area-02 .contact-info .contact-box .single-address-box ul li i:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
 	transition: all 0.3s ease-in-out;
-	background: #fec722;
+	background: #86ed22;
 	color: #ffffff;
 }
 
@@ -9366,11 +9366,11 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 
 .contact .contact-area-02 .contact-form .input-contact-form form input:focus,
 .contact .contact-area-02 .contact-form .input-contact-form form textarea:focus {
-	border: 1px solid #fec722;
+	border: 1px solid #86ed22;
 }
 
 .contact .contact-area-02 .contact-form .input-contact-form form input[type="submit"] {
-	background: #fec722;
+	background: #86ed22;
 	border-radius: 0;
 	color: #fff;
 	border: none;
@@ -9430,7 +9430,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .register header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -9489,7 +9489,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	width: 100%;
 	border-radius: 3px;
 	margin-top: 15px;
-	background: #fec722;
+	background: #86ed22;
 	color: #333;
 	border: none;
 	text-transform: uppercase;
@@ -9548,7 +9548,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .login header .header-body .intro-text p span a:hover {
-	color: #fec722;
+	color: #86ed22;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -9612,7 +9612,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 	width: 100%;
 	border-radius: 3px;
 	margin-bottom: 15px;
-	background: #fec722;
+	background: #86ed22;
 	color: #333;
 	border: none;
 	text-transform: uppercase;
@@ -9623,7 +9623,7 @@ footer .footer-bottom .footer-bottom-inner .footer-menu li a:hover .skype {
 }
 
 .login .login-area .learnpro-register-form a {
-	color: #fec722;
+	color: #86ed22;
 	text-decoration: none;
 }
 
@@ -9711,7 +9711,7 @@ header .header-body .edu-navbar .edu-nav .nav li ul.dropdown {
 	padding: 0px 0px;
 	opacity: 0;
 	transition: all 0.5s ease-in-out;
-	border-top: 3px solid #fec722;
+	border-top: 3px solid #86ed22;
 }
 
 header .header-body .edu-navbar .edu-nav .nav li ul.dropdown::before {
@@ -9720,7 +9720,7 @@ header .header-body .edu-navbar .edu-nav .nav li ul.dropdown::before {
 	left: 20px;
 	height: 10px;
 	width: 10px;
-	background: #fec722;
+	background: #86ed22;
 	transform: rotate(45deg);
 	content: "";
 	transition: all 0.5s ease-in-out;
@@ -9750,7 +9750,7 @@ header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li a {
 
 header .header-body .edu-navbar .edu-nav .nav li ul.dropdown li a:hover {
 	margin-left: 0px;
-	background: #fec722;
+	background: #67c10f;
 	color: #ffffff;
 }
 
@@ -9808,7 +9808,7 @@ span.c-author {
 }
 
 span.b-active {
-	color: #fec722 !important;
+	color: #86ed22 !important;
 }
 
 .blog-area h3,

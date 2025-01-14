@@ -60,7 +60,7 @@
                                 <li><a href="<?php echo base_url(); ?>acadimics/curriculum">Curriculum Overview</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/Academic-sport-program">Academic Support Programs-MTSS</a></li>
                                 <li><a href="<?php echo base_url(); ?>acadimics/assesmentprogram">Assessment Policy</a></li>
-                                <li><a href="<?php echo base_url(); ?>acadimics/facaulty">Faculty</a></li>
+                                <!-- <li><a href="<?php echo base_url(); ?>acadimics/facaulty">Faculty</a></li> -->
                                 <li><a href="<?php echo base_url(); ?>acadimics/specialprograms">Review worksheets </a></li>
                             </ul>
                             <!-- dropdown end -->
@@ -102,12 +102,12 @@
                             <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
                             <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
                             <li><a href="<?php echo base_url(); ?>facilities/laboratories">Laboratories</a></li>
-                            <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li>
+                            <!-- <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li> -->
                         </ul>
                     </li>
                     <li><a data-scroll href="#">Wall of Fame <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
                         <ul class="list-unstyled dropdown">
-                            <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li>
+                            <!-- <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li> -->
                             <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
                         </ul>
                     </li>
