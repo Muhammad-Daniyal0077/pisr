@@ -3,7 +3,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Main extends CI_Controller
 {
-
 	/**
 	 * Index Page for this controller.
 	 *
@@ -70,7 +69,6 @@ class Main extends CI_Controller
 		$this->load->view('Main', $data);
 	}
 
-
 	public function calender()
 	{
 		// Load view and pass the data
@@ -78,6 +76,7 @@ class Main extends CI_Controller
 		$data['filename'] = 'calender';
 		$this->load->view('Main', $data);
 	}
+
 	public function syllabus()
 	{
 		// Load view and pass the data
@@ -92,6 +91,7 @@ class Main extends CI_Controller
 		$data['filename'] = 'uniform';
 		$this->load->view('Main', $data);
 	}
+
 	public function datesheet()
 	{
 		// Load view and pass the data
@@ -99,7 +99,6 @@ class Main extends CI_Controller
 		$data['filename'] = 'datesheet';
 		$this->load->view('Main', $data);
 	}
-
 
 	public function specialprograms()
 	{
@@ -313,9 +312,29 @@ class Main extends CI_Controller
 	}
 	public function careersform()
 	{
-		// Load view and pass the data
-		$data['path'] = 'Front_End';
-		$data['filename'] = 'careers/jobform';
-		$this->load->view('Main', $data);
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['Candidate_Name']            = $this->input->post('Candidate_Name');
+			$data_Save['Email_Address']            = $this->input->post('Email_Address');
+			$data_Save['Contact_Number']            = $this->input->post('Contact_Number');
+			$data_Save['Qualification']            = $this->input->post('Qualification');
+			$data_Save['Highest_Degree']            = $this->input->post('Highest_Degree');
+
+			if ($_FILES['Candidate_CV']['name']) {
+				$Candidate_CV              = $_FILES['Candidate_CV']['name'];
+				move_uploaded_file($_FILES['Candidate_CV']['tmp_name'], 'uploads/syllabus_file/' . $Candidate_CV);
+				$data_Save['Candidate_CV']   = $Candidate_CV;
+			}
+
+			if ($this->db->insert('jobform', $data_Save)) {
+				redirect('careers/form');
+			} else {
+				echo "Error";
+			}
+		} else {
+			// Load view and pass the data
+			$data['path'] = 'Front_End';
+			$data['filename'] = 'careers/jobform';
+			$this->load->view('Main', $data);
+		}
 	}
 }

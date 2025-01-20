@@ -22,42 +22,43 @@
         <div class="col-lg-8">
             <div class="card shadow-lg border-0">
                 <div class="card-body">
-                    <form>
-                        <!-- Full Name -->
+                    <form action="<?php echo base_url('careers/form'); ?>" method="post" enctype="multipart/form-data">
+                        <!-- Candidate Name -->
                         <div class="form-group mb-4">
-                            <label for="name" class="form-label fw-bold">Full Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                            <label for="Candidate_Name" class="form-label fw-bold">Candidate Name</label>
+                            <input type="text" class="form-control" id="Candidate_Name"  name="Candidate_Name" placeholder="Enter your full name" required>
                         </div>
+
+                        <!-- CV/Resume Upload -->
+                        <div class="form-group mb-4">
+                            <label for="candidateCV" class="form-label fw-bold">Upload CV/Resume</label>
+                            <input type="file" class="form-control" id="Candidate_CV" name="Candidate_CV" accept=".pdf, .doc, .docx" required>
+                        </div>
+
                         <!-- Email -->
                         <div class="form-group mb-4">
                             <label for="email" class="form-label fw-bold">Email Address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                        </div>
-                        
-                        <!-- Applied For -->
-                        <div class="form-group mb-4">
-                            <label for="designation" class="form-label fw-bold">Applied For</label>
-                            <select class="form-select" id="designation">
-                                <option selected disabled>Select a designation</option>
-                                <option value="1">Software Engineer</option>
-                                <option value="2">Web Developer</option>
-                                <option value="3">Graphic Designer</option>
-                                <option value="4">Project Manager</option>
-                                <option value="5">Data Analyst</option>
-                                <option value="6">HR Specialist</option>
-                            </select>
+                            <input type="email" class="form-control" id="Email_Address" name="Email_Address" placeholder="Enter your email" required>
                         </div>
 
-                        <!-- Resume Upload -->
+                        <!-- Contact Number -->
                         <div class="form-group mb-4">
-                            <label for="resume" class="form-label fw-bold">Upload Resume</label>
-                            <input type="file" class="form-control" id="resume">
+                            <label for="contactNumber" class="form-label fw-bold">Contact Number</label>
+                            <input type="tel" class="form-control" id="Contact_Number" name="Contact_Number" placeholder="Enter your contact number" required>
                         </div>
-                        <!-- Message -->
+
+                        <!-- Qualification -->
                         <div class="form-group mb-4">
-                            <label for="message" class="form-label fw-bold">Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Write your message here..."></textarea>
+                            <label for="qualification" class="form-label fw-bold">Qualification</label>
+                            <input type="text" class="form-control" id="Qualification" name="Qualification" placeholder="Enter your qualification" required>
                         </div>
+
+                        <!-- Highest Degree -->
+                        <div class="form-group mb-4">
+                            <label for="highestDegree" class="form-label fw-bold">Highest Degree</label>
+                            <input type="text" class="form-control" id="Highest_Degree" name="Highest_Degree" placeholder="Enter your highest degree" required>
+                        </div>
+
                         <!-- Submit Button -->
                         <div class="text-center">
                             <button type="submit" class="btn btn-primary px-5 py-2">Submit Application</button>

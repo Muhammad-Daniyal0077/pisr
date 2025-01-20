@@ -76,44 +76,44 @@
                                         School Admission Policy
                                         <i class="bi bi-caret-right-fill" style="font-size: 16px;"></i></i>
                                     </a>
-                                        <?php
-                                        $query = $this->db->get('school_admission_policy'); // Replace 'faculty' with your actual table name
-                                        $school_admission_policy = $query->result();
+                                    <?php
+                                    $query = $this->db->get('school_admission_policy'); // Replace 'faculty' with your actual table name
+                                    $school_admission_policy = $query->result();
 
-                                        foreach ($school_admission_policy as $rows) { // Loop through the result set
-                                            ?>
+                                    foreach ($school_admission_policy as $rows) { // Loop through the result set
+                                    ?>
                                         <ul class="admission-dropdown-menu">
-                                <li><a href="<?php echo $rows->fee_policy;?>">Fee Policy</a></li>
-                                <li><a href="<?php echo $rows->admission_policy;?>">Admission Policy</a></li>
-                                <?php
-}
-?>
+                                            <li><a href="<?php echo $rows->fee_policy; ?>">Fee Policy</a></li>
+                                            <li><a href="<?php echo $rows->admission_policy; ?>">Admission Policy</a></li>
+                                        <?php
+                                    }
+                                        ?>
+                                        </ul>
+
+                                </li>
+
+                                <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Syllabus</a></li>
+                                <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
                             </ul>
-                   
+                            <!-- dropdown end -->
+                        </li>
+                        <li><a data-scroll href="#">FACILITIES <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
+                            <ul class="list-unstyled dropdown">
+                                <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
+                                <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
+                                <li><a href="<?php echo base_url(); ?>facilities/laboratories">Laboratories</a></li>
+                                <!-- <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a data-scroll href="#">Wall of Fame <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
+                            <ul class="list-unstyled dropdown">
+                                <!-- <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li> -->
+                                <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
+                            </ul>
                         </li>
 
-                        <li><a href="<?php echo base_url(); ?>admission/admissiontests">Admission Test Syllabus</a></li>
-                        <li><a href="<?php echo base_url(); ?>admission/faqs">FAQS</a></li>
-                    </ul>
-                    <!-- dropdown end -->
-                    </li>
-                    <li><a data-scroll href="#">FACILITIES <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
-                        <ul class="list-unstyled dropdown">
-                            <li><a href="<?php echo base_url(); ?>facilities/general">General</a></li>
-                            <li><a href="<?php echo base_url(); ?>facilities/libraries">Libraries </a></li>
-                            <li><a href="<?php echo base_url(); ?>facilities/laboratories">Laboratories</a></li>
-                            <!-- <li><a href="<?php echo base_url(); ?>facilities/extracurricular">Extra Curricular Activities</a></li> -->
-                        </ul>
-                    </li>
-                    <li><a data-scroll href="#">Wall of Fame <i class="bi bi-caret-down-fill" style="font-size: 16px;"></i></a>
-                        <ul class="list-unstyled dropdown">
-                            <!-- <li><a href="<?php echo base_url(); ?>achievments/fbise">FBISE</a></li> -->
-                            <li><a href="<?php echo base_url(); ?>achievments/successstories">Success Stories</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a data-scroll href="<?php echo base_url(); ?>pdzone">PD Zone</a></li>
-                    <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact Us</a></li>
+                        <li><a data-scroll href="<?php echo base_url(); ?>pdzone">PD Zone</a></li>
+                        <li><a data-scroll href="<?php echo base_url(); ?>contact">Contact Us</a></li>
 
                     </ul>
                 </div><!-- /.navbar-collapse -->

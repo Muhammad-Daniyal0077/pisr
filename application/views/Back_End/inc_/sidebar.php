@@ -118,19 +118,19 @@
   			</ul>
   		</li>
   		<li class="nav-item">
-  			<a class="nav-link collapsed" data-bs-target="#components-navdsse" data-bs-toggle="collapse" href="#">
+  			<a class="nav-link collapsed" data-bs-target="#components-navsses" data-bs-toggle="collapse" href="#">
 			  <i class="bi bi-briefcase" style="color:rgb(155, 197, 42);"></i>
 			  	</i><span>Careers</span><i class="bi bi-chevron-down ms-auto"></i>
   			</a>
-  			<ul id="components-navdsse" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+  			<ul id="components-navsses" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
   				<li>
   					<a href="#">
   						<i class="bi bi-circle"></i><span>Job Listing</span>
   					</a>	
   				</li>
-  				<li>
-  					<a href="#">
+  				<li>	
+  					<a href="<?php echo base_url(); ?>careers/jobform">
   						<i class="bi bi-circle"></i><span>Download Form</span>
   					</a>
   				</li>
