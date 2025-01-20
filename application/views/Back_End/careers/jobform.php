@@ -53,7 +53,7 @@
                                             </a></td>
                                         <td>
                                             <div class="d-flex justify-content-start">
-                                                <button class="btn btn-danger" onclick="removefaculty(<?php echo $rows->id; ?>)">
+                                                <button class="btn btn-danger" onclick="removecandiadate(<?php echo $rows->id; ?>)">
                                                     <i class="far fa-trash-alt"></i>Delete
                                                 </button>
 
@@ -81,11 +81,11 @@
 
 
 <script type="text/javascript">
-    function removefaculty(val) {
+    function removecandiadate(val) {
         var get_id = val;
         swal({
                 title: "Are you sure?",
-                text: "Once deleted, you will not be able to recover this Admission Test Syllabus!",
+                text: "Once deleted, you will not be able to recover this candidate!",
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,
@@ -94,23 +94,23 @@
                 if (willDelete) {
                     $.ajax({
                         type: 'POST',
-                        url: '<?php echo base_url(); ?>syllabus/remove', // Ensure this URL matches your route
+                        url: '<?php echo base_url(); ?>careers/jobformdelete', // Ensure this URL matches your route
                         data: {
                             get_id: get_id
                         },
                         success: function(data) {
-                            swal("Poof! Your Admission Test Syllabus has been deleted!", {
+                            swal("Poof! Your Candidate  has been deleted!", {
                                 icon: "success",
                             }).then(() => {
                                 window.location.reload(); // Reload page after success message
                             });
                         },
                         error: function(xhr, status, error) {
-                            swal("Error!", "There was a problem deleting the Admission Test Syllabus.", "error");
+                            swal("Error!", "There was a problem deleting the Candidate.", "error");
                         }
                     });
                 } else {
-                    swal("Your Admission Test Syllabus is safe!");
+                    swal("Your Candidate  is safe!");
                 }
             });
     }

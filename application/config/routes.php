@@ -153,8 +153,7 @@ $route['academics/faculty-designation/edit/(:num)'] = 'BackEnd_Controller/Academ
 $route['designation/remove'] = 'BackEnd_Controller/Academics/delete_designation';
 
 $route['careers/jobform'] = 'BackEnd_Controller/careers/jobform';
-$route['academics/faculty-designation/edit/(:num)'] = 'BackEnd_Controller/Academics/edit_faculty_designation/$1';
-$route['designation/remove'] = 'BackEnd_Controller/Academics/delete_designation';
+$route['careers/jobformdelete'] = 'BackEnd_Controller/careers/delete_form';
 
 
 

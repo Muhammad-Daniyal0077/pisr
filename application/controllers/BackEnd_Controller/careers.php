@@ -38,7 +38,7 @@ class careers extends CI_Controller
 	public function index()
 	{
 		$data['path'] = 'Back_End/careers';
-		$data['filename'] = 'jobform_create';
+		$data['filename'] = 'jobform';
 		$this->load->view('Admin', $data);
 	}
 
@@ -50,19 +50,16 @@ class careers extends CI_Controller
 		$data['jobforms'] = $query->result(); // Get the result as an array of objects
 
 		$data['path'] = 'Back_End/careers';
-		$data['filename'] = 'jobform_create';
+		$data['filename'] = 'jobform';
 		$this->load->view('Admin', $data);
 	}
 
 
-
-	
-
-	public function delete_syllabus()
+	public function delete_form()
 	{
 		$id = $this->input->post('get_id');
 
-		if ($this->db->delete('admission_test_syllabus', ['id' => $id])) {
+		if ($this->db->delete('jobform', ['id' => $id])) {
 			echo json_encode(['status' => 'success']);
 		} else {
 			echo json_encode(['status' => 'error']);
