@@ -56,7 +56,6 @@
 							<div class="col-sm-12 col-md-12">
 								<label for="gender" class="form-label">Status</label>
 								<div class="form-floating"><select class="form-select" id="Status"  name="status" required>
-										<option selected="selected">Select Status</option>
 										<option value="1" <?php echo ($rows->status == '1') ? 'selected' : ''; ?>>Published</option>
 										<option value="0" <?php echo ($rows->status == '0') ? 'selected' : ''; ?>>Unpublished</option>
 									</select>

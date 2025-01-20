@@ -125,7 +125,7 @@
   			<ul id="components-navsses" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
   				<li>
-  					<a href="#">
+  					<a href="<?php echo base_url(); ?>admin/careers/job-listing">
   						<i class="bi bi-circle"></i><span>Job Listing</span>
   					</a>	
   				</li>

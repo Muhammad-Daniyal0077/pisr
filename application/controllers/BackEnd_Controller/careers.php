@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class careers extends CI_Controller
+class Careers extends CI_Controller
 {
 
 	/**
@@ -34,7 +34,91 @@ class careers extends CI_Controller
 			redirect('login'); // Redirect to login if not logged in
 		}
 	}
-	//home page
+
+
+
+	public function jobListing()
+	{
+//
+		$query = $this->db->get('job_listing'); // Replace 'faculty' with your actual table name
+		$data['job_listing'] = $query->result(); // Get the result as an array of objects
+		$data['path'] = 'Back_End/careers';
+		$data['filename'] = 'joblisting_index';
+		$this->load->view('Admin', $data);
+	}
+
+
+	public function jobListing_Create()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['job_title']            = $this->input->post('job_title');
+			$data_Save['job_details']            = $this->input->post('job_details');
+			$data_Save['url']            = $this->input->post('url');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['image']['name']) {
+				$staff_img              = $_FILES['image']['name'];
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/jobListing/' . $staff_img);
+				$data_Save['image']   = $staff_img;
+			}
+
+			if($this->db->insert('job_listing',$data_Save)){
+				redirect('admin/careers/job-listing');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$data['path'] = 'Back_End/careers';
+			$data['filename'] = 'joblisting_create';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+
+	public function jobListing_edit($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['job_title']            = $this->input->post('job_title');
+			$data_Save['job_details']            = $this->input->post('job_details');
+			$data_Save['url']            = $this->input->post('url');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['image']['name']) {
+				$staff_img              = $_FILES['image']['name'];
+				move_uploaded_file($_FILES['image']['tmp_name'], 'uploads/jobListing/' . $staff_img);
+				$data_Save['image']   = $staff_img;
+			}
+
+			if($this->db->update('job_listing',$data_Save,$data_id)){
+				redirect('admin/careers/job-listing');
+			}else{
+				redirect('admin/careers/job-listing');
+			}
+		}
+		else {
+			$data['job_listing_edit']=$this->db->get_where('job_listing',array('id' => $Get));
+			$data['path'] = 'Back_End/careers';
+			$data['filename'] = 'joblisting_edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+	public function delete_job()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('job_listing', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
 	public function index()
 	{
 		$data['path'] = 'Back_End/careers';
