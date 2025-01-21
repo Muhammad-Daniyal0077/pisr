@@ -1146,14 +1146,14 @@
             <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
                     <img width="105px"
-                        src="https://pisr.org/v2/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-08-at-11.24.19-e1623228452483-300x136.jpeg"
+                        src="<?php echo base_url(); ?>asset/images/downloads/client1.jpeg"
                         alt="" style="width: 200px;padding: 5px;">
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
-                    <img width="105px" src="https://pisr.org/v2/wp-content/uploads/2021/03/image6-1-150x150.png" style="width: 100px;padding: 5px;" alt="">
+                    <img width="105px" src="<?php echo base_url(); ?>asset/images/downloads/client2.jpeg" style="width: 100px;padding: 5px;" alt="">
 
 
                 </div>
@@ -1162,7 +1162,7 @@
 
             <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
-                    <img width="105px" src="https://pisr.org/v2/wp-content/uploads/2021/06/MOE_of_KSA.png" alt="" style="width: 200px;padding: 5px;">
+                    <img width="105px" src="<?php echo base_url(); ?>asset/images/downloads/client3.png" alt="" style="width: 200px;padding: 5px;">
 
                 </div>
             </div>
