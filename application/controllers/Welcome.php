@@ -29,6 +29,10 @@ class Welcome extends CI_Controller
 
 	public function index()
 	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('our_top_students'); // Replace 'faculty' with your actual table name
+		$data['our_top_students'] = $query->result(); // Get the result as an array of objects
+
 		// Load view and pass the data
 		$data['path']='Front_End';
 		$data['filename']='Home';
