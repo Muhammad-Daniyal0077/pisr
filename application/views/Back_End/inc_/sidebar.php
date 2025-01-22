@@ -130,7 +130,7 @@
   					</a>	
   				</li>
   				<li>	
-  					<a href="<?php echo base_url(); ?>careers/jobform">
+  					<a href="<?php echo base_url(); ?>admin/careers/download-form">
   						<i class="bi bi-circle"></i><span>Download Form</span>
   					</a>
   				</li>

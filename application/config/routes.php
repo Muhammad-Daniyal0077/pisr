@@ -160,6 +160,14 @@ $route['admin/careers/job-listing-create'] = 'BackEnd_Controller/Careers/jobList
 $route['admin/careers/job-listing/edit/(:num)'] = 'BackEnd_Controller/Careers/jobListing_edit/$1';
 $route['jobListing/remove'] = 'BackEnd_Controller/Careers/delete_job';
 
+//careers/download-form
+$route['admin/careers/download-form'] = 'BackEnd_Controller/Careers/download_form';
+$route['admin/careers/download-form-create'] = 'BackEnd_Controller/Careers/download_form_create';
+$route['admin/careers/download-form/edit/(:num)'] = 'BackEnd_Controller/Careers/download_form_edit/$1';
+$route['download_form/remove'] = 'BackEnd_Controller/Careers/delete_download_form';
+
+
+
 
 
 $route['404_override'] = '';

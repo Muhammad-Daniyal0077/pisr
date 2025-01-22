@@ -36,6 +36,93 @@ class Careers extends CI_Controller
 	}
 
 
+	public function download_form()
+	{
+//
+		$query = $this->db->get('download_form'); // Replace 'faculty' with your actual table name
+		$data['download_form_listing'] = $query->result(); // Get the result as an array of objects
+		$data['path'] = 'Back_End/careers';
+		$data['filename'] = 'download_form_index';
+		$this->load->view('Admin', $data);
+	}
+
+	public function download_form_create()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['head']            = $this->input->post('head');
+			$data_Save['url']            = $this->input->post('url');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['file']['name']) {
+				$staff_img              = $_FILES['file']['name'];
+				move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/download_form/' . $staff_img);
+				$data_Save['file']   = $staff_img;
+			}
+
+			if($this->db->insert('download_form',$data_Save)){
+				redirect('admin/careers/download-form');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$data['path'] = 'Back_End/careers';
+			$data['filename'] = 'download_form_create';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+	public function download_form_edit($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['head']            = $this->input->post('head');
+			$data_Save['url']            = $this->input->post('url');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['file']['name']) {
+				$staff_img              = $_FILES['file']['name'];
+				move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/download_form/' . $staff_img);
+				$data_Save['file']   = $staff_img;
+			}
+
+			if($this->db->update('download_form',$data_Save,$data_id)){
+				redirect('admin/careers/download-form');
+			}else{
+				redirect('admin/careers/download-form');
+			}
+		}
+		else {
+			$data['download_form_edit']=$this->db->get_where('download_form',array('id' => $Get));
+			$data['path'] = 'Back_End/careers';
+			$data['filename'] = 'download_form_edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+
+	public function delete_download_form()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('download_form', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
+
+
+
+
+
+
 
 	public function jobListing()
 	{
