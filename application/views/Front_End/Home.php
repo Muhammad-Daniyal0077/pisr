@@ -2,7 +2,8 @@
 <style>
     .custom-slider-wrapper {
         width: 100%;
-        height: 100vh; /* Set height to 100% of the viewport */
+        height: 100vh;
+        /* Set height to 100% of the viewport */
         margin: 0;
         position: relative;
         overflow: hidden;
@@ -23,24 +24,27 @@
     video {
         width: 100%;
         height: 100%;
-        object-fit: cover; /* Make the video cover the entire container */
+        object-fit: cover;
+        /* Make the video cover the entire container */
         position: absolute;
         top: 0;
         left: 0;
     }
-    @media (max-width: 768px) {
-	.custom-slide {
-	  margin-left: 0 !important; /* Remove margin for smaller screens */
-	  margin-top: 80px;
-	}
-  }
-  
-  @media (max-width: 576px) {
-	.custom-slide {
-	  max-height: 60vh; /* Reduce max height for very small screens */
-	}
-  }
 
+    @media (max-width: 768px) {
+        .custom-slide {
+            margin-left: 0 !important;
+            /* Remove margin for smaller screens */
+            margin-top: 80px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .custom-slide {
+            max-height: 60vh;
+            /* Reduce max height for very small screens */
+        }
+    }
 </style>
 
 <!-- Counter -->
@@ -48,7 +52,7 @@
     <div class="custom-slider" id="videoSlider">
         <!-- Single Video -->
         <div class="custom-slide">
-            <video  src="<?php echo base_url(); ?>asset/video/long.mp4" autoplay muted></video>
+            <video src="<?php echo base_url(); ?>asset/video/long.mp4" autoplay muted></video>
         </div>
     </div>
 </div>
@@ -436,61 +440,21 @@
         <div class="custom-swiper-container swiper-container">
             <div class="swiper-wrapper">
                 <!-- Slide 1 -->
-                <div class="swiper-slide">
-                    <div class="high-achiever-card" id="">
-                        <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset/images/Students/01.png" alt="EMAN BINT E RAHEEL">
-                        </div>
-                        <div class="high-achiever-card-content">
-                            <h1 class="high-achiever-name">EMAN BINT E RAHEEL</h1>
-                            <h4>Marks: 1062</h4>
-                            <h4>Grade: A-1</h4>
-                            <p>SSC ANNUAL EXAMINATION - 2024</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide 2 -->
-                <div class="swiper-slide">
-                    <div class="high-achiever-card">
-                        <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset/images/Students/02.png" alt="FAIZA USMAN">
-                        </div>
-                        <div class="high-achiever-card-content">
-                            <h1 class="high-achiever-name">FAIZA USMAN</h1>
-                            <h4>Marks: 1043</h4>
-                            <h4>Grade: A-1</h4>
-                            <p>SSC ANNUAL EXAMINATION - 2024</p>
+                <?php foreach ($our_top_students as $rows): ?>
+                    <div class="swiper-slide">
+                        <div class="high-achiever-card" id="">
+                            <div class="high-achiever-card-image">
+                                <img src="<?php echo base_url(); ?>uploads/our_top_students/<?php echo $rows->image; ?>" alt="EMAN BINT E RAHEEL">
+                            </div>
+                            <div class="high-achiever-card-content">
+                                <h1 class="high-achiever-name"><?php echo $rows->name; ?></h1>
+                                <h4>Marks: <?php echo $rows->marks; ?></h4>
+                                <h4>Grade: <?php echo $rows->grade; ?></h4>
+                                <p><?php echo $rows->detail; ?></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Slide 3 -->
-                <div class="swiper-slide">
-                    <div class="high-achiever-card">
-                        <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset/images/Students/03.png" alt="AIMAN HARIS">
-                        </div>
-                        <div class="high-achiever-card-content">
-                            <h1 class="high-achiever-name">AIMAN HARIS</h1>
-                            <h4>Marks: 1036</h4>
-                            <h4>Grade: A-1</h4>
-                            <p>SSC ANNUAL EXAMINATION - 2024</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Slide 4 -->
-                <div class="swiper-slide">
-                    <div class="high-achiever-card">
-                        <div class="high-achiever-card-image">
-                            <img src="<?php echo base_url(); ?>asset/images/Students/04.png" alt="HIBA SIDDIQUEI">
-                        </div>
-                        <div class="high-achiever-card-content">
-                            <h1 class="high-achiever-name">HIBA SIDDIQUEI</h1>
-                            <h4>Marks: 1032</h4>
-                            <h4>Grade: A-1</h4>
-                            <p>HSSC ANNUAL EXAMINATION - 2024</p>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
             </div>
             <!-- Pagination and Navigation -->
             <div class="custom-swiper-pagination swiper-pagination"></div>
@@ -510,7 +474,7 @@
                 <div class="row">
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                        <i class="bi bi-person" style="font-size: 50px; color: #5ef35e;"></i>
+                            <i class="bi bi-person" style="font-size: 50px; color: #5ef35e;"></i>
                             <div class="project-count counter">
                                 <h1 data-purecounter-start="0" data-purecounter-end="4219" data-purecounter-duration="1" class="purecounter"></h1>
                             </div>
@@ -520,7 +484,7 @@
 
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                        <i class="bi bi-person-workspace" style="font-size: 50px; color: #ff9999;"></i>
+                            <i class="bi bi-person-workspace" style="font-size: 50px; color: #ff9999;"></i>
 
                             <div class="project-count counter">
                                 <h1 data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></h1>
@@ -530,7 +494,7 @@
                     </div>
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                        <i class="bi bi-clock-history" style="font-size: 50px; color: #2fe4ff;"></i>
+                            <i class="bi bi-clock-history" style="font-size: 50px; color: #2fe4ff;"></i>
                             <div class="project-count counter">
                                 <h1 data-purecounter-start="0" data-purecounter-end="98" data-purecounter-duration="1" class="purecounter"></h1>
                             </div>
@@ -539,7 +503,7 @@
                     </div>
                     <div class="col-sm-6 counters-item">
                         <div class="section counter-box">
-                        <i class="bi bi-trophy" style="font-size: 50px; color: gold;"></i>
+                            <i class="bi bi-trophy" style="font-size: 50px; color: gold;"></i>
                             <div class="project-count counter">
                                 <h1 data-purecounter-start="0" data-purecounter-end="70" data-purecounter-duration="1" class="purecounter"></h1>
                             </div> <span>Awards</span>
@@ -547,7 +511,7 @@
                     </div>
                 </div>
             </div>
-          
+
         </div>
     </div>
 </section>
@@ -797,55 +761,61 @@
             <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/Gallery/04.jpg" alt="Image 7"></div>
         </div>
         <style>
-    .custom-slick-prev, .custom-slick-next {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    font-size: 24px;
-    line-height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.8;
-    transition: opacity 0.3s, transform 0.3s;
-    z-index: 1000; /* Ensure buttons appear above other elements */
-}
+            .custom-slick-prev,
+            .custom-slick-next {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                font-size: 24px;
+                line-height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 0.8;
+                transition: opacity 0.3s, transform 0.3s;
+                z-index: 1000;
+                /* Ensure buttons appear above other elements */
+            }
 
-.custom-slick-prev:hover, .custom-slick-next:hover {
-    opacity: 1;
-    transform: scale(1.1); /* Slightly enlarge on hover */
-}
+            .custom-slick-prev:hover,
+            .custom-slick-next:hover {
+                opacity: 1;
+                transform: scale(1.1);
+                /* Slightly enlarge on hover */
+            }
 
-.custom-slick-prev {
-    left: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
+            .custom-slick-prev {
+                left: -20px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
 
-.custom-slick-next {
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
+            .custom-slick-next {
+                right: -20px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
 
-@media (max-width: 768px) {
-    .custom-slick-prev, .custom-slick-next 
-    {
-        width: 40px;
-        height: 40px;
-        font-size: 18px;
-    }
-}
+            @media (max-width: 768px) {
 
-@media (max-width: 576px) {
-    .custom-slick-prev, .custom-slick-next {
-        width: 30px;
-        height: 30px;
-        font-size: 16px;
-        margin: 21px;
-    }
-}
+                .custom-slick-prev,
+                .custom-slick-next {
+                    width: 40px;
+                    height: 40px;
+                    font-size: 18px;
+                }
+            }
 
+            @media (max-width: 576px) {
+
+                .custom-slick-prev,
+                .custom-slick-next {
+                    width: 30px;
+                    height: 30px;
+                    font-size: 16px;
+                    margin: 21px;
+                }
+            }
         </style>
         <button class="custom-slick-prev">&#10094;</button>
         <button class="custom-slick-next">&#10095;</button>
@@ -1176,14 +1146,14 @@
             <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
                     <img width="105px"
-                        src="https://pisr.org/v2/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-08-at-11.24.19-e1623228452483-300x136.jpeg"
+                        src="<?php echo base_url(); ?>asset/images/downloads/client1.jpeg"
                         alt="" style="width: 200px;padding: 5px;">
                 </div>
             </div>
 
             <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
-                    <img width="105px" src="https://pisr.org/v2/wp-content/uploads/2021/03/image6-1-150x150.png" style="width: 100px;padding: 5px;" alt="">
+                    <img width="105px" src="<?php echo base_url(); ?>asset/images/downloads/client2.jpeg" style="width: 100px;padding: 5px;" alt="">
 
 
                 </div>
@@ -1192,7 +1162,7 @@
 
             <div class="col-sm-6 col-md-4  single-book">
                 <div class="publication-single-item">
-                    <img width="105px" src="https://pisr.org/v2/wp-content/uploads/2021/06/MOE_of_KSA.png" alt="" style="width: 200px;padding: 5px;">
+                    <img width="105px" src="<?php echo base_url(); ?>asset/images/downloads/client3.png" alt="" style="width: 200px;padding: 5px;">
 
                 </div>
             </div>
