@@ -107,7 +107,7 @@ class Academics extends CI_Controller
 	}
 
 
-	public function delete_download_form()
+	public function delete_worksheets()
 	{
 		$id = $this->input->post('get_id');
 

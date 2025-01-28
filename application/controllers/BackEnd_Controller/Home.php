@@ -35,6 +35,71 @@ class Home extends CI_Controller
 		}
 	}
 
+	//latest_news
+
+	public function latest_news()
+	{
+		$query = $this->db->get('latest_news'); // Replace 'faculty' with your actual table name
+		$data['latest_news'] = $query->result(); // Get the result as an array of objects
+
+		$data['path'] = 'Back_End/latest_news';
+		$data['filename'] = 'index';
+		$this->load->view('Admin', $data);
+	}
+	public function latest_news_create()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['details']            = $this->input->post('details');
+			$data_Save['status']                = $this->input->post('status');
+
+			if($this->db->insert('latest_news',$data_Save)){
+				redirect('admin/latest-news/');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$data['path'] = 'Back_End/latest_news';
+			$data['filename'] = 'create';
+			$this->load->view('Admin', $data);
+		}
+	}
+	public function latest_news_edit($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['details']            = $this->input->post('details');
+			$data_Save['status']                = $this->input->post('status');
+
+
+
+			if($this->db->update('latest_news',$data_Save,$data_id)){
+				redirect('admin/latest-news/');
+			}else{
+				redirect('admin/latest-news/');
+			}
+		}
+		else {
+			$data['latest_news_edit']=$this->db->get_where('latest_news',array('id' => $Get));
+			$data['path'] = 'Back_End/latest_news';
+			$data['filename'] = 'edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+	public function delete_latest_news()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('latest_news', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
 	public function top_students()
 	{
 		// Query the database to get data from the 'faculty' table
