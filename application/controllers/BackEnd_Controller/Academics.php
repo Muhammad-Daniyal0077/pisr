@@ -34,7 +34,90 @@ class Academics extends CI_Controller
 			redirect('login'); // Redirect to login if not logged in
 		}
 	}
-	//home page
+	//
+	public function review_worksheets()
+	{
+		// Query the database to get data from the 'faculty' table
+		$query = $this->db->get('review_worksheets'); // Replace 'faculty' with your actual table name
+		$data['review_worksheets'] = $query->result(); // Get the result as an array of objects
+
+		$data['path'] = 'Back_End/acadimics/review_worksheets';
+		$data['filename'] = 'index';
+		$this->load->view('Admin', $data);
+	}
+
+	public function review_worksheets_create()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['head']            = $this->input->post('head');
+			$data_Save['url']            = $this->input->post('url');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['file']['name']) {
+				$staff_img              = $_FILES['file']['name'];
+				move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/review_worksheets/' . $staff_img);
+				$data_Save['file']   = $staff_img;
+			}
+
+			if($this->db->insert('review_worksheets',$data_Save)){
+				redirect('admin/academics/review-worksheets');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$data['path'] = 'Back_End/acadimics/review_worksheets';
+			$data['filename'] = 'create';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+	public function review_worksheets_edit($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['head']            = $this->input->post('head');
+			$data_Save['url']            = $this->input->post('url');
+			$data_Save['status']                = $this->input->post('status');
+
+
+			if ($_FILES['file']['name']) {
+				$staff_img              = $_FILES['file']['name'];
+				move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/download_form/' . $staff_img);
+				$data_Save['file']   = $staff_img;
+			}
+
+			if($this->db->update('review_worksheets',$data_Save,$data_id)){
+				redirect('admin/academics/review-worksheets');
+			}else{
+				redirect('admin/academics/review-worksheets');
+			}
+		}
+		else {
+			$data['download_form_edit']=$this->db->get_where('review_worksheets',array('id' => $Get));
+			$data['path'] = 'Back_End/acadimics/review_worksheets';
+			$data['filename'] = 'edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+
+
+	public function delete_download_form()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('review_worksheets', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
+
 	public function index()
 	{
 		// Query the database to get data from the 'faculty' table

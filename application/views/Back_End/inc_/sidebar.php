@@ -41,9 +41,14 @@
   						<i class="bi bi-circle"></i><span>Faculty Designation</span>
   					</a>
   				</li>
+				<li>
+					<a href="<?php echo base_url(); ?>academics/faculty">
+						<i class="bi bi-circle"></i><span>Faculty</span>
+					</a>
+				</li>
   				<li>
-  					<a href="<?php echo base_url(); ?>academics/faculty">
-  						<i class="bi bi-circle"></i><span>Faculty</span>
+  					<a href="<?php echo base_url(); ?>admin/academics/review-worksheets">
+  						<i class="bi bi-circle"></i><span>Review Worksheets </span>
   					</a>
   				</li>
 

@@ -167,6 +167,13 @@ $route['admin/careers/download-form/edit/(:num)'] = 'BackEnd_Controller/Careers/
 $route['download_form/remove'] = 'BackEnd_Controller/Careers/delete_download_form';
 
 
+//careers/review-worksheets
+$route['admin/academics/review-worksheets'] = 'BackEnd_Controller/Academics/review_worksheets';
+$route['admin/academics/review-worksheets-create'] = 'BackEnd_Controller/Academics/review_worksheets_create';
+$route['admin/academics/review-worksheets/edit/(:num)'] = 'BackEnd_Controller/Academics/review_worksheets_edit/$1';
+$route['download_form/remove'] = 'BackEnd_Controller/Academics/delete_download_form';
+
+
 
 
 
