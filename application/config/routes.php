@@ -180,6 +180,11 @@ $route['admin/latest-news/edit/(:num)'] = 'BackEnd_Controller/Home/latest_news_e
 $route['news/remove'] = 'BackEnd_Controller/Home/delete_latest_news';
 
 
+$route['admin/upcoming-events'] = 'BackEnd_Controller/Home/upcoming_events';
+$route['admin/upcoming-events-create'] = 'BackEnd_Controller/Home/upcoming_events_create';
+$route['admin/upcoming-events/edit/(:num)'] = 'BackEnd_Controller/Home/upcoming_events_edit/$1';
+$route['upcoming_events/remove'] = 'BackEnd_Controller/Home/delete_upcoming_events';
+
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

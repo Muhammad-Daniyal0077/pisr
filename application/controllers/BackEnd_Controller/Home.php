@@ -35,6 +35,74 @@ class Home extends CI_Controller
 		}
 	}
 
+	//upcoming_events
+
+	public function upcoming_events()
+	{
+		$query = $this->db->get('upcoming_events'); // Replace 'faculty' with your actual table name
+		$data['upcoming_events'] = $query->result(); // Get the result as an array of objects
+
+		$data['path'] = 'Back_End/upcoming_events';
+		$data['filename'] = 'index';
+		$this->load->view('Admin', $data);
+	}
+	public function upcoming_events_create()
+	{
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['details']            = $this->input->post('details');
+			$data_Save['status']                = $this->input->post('status');
+
+			if($this->db->insert('upcoming_events',$data_Save)){
+				redirect('admin/upcoming-events/');
+			}else{
+				echo "Error";
+			}
+		}
+		else {
+			$this->db->order_by('ID', 'ASC');
+			$data['path'] = 'Back_End/upcoming_events';
+			$data['filename'] = 'create';
+			$this->load->view('Admin', $data);
+		}
+	}
+	public function upcoming_events_edit($id)
+	{
+		$Get=$id;
+		if ($this->input->server('REQUEST_METHOD') === 'POST') {
+			$data_id['id']            			= $this->input->post('edit_id');
+			$data_Save['title']            = $this->input->post('title');
+			$data_Save['details']            = $this->input->post('details');
+			$data_Save['status']                = $this->input->post('status');
+
+
+
+			if($this->db->update('upcoming_events',$data_Save,$data_id)){
+				redirect('admin/upcoming-events/');
+			}else{
+				redirect('admin/upcoming-events/');
+			}
+		}
+		else {
+			$data['upcoming_events_edit']=$this->db->get_where('upcoming_events',array('id' => $Get));
+			$data['path'] = 'Back_End/upcoming_events';
+			$data['filename'] = 'edit';
+			$this->load->view('Admin', $data);
+		}
+	}
+	public function delete_upcoming_events()
+	{
+		$id = $this->input->post('get_id');
+
+		if ($this->db->delete('upcoming_events', ['id' => $id])) {
+			echo json_encode(['status' => 'success']);
+		} else {
+			echo json_encode(['status' => 'error']);
+		}
+	}
+
+
+
 	//latest_news
 
 	public function latest_news()

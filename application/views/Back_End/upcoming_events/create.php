@@ -1,9 +1,9 @@
 <div class="pagetitle">
-	<h1>Add Latest News</h1>
+	<h1>Add Upcoming Events</h1>
 	<nav>
 		<ol class="breadcrumb">
 			<li class="breadcrumb-item"><a href="#">Home</a></li>
-			<li class="breadcrumb-item active">Latest News</li>
+			<li class="breadcrumb-item active">Upcoming Events</li>
 		</ol>
 	</nav>
 </div><!-- End Page Title -->
@@ -13,9 +13,9 @@
 		<div class="col-lg-10">
 			<div class="card">
 				<div class="card-body">
-					<h5 class="card-title">Latest News</h5>
+					<h5 class="card-title">Upcoming Events</h5>
 
-					<form class="row g-3" action="<?php echo base_url('admin/latest-news-create'); ?>" method="post" enctype="multipart/form-data">
+					<form class="row g-3" action="<?php echo base_url('admin/upcoming-events-create'); ?>" method="post" enctype="multipart/form-data">
 						<div class="col-md-12">
 							<label for="title" class="form-label">Title</label>
 							<input type="text" class="form-control" id="title" name="title" required>
@@ -35,7 +35,7 @@
 						</div>
 						<div class="text-center mt-4">
 							<button type="submit" class="btn btn-primary">Submit</button>
-							<a href="<?php echo base_url();?>/admin/latest-news" class="btn btn-secondary">Back</a>
+							<a href="<?php echo base_url();?>/admin/upcoming-events" class="btn btn-secondary">Back</a>
 						</div>
 					</form>
 
