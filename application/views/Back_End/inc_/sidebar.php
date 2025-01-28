@@ -41,16 +41,40 @@
   						<i class="bi bi-circle"></i><span>Faculty Designation</span>
   					</a>
   				</li>
+				<li>
+					<a href="<?php echo base_url(); ?>academics/faculty">
+						<i class="bi bi-circle"></i><span>Faculty</span>
+					</a>
+				</li>
   				<li>
-  					<a href="<?php echo base_url(); ?>academics/faculty">
-  						<i class="bi bi-circle"></i><span>Faculty</span>
+  					<a href="<?php echo base_url(); ?>admin/academics/review-worksheets">
+  						<i class="bi bi-circle"></i><span>Review Worksheets </span>
   					</a>
   				</li>
 
   			</ul>
   		</li>
 
+		<li class="nav-item">
+			<a class="nav-link collapsed" data-bs-target="#componenssts-nav" data-bs-toggle="collapse" href="#">
+				<i class="bi bi-megaphone-fill" style="color: #007bff;"></i><span>News & Events</span><i class="bi bi-chevron-down ms-auto"></i>
+			</a>
+			<ul id="componenssts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
 
+				<li>
+					<a href="<?php echo base_url(); ?>admin/latest-news">
+						<i class="bi bi-circle"></i><span>Latest News</span>
+					</a>
+				</li>
+				<li>
+					<a href="<?php echo base_url(); ?>admin/upcoming-events">
+						<i class="bi bi-circle"></i><span>Upcoming Events</span>
+					</a>
+				</li>
+
+
+			</ul>
+		</li>
   		<li class="nav-item">
   			<a class="nav-link collapsed" data-bs-target="#components-navse" data-bs-toggle="collapse" href="#">
   				<i class="bi bi-card-list" style=" color: #28a745;"></i><span>Admission</span><i class="bi bi-chevron-down ms-auto"></i>

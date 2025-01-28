@@ -173,7 +173,23 @@ $route['admin/careers/download-form/edit/(:num)'] = 'BackEnd_Controller/Careers/
 $route['download_form/remove'] = 'BackEnd_Controller/Careers/delete_download_form';
 
 
+//careers/review-worksheets
+$route['admin/academics/review-worksheets'] = 'BackEnd_Controller/Academics/review_worksheets';
+$route['admin/academics/review-worksheets-create'] = 'BackEnd_Controller/Academics/review_worksheets_create';
+$route['admin/academics/review-worksheets/edit/(:num)'] = 'BackEnd_Controller/Academics/review_worksheets_edit/$1';
+$route['worksheets/remove'] = 'BackEnd_Controller/Academics/delete_worksheets';
 
+
+$route['admin/latest-news'] = 'BackEnd_Controller/Home/latest_news';
+$route['admin/latest-news-create'] = 'BackEnd_Controller/Home/latest_news_create';
+$route['admin/latest-news/edit/(:num)'] = 'BackEnd_Controller/Home/latest_news_edit/$1';
+$route['news/remove'] = 'BackEnd_Controller/Home/delete_latest_news';
+
+
+$route['admin/upcoming-events'] = 'BackEnd_Controller/Home/upcoming_events';
+$route['admin/upcoming-events-create'] = 'BackEnd_Controller/Home/upcoming_events_create';
+$route['admin/upcoming-events/edit/(:num)'] = 'BackEnd_Controller/Home/upcoming_events_edit/$1';
+$route['upcoming_events/remove'] = 'BackEnd_Controller/Home/delete_upcoming_events';
 
 
 $route['404_override'] = '';
