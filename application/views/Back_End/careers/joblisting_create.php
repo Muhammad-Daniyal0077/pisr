@@ -22,11 +22,18 @@
 						</div>
 						<div class="col-md-12">
 							<label for="url" class="form-label">Job Url</label>
-							<input type="text" class="form-control" id="url" name="url" >
+							<input type="text" class="form-control" id="url" name="url">
 						</div>
 						<div class="col-md-12">
 							<label for="job_details" class="form-label">Job Details</label>
-							<textarea class="form-control" name="job_details" rows="5" id="job_details"></textarea>
+							<textarea class="form-control" name="job_details" rows="5" id="job_details">
+    						
+						</textarea>
+							<script src="https://cdn.ckeditor.com/4.20.2/standard/ckeditor.js"></script>
+							<script>
+								CKEDITOR.replace('job_details');
+							</script>
+
 						</div>
 						<div class="col-md-6">
 							<label for="image" class="col-form-label">Upload Image</label>
@@ -36,7 +43,7 @@
 						<div class="col-sm-6 col-md-4">
 							<label for="Status">Status</label>
 
-							<select class="form-select" id="Status"  name="status" required>
+							<select class="form-select" id="Status" name="status" required>
 								<option value="1">Published</option>
 								<option value="0">Unpublished</option>
 							</select>
@@ -44,7 +51,7 @@
 						</div>
 						<div class="text-center mt-4">
 							<button type="submit" class="btn btn-primary">Submit</button>
-							<a href="<?php echo base_url();?>admin/careers/job-listing" class="btn btn-secondary">Back</a>
+							<a href="<?php echo base_url(); ?>admin/careers/job-listing" class="btn btn-secondary">Back</a>
 						</div>
 					</form>
 

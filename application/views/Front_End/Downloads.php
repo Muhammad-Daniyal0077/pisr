@@ -72,113 +72,79 @@
 <section class="events-list-03">
 	<div class="container-custom">
 		<div class="row">
-			<div class="col-md-4">
-				<h2>Admission Information</h2>
-				<ul class="admission-links">
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/ADMISSION-REQUIRED-DOCUMENT-FINAL.pdf">
-							<i class="fa fa-download"></i> Admission-Form
-						</a>
-					</li>
+			<!-- Admission Information -->
+			<?php if (!empty($admission_info)): ?>
+				<div class="col-md-4">
+					<h2>Admission Information</h2>
+					<ul class="admission-links">
+						<?php foreach ($admission_info as $admission): ?>
+							<li>
+								<?php if (!empty($admission->url)): ?>
+									<!-- Display URL if it exists -->
+									<a class="btn btn-secondary" href="<?php echo $admission->url; ?>">
+										<i class="fa fa-link"></i> <?php echo $admission->title; ?>
+									</a>
+								<?php elseif (!empty($admission->file)): ?>
+									<!-- Display File if URL doesn't exist -->
+									<a class="btn btn-primary" href="<?php echo base_url(); ?>uploads/download_form/<?php echo $admission->file; ?>">
+										<i class="fa fa-download"></i> <?php echo $admission->title; ?>
+									</a>
+								<?php endif; ?>
+							</li>
+						<?php endforeach; ?>
+					</ul>
+				</div>
+			<?php endif; ?>
 
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/01/Age-critera.jpeg">
-							<i class="fa fa-download"></i>Age-Critera
-						</a>
-					</li>
+			<!-- Character Certificate -->
+			<?php if (!empty($forms)): ?>
+				<div class="col-md-4">
+					<h2>Forms</h2>
+					<ul class="admission-links">
+						<?php foreach ($forms as $certificate): ?>
+							<li>
+								<?php if (!empty($certificate->url)): ?>
+									<!-- Display URL if it exists -->
+									<a class="btn btn-secondary" href="<?php echo $certificate->url; ?>">
+										<i class="fa fa-link"></i> <?php echo $certificate->title; ?>
+									</a>
+								<?php elseif (!empty($certificate->file)): ?>
+									<!-- Display File if URL doesn't exist -->
+									<a class="btn btn-primary" href="<?php echo base_url(); ?>uploads/download_form/<?php echo $certificate->file; ?>">
+										<i class="fa fa-download"></i> <?php echo $certificate->title; ?>
+									</a>
+								<?php endif; ?>
+							</li>
+						<?php endforeach; ?>
+					</ul>
+				</div>
+			<?php endif; ?>
 
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/02/PISR-FEE-RATE-2024-1.pdf">
-							<i class="fa fa-download"></i> PISR-Fee-Rate
-						                        </a>
-					</li>
-
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Qualified-list-ALL-Wing-Test-date-26-03-2024-updated.pdf">
-							<i class="fa fa-download"></i>Test 2024-2025
-						</a>
-					</li>
-                    
-				</ul>
-			</div>
-            
-
-
-			<div class="col-md-4">
-				<h2>Forms</h2>
-				<ul class="admission-links">
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/character-certificate.pdf">
-							<i class="fa fa-download"></i> Character Certificate
-						</a>
-					</li>
-				
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/Bonafide-form.pdf">
-							<i class="fa fa-download"></i>Bonified Certificate
-						</a>
-					</li>
-				
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/07/withdrawal-form.pdf">
-							<i class="fa fa-download"></i> School Leaving Certificate
-						</a>
-					</li>
-				
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2021/06/SECURITY-REFUND-FORM-I.T-05-12-2016.pdf">
-							<i class="fa fa-download"></i> Security Refund
-						</a>
-					</li>
-				
-					<li>
-						<a class="btn btn-primary" href="">
-							<i class="fa fa-download"></i> Provisional Certificate
-						</a>
-					</li>
-				
-				
-				</ul>
-
-			</div>
-
-			<div class="col-md-4">
-				<h2>Acadimics</h2>
-				<ul class="admission-links">
-					<li>
-						<a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1QtTqrWs17c0YikNcs5N5YAkWu0RnGQ0W">
-							<i class="fa fa-link"></i> Sallybus
-						</a>
-					</li>
-					
-					<li>
-						<a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1wMhqyVnkJ3Z-C-5L14eLc3EwxGl4a_wr">
-							<i class="fa fa-link"></i> Summer Task
-						</a>
-					</li>
-					<li>
-						<a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1P7B6zSNybgP9Bd8eygAc7bk98K1fmzJ6">
-							<i class="fa fa-link"></i> Date Sheet
-						</a>
-					</li>
-					<li>
-						<a class="btn btn-secondary" href="https://drive.google.com/drive/folders/1BEYP8oWSd6U1YMKqnyMmSEt9TiNiFTGf">
-							<i class="fa fa-link"></i> School Uniform
-						</a>
-					</li>
-					<li>
-						<a class="btn btn-primary" href="https://pisr.org/v2/wp-content/uploads/2024/03/Academic-Calendar-2024-25-scaled.jpg">
-							<i class="fa fa-download"></i> Academic-Calendar-2024-25
-						</a>
-					</li>
-				</ul>
-
-			</div>
+			<!-- academics_data -->
+			<?php if (!empty($academics_data)): ?>
+				<div class="col-md-4">
+					<h2>Academic</h2>
+					<ul class="admission-links">
+						<?php foreach ($academics_data as $academics_data): ?>
+							<li>
+								<?php if (!empty($academics_data->url)): ?>
+									<!-- Display URL if it exists -->
+									<a class="btn btn-secondary" href="<?php echo $academics_data->url; ?>">
+										<i class="fa fa-link"></i> <?php echo $academics_data->title; ?>
+									</a>
+								<?php elseif (!empty($academics_data->file)): ?>
+									<!-- Display File if URL doesn't exist -->
+									<a class="btn btn-primary" href="<?php echo base_url(); ?>uploads/download_form/<?php echo $academics_data->file; ?>">
+										<i class="fa fa-download"></i> <?php echo $academics_data->title; ?>
+									</a>
+								<?php endif; ?>
+							</li>
+						<?php endforeach; ?>
+					</ul>
+				</div>
+			<?php endif; ?>
 		</div>
 	</div>
-
-
-
 </section>
 
 

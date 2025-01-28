@@ -46,7 +46,7 @@
 									<td><?php echo $srNo++; ?></td> <!-- Display and increment Sr. No. -->
 									<td><?php echo $rows->job_title; ?></td>
 									<td><?php echo $rows->job_details; ?></td>
-									<td><?php echo $rows->image; ?></td>
+									<td><img src="<?php echo base_url();?>uploads/jobListing/<?php echo $rows->image;  ?>" class="img-fluid rounded" width="200px" alt="Career Opportunities"></td>
 									<td><?php echo $rows->url; ?></td>
 									<td><?php echo ($rows->status == 0) ? 'Inactive' : 'Active'; ?></td>
 

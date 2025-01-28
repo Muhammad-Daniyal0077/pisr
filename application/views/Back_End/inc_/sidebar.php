@@ -126,27 +126,25 @@
 
   				<li>
   					<a href="<?php echo base_url(); ?>admin/careers/job-listing">
-  						<i class="bi bi-circle"></i><span>Job Listing</span>
+  						<i class="bi bi-circle"></i><span>Add Job Vacancy </span>
   					</a>	
   				</li>
-  				<li>	
-  					<a href="<?php echo base_url(); ?>admin/careers/download-form">
-  						<i class="bi bi-circle"></i><span>Download Form</span>
-  					</a>
-  				</li>
+				  <li>	
+					  <a href="<?php echo base_url(); ?>careers/jobform">
+						  <i class="bi bi-circle"></i><span>Job Candidates List</span>
+					  </a>
+				  </li>
 
 
   			</ul>
   		</li>
 
-
   		<li class="nav-item">
-  			<a class="nav-link collapsed" href="pages-contact.html">
-  				<i class="bi bi-envelope text-primary"></i>
-  				<span>Contact Us</span>
+  			<a class="nav-link collapsed" href="<?php echo base_url(); ?>admin/careers/download-form">
+			  <i class="bi bi-download text-primary"></i>
+			  <span>Downloads</span>
   			</a>
-  		</li><!-- End Contact Page Nav -->
-
+  		</li>
 
 
 

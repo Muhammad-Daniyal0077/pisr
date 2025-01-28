@@ -50,7 +50,7 @@
                                 <li><a href="<?php echo base_url(); ?>about/schoolvision">School Vision & Mission</a></li>
                                 <li><a href="<?php echo base_url(); ?>about/schoolhistory">School History</a></li>
                                 <li><a href="<?php echo base_url(); ?>gallery">Gallery</a></li>
-                                <li><a href="<?php echo base_url(); ?>about/adminstaff">Our Team</a></li>
+                                <li><a href="<?php echo base_url(); ?>about/adminstaff">PISR Team</a></li>
                             </ul>
                             <!-- dropdown end -->
                         </li>

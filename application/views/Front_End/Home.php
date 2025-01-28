@@ -52,7 +52,7 @@
     <div class="custom-slider" id="videoSlider">
         <!-- Single Video -->
         <div class="custom-slide">
-            <video src="<?php echo base_url(); ?>asset/video/long.mp4" autoplay muted></video>
+            <video src="<?php echo base_url(); ?>asset/video/final.mp4" autoplay muted></video>
         </div>
     </div>
 </div>
@@ -576,20 +576,20 @@
         </div>
         <div class="row g-4"> <!-- Use Bootstrap’s gap utility -->
             <!-- Pre-School Card -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3">
                 <div class="card text-center shadow-sm h-100">
-                    <img src="<?php echo base_url(); ?>asset/images/downloads/junior.png" class="card-img-top" alt="Pre-School">
+                    <img src="<?php echo base_url(); ?>asset/images/downloads/pre1.jpg" class="card-img-top" alt="Pre-School">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Pre-School</h5>
-                        <p class="card-text">Engaging activities and nurturing environment for young learners.</p>
+                        <p class="card-text">Engaging activities and a nurturing environment.</p>
                         <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
                     </div>
                 </div>
             </div>
             <!-- Junior School Card -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3" >
                 <div class="card text-center shadow-sm h-100">
-                    <img src="<?php echo base_url(); ?>asset/images/downloads/hunir.jpeg" class="card-img-top" alt="Junior School">
+                    <img src="<?php echo base_url(); ?>asset/images/downloads/juniorschool/1.jpeg" class="card-img-top" alt="Junior School">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Junior School</h5>
                         <p class="card-text">Building foundational skills through interactive learning.</p>
@@ -598,24 +598,24 @@
                 </div>
             </div>
             <!-- Middle School Card -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3">
                 <div class="card text-center shadow-sm h-100">
-                    <img src="<?php echo base_url(); ?>asset/images/sections/Middle_Boys.avif" class="card-img-top" alt="Middle School">
+                    <img src="<?php echo base_url(); ?>asset/images/downloads/middleschool/1.jpeg" class="card-img-top" alt="Middle School">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">Middle School</h5>
-                        <p class="card-text">Preparing students with advanced knowledge and critical thinking skills.</p>
-                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
+                        <p class="card-text">Advanced knowledge and critical thinking.</p>
+                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary my-auto">Read More</a>
                     </div>
                 </div>
             </div>
             <!-- High School Card -->
-            <div class="col-lg-3 col-md-6">
+            <div class="col-md-3">
                 <div class="card text-center shadow-sm h-100">
-                    <img src="<?php echo base_url(); ?>asset/images/downloads/high.jpeg" class="card-img-top" alt="High School">
+                    <img src="<?php echo base_url(); ?>asset/images/downloads/highschool/1.jpeg" class="card-img-top" alt="High School">
                     <div class="card-body d-flex flex-column">
                         <h5 class="card-title">High School</h5>
                         <p class="card-text">Focused on academic excellence and career preparation.</p>
-                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
+                        <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mb-4">Read More</a>
                     </div>
                 </div>
             </div>
@@ -978,60 +978,30 @@
                             <span>GIS Analyst in Sports Boulevard Foundation</span>
                         </div>
                         <div class="single-box">
-                            <p>“ As a parent, I am incredibly pleased with the quality of education and the nurturing
-                                environment at Pakistan International School Riyadh. The dedicated teachers and diverse
-                                curriculum have significantly contributed to my child's academic growth and personal
-                                development. I appreciate the school's commitment to providing a strong sense of
-                                community and cultural values. I will recommend this institution to other parents
-                                looking for a comprehensive education for their children with a mix of cultural values.”
+                            <p>“ I'm impressed with the education and nurturing environment at Pakistan International School Riyadh. The teachers and diverse curriculum have greatly contributed to my child's growth. I highly recommend it for parents seeking a balanced education with cultural values.”
                             </p>
                             <h3>Tuseef Khan</h3>
 
                         </div>
                         <div class="single-box">
-                            <p>“ As an educator and parent, we are truly delighted with how our children are nurtured
-                                and supported by the teachers, We have seen continuous improvement in our kids, Teachers
-                                not only focus on the academics but also on personality, communication and public
-                                speaking.”</p>
+                            <p>“As educators and parents, we're delighted with how our children are nurtured by the teachers. We've seen continuous improvement, with a focus not just on academics but also on personality, communication, and public speaking.”</p>
                             <h3>Abdul Basit Nawab</h3>
                             <span>E-commerce Technical Lead</span>
                         </div>
                         <div class="single-box">
-                            <p>“ PISR School in Riyadh is a remarkable institution, especially cherished by the
-                                Pakistani community. It follows the federal board curriculum, ensuring a high standard
-                                of education.
-
-                                The school provides an excellent environment where students can pursue modern,
-                                up-to-date studies, helping them build strong careers and character.
-
-                                The school boasts a beautiful campus, laboratories, and sports grounds. Additionally,
-                                PISR actively engages students in extracurricular activities such as sports, art, and
-                                spell-bee.
+                            <p>“PISR School in Riyadh, valued by the Pakistani community, offers a high standard federal board curriculum. It provides a great environment for modern studies, career development, and character building, with excellent facilities and active extracurricular programs like sports, art, and spell-bee.
                                 ”</p>
                             <h3>Engr. Bilal Yousf</h3>
                             <span>Projects Manager</span>
                         </div>
                         <div class="single-box">
-                            <p>“ I'm Naveed Yousaf, my kids have been studying in PISR.
-                                Pakistan International School, Riyadh (PISR) has been delivering quality education over
-                                decades and Generations. It is a blessing for Pakistani parents who intend to equip
-                                their children with our own Islamic & unique culture. Brothers & Sisters benefitted from
-                                PISR are now Doctors, Engineers, Bankers, Scientists.
-
-                                We wish PISR a continuous success in its unmet endeavors for spreading Knowledge thus
-                                fulfilling Prophet’s mission. Moreover, we do hope that PISR will overcome its
-                                deficiencies, if any, to perform better in the days to come.
+                            <p>“ I'm Naveed Yousaf, and my kids study at PISR. The school has offered quality education for generations, helping students excel in various fields. We wish PISR continued success and growth.
                                 ”</p>
                             <h3>Naveed Yousaf</h3>
 
                         </div>
                         <div class="single-box">
-                            <p>“ I am incredibly pleased with the experience at my children’s school PISR. The dedicated
-                                and nurturing staff create a safe and inspiring environment where students are
-                                encouraged to reach their full potential. The curriculum is thoughtfully designed to
-                                balance academic growth with personal development, and I love seeing how engaged and
-                                excited our kids are about learning every day. Thank you for making such a positive
-                                impact on their educational journey!”</p>
+                            <p>“I'm thrilled with PISR. The staff create an inspiring environment where students excel academically and personally. It’s great to see our kids excited about learning. Thank you for the positive impact!”</p>
                             <h3>Rehan Ghafoor</h3>
                             <span>Consultant - Business Development</span>
 
@@ -1046,16 +1016,7 @@
                             <span>Plant Manager at SACHLO-Midchem </span>
                         </div>
                         <div class="single-box">
-                            <p>“We are grateful for the nurturing environment at this school, which fosters our
-                                children's growth both academically and personally. The strong sense of community
-                                inspires collaboration, support, and the building of lasting friendships among the
-                                students. We truly appreciate the dedication of the teachers who consistently go above
-                                and beyond to create engaging learning experiences. This school emphasizes not only
-                                academic excellence but also the importance of character building and emotional
-                                intelligence. Additionally, we value the open lines of communication between parents,
-                                educators, and Admin, which help us stay connected and informed about our children's
-                                progress.
-                                Procurement and Contracts Lead.”</p>
+                            <p>We appreciate the nurturing environment at this school, supporting both academic growth and character development. The strong community fosters collaboration and lasting friendships. We’re grateful for the dedicated teachers and open communication with parents, educators, and admin.”</p>
                         </div>
                         <div class="single-box">
                             <p>“Incredible work by the PISR Junior Wing team! Thank you to the hardworking teachers and
@@ -1078,13 +1039,7 @@
                             <span>Project Engineer, Al Rajhi Telecom Company</span>
                         </div>
                         <div class="single-box">
-                            <p>“As a parent of three current students and an alum, I appreciate the strong sense of
-                                community at this school. The teachers are genuinely committed to their students,
-                                providing support and guidance that make a difference in their education. My kids have
-                                found great friendships here and enjoy many engaging activities.
-                                While there are challenges, it’s clear that the school has a lot of potential. I’m
-                                hopeful that with open communication, we can work together to make it an even better
-                                place for our children.
+                            <p>“As a parent and alum, I appreciate the strong community and dedicated teachers at this school. My kids have formed great friendships and enjoy engaging activities. While challenges remain, I’m hopeful that open communication will help us improve the school for our children.
                                 ”</p>
                             <h3>Syed Zaheer Ali</h3>
                             <span>Qualification: BCS</span>
@@ -1107,12 +1062,7 @@
                         </div>
 
                         <div class="single-box">
-                            <p>“ I would like to take this privilege to congratulate the school's management for its
-                                endless efforts. We are proud of all the teachers, management, and the school. PISR is
-                                doing excellent in all fields, especially giving children a lot of exposure. The
-                                academic program is very nicely planned and organized. The school staff is always open
-                                to any discussion. Good efforts by all teachers. The new school building is a remarkable
-                                achievement of PISR.”</p>
+                            <p>“ I congratulate the school’s management for their efforts. We’re proud of the teachers, staff, and the school's achievements. PISR excels in providing children with great exposure, and the academic program is well-organized. The staff is always open to discussion, and the new building is a remarkable achievement.”</p>
                             <h3>Agha Atif Hassan
 
                             </h3>
@@ -1135,7 +1085,7 @@
         <div class="row">
             <div class="col-sm-12 section-header-box">
                 <div class="section-header section-header-l">
-                    <h2>Our<span style="color: #0632ff;">Colaborators</span></h2>
+                    <h2>Our<span style="color: #0632ff;">Collaborators</span></h2>
 
                 </div><!-- ends: .section-header -->
             </div>

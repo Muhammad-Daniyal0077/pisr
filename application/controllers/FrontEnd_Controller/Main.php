@@ -291,6 +291,20 @@ class Main extends CI_Controller
 	}
 	public function downloads()
 	{
+		
+		// Retrieve male admission_info
+		$this->db->where('head', 'Admission Information');
+		$data['admission_info'] = $this->db->get('download_form')->result();
+
+		// Retrieve male Character_Certificate
+		$this->db->where('head', 'Forms');
+		$data['forms'] = $this->db->get('download_form')->result();
+
+		// Retrieve male Syllabus
+		$this->db->where('head', 'Acadimics');
+		$data['academics_data'] = $this->db->get('download_form')->result();
+
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End';
 		$data['filename'] = 'Downloads';
@@ -305,6 +319,9 @@ class Main extends CI_Controller
 	}
 	public function careers()
 	{
+		$query = $this->db->get('job_listing'); // Replace 'faculty' with your actual table name
+		$data['job_listing'] = $query->result(); // Get the result as an array of objects
+
 		// Load view and pass the data
 		$data['path'] = 'Front_End';
 		$data['filename'] = 'careers/home';

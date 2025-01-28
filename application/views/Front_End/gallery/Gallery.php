@@ -16,12 +16,11 @@
 <section class="container">
     <h2 class="section-heading" style="margin: 30px;">Gallery Section of PISR</h2>
     <?php foreach ($gallery as $index => $row): ?>
-        <h3><?php echo $row->img_head; ?></h3>
+        <h3 class="img-header text-primary"><?php echo $row->img_head; ?></h3>
         <div class="gallery-slider slider-<?php echo $index; ?>">
             <?php 
             // Decode the JSON-encoded array of image paths
             $images = json_decode($row->img, true);
-
             // Check if decoding was successful
             if (!empty($images)) {
                 foreach ($images as $imagePath): ?>
@@ -65,9 +64,10 @@
     }
 
     .modal-content img {
-    width: 400px;
+    width: 800px;
         margin: auto;
         display: block;
+        margin-left: -180px;
     }
 
     .close {
