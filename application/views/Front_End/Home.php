@@ -544,13 +544,8 @@
         /* Keep aspect ratio */
     }
 
-    #school-levels .card-title {
-        font-size: 1.25rem;
-        /* Increase title size */
-        font-weight: bold;
-    }
-
     #school-levels .btn-primary {
+        margin-bottom: 12px;
         background-color: #0632ff;
         /* Match section header color */
         border-color: #0632ff;
@@ -580,7 +575,7 @@
                 <div class="card text-center shadow-sm h-100">
                     <img src="<?php echo base_url(); ?>asset/images/downloads/pre1.jpg" class="card-img-top" alt="Pre-School">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Pre-School</h5>
+                        <h4 class="card-title">Pre-School</h4>
                         <p class="card-text">Engaging activities and a nurturing environment.</p>
                         <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
                     </div>
@@ -591,7 +586,7 @@
                 <div class="card text-center shadow-sm h-100">
                     <img src="<?php echo base_url(); ?>asset/images/downloads/juniorschool/1.jpeg" class="card-img-top" alt="Junior School">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Junior School</h5>
+                        <h4 class="card-title">Junior School</h4>
                         <p class="card-text">Building foundational skills through interactive learning.</p>
                         <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mt-auto">Read More</a>
                     </div>
@@ -602,7 +597,7 @@
                 <div class="card text-center shadow-sm h-100">
                     <img src="<?php echo base_url(); ?>asset/images/downloads/middleschool/1.jpeg" class="card-img-top" alt="Middle School">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">Middle School</h5>
+                        <h4 class="card-title">Middle School</h4>
                         <p class="card-text">Advanced knowledge and critical thinking.</p>
                         <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary my-auto">Read More</a>
                     </div>
@@ -613,7 +608,7 @@
                 <div class="card text-center shadow-sm h-100">
                     <img src="<?php echo base_url(); ?>asset/images/downloads/highschool/1.jpeg" class="card-img-top" alt="High School">
                     <div class="card-body d-flex flex-column">
-                        <h5 class="card-title">High School</h5>
+                        <h4 class="card-title">High School</h4>
                         <p class="card-text">Focused on academic excellence and career preparation.</p>
                         <a href="<?php echo base_url(); ?>acadimics/curriculum" class="btn btn-primary mb-4">Read More</a>
                     </div>

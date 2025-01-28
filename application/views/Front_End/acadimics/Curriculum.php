@@ -145,7 +145,7 @@
         background-color: rgba(51, 51, 51, 0.7);
         font-weight: 80;
         letter-spacing: 2px;
-        font-size: 1rem;
+        font-size: 16px;
     }
 
 
@@ -258,218 +258,7 @@
 
 
 
-
-
-
 <div class="info">
-    <section class="gallery">
-        <div class="container">
-            <div class="row">
-            <h1 class="mb-4 text-primary text-center">Pre School</h1>
-            <p class="d-block p-3 mb-4 bg-light rounded shadow-sm">
-                Our pre-school program, which encompasses classes from PG Nursery KG through grade 1, is designed with the primary goal of nurturing the leaders of tomorrow through a combination of high-quality education and the development of crucial social skills. We are committed to instilling 21st Century skills in our young learners by creating engaging and interactive lessons that incorporate hands-on activities and project-based learning. Through a variety of weekly activities and competitions, we prepare our students for success in the world beyond our walls, ensuring that they emerge as confident leaders and exemplary individuals. Through STEAM activities, both students and teachers are able to engage in a dynamic learning experience that promotes the achievement of lesson objectives while fostering a love for learning. Following the esteemed Oxford Curriculum, we deliver the necessary knowledge to our students in a fun and engaging manner, utilizing a range of activities and expertly crafted lesson plans to foster a love for learning and academic success.
-            </p>
-
-            <div class="gallery-slider">
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/1.JPG" alt="Image 1"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/2.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/3.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/4.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/5.jpg" alt="Image 2"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/6.jpeg" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/10.png" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/8.jpeg" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/9.png" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/11.png" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/12.png" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/13.png" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/14.png" alt="Image 3"></div>
-                <div class="gallery-item"><img src="<?php echo base_url(); ?>asset/images/downloads/preschool/15.png" alt="Image 3"></div>
-              
-            </div>
-            <style>
-                .custom-slick-prev,
-                .custom-slick-next {
-                    width: 35px;
-                    height: 35px;
-                    border-radius: 50%;
-                    font-size: 24px;
-                    line-height: 50px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    opacity: 0.8;
-                    transition: opacity 0.3s, transform 0.3s;
-                    z-index: 1000;
-                    /* Ensure buttons appear above other elements */
-                }
-
-                .custom-slick-prev:hover,
-                .custom-slick-next:hover {
-                    opacity: 1;
-                    transform: scale(1.1);
-                    /* Slightly enlarge on hover */
-                }
-
-                .custom-slick-prev {
-                    left: -20px;
-                    top: 50%;
-                    transform: translateY(-50%);
-                }
-
-                .custom-slick-next {
-                    right: -20px;
-                    top: 50%;
-                    transform: translateY(-50%);
-                }
-
-                @media (max-width: 768px) {
-
-                    .custom-slick-prev,
-                    .custom-slick-next {
-                        width: 40px;
-                        height: 40px;
-                        font-size: 18px;
-                    }
-                }
-
-                @media (max-width: 576px) {
-
-                    .custom-slick-prev,
-                    .custom-slick-next {
-                        width: 30px;
-                        height: 30px;
-                        font-size: 16px;
-                        margin: 21px;
-                    }
-                }
-            </style>
-            <button class="custom-slick-prev">&#10094;</button>
-            <button class="custom-slick-next">&#10095;</button>
-        </div>
-    </section>
-
-    <style>
-        .gallery {
-            padding: 50px 0;
-            border-radius: 15px;
-        }
-
-        .gallery h1 {
-            font-size: 2.5rem;
-            color: #333;
-            font-weight: bold;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-        }
-
-        .gallery-item {
-            padding: 2px 10px;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            cursor: pointer;
-        }
-
-        /* Custom Prev and Next buttons */
-        .custom-slick-prev,
-        .custom-slick-next {
-            position: absolute;
-            top: 45%;
-            transform: translateY(-50%);
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            font-size: 24px;
-            padding: 10px;
-            cursor: pointer;
-            z-index: 1;
-            border-radius: 50%;
-        }
-
-        .custom-slick-prev {
-            left: -40px;
-        }
-
-        .custom-slick-next {
-            right: -40px;
-        }
-
-        .s:hover,
-        .custom-slick-next:hover {
-            background-color: #0056b3;
-        }
-
-        /* Modal Styles */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1050;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-
-        .modal-content {
-            position: relative;
-            margin: auto;
-            padding: 0;
-            max-width: 700px;
-            width: 90%;
-        }
-
-        .modal img {
-            width: 100%;
-            border-radius: 10px;
-        }
-
-        .close {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            color: white;
-            font-size: 30px;
-            cursor: pointer;
-        }
-
-        .prev,
-        .next {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            color: white;
-            font-size: 30px;
-            cursor: pointer;
-            padding: 10px;
-            z-index: 2;
-        }
-
-        .prev {
-            left: 20px;
-        }
-
-        .next {
-            right: 20px;
-        }
-    </style>
-    <!-- Modal -->
-    <div id="imageModal" class="modal">
-        <span class="close">&times;</span>
-        <span class="prev">&#10094;</span>
-        <span class="next">&#10095;</span>
-        <div class="modal-content">
-            <img id="modalImage" src="" alt="Image Preview">
-        </div>
-    </div>
-
-
     <section class="events-list-03">
         <div class="container">
             <div class="grid">
@@ -480,7 +269,8 @@
                         <figcaption class="article__caption">
                             <h4 class="article__title">Pre School</h4>
                             <p class="article__info">
-                                Our pre-school program, which encompasses classes from PG Nursery KG through grade 1, is designed with the primary goal of nurturing the leaders of tomorrow through a combination of high-quality education and the development of crucial social skills. We are committed to instilling 21st Century skills in our young learners by creating engaging and interactive lessons that incorporate hands-on activities and project-based learning. Through a variety of weekly activities and competitions, we prepare our students for success in the world beyond our walls, ensuring that they emerge as confident leaders and exemplary individuals. Through STEAM activities, both students and teachers are able to engage in a dynamic learning experience that promotes the achievement of lesson objectives while fostering a love for learning. Following the esteemed Oxford Curriculum, we deliver the necessary knowledge to our students in a fun and engaging manner, utilizing a range of activities and expertly crafted lesson plans to foster a love for learning and academic success.
+                                Our pre-school program, which encompasses classes from PG Nursery KG through grade 1, is designed with the primary goal of nurturing the leaders of tomorrow through a combination of high-quality education and the development of crucial social skills. We are committed to instilling 21st Century skills in our young learners by creating engaging and interactive lessons that incorporate hands-on activities and project-based learning.
+                                <a href="<?php echo base_url(); ?>acadimics/curriculum/preschool" class="btn btn-primary">Read More</a>
                             </p>
                         </figcaption>
                     </figure>
@@ -495,8 +285,7 @@
                             <h4 class="article__title">Junior School</h4>
                             <p class="article__info">
                                 Our <strong>JS program</strong> for students in <strong>Grade 2-Grade 4</strong> focuses on developing <strong>leaders</strong> of tomorrow by combining high-quality education with essential <strong>social skills</strong>. Through <strong>interactive lessons</strong>, <strong>hands-on activities</strong>, and <strong>project-based learning</strong>, we foster <strong>creativity</strong> and <strong>critical thinking</strong>. We are committed to preparing students for success in the <strong>21st Century</strong> by instilling <strong>confidence</strong> and <strong>leadership qualities</strong> through <strong>weekly activities</strong> and <strong>competitions</strong>.
-                                <br><br>
-                                The program emphasizes <strong>STEAM activities</strong> and promotes the achievement of lesson objectives while creating a passion for <strong>learning</strong>. We provide a <strong>supportive learning environment</strong> and focus on developing <strong>critical thinking</strong> skills. With the introduction of <strong>Robotics</strong> and <strong>Microbit Education</strong> using <strong>microbit chips</strong>, our students gain hands-on experience in <strong>programming</strong> and <strong>robotics</strong>, empowering them to become tech-savvy problem-solvers. Our goal is to prepare students to face the challenges of the future with the skills and knowledge they need to succeed.
+                                    <a href="<?php echo base_url(); ?>acadimics/curriculum/junior_school" class="btn btn-primary">Read More</a>
                             </p>
 
                         </figcaption>
@@ -514,11 +303,8 @@
                             <p class="article__info">
                                 At <strong>Middle School</strong>, we focus on ensuring students excel academically while developing essential <strong>life skills</strong> such as <strong>research</strong>, <strong>analytical</strong>, and <strong>reasoning skills</strong> to help them approach challenges with a <strong>critical mindset</strong>.
 
-                                Our emphasis on <strong>leadership development</strong>, <strong>organizational skills</strong>, and <strong>effective communication</strong> empowers students to take on leadership roles and communicate confidently with peers and colleagues. These skills are crucial in both <strong>personal</strong> and <strong>professional</strong> settings, preparing students to make a positive impact on society.
-
-                                We provide a <strong>supportive learning environment</strong> that encourages <strong>independence</strong> and critical thinking. By fostering a culture of <strong>curiosity</strong> and <strong>growth</strong>, students develop the confidence to take ownership of their learning journey.
-
-                                Our focus on <strong>STEAM activities</strong> ensures a dynamic learning experience. Through engaging lessons and <strong>expertly crafted lesson plans</strong>, we promote a <strong>passion for education</strong>, helping students thrive and reach their full potential.
+                                Our emphasis on <strong>leadership development</strong>, <strong>organizational skills</strong>, and <strong>effective communication</strong> empowers students to take on leadership roles and communicate confidently with peers and colleagues.
+                               <a href="<?php echo base_url(); ?>acadimics/curriculum/middle_school" class="btn btn-primary">Read More</a>
                             </p>
 
                         </figcaption>
@@ -536,9 +322,7 @@
                             <p class="article__info">
                                 At <strong>High School</strong>, we focus on equipping students with essential <strong>life skills</strong> to prepare them for the challenges of the modern world. Affiliated with the <strong>Federal Board Islamabad</strong>, we emphasize <strong>planning</strong> and <strong>organizational skills</strong> to help students effectively manage their time and tasks, ensuring success in both academic and professional endeavors. Through <strong>hands-on learning</strong> and <strong>interactive workshops</strong>, students gain the tools to thrive in the fast-paced <strong>21st century</strong>.
 
-                                We foster a culture of <strong>continuous learning</strong> by encouraging students to stay adaptable, expand their knowledge, and develop a passion for <strong>lifelong learning</strong>. A variety of educational programs and events provide opportunities for students to engage with diverse perspectives and explore new subject areas.
-
-                                Our commitment to preparing students for the <strong>job market</strong> goes beyond theoretical knowledge. Through <strong>hands-on activities</strong>, <strong>internships</strong>, <strong>career counseling</strong>, <strong>university roadshows</strong>, and networking, we help students apply their learning in meaningful ways. By providing <strong>practical experience</strong>, we equip students with the skills needed to succeed in their future careers and confidently navigate the <strong>professional world</strong>.
+                                <a href="<?php echo base_url(); ?>acadimics/curriculum/highschool" class="btn btn-primary">Read More</a>
                             </p>
 
                         </figcaption>

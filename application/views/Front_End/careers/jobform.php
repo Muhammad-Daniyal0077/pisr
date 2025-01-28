@@ -14,6 +14,11 @@
             </div>
         </div>
     </div>
+    <style>
+        .form-label{
+            font-size: 20px;
+        }
+    </style>
 <!-- Job Form Section -->
 <div class="container py-5" style="margin-top: 20px;">
     <h2 class="text-primary text-center mb-4">Submit Your Application</h2>
@@ -77,12 +82,12 @@
         background: #f9f9f9;
     }
 
-    .card-body {
+    .card-body {    
         padding: 3rem;
-    }
+    }s
 
     .form-group label {
-        font-size: 1rem;
+        font-size: 18px;
         color: #333;
     }
 

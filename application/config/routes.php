@@ -65,6 +65,12 @@ $route['acadimics/task'] = 'FrontEnd_Controller/Main/task';
 $route['acadimics/uniform'] = 'FrontEnd_Controller/Main/uniform';
 $route['acadimics/datesheet'] = 'FrontEnd_Controller/Main/datesheet';
 $route['acadimics/curriculum'] = 'FrontEnd_Controller/Main/curriculum';
+$route['acadimics/curriculum/preschool'] = 'FrontEnd_Controller/Main/preschool';
+$route['acadimics/curriculum/highschool'] = 'FrontEnd_Controller/Main/highschool';
+$route['acadimics/curriculum/middle_school'] = 'FrontEnd_Controller/Main/middleschool';
+$route['acadimics/curriculum/junior_school'] = 'FrontEnd_Controller/Main/juniorschool';
+
+
 $route['acadimics/Academic-sport-program'] = 'FrontEnd_Controller/Main/mtts';
 $route['acadimics/specialprograms'] = 'FrontEnd_Controller/Main/specialprograms';
 $route['acadimics/assesmentprogram'] = 'FrontEnd_Controller/Main/assesmentprogram';

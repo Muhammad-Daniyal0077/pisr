@@ -114,6 +114,37 @@ class Main extends CI_Controller
 		$data['filename'] = 'Curriculum';
 		$this->load->view('Main', $data);
 	}
+
+	public function preschool()
+	{
+		// Load view and pass the data
+		$data['path'] = 'Front_End/acadimics/School';
+		$data['filename'] = 'preschool';
+		$this->load->view('Main', $data);
+	}
+	public function highschool()
+	{
+		// Load view and pass the data
+		$data['path'] = 'Front_End/acadimics/School';
+		$data['filename'] = 'highschool';
+		$this->load->view('Main', $data);
+	}
+	public function middleschool()
+	{
+		// Load view and pass the data
+		$data['path'] = 'Front_End/acadimics/School';
+		$data['filename'] = 'Middleschool';
+		$this->load->view('Main', $data);
+	}
+	public function juniorschool()
+	{
+		// Load view and pass the data
+		$data['path'] = 'Front_End/acadimics/School';
+		$data['filename'] = 'Juniorschool';
+		$this->load->view('Main', $data);
+	}
+
+
 	public function mtts()
 	{
 		// Load view and pass the data
